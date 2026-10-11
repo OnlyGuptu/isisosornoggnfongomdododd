@@ -4693,14 +4693,24 @@ function getLayerElement(rawId) {
     return el;
 }
 
+let previousLayerId = 'subject-view';
+
 function showLayer(layerId) {
     if (layerId === 'homepage-view') layerId = 'subject-view';
+    const active = document.querySelector('.view-layer:not(.hidden)');
+    if (active && active.id && active.id !== layerId && active.id !== 'feedback-view') {
+        previousLayerId = active.id;
+    }
     document.querySelectorAll('.view-layer').forEach(layer => layer.classList.add('hidden'));
     const target = getLayerElement(layerId);
     if (target) target.classList.remove('hidden');
 
     // Scroll to top on layer transition
     window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function goBackFromFeedback() {
+    showLayer(previousLayerId || 'subject-view');
 }
 
 function goToHome() {
@@ -5034,27 +5044,109 @@ function jumpToSearchResult(subKey, isBranching, branchIdx, chapIdx, qIdx) {
 }
 
 /* ============================================================ */
-/* FEEDBACK MODAL SYSTEM                                        */
+/* FEEDBACK & COMMUNITY DISCUSSIONS SYSTEM                      */
 /* ============================================================ */
+
+const DEFAULT_SEED_FEEDBACKS = [
+    {
+        id: "fb_seed_1",
+        name: "Aarav Sharma",
+        type: "Appreciation",
+        subject: "Social Science",
+        rating: 5,
+        message: "The flowcharts and detailed answers for Chapter 2 Geography (Shaping of the Earth's Surface) are super clear! Helped me prepare my school project.",
+        date: new Date(Date.now() - 1000 * 60 * 60 * 3).toISOString(),
+        likes: 8,
+        liked: false
+    },
+    {
+        id: "fb_seed_2",
+        name: "Sneha Patel",
+        type: "Question Request",
+        subject: "Science",
+        rating: 5,
+        message: "Could you please add the exemplar numerical problems for Chapter 8 Motion as well? That would be really helpful for our upcoming term exams!",
+        date: new Date(Date.now() - 1000 * 60 * 60 * 22).toISOString(),
+        likes: 5,
+        liked: false
+    },
+    {
+        id: "fb_seed_3",
+        name: "Vikram R.",
+        type: "Feature Suggestion",
+        subject: "General",
+        rating: 5,
+        message: "Love the fast search shortcut (Ctrl + K)! Would be awesome to add a quick Print / PDF download option for entire chapters.",
+        date: new Date(Date.now() - 1000 * 60 * 60 * 48).toISOString(),
+        likes: 12,
+        liked: false
+    },
+    {
+        id: "fb_seed_4",
+        name: "Pooja Verma",
+        type: "Error in Answer",
+        subject: "Economics",
+        rating: 4,
+        message: "In Chapter 9 The Price Puzzle (Q12), the market equilibrium graph and price calculation are now explained so simply. Thanks for the quick updates!",
+        date: new Date(Date.now() - 1000 * 60 * 60 * 72).toISOString(),
+        likes: 4,
+        liked: false
+    }
+];
+
+let currentFbFilter = 'all';
+let currentFbSort = 'newest';
+
+function getStoredFeedbacks() {
+    try {
+        const stored = localStorage.getItem('ncert_feedback_list');
+        if (!stored) {
+            localStorage.setItem('ncert_feedback_list', JSON.stringify(DEFAULT_SEED_FEEDBACKS));
+            return [...DEFAULT_SEED_FEEDBACKS];
+        }
+        const parsed = JSON.parse(stored);
+        if (!Array.isArray(parsed) || parsed.length === 0) {
+            return [...DEFAULT_SEED_FEEDBACKS];
+        }
+        return parsed;
+    } catch (e) {
+        console.warn('LocalStorage error reading feedback:', e);
+        return [...DEFAULT_SEED_FEEDBACKS];
+    }
+}
+
+function saveStoredFeedbacks(feedbacks) {
+    try {
+        localStorage.setItem('ncert_feedback_list', JSON.stringify(feedbacks));
+    } catch (e) {
+        console.warn('LocalStorage error saving feedback:', e);
+    }
+}
+
+function openFeedbackPage() {
+    showLayer('feedback-view');
+    renderFeedbackStream();
+}
+
+// Backward compatibility aliases
 function openFeedbackModal() {
-    const modal = document.getElementById('feedback-modal');
-    if (modal) modal.classList.remove('hidden');
+    openFeedbackPage();
 }
 
 function closeFeedbackModal() {
-    const modal = document.getElementById('feedback-modal');
-    if (modal) modal.classList.add('hidden');
+    goBackFromFeedback();
 }
 
 function closeFeedbackOnOverlay(event) {
-    if (event.target.id === 'feedback-modal') {
+    if (event && event.target && event.target.id === 'feedback-modal') {
         closeFeedbackModal();
     }
 }
 
-function setRating(val) {
-    document.getElementById('feedback-rating').value = val;
-    document.querySelectorAll('#rating-stars .star').forEach(star => {
+function setPageRating(val) {
+    const hidden = document.getElementById('fb-page-rating-val');
+    if (hidden) hidden.value = val;
+    document.querySelectorAll('#page-rating-stars .star').forEach(star => {
         const starVal = parseInt(star.getAttribute('data-value'), 10);
         if (starVal <= val) {
             star.classList.add('selected');
@@ -5064,35 +5156,237 @@ function setRating(val) {
     });
 }
 
-function submitFeedback(event) {
-    event.preventDefault();
-    const type = document.querySelector('input[name="feedbackType"]:checked')?.value || "General";
-    const subject = document.getElementById('feedback-subject').value;
-    const rating = document.getElementById('feedback-rating').value;
-    const message = document.getElementById('feedback-message').value;
-    const email = document.getElementById('feedback-email').value;
+function setRating(val) {
+    setPageRating(val);
+}
 
-    const feedbackObj = {
+function getAvatarColors(name) {
+    const palettes = [
+        ['#4f46e5', '#7c3aed'],
+        ['#059669', '#10b981'],
+        ['#d97706', '#f59e0b'],
+        ['#dc2626', '#ef4444'],
+        ['#0284c7', '#38bdf8'],
+        ['#7c3aed', '#c084fc'],
+        ['#db2777', '#f472b6'],
+        ['#2563eb', '#60a5fa']
+    ];
+    let hash = 0;
+    const str = (name || "Student").toLowerCase();
+    for (let i = 0; i < str.length; i++) {
+        hash = str.charCodeAt(i) + ((hash << 5) - hash);
+    }
+    const idx = Math.abs(hash) % palettes.length;
+    return `linear-gradient(135deg, ${palettes[idx][0]}, ${palettes[idx][1]})`;
+}
+
+function getInitials(name) {
+    if (!name || !name.trim()) return "ST";
+    const parts = name.trim().split(/\s+/);
+    if (parts.length === 1) return parts[0].substring(0, 2).toUpperCase();
+    return (parts[0][0] + parts[1][0]).toUpperCase();
+}
+
+function formatTimeAgo(isoString) {
+    if (!isoString) return "Recently";
+    const now = Date.now();
+    const past = new Date(isoString).getTime();
+    const diffSec = Math.max(0, Math.floor((now - past) / 1000));
+    if (diffSec < 60) return "Just now";
+    const diffMin = Math.floor(diffSec / 60);
+    if (diffMin < 60) return `${diffMin}m ago`;
+    const diffHour = Math.floor(diffMin / 60);
+    if (diffHour < 24) return `${diffHour}h ago`;
+    const diffDay = Math.floor(diffHour / 24);
+    if (diffDay === 1) return "Yesterday";
+    if (diffDay < 30) return `${diffDay}d ago`;
+    return new Date(isoString).toLocaleDateString();
+}
+
+function getCategoryBadge(type) {
+    switch (type) {
+        case "Error in Answer":
+            return '<span class="comment-tag-badge tag-error">🐞 Report Error</span>';
+        case "Question Request":
+            return '<span class="comment-tag-badge tag-request">📝 Request</span>';
+        case "Feature Suggestion":
+            return '<span class="comment-tag-badge tag-suggestion">💡 Suggestion</span>';
+        case "Appreciation":
+            return '<span class="comment-tag-badge tag-appreciation">❤️ Appreciation</span>';
+        default:
+            return '<span class="comment-tag-badge tag-suggestion">💬 Feedback</span>';
+    }
+}
+
+function filterComments(category) {
+    currentFbFilter = category;
+    document.querySelectorAll('#feedback-filter-pills .filter-pill-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-filter') === category);
+    });
+    renderFeedbackStream();
+}
+
+function sortComments(sortVal) {
+    currentFbSort = sortVal;
+    renderFeedbackStream();
+}
+
+function toggleLikeFeedback(id) {
+    const list = getStoredFeedbacks();
+    const item = list.find(x => String(x.id) === String(id));
+    if (item) {
+        if (item.liked) {
+            item.liked = false;
+            item.likes = Math.max(0, (item.likes || 1) - 1);
+        } else {
+            item.liked = true;
+            item.likes = (item.likes || 0) + 1;
+        }
+        saveStoredFeedbacks(list);
+        renderFeedbackStream();
+    }
+}
+
+function deleteFeedback(id) {
+    if (!confirm("Are you sure you want to delete this feedback comment?")) {
+        return;
+    }
+    let list = getStoredFeedbacks();
+    const initialLen = list.length;
+    list = list.filter(x => String(x.id) !== String(id));
+    if (list.length < initialLen) {
+        saveStoredFeedbacks(list);
+        renderFeedbackStream();
+        showToast("🗑️ Feedback comment deleted successfully.", "info");
+    }
+}
+
+function renderFeedbackStream() {
+    const container = document.getElementById('feedback-items-stream');
+    const countEl = document.getElementById('feedback-count-num');
+    if (!container) return;
+
+    let list = getStoredFeedbacks();
+
+    // Update count in header
+    if (countEl) {
+        countEl.textContent = list.length;
+    }
+
+    // Apply Filter
+    if (currentFbFilter !== 'all') {
+        list = list.filter(x => x.type === currentFbFilter);
+    }
+
+    // Apply Sort
+    if (currentFbSort === 'newest') {
+        list.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
+    } else if (currentFbSort === 'top') {
+        list.sort((a, b) => (b.likes || 0) - (a.likes || 0));
+    } else if (currentFbSort === 'rating') {
+        list.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+    }
+
+    if (list.length === 0) {
+        container.innerHTML = `
+            <div class="feedback-empty-state">
+                <div class="feedback-empty-icon">💬</div>
+                <h4>No feedbacks found</h4>
+                <p>Be the first to share feedback or post a comment!</p>
+            </div>
+        `;
+        return;
+    }
+
+    container.innerHTML = list.map(item => {
+        const initials = getInitials(item.name || item.email || "Student");
+        const avatarBg = getAvatarColors(item.name || item.email || "Student");
+        const timeAgo = formatTimeAgo(item.date);
+        const stars = "★".repeat(Math.max(1, Math.min(5, Number(item.rating) || 5))) +
+                      "☆".repeat(Math.max(0, 5 - Math.max(1, Math.min(5, Number(item.rating) || 5))));
+        const categoryBadge = getCategoryBadge(item.type);
+        const subjectTag = item.subject ? `<span class="comment-subject-tag">${item.subject}</span>` : '';
+        const authorName = item.name || item.email || "Anonymous Student";
+        const likes = item.likes || 0;
+        const likedClass = item.liked ? 'liked' : '';
+
+        return `
+            <div class="fb-comment-card" id="fb-card-${item.id}">
+                <div class="comment-avatar" style="background: ${avatarBg};">
+                    ${initials}
+                </div>
+                <div class="comment-main">
+                    <div class="comment-header-row">
+                        <div class="comment-author-info">
+                            <span class="comment-author-name">${authorName}</span>
+                            ${categoryBadge}
+                            ${subjectTag}
+                        </div>
+                        <div class="comment-meta-right">
+                            <span class="comment-stars-display" title="${item.rating || 5} Stars">${stars}</span>
+                            <span class="comment-time-text">${timeAgo}</span>
+                        </div>
+                    </div>
+                    <div class="comment-body-text">${item.message}</div>
+                    <div class="comment-actions-bar">
+                        <button type="button" class="comment-btn like-btn ${likedClass}" onclick="toggleLikeFeedback('${item.id}')" title="Helpful / Like">
+                            <span>👍</span> <span class="like-count">${likes}</span>
+                        </button>
+                        <button type="button" class="comment-btn delete-btn" onclick="deleteFeedback('${item.id}')" title="Delete comment (Moderator / User permission)">
+                            <span>🗑️</span> <span>Delete</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        `;
+    }).join('');
+}
+
+function handleFeedbackSubmit(event) {
+    if (event) event.preventDefault();
+    const type = document.querySelector('input[name="fbCategory"]:checked')?.value || "General";
+    const name = document.getElementById('fb-page-name')?.value?.trim() || "";
+    const subject = document.getElementById('fb-page-subject')?.value || "General";
+    const rating = parseInt(document.getElementById('fb-page-rating-val')?.value || "5", 10);
+    const message = document.getElementById('fb-page-message')?.value?.trim();
+
+    if (!message) {
+        showToast("⚠️ Please enter your comments or feedback.", "error");
+        return;
+    }
+
+    const newFeedback = {
+        id: "fb_" + Date.now() + "_" + Math.floor(Math.random() * 1000),
+        name: name || "Student",
         type,
         subject,
         rating,
         message,
-        email,
-        date: new Date().toISOString()
+        date: new Date().toISOString(),
+        likes: 0,
+        liked: false
     };
 
-    try {
-        const existing = JSON.parse(localStorage.getItem('ncert_feedback_list') || '[]');
-        existing.push(feedbackObj);
-        localStorage.setItem('ncert_feedback_list', JSON.stringify(existing));
-    } catch (e) {
-        console.warn('LocalStorage error:', e);
-    }
+    const list = getStoredFeedbacks();
+    list.unshift(newFeedback);
+    saveStoredFeedbacks(list);
 
-    closeFeedbackModal();
-    document.getElementById('feedback-form').reset();
-    setRating(5);
-    showToast("🎉 Thank you! Your feedback has been received.", "success");
+    resetFeedbackForm();
+    renderFeedbackStream();
+    showToast("🎉 Thank you! Your feedback has been published.", "success");
+}
+
+function resetFeedbackForm() {
+    const form = document.getElementById('feedback-page-form');
+    if (form) form.reset();
+    setPageRating(5);
+    const defaultRadio = document.querySelector('input[name="fbCategory"][value="Error in Answer"]');
+    if (defaultRadio) defaultRadio.checked = true;
+}
+
+// Legacy submit handler redirect
+function submitFeedback(event) {
+    handleFeedbackSubmit(event);
 }
 
 /* ============================================================ */

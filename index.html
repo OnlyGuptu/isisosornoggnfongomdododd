@@ -20,7 +20,7 @@
                 <span class="btn-text">Search</span>
                 <kbd class="shortcut-pill">Ctrl+K</kbd>
             </button>
-            <button class="nav-action-btn feedback-trigger-btn" onclick="openFeedbackModal()" title="Send Feedback">
+            <button class="nav-action-btn feedback-trigger-btn" onclick="openFeedbackPage()" title="Student Feedback">
                 <span class="btn-icon">💬</span>
                 <span class="btn-text">Feedback</span>
             </button>
@@ -201,7 +201,7 @@
         <button id="back-to-top-btn" class="floating-btn back-to-top-btn hidden" onclick="scrollToTop()" title="Back to top">
             ↑
         </button>
-        <button class="floating-btn feedback-floating-btn" onclick="openFeedbackModal()" title="Share Feedback">
+        <button class="floating-btn feedback-floating-btn" onclick="openFeedbackPage()" title="Share Feedback">
             <span class="btn-icon">💬</span>
             <span class="floating-btn-text">Feedback</span>
         </button>
@@ -343,6 +343,142 @@
     </div>
 
     <!-- ========================================== -->
+    <!-- FEEDBACK & DISCUSSIONS LAYER               -->
+    <!-- ========================================== -->
+    <div id="feedback-view" class="view-layer hidden container">
+        <div class="navigation-crumbs">
+            <button class="btn-back" onclick="goBackFromFeedback()">← Back</button>
+            <span class="crumb-separator">/</span>
+            <span class="crumb-current">Community Feedback &amp; Suggestions</span>
+        </div>
+
+        <div class="feedback-page-shell">
+            <!-- Header Banner -->
+            <div class="feedback-page-hero">
+                <div class="hero-left">
+                    <div class="hero-icon-bubble">💬</div>
+                    <div>
+                        <h2>Student Feedback &amp; Discussions</h2>
+                        <p>Share corrections, ask for new questions, or give suggestions. Community responses update in real time.</p>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="feedback-stat-counter" id="feedback-stat-badge">
+                        <span class="stat-number" id="feedback-count-num">0</span>
+                        <span class="stat-label">Feedbacks</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- YouTube-style Feedback Input Composer -->
+            <div class="feedback-composer-box">
+                <div class="composer-top">
+                    <div class="composer-user-avatar" id="current-user-avatar-badge">YOU</div>
+                    <div class="composer-user-info">
+                        <h4>Add Public Feedback</h4>
+                        <p>Rate the solutions and let the community know what you think.</p>
+                    </div>
+                </div>
+
+                <form id="feedback-page-form" onsubmit="handleFeedbackSubmit(event)">
+                    <!-- Category Selector Pills -->
+                    <div class="composer-row">
+                        <label class="composer-label">Category</label>
+                        <div class="fb-category-pills">
+                            <label class="fb-cat-pill">
+                                <input type="radio" name="fbCategory" value="Error in Answer" checked>
+                                <span>🐞 Report Error</span>
+                            </label>
+                            <label class="fb-cat-pill">
+                                <input type="radio" name="fbCategory" value="Question Request">
+                                <span>📝 Request Question</span>
+                            </label>
+                            <label class="fb-cat-pill">
+                                <input type="radio" name="fbCategory" value="Feature Suggestion">
+                                <span>💡 Suggestion</span>
+                            </label>
+                            <label class="fb-cat-pill">
+                                <input type="radio" name="fbCategory" value="Appreciation">
+                                <span>❤️ Appreciation</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Meta Grid: Name, Subject, Stars -->
+                    <div class="composer-grid-three">
+                        <div class="composer-field">
+                            <label for="fb-page-name" class="composer-label">Your Name / Handle</label>
+                            <input type="text" id="fb-page-name" class="composer-input" placeholder="e.g. Rohan, Class 9 (or leave blank)">
+                        </div>
+                        <div class="composer-field">
+                            <label for="fb-page-subject" class="composer-label">Subject</label>
+                            <select id="fb-page-subject" class="composer-select">
+                                <option value="General">General / Website</option>
+                                <option value="Science">Science</option>
+                                <option value="Social Science">Social Science (SST)</option>
+                                <option value="Mathematics">Mathematics</option>
+                                <option value="English">English</option>
+                            </select>
+                        </div>
+                        <div class="composer-field">
+                            <label class="composer-label">Rating</label>
+                            <div class="composer-rating-stars" id="page-rating-stars">
+                                <span class="star selected" data-value="1" onclick="setPageRating(1)">★</span>
+                                <span class="star selected" data-value="2" onclick="setPageRating(2)">★</span>
+                                <span class="star selected" data-value="3" onclick="setPageRating(3)">★</span>
+                                <span class="star selected" data-value="4" onclick="setPageRating(4)">★</span>
+                                <span class="star selected" data-value="5" onclick="setPageRating(5)">★</span>
+                            </div>
+                            <input type="hidden" id="fb-page-rating-val" value="5">
+                        </div>
+                    </div>
+
+                    <!-- Comment Message Textarea -->
+                    <div class="composer-field">
+                        <label for="fb-page-message" class="composer-label">Comment / Feedback <span class="required">*</span></label>
+                        <textarea id="fb-page-message" class="composer-textarea" rows="3" required placeholder="Write your comment... Mention chapter, question number, or suggestions..."></textarea>
+                    </div>
+
+                    <!-- Buttons Row -->
+                    <div class="composer-buttons">
+                        <button type="button" class="btn-cancel-comment" onclick="resetFeedbackForm()">Cancel</button>
+                        <button type="submit" class="btn-post-comment">Post Comment 🚀</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Feedbacks Stream Section (YouTube-style comments list) -->
+            <div class="feedback-stream-container">
+                <div class="stream-header-bar">
+                    <div class="stream-title-group">
+                        <span class="stream-main-title">Comments &amp; Reviews</span>
+                        <div class="stream-filter-pills" id="feedback-filter-pills">
+                            <button class="filter-pill-btn active" data-filter="all" onclick="filterComments('all')">All</button>
+                            <button class="filter-pill-btn" data-filter="Error in Answer" onclick="filterComments('Error in Answer')">🐞 Errors</button>
+                            <button class="filter-pill-btn" data-filter="Question Request" onclick="filterComments('Question Request')">📝 Requests</button>
+                            <button class="filter-pill-btn" data-filter="Feature Suggestion" onclick="filterComments('Feature Suggestion')">💡 Suggestions</button>
+                            <button class="filter-pill-btn" data-filter="Appreciation" onclick="filterComments('Appreciation')">❤️ Kudos</button>
+                        </div>
+                    </div>
+                    <div class="stream-sort-group">
+                        <label for="comment-sort-select">Sort by:</label>
+                        <select id="comment-sort-select" class="sort-dropdown" onchange="sortComments(this.value)">
+                            <option value="newest">⚡ Newest First</option>
+                            <option value="top">🔥 Top Liked</option>
+                            <option value="rating">⭐ Highest Rating</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Live comments feed -->
+                <div id="feedback-items-stream" class="feedback-items-stream">
+                    <!-- Dynamic comment cards loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================== -->
     <!-- FOOTER LINKS                               -->
     <!-- ========================================== -->
    <footer style="text-align: center; padding: 0.8rem 0; border-top: 1px solid #e2e8f0; margin-top: 1rem; font-size: 0.85rem; color: #64748b;">
@@ -350,7 +486,8 @@
     <p style="margin-top: 0.2rem;">
         <a href="#" style="color: #2563eb; text-decoration: none; margin: 0 0.5rem;" onclick="event.preventDefault(); showLayer('privacy-view')">Privacy Policy</a> | 
         <a href="#" style="color: #2563eb; text-decoration: none; margin: 0 0.5rem;" onclick="event.preventDefault(); showLayer('terms-view')">Terms of Service</a> | 
-        <a href="#" style="color: #2563eb; text-decoration: none; margin: 0 0.5rem;" onclick="event.preventDefault(); showLayer('contact-view')">Contact Us</a>
+        <a href="#" style="color: #2563eb; text-decoration: none; margin: 0 0.5rem;" onclick="event.preventDefault(); showLayer('contact-view')">Contact Us</a> | 
+        <a href="#" style="color: #2563eb; text-decoration: none; margin: 0 0.5rem;" onclick="event.preventDefault(); openFeedbackPage()">Feedback</a>
     </p>
 </footer>
     <script src="script.js"></script>
