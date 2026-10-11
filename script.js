@@ -7,7 +7,7 @@ const ncertDatabase = {
             {
                 name: "Chapter 1: Exploration: Entering the World of Secondary Science",
                 solutions: [
-                    { q: "Notice", a: `Sorry, there are no questions in this chapter.` } 
+                    { q: "Notice", a: `Sorry, there are no questions in this chapter.` }
                 ]
             },
             {
@@ -2535,7 +2535,7 @@ given in Table 5.5. Mixtures:
 </div>
 ` },
 { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
-    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;">Answer the Following Questions</h2>
+    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;"></h2>
     <p style="margin: 0; color: #333; font-weight: bold;">(ii) How can one attain an international level of skill in any field? Mention any two ways.</p>
 </div>
 `, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
@@ -2543,7 +2543,7 @@ given in Table 5.5. Mixtures:
 </div>
 ` },
 { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
-    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;">Answer the Following Questions</h2>
+    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;"></h2>
     <p style="margin: 0; color: #333; font-weight: bold;">(iii) What differentiates the mere dreamers from actual achievers?</p>
 </div>
 `, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
@@ -2551,7 +2551,7 @@ given in Table 5.5. Mixtures:
 </div>
 ` },
 { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
-    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;">Answer the Following Questions</h2>
+    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;"></h2>
     <p style="margin: 0; color: #333; font-weight: bold;">(iv) How does Ming's mother use critical questions and personal anecdotes to persuade Ming and convey her message effectively?</p>
 </div>
 `, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
@@ -2559,7 +2559,7 @@ given in Table 5.5. Mixtures:
 </div>
 ` },
 { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
-    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;">Answer the Following Questions</h2>
+    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;"></h2>
     <p style="margin: 0; color: #333; font-weight: bold;">(v) How does Ming's mother balance encouragement with caution in her advice?</p>
 </div>
 `, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
@@ -2567,7 +2567,7 @@ given in Table 5.5. Mixtures:
 </div>
 ` },
 { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
-    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;">Answer the Following Questions</h2>
+    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;"></h2>
     <p style="margin: 0; color: #333; font-weight: bold;">(vi) In the letter, Ming's mother specifically addresses the challenges people face in pursuing their dreams. Do you think this advice is still relevant in contemporary society? If yes, why? If no, why not?</p>
 </div>
 `, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
@@ -2575,7 +2575,7 @@ given in Table 5.5. Mixtures:
 </div>
 ` },
 { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
-    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;">Answer the Following Questions</h2>
+    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;"></h2>
     <p style="margin: 0; color: #333; font-weight: bold;">(vii) What 'costs' in terms of effort, sacrifice, and time are you willing or unwilling to invest to pursue your goals?</p>
 </div>
 `, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
@@ -2758,16 +2758,80 @@ given in Table 5.5. Mixtures:
                         { 
                             q: "Document a case of a disaster that hit your region in the past, highlighting its effects on various human activities.", 
                             a: `<ul>
-    <li><strong>Disaster Case Profile:</strong> Document a documented event (e.g., the 2001 Gujarat earthquake or the 2021 Chamoli flash flood), specifying its date, epicenter, and immediate physical trigger.</li>
-    <li><strong>Impact on Human Activities:</strong> Highlight how the event disrupted agriculture through topsoil loss, damaged transport links and bridges, paralyzed regional commerce and power grids, and affected long-term human settlements.</li>
+    <li><strong>Disaster Case Profile (Chamoli Flash Flood, Uttarakhand):</strong>
+        <br>&bull; <em>Event & Date:</em> The Chamoli Disaster occurred on 7 February 2021 in the Garhwal Himalayas of Uttarakhand.
+        <br>&bull; <em>Location & Affected River Valleys:</em> Chamoli district, surging violently down the catchment basins of the Rishiganga, Dhauliganga, and Alaknanda rivers.
+        <br>&bull; <em>Physical Trigger:</em> A massive rock and ice mass detached from the steep slope of Ronti peak (near Nanda Devi), crashing down into the valley floor. The frictional heating rapidly melted glacial ice, transforming into a high-velocity, hyper-concentrated debris flow of ice, water, mud, and gigantic boulders.
+    </li>
+    <li><strong>Impact on Human Activities:</strong>
+        <br>&bull; <em>1. Damage to Transport & Infrastructure:</em> The flash flood washed away five crucial bridges, including the vital border road bridge near Raini village connecting Joshimath to Malari along the Indo-Tibetan border. Severed roads cut off around 13 border villages, paralyzing vehicular movement and supply deliveries.
+        <br>&bull; <em>2. Paralyzed Energy & Power Grids:</em> The debris torrent obliterated the 13.2 MW Rishiganga Hydroelectric Project and inflicted catastrophic structural destruction on NTPC's 520 MW Tapovan Vishnugad Hydropower Project, burying headrace tunnels in sludge and knocking out regional electricity supply.
+        <br>&bull; <em>3. Destruction of Agriculture & Soil Erosion:</em> Violent flood surges stripped and eroded fertile river terrace soils, washing away standing winter crops and dumping tons of silt and rubble onto farm lands. Critical irrigation canals and riverside pastures were entirely destroyed.
+        <br>&bull; <em>4. Disruption of Human Settlements & Economy:</em> More than 200 laborers, villagers, and personnel lost their lives or were declared missing. Riverbank dwellings and local market stalls were swept away, while pilgrimage tourism and trekking livelihoods suffered severe long-term setbacks.
+        <br>&bull; <em>5. Public Health & Drinking Water:</em> Churning sediment heavily contaminated downstream drinking water supplies, forcing authorities to arrange emergency water shipments and portable filtration units for affected settlements.
+    </li>
 </ul>` 
                         },
                         { 
                             q: "Translate the given poster on landslide into your native language and display it in your home.", 
                             a: `<ul>
-    <li><strong>Translation Scope (Three Stages):</strong> Translate key instructions from the textbook landslide poster into your regional language: <em>Before</em> (grow deep-rooted trees, monitor alerts, maintain drains, avoid slope building); <em>During</em> (avoid panicking, heed crack sounds, evacuate the slip route immediately); and <em>After</em> (avoid downed power lines, render first aid cautiously, avoid untreated river water).</li>
-    <li><strong>Emergency Contact Display:</strong> Include the National Disaster Helpline (011-1078) prominently on your home notice board for emergency reference.</li>
-</ul>` 
+    <li><strong>Landslide Safety Poster Guide (Ready Now to Stay Secure):</strong>
+        <br>Below is the structured safety poster adapted for home display and regional reference, organized across the three critical disaster preparedness phases:
+    </li>
+</ul>
+
+<div style="background: #fdfaf2; border: 2px solid #cfa670; border-radius: 8px; padding: 16px; margin: 14px 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; box-shadow: 0 3px 10px rgba(0,0,0,0.06);">
+    <div style="text-align: center; border-bottom: 2px solid #cfa670; padding-bottom: 10px; margin-bottom: 14px;">
+        <h3 style="margin: 0; color: #a83232; font-size: 1.25rem; font-weight: 800; letter-spacing: 0.5px;">LANDSLIDE SAFETY ACTION PLAN</h3>
+        <p style="margin: 4px 0 0 0; color: #555; font-size: 0.92rem; font-weight: 600;">Be Smart, Be Prepared | Ready Now to Stay Secure</p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin-bottom: 14px;">
+        <!-- Before -->
+        <div style="background: #ffffff; border: 1px solid #e2d9cc; border-radius: 6px; padding: 12px;">
+            <h4 style="margin: 0 0 8px 0; color: #b45309; font-size: 0.95rem; border-bottom: 1px solid #f0e6d6; padding-bottom: 4px;">1. Before (Preparedness)</h4>
+            <ul style="margin: 0; padding-left: 18px; font-size: 0.85rem; line-height: 1.5; color: #333;">
+                <li><strong>Plant Deep-Rooted Trees:</strong> Grow vegetation and native trees that hold topsoil together firmly on slopes.</li>
+                <li><strong>Monitor Weather Alerts:</strong> Listen to local radio, television, and official weather advisories for flash alerts.</li>
+                <li><strong>Maintain Clear Drainage:</strong> Keep surface drains and weep holes clean to prevent water buildup behind retaining walls.</li>
+                <li><strong>Watch for Warning Signs:</strong> Look out for ground subsidence, building tilting, cracks on rocks, or sudden muddying of streams.</li>
+                <li><strong>Avoid Slope Construction:</strong> Never build homes or structures near steep, unstable hillsides or natural drainage paths.</li>
+            </ul>
+        </div>
+
+        <!-- During -->
+        <div style="background: #ffffff; border: 1px solid #e2d9cc; border-radius: 6px; padding: 12px;">
+            <h4 style="margin: 0 0 8px 0; color: #dc2626; font-size: 0.95rem; border-bottom: 1px solid #f0e6d6; padding-bottom: 4px;">2. During (Immediate Action)</h4>
+            <ul style="margin: 0; padding-left: 18px; font-size: 0.85rem; line-height: 1.5; color: #333;">
+                <li><strong>Stay Calm & Avoid Panic:</strong> Remain composed and disregard unverified rumors or panic messages.</li>
+                <li><strong>Stay Together:</strong> Keep your family and companions together in a secure, pre-identified safe zone.</li>
+                <li><strong>Heed Warning Sounds:</strong> If you hear unusual noises like trees cracking or boulders tumbling, evacuate the slip path immediately.</li>
+                <li><strong>Move to High Ground:</strong> Evacuate rapidly away from downstream valleys and gullies to stable, elevated ground.</li>
+                <li><strong>Alert Authorities:</strong> Immediately inform the nearest Tehsil, police post, or District Disaster HQ.</li>
+            </ul>
+        </div>
+
+        <!-- After -->
+        <div style="background: #ffffff; border: 1px solid #e2d9cc; border-radius: 6px; padding: 12px;">
+            <h4 style="margin: 0 0 8px 0; color: #15803d; font-size: 0.95rem; border-bottom: 1px solid #f0e6d6; padding-bottom: 4px;">3. After (Recovery & Safety)</h4>
+            <ul style="margin: 0; padding-left: 18px; font-size: 0.85rem; line-height: 1.5; color: #333;">
+                <li><strong>Avoid Loose Debris & Wires:</strong> Never touch or walk over unstable slope debris, fallen electrical poles, or dangling power wires.</li>
+                <li><strong>Maintain Safe Distance:</strong> Stay away from the landslide path and river channel, as secondary slips often follow.</li>
+                <li><strong>Rescue & First Aid:</strong> Check for injured or trapped persons; administer first aid and do not move severely injured victims unless in danger.</li>
+                <li><strong>Avoid Untreated Water:</strong> Do not drink contaminated water directly from silted rivers, springs, or wells; boil or filter first.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Helpline Footer -->
+    <div style="background: #f4ede1; border-radius: 6px; padding: 10px 14px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; font-size: 0.88rem;">
+        <span style="color: #78350f; font-weight: 700;">📞 National Disaster Helpline (NDMA): <span style="color: #b91c1c; font-size: 1rem;">011-1078</span></span>
+        <span style="color: #4b5563;">Official Portal: <strong>www.ndma.gov.in</strong></span>
+    </div>
+</div>
+<ul>
+    <li><strong>Home Display Instructions:</strong> Mount this safety card prominently on your household notice board, refrigerator, or near the main doorway alongside local emergency contacts for quick reference during heavy rains.</li>
+</ul>`, image: `images/deez.png`
                         },
                         { 
                             q: "Divide the class into three groups. Each group will work on one project (water, wind, and glacier). The project should highlight the causes, impact on human life and the environment, and mitigation measures.", 
@@ -2779,14 +2843,494 @@ given in Table 5.5. Mixtures:
                         },
                     ]
                  },
-                    { name: "Chapter 3: Atmosphere and Climate", solutions: [{ q: "Q?", a: `Text.` }] },
+                    { name: "Chapter 3: Atmosphere and Climate", solutions: [// Q1 & A1 (Includes high-visibility, large SVG breakdown of atmospheric gases)
+  {
+    q: `<div class="q-block">\n  <p>1. What is atmosphere? Explain its composition with the help of a pie diagram.</p>\n</div>`,
+    a: `<div class="a-block">\n  <p>The atmosphere is a protective blanket of air surrounding the Earth, held down by gravitational pull. It shields life from harmful ultraviolet radiation and regulates surface temperatures.</p>\n  <div style="text-align: center; margin: 20px 0;">\n    <svg viewBox="0 0 760 380" width="100%" height="auto" style="max-width: 720px; background: #ffffff; border: 1px solid #d4c2a8; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">\n      <!-- Main Pie: Center (200, 190), Radius = 145 -->\n      <!-- Nitrogen: 78% -->\n      <path d="M 200,190 L 200,45 A 145,145 0 1,1 60.1,215.1 Z" fill="#2e7d32"/>\n      <!-- Oxygen: 21% -->\n      <path d="M 200,190 L 60.1,215.1 A 145,145 0 0,1 190.9,45.3 Z" fill="#0288d1"/>\n      <!-- Combined Remaining Wedge: 1% -->\n      <path d="M 200,190 L 190.9,45.3 A 145,145 0 0,1 200,45 Z" fill="#d84315"/>\n\n      <!-- In-slice Primary Labels -->\n      <text x="245" y="225" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">Nitrogen (78%)</text>\n      <text x="55" y="130" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#01579b">Oxygen (21%)</text>\n\n      <!-- Zoom Connector Lines to Expanded 1% Breakdown -->\n      <polygon points="191,45 200,45 420,50 420,330" fill="#fbe9e7" opacity="0.45"/>\n      <line x1="195" y1="45" x2="420" y2="50" stroke="#d84315" stroke-width="1.5" stroke-dasharray="4,4"/>\n      <line x1="200" y1="190" x2="420" y2="330" stroke="#d84315" stroke-width="1.5" stroke-dasharray="4,4"/>\n\n      <!-- Magnified Detail Panel for the 1% (Argon, CO2, Others) -->\n      <g transform="translate(420, 50)">\n        <!-- Header Bar -->\n        <rect width="310" height="34" rx="4" fill="#d84315"/>\n        <text x="155" y="22" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">DETAILED BREAKDOWN OF REMAINING 1%</text>\n        \n        <!-- Card Container -->\n        <rect y="34" width="310" height="246" fill="#fdfbf7" stroke="#d4c2a8" stroke-width="1.2" rx="0 0 4 4"/>\n        \n        <!-- Argon Slice Bar & Label -->\n        <rect x="20" y="55" width="18" height="18" fill="#f57c00" rx="3"/>\n        <text x="48" y="70" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#222">Argon (Ar): <tspan fill="#f57c00">0.93%</tspan></text>\n        <rect x="20" y="80" width="270" height="8" rx="4" fill="#ffe0b2"/>\n        <rect x="20" y="80" width="251" height="8" rx="4" fill="#f57c00"/>\n\n        <!-- Carbon Dioxide Slice Bar & Label -->\n        <rect x="20" y="115" width="18" height="18" fill="#c62828" rx="3"/>\n        <text x="48" y="130" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#222">Carbon Dioxide (CO₂): <tspan fill="#c62828">0.04%</tspan></text>\n        <rect x="20" y="140" width="270" height="8" rx="4" fill="#ffcdd2"/>\n        <rect x="20" y="140" width="11" height="8" rx="4" fill="#c62828"/>\n\n        <!-- Other Gases Combined Slice Bar & Label -->\n        <rect x="20" y="175" width="18" height="18" fill="#6a1b9a" rx="3"/>\n        <text x="48" y="190" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#222">Others Combined: <tspan fill="#6a1b9a">0.03%</tspan></text>\n        <text x="48" y="206" font-family="Arial, sans-serif" font-size="10.5" fill="#666">Neon, Helium, Methane, Krypton, Ozone, H₂</text>\n        <rect x="20" y="216" width="270" height="8" rx="4" fill="#e1bee7"/>\n        <rect x="20" y="216" width="8" height="8" rx="4" fill="#6a1b9a"/>\n\n        <!-- Water Vapour Footnote -->\n        <line x1="20" y1="238" x2="290" y2="238" stroke="#e0d4c1" stroke-width="1"/>\n        <text x="20" y="258" font-family="Arial, sans-serif" font-size="10.5" fill="#444">Water Vapour &amp; Dust: Variable (0.1% to 0.4%)</text>\n      </g>\n    </svg>\n  </div>\n  <ul>\n    <li><strong>Nitrogen (78%):</strong> The most abundant gas; essential for plant growth and living protein formation.</li>\n    <li><strong>Oxygen (21%):</strong> Critical for respiration in animals and humans, and supports combustion.</li>\n    <li><strong>Argon (0.93%):</strong> The most common noble and inert gas in atmospheric air.</li>\n    <li><strong>Carbon Dioxide (0.04%):</strong> Absorbed by plants during photosynthesis and retains warmth via the greenhouse effect.</li>\n    <li><strong>Other Elements Combined (0.03%):</strong> Minute quantities of neon, helium, methane, krypton, hydrogen, and ozone.</li>\n    <li><strong>Water Vapour &amp; Dust Particles:</strong> Range between 0.1% and 0.4%, responsible for condensation, cloud formation, and precipitation.</li>\n  </ul>\n</div>`
+  },
+
+  // Q2 & A2
+  {
+    q: `<div class="q-block">\n  <p>2. Draw a labelled diagram of the structure of atmosphere.</p>\n</div>`,
+    a: `<div class="a-block">\n  <ul>\n    <li><strong>Troposphere (0 to 12 km):</strong> The lowest and densest layer where nearly all weather phenomena—clouds, rain, fog, and storms—occur. Temperature decreases with altitude.</li>\n    <li><strong>Stratosphere (12 to 50 km):</strong> Free of weather disturbances, making it ideal for flying jet aeroplanes. Houses the ozone layer which filters out harmful solar ultraviolet radiation.</li>\n    <li><strong>Mesosphere (50 to 80 km):</strong> The coldest atmospheric layer. Incoming meteorites burn up here due to friction with atmospheric gases.</li>\n    <li><strong>Thermosphere (80 to 700 km):</strong> Temperature rises rapidly with altitude as it absorbs solar X-rays. Contains the ionosphere which reflects radio transmissions back to Earth, and produces auroras.</li>\n    <li><strong>Exosphere (&gt; 700 km):</strong> The uppermost boundary where light gases like hydrogen and helium escape into space.</li>\n  </ul>\n</div>`,
+    image: `images/st.jpg`
+  },
+
+  // Q3 & A3
+  {
+    q: `<div class="q-block">\n  <p>3. Which are the four main seasons of India?</p>\n</div>`,
+    a: `<div class="a-block">\n  <ul>\n    <li><strong>Winter Season (Cold Weather):</strong> December to February; marked by low temperatures, clear skies, and calm weather across northern India.</li>\n    <li><strong>Summer Season (Pre-monsoon / Hot Weather):</strong> March to May; characterized by high temperatures, dry heat, and local dust storms.</li>\n    <li><strong>Advancing Monsoon Season (South-West Monsoon):</strong> June to September; brings the majority of India's annual rainfall from moisture-laden oceanic winds.</li>\n    <li><strong>Retreating Monsoon Season (Post-monsoon):</strong> October to November; skies clear across north India while moisture brings rainfall along the south-eastern coast.</li>\n  </ul>\n</div>`
+  },
+
+  // Q4 & A4
+  {
+    q: `<div class="q-block">\n  <p>4. Why do you not feel the pressure of the atmosphere?</p>\n</div>`,
+    a: `<div class="a-block">\n  <ul>\n    <li><strong>Internal Counter-Pressure:</strong> The blood and internal fluids inside our bodies exert an outward pressure equal to the external air pressure.</li>\n    <li><strong>Omnidirectional Balance:</strong> Atmospheric pressure presses uniformly from all directions, canceling out the net force on our bodies.</li>\n  </ul>\n</div>`
+  },
+
+  // Q5 & A5
+  {
+    q: `<div class="q-block">\n  <p>5. In which layer of the atmosphere do aeroplanes fly and why?</p>\n</div>`,
+    a: `<div class="a-block">\n  <ul>\n    <li><strong>Layer:</strong> Aeroplanes fly in the lower portion of the <strong>stratosphere</strong> (just above the tropopause).</li>\n    <li><strong>Reasons:</strong>\n      <br/>• <strong>Absence of Weather Turbulence:</strong> The stratosphere is free of clouds, convective storms, fog, and rain.\n      <br/>• <strong>Smooth Flight Conditions:</strong> Steady horizontal airflow ensures safety and fuel efficiency.\n    </li>\n  </ul>\n</div>`
+  },
+
+  // Q6 & A6
+  {
+    q: `<div class="q-block">\n  <p>6. Distinguish between the following: a. The troposphere and stratosphere, b. The south-west monsoon and north-east monsoon.</p>\n</div>`,
+    a: `<div class="a-block">\n  <p><strong>a. Troposphere vs. Stratosphere:</strong></p>\n  <table style="width: 100%; border-collapse: collapse; margin-bottom: 12px; font-size: 13px;">\n    <thead>\n      <tr style="background: #eedcb6; text-align: left;">\n        <th style="padding: 6px; border: 1px solid #d4c2a8;">Feature</th>\n        <th style="padding: 6px; border: 1px solid #d4c2a8;">Troposphere</th>\n        <th style="padding: 6px; border: 1px solid #d4c2a8;">Stratosphere</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Altitude</strong></td>\n        <td style="padding: 6px; border: 1px solid #d4c2a8;">Extends up to an average height of 12 km.</td>\n        <td style="padding: 6px; border: 1px solid #d4c2a8;">Extends from 12 km up to 50 km.</td>\n      </tr>\n      <tr>\n        <td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Temperature</strong></td>\n        <td style="padding: 6px; border: 1px solid #d4c2a8;">Decreases steadily as altitude increases.</td>\n        <td style="padding: 6px; border: 1px solid #d4c2a8;">Increases with altitude due to ozone absorption of UV rays.</td>\n      </tr>\n      <tr>\n        <td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Weather</strong></td>\n        <td style="padding: 6px; border: 1px solid #d4c2a8;">Site of almost all active weather phenomena (rain, clouds, storms).</td>\n        <td style="padding: 6px; border: 1px solid #d4c2a8;">Dry, cloudless, and calm; ideal for aircraft.</td>\n      </tr>\n    </tbody>\n  </table>\n\n  <p><strong>b. South-West Monsoon vs. North-East Monsoon:</strong></p>\n  <table style="width: 100%; border-collapse: collapse; margin-bottom: 10px; font-size: 13px;">\n    <thead>\n      <tr style="background: #eedcb6; text-align: left;">\n        <th style="padding: 6px; border: 1px solid #d4c2a8;">Feature</th>\n        <th style="padding: 6px; border: 1px solid #d4c2a8;">South-West Monsoon</th>\n        <th style="padding: 6px; border: 1px solid #d4c2a8;">North-East Monsoon</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Active Season</strong></td>\n        <td style="padding: 6px; border: 1px solid #d4c2a8;">June to September (summer season).</td>\n        <td style="padding: 6px; border: 1px solid #d4c2a8;">October to February (winter season).</td>\n      </tr>\n      <tr>\n        <td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Direction of Wind</strong></td>\n        <td style="padding: 6px; border: 1px solid #d4c2a8;">Blows from oceanic waters toward landmass (sea to land).</td>\n        <td style="padding: 6px; border: 1px solid #d4c2a8;">Blows from land outward toward the oceans (land to sea).</td>\n      </tr>\n      <tr>\n        <td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Rainfall Impact</strong></td>\n        <td style="padding: 6px; border: 1px solid #d4c2a8;">Provides over 75% of total annual rainfall across India.</td>\n        <td style="padding: 6px; border: 1px solid #d4c2a8;">Largely dry; brings vital winter rains to Tamil Nadu and parts of Andhra Pradesh via Bay of Bengal moisture.</td>\n      </tr>\n    </tbody>\n  </table>\n</div>`
+  },
+
+  // Q7 & A7
+  {
+  q: `<div class="q-block">
+  <p>7. Do it yourself: Table 3.3 shows average monthly temperatures and rainfall for 10 representative stations. Study these figures on your own and convert them into 'temperature and rainfall' graphs. (One such graph for Delhi, Fig. 3.14, is prepared below). Answer questions 7.1 to 7.5 based on the data.</p>
+</div>`,
+  a: `<div class="a-block">
+  <div style="text-align: center; margin: 16px 0;">
+    <svg viewBox="0 0 600 360" width="100%" height="auto" style="max-width: 540px; background: #ffffff; border: 1px solid #d4c2a8; border-radius: 8px;">
+      <!-- Title -->
+      <text x="300" y="26" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">Fig. 3.14: Temperature and Rainfall of Delhi</text>
+      
+      <!-- Axis Lines & Grids -->
+      <!-- Left Y Axis (Temperature 0 to 35 C), Right Y Axis (Rainfall 0 to 20 cm) -->
+      <!-- Origin: (70, 290), Width: 460, Height: 240. 35 C = 240px -> 6.85px per C. 20 cm = 240px -> 12px per cm -->
+      <line x1="70" y1="290" x2="530" y2="290" stroke="#888" stroke-width="1.5"/>
+      <line x1="70" y1="50" x2="70" y2="290" stroke="#888" stroke-width="1.5"/>
+      <line x1="530" y1="50" x2="530" y2="290" stroke="#888" stroke-width="1.5"/>
+
+      <!-- Grid lines horizontal -->
+      <line x1="70" y1="230" x2="530" y2="230" stroke="#eee" stroke-width="1"/>
+      <line x1="70" y1="170" x2="530" y2="170" stroke="#eee" stroke-width="1"/>
+      <line x1="70" y1="110" x2="530" y2="110" stroke="#eee" stroke-width="1"/>
+      <line x1="70" y1="50" x2="530" y2="50" stroke="#eee" stroke-width="1"/>
+
+      <!-- Left Y Axis Labels (Temp °C) -->
+      <text x="60" y="294" font-family="Arial" font-size="10" fill="#c62828" text-anchor="end">0°</text>
+      <text x="60" y="224" font-family="Arial" font-size="10" fill="#c62828" text-anchor="end">10°</text>
+      <text x="60" y="154" font-family="Arial" font-size="10" fill="#c62828" text-anchor="end">20°</text>
+      <text x="60" y="84" font-family="Arial" font-size="10" fill="#c62828" text-anchor="end">30°</text>
+      <text x="60" y="54" font-family="Arial" font-size="10" fill="#c62828" text-anchor="end">35°C</text>
+
+      <!-- Right Y Axis Labels (Rainfall cm) -->
+      <text x="540" y="294" font-family="Arial" font-size="10" fill="#0288d1">0</text>
+      <text x="540" y="234" font-family="Arial" font-size="10" fill="#0288d1">5</text>
+      <text x="540" y="174" font-family="Arial" font-size="10" fill="#0288d1">10</text>
+      <text x="540" y="114" font-family="Arial" font-size="10" fill="#0288d1">15</text>
+      <text x="540" y="54" font-family="Arial" font-size="10" fill="#0288d1">20 cm</text>
+
+      <!-- Monthly Bars (Rainfall) Center positions spaced across 460px: dx = 38px -->
+      <!-- Jan (2.5): h=30 -->  <rect x="79" y="260" width="20" height="30" fill="#0288d1"/>
+      <!-- Feb (1.5): h=18 -->  <rect x="117" y="272" width="20" height="18" fill="#0288d1"/>
+      <!-- Mar (1.3): h=15 -->  <rect x="155" y="275" width="20" height="15" fill="#0288d1"/>
+      <!-- Apr (1.0): h=12 -->  <rect x="193" y="278" width="20" height="12" fill="#0288d1"/>
+      <!-- May (1.8): h=21 -->  <rect x="231" y="269" width="20" height="21" fill="#0288d1"/>
+      <!-- Jun (7.4): h=88 -->  <rect x="269" y="202" width="20" height="88" fill="#0288d1"/>
+      <!-- Jul (19.3): h=231 --><rect x="307" y="59" width="20" height="231" fill="#0288d1"/>
+      <!-- Aug (17.8): h=213 --><rect x="345" y="77" width="20" height="213" fill="#0288d1"/>
+      <!-- Sep (11.9): h=142 --><rect x="383" y="148" width="20" height="142" fill="#0288d1"/>
+      <!-- Oct (1.3): h=15 -->  <rect x="421" y="275" width="20" height="15" fill="#0288d1"/>
+      <!-- Nov (0.2): h=3 -->   <rect x="459" y="287" width="20" height="3" fill="#0288d1"/>
+      <!-- Dec (1.0): h=12 -->  <rect x="497" y="278" width="20" height="12" fill="#0288d1"/>
+
+      <!-- Monthly Temperature Points & Polyline (Red line) -->
+      <!-- Points: (x, 290 - temp * 6.85) -->
+      <!-- Jan:14.4 (89, 191), Feb:16.7 (127, 175), Mar:23.3 (165, 130), Apr:30.0 (203, 84), May:33.3 (241, 62), Jun:33.3 (279, 62) -->
+      <!-- Jul:30.0 (317, 84), Aug:29.4 (355, 88), Sep:28.9 (393, 92), Oct:25.6 (431, 114), Nov:19.4 (469, 157), Dec:15.6 (507, 183) -->
+      <polyline points="89,191 127,175 165,130 203,84 241,62 279,62 317,84 355,88 393,92 431,114 469,157 507,183" fill="none" stroke="#d32f2f" stroke-width="2.5"/>
+      
+      <circle cx="89" cy="191" r="3.5" fill="#d32f2f"/>
+      <circle cx="127" cy="175" r="3.5" fill="#d32f2f"/>
+      <circle cx="165" cy="130" r="3.5" fill="#d32f2f"/>
+      <circle cx="203" cy="84" r="3.5" fill="#d32f2f"/>
+      <circle cx="241" cy="62" r="3.5" fill="#d32f2f"/>
+      <circle cx="279" cy="62" r="3.5" fill="#d32f2f"/>
+      <circle cx="317" cy="84" r="3.5" fill="#d32f2f"/>
+      <circle cx="355" cy="88" r="3.5" fill="#d32f2f"/>
+      <circle cx="393" cy="92" r="3.5" fill="#d32f2f"/>
+      <circle cx="431" cy="114" r="3.5" fill="#d32f2f"/>
+      <circle cx="469" cy="157" r="3.5" fill="#d32f2f"/>
+      <circle cx="507" cy="183" r="3.5" fill="#d32f2f"/>
+
+      <!-- Month Labels X Axis -->
+      <g font-family="Arial" font-size="10" fill="#444" text-anchor="middle">
+        <text x="89" y="306">Jan</text>
+        <text x="127" y="306">Feb</text>
+        <text x="165" y="306">Mar</text>
+        <text x="203" y="306">Apr</text>
+        <text x="241" y="306">May</text>
+        <text x="279" y="306">Jun</text>
+        <text x="317" y="306">Jul</text>
+        <text x="355" y="306">Aug</text>
+        <text x="393" y="306">Sep</text>
+        <text x="431" y="306">Oct</text>
+        <text x="469" y="306">Nov</text>
+        <text x="507" y="306">Dec</text>
+      </g>
+
+      <!-- Legend -->
+      <g transform="translate(180, 332)" font-family="Arial" font-size="11">
+        <line x1="0" y1="6" x2="24" y2="6" stroke="#d32f2f" stroke-width="2.5"/>
+        <circle cx="12" cy="6" r="3" fill="#d32f2f"/>
+        <text x="30" y="10" fill="#333">Temperature (°C)</text>
+        <rect x="140" y="0" width="14" height="12" fill="#0288d1"/>
+        <text x="160" y="10" fill="#333">Rainfall (cm)</text>
+      </g>
+    </svg>
+  </div>
+
+  <p><strong>7.1 Stations Re-arranged According to Distance from Equator (Lowest to Highest Latitude):</strong></p>
+  <ol>
+    <li>Thiruvananthapuram (8°29′N)</li>
+    <li>Bengaluru (12°58′N)</li>
+    <li>Chennai (13°4′N)</li>
+    <li>Mumbai (19°N)</li>
+    <li>Nagpur (21°9′N)</li>
+    <li>Kolkata (22°34′N)</li>
+    <li>Shillong (24°34′N)</li>
+    <li>Jodhpur (26°18′N)</li>
+    <li>Delhi (29°N)</li>
+    <li>Leh (34°N)</li>
+  </ol>
+
+  <p><strong>7.2 Climatic Extremes and Influences:</strong></p>
+  <ul>
+    <li><strong>a. Two stations with the most extreme climate:</strong> Leh (sub-zero winter temperatures, high altitude) and Delhi / Jodhpur (high annual temperature range between hot summers and chilly winters).</li>
+    <li><strong>b. Two stations influenced by retreating / winter monsoons:</strong> Chennai and Thiruvananthapuram.</li>
+    <li><strong>c. The two hottest stations:</strong>
+      <br/>• <em>In February:</em> Thiruvananthapuram (28.7°C) and Chennai (25.7°C).
+      <br/>• <em>In June:</em> Jodhpur (33.9°C) and Delhi (33.3°C).
+    </li>
+  </ul>
+
+  <p><strong>7.3 Geographic Reasons for Rainfall Variations:</strong></p>
+  <ul>
+    <li><strong>a. Shillong vs. Kolkata:</strong> Shillong sits in the Khasi Hills where moisture-laden Bay of Bengal monsoon winds are funneled and forced upward, causing heavy orographic precipitation compared to low-lying Kolkata.</li>
+    <li><strong>b. Delhi vs. Jodhpur:</strong> Delhi lies further east along the path of the monsoon trough, while Jodhpur lies in western Rajasthan where monsoon winds have shed most moisture and the Aravalli range aligns parallel to winds without obstructing them.</li>
+  </ul>
+
+  <p><strong>7.4 Climate Explanations:</strong></p>
+  <ul>
+    <li><strong>a. Thiruvananthapuram's equable climate:</strong> Its coastal location close to the equator grants strong moderating maritime influences with negligible seasonal temperature variation.</li>
+    <li><strong>b. Chennai's late rainfall:</strong> Chennai lies on the Coromandel coast, positioned in the rain-shadow of the Western Ghats during the south-west monsoon; it receives the majority of its rain between October and December from north-east retreating winds picking up Bay of Bengal moisture.</li>
+    <li><strong>c. Leh's moderate precipitation:</strong> Leh is located on an elevated plateau enclosed by the Great Himalayas, which block monsoon winds, leaving it in a cold arid rain-shadow zone.</li>
+  </ul>
+
+  <p><strong>7.5 Monsoon as a Unifying Framework:</strong></p>
+  <ul>
+    <li>Despite thermal and regional variations, the rhythmic seasonal cycle of the monsoons regulates agricultural rhythms, cultural celebrations, water replenishment, and river systems throughout the entire country.</li>
+  </ul>
+</div>`
+},
+
+  // Q8 & A8
+  {
+  q: `<div class="q-block">
+  <p>8. Collect pictures of houses and clothing of people from different regions of India. Examine whether they reflect any relationship with the climatic conditions or the relief of those regions.</p>
+</div>`,
+  a: `<div class="a-block">
+  <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin: 16px 0;">
+    <div style="flex: 1; min-width: 240px; max-width: 300px; text-align: center; border: 1px solid #d4c2a8; border-radius: 8px; padding: 10px; background: #fff;">
+      <img src="images/ladakh_house.jpg" alt="Traditional stone house in Ladakh with flat roof" style="width: 100%; height: auto; border-radius: 6px;" />
+      <p style="margin: 8px 0 0 0; font-size: 13px; font-weight: bold; color: #5d4037;">Ladakh: Stone &amp; Mud-Brick House</p>
+    </div>
+    <div style="flex: 1; min-width: 240px; max-width: 300px; text-align: center; border: 1px solid #d4c2a8; border-radius: 8px; padding: 10px; background: #fff;">
+      <img src="images/ladakh_clothing.png" alt="People in Ladakh wearing thick woollen goncha" style="width: 100%; height: auto; border-radius: 6px;" />
+      <p style="margin: 8px 0 0 0; font-size: 13px; font-weight: bold; color: #5d4037;">Ladakh: Traditional Woollen Goncha</p>
+    </div>
+  </div>
+  <ul>
+    <li><strong>Chosen Region:</strong> Ladakh (Cold High-Altitude Desert).</li>
+    <li><strong>Housing vs. Climate and Relief:</strong>
+      <br/>• Houses are built with thick two-storey stone and sun-dried mud-brick walls to trap heat and insulate living areas from sub-zero winter temperatures.
+      <br/>• Roofs are completely flat because Ladakh lies in a rain-shadow zone with minimal rainfall or snowfall; the flat roofs serve as drying platforms for winter food supplies.
+    </li>
+    <li><strong>Clothing vs. Climate:</strong>
+      <br/>• People wear the <em>goncha</em> (a thick, warm woollen robe tied at the waist) made from local sheep and yak wool.
+      <br/>• Heavy woollen caps and boots insulate against extreme freezing winds and prevent frostbite.
+    </li>
+  </ul>
+</div>`
+},
+] },
                      ]
             },
             {   
                 name: `History`,     
                 chapters: [
-                { name: "Chapter 4", solutions: [{ q: "Q?", a: `Text.` }] },
-                { name: "Chapter 5", solutions: [
+                { name: `Chapter 4: Early Humans and Beginning
+of Civilisation
+` , solutions: [// Q1 & A1
+  {
+    q: `<div class="q-block">
+  <p>1. Do you think life became easier or more challenging after humans started farming? Give two reasons for your answer.</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Life Became More Secure and Predictable:</strong> Farming ensured a reliable, localized supply of food through cultivated cereals and domesticated livestock, ending the constant hazard and physical exhaustion of roaming to hunt wild game.</li>
+    <li><strong>Life Brought New Demands and Vulnerabilities:</strong> Agriculture demanded rigorous year-round manual labor—clearing forests, tilling soil, weeding, and managing irrigation—while making communities vulnerable to famine if seasonal rainfall failed or pestilence wiped out stored crops.</li>
+  </ul>
+</div>`
+  },
+
+  // Q2 & A2
+  {
+    q: `<div class="q-block">
+  <p>2. The environment offers human societies both opportunities as well as challenges. Explain with reference to early farming communities and river-valley civilisations.</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Environmental Opportunities:</strong> River valleys like the Indus, Nile, Tigris-Euphrates, and Huang He provided perpetual supplies of freshwater, naturally fertile alluvial silt renewed by seasonal floods, and navigable waterways for transport and trade.</li>
+    <li><strong>Environmental Challenges:</strong> Unpredictable, violent flooding could submerge entire settlements, prolonged droughts dried out field crops, and soil exhaustion or marshy diseases threatened community survival, prompting the construction of check dams, canals, and embankments.</li>
+  </ul>
+</div>`
+  },
+
+  // Q3 & A3
+  {
+    q: `<div class="q-block">
+  <p>3. Why do historians divide early human history into different ages such as Stone Age, Bronze Age, and Iron Age? What does this classification tell us about human progress?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Reason for Periodisation:</strong> The classification is based on the primary raw material used by humans to manufacture their essential tools, implements, and weapons during that historical era.</li>
+    <li><strong>Significance for Human Progress:</strong> It illustrates humanity's increasing technological mastery over nature—moving from chipping raw stones to smelting metal alloys like bronze, and eventually extracting durable iron, which allowed deeper ploughing, dense forest clearance, and the growth of complex urban civilizations.</li>
+  </ul>
+</div>`
+  },
+
+  // Q4 & A4
+  {
+    q: `<div class="q-block">
+  <p>4. Imagine you are a Neolithic farmer. Describe one day of your life. What challenges would you face that a hunter-gatherer would not?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>A Day in the Life:</strong> Waking up in a sun-dried mud-brick hut, tending to domesticated goats and cattle, weeding the barley plots using polished stone hoes, processing grain with querns, and firing clay pots for storing evening meals.</li>
+    <li><strong>Unique Agricultural Challenges:</strong> Unlike mobile hunter-gatherers who could follow wildlife when conditions changed, a farmer was bound to one plot of land (sedentism), risking total starvation if pests, drought, or floods ruined the crop.</li>
+  </ul>
+</div>`
+  },
+
+  // Q5 & A5
+  {
+    q: `<div class="q-block">
+  <p>5. Imagine that the Harappan script gets deciphered tomorrow. What new types of information do you think historians might learn?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Political and Administrative Structures:</strong> Decipherment would reveal whether the Indus cities were ruled by monarchies, priest-kings, or merchant councils, and explain the administrative rules behind their uniform town planning.</li>
+    <li><strong>Religious Beliefs and Literature:</strong> It would provide direct knowledge of the names of their gods, the purpose of rituals on seals, their mythologies, and specific diplomatic or trade records with West Asian kingdoms like Sumer and Akkad.</li>
+  </ul>
+</div>`
+  },
+
+  // Q6 & A6
+  {
+    q: `<div class="q-block">
+  <p>6. Prepare a table with three columns—Palaeolithic, Mesolithic, and Neolithic and fill in their distinctive features: tools, settlements, art, and subsistence.</p>
+</div>`,
+    a: `<div class="a-block">
+  <table style="width: 100%; border-collapse: collapse; margin-bottom: 10px; font-size: 13px;">
+    <thead>
+      <tr style="background: #eedcb6; text-align: left;">
+        <th style="padding: 6px; border: 1px solid #d4c2a8;">Feature</th>
+        <th style="padding: 6px; border: 1px solid #d4c2a8;">Palaeolithic</th>
+        <th style="padding: 6px; border: 1px solid #d4c2a8;">Mesolithic</th>
+        <th style="padding: 6px; border: 1px solid #d4c2a8;">Neolithic</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Tools</strong></td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">Large stone handaxes, cleavers, choppers, scrapers</td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">Microliths (tiny composite stone points, arrowheads)</td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">Polished stone axes, celts, grinding querns</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Settlements</strong></td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">Nomadic shelters, natural caves, open river camps</td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">Temporary seasonal camps, rock shelters</td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">Permanent village homes of mud and sun-dried brick</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Art</strong></td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">Basic body pigments, shell and bone beads</td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">Dynamic rock paintings (e.g., Bhimbetka caves)</td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">Painted pottery, terracotta figures, decorative beads</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Subsistence</strong></td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">Hunting large wild animals, gathering roots and berries</td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">Hunting small game, fishing, wild grain gathering</td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">Cultivating crops, herding domesticated livestock</td>
+      </tr>
+    </tbody>
+  </table>
+</div>`
+  },
+
+  // Q7 & A7
+  {
+    q: `<div class="q-block">
+  <p>7. "Bronze Age civilisations developed independently but shared common features." Examine this statement with reference to the civilisations given in the chapter.</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Independent River Valley Origins:</strong> Civilisations arose in distinct geographical river basins—Sindhu-Sarasvatī along the Indus and Sarasvatī, Mesopotamia along the Euphrates and Tigris, Egypt along the Nile, and China along the Huang He and Yangtze.</li>
+    <li><strong>Shared Urban and Economic Features:</strong> Each relied on fertile river alluvium for high-yield agriculture, mastered bronze and copper metallurgy, established organized city planning, used standardized weights or measures, and developed early writing systems (like cuneiform, hieroglyphs, or oracle bone script) to regulate administration and trade.</li>
+  </ul>
+</div>`
+  },
+
+  // Q8 & A8
+  {
+    q: `<div class="q-block">
+  <p>8. Although rivers provided many benefits, they also created challenges for early societies. Discuss both the advantages and disadvantages of settling near rivers.</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Advantages of River Settlements:</strong> Rivers provided reliable year-round freshwater, deposited fertile silt (such as kemet in Egypt) during seasonal floods, supported fishing, and served as vital highways for long-distance boat navigation and trade.</li>
+    <li><strong>Disadvantages and Hazards:</strong> Unpredictable, violent flooding could wash away homes and fields, seasonal drought caused water shortages, shifting river courses left cities stranded, and stagnant waters bred diseases.</li>
+  </ul>
+</div>`
+  },
+
+  // Q9 & A9
+  {
+    q: `<div class="q-block">
+  <p>9. With the help of your teacher, find out more about the Code of Hammurabi. Why was it important? Do you think it was fair to all sections of society? Give reasons for your answer.</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Importance of the Code:</strong> Compiled by King Hammurabi around 1792 BCE in Babylon, it provided a written set of uniform civil and criminal laws inscribed on stone stelae, establishing accountability and serving as a model for future legal systems.</li>
+    <li><strong>Fairness Evaluation:</strong> It was not equally fair to all social classes. While it offered protections against fraud and malpractice, punishments strictly depended on social hierarchy, imposing harsher physical penalties when crimes were committed against upper-class elites compared to lower-class commoners or enslaved people.</li>
+  </ul>
+</div>`
+  },
+
+  // Q10 & A10
+  {
+    q: `<div class="q-block">
+  <p>10. If you had to choose one major innovation from early civilisations that changed the world permanently, what would it be and why?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Major Innovation:</strong> The Invention of Writing Systems (such as Sumerian cuneiform, Egyptian hieroglyphs, and Harappan script).</li>
+    <li><strong>Global Impact:</strong> Writing allowed humans to permanently record knowledge, trade transactions, laws, scientific calculations, and history across generations, moving humanity from prehistory into recorded civilization.</li>
+  </ul>
+</div>`
+  },
+
+  // Q11 & A11
+  {
+    q: `<div class="q-block">
+  <p>11. Compare the social hierarchy and daily life of people in the Egyptian civilisation with those in Mesopotamia or China. What similarities and differences do you notice?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Similarities:</strong> All three civilisations were deeply stratified with a divine or sacred monarch at the peak (Pharaoh, Mesopotamian Priest-King, or Zhou King with the Mandate of Heaven), supported by nobles/priests, while peasants, artisans, and laborers formed the broad base.</li>
+    <li><strong>Differences:</strong> Egyptian society placed massive focus on funerary rituals and the afterlife (mummification, building mastabas and pyramids), while Mesopotamia centered public life around city-state temple complexes (ziggurats), and early Chinese society emphasized divination using oracle bones and ancestral bronze rituals. Furthermore, Egyptian women held legal rights to own property and run businesses.</li>
+  </ul>
+</div>`
+  },
+
+  // Q12 & A12 (STRICTLY REQUIRES IMAGE / MAP OF TRADE LINKS)
+  {
+  q: `<div class="q-block">
+  <p>12. Activity: Using maps, locate the major rivers and civilisations of Mesopotamia, Egypt, China, and the Sindhu-Sarasvatī Valley. Mark the trade links between them.</p>
+</div>`,
+  a: `<div class="a-block">
+  <ul>
+    <li><strong>Major Rivers and Civilisations:</strong> Nile River in Egypt, Tigris and Euphrates in Mesopotamia, Indus and Sarasvatī in northwestern India, and the Huang He and Yangtze in China.</li>
+    <li><strong>Documented Trade Links:</strong> Archaeological and cuneiform records verify regular sea and coastal trade between the Harappan Civilisation (known as Meluhha) and Mesopotamia via intermediary gulf ports of Dilmun (Bahrain) and Magan (Oman), exchanging copper, carnelian beads, ivory, timber, and lapis lazuli   .</li>
+  </ul>
+</div>`, image: `images/hii.jpg`
+},
+
+  // Q13 & A13 (STRICTLY REQUIRES IMAGE / PRESENTATION SCRAPBOOK VISUAL)
+  {
+    q: `<div class="q-block">
+  <p>13. Activity: Choose one early civilisation (Mesopotamia, Egypt, or China) and prepare a mini-scrapbook or a presentation showing their innovations in tools, writing, art, and architecture. Include pictures, brief descriptions, and explain their significance.</p>
+</div>`,
+    a: `<div class="a-block">
+  <div style="text-align: center; margin-bottom: 16px;">
+    <svg viewBox="0 0 600 320" width="100%" height="auto" style="max-width: 540px; border-radius: 8px; background: linear-gradient(to bottom, #fdfaf2, #f5ebd7); border: 1px solid #d4c2a8;">
+      <!-- Title Banner -->
+      <rect x="0" y="0" width="600" height="46" fill="#8d5b28" rx="8" ry="8"/>
+      <rect x="0" y="38" width="600" height="8" fill="#8d5b28"/>
+      <text x="300" y="28" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1">SCRAPBOOK: INNOVATIONS OF MESOPOTAMIA</text>
+      
+      <!-- Panel 1: Writing -->
+      <g transform="translate(18, 62)">
+        <rect width="130" height="240" rx="5" fill="#ffffff" stroke="#cfa670" stroke-width="1.2"/>
+        <rect width="130" height="26" rx="5" fill="#faede1"/>
+        <text x="65" y="17" font-family="Arial" font-size="11" font-weight="bold" fill="#7a3e14" text-anchor="middle">1. WRITING</text>
+        <rect x="35" y="42" width="60" height="45" rx="3" fill="#e8d3b9" stroke="#8d5b28" stroke-width="1"/>
+        <text x="65" y="68" font-family="Arial" font-size="12" fill="#5d4037" text-anchor="middle">▼ ◀ ▶</text>
+        <text x="65" y="105" font-family="Arial" font-size="10" font-weight="bold" fill="#333" text-anchor="middle">Cuneiform Script</text>
+        <text x="65" y="125" font-family="Arial" font-size="8.5" fill="#555" text-anchor="middle">Wedge marks pressed</text>
+        <text x="65" y="138" font-family="Arial" font-size="8.5" fill="#555" text-anchor="middle">into damp clay tablets</text>
+        <text x="65" y="158" font-family="Arial" font-size="8.5" fill="#777" text-anchor="middle">Recorded trade, laws,</text>
+        <text x="65" y="171" font-family="Arial" font-size="8.5" fill="#777" text-anchor="middle">and early literature</text>
+      </g>
+      
+      <!-- Panel 2: Tools & Science -->
+      <g transform="translate(160, 62)">
+        <rect width="130" height="240" rx="5" fill="#ffffff" stroke="#cfa670" stroke-width="1.2"/>
+        <rect width="130" height="26" rx="5" fill="#faede1"/>
+        <text x="65" y="17" font-family="Arial" font-size="11" font-weight="bold" fill="#7a3e14" text-anchor="middle">2. TOOLS / TECH</text>
+        <circle cx="65" cy="65" r="22" fill="#e8d3b9" stroke="#8d5b28" stroke-width="1.5"/>
+        <line x1="43" y1="65" x2="87" y2="65" stroke="#8d5b28" stroke-width="1.5"/>
+        <line x1="65" y1="43" x2="65" y2="87" stroke="#8d5b28" stroke-width="1.5"/>
+        <text x="65" y="105" font-family="Arial" font-size="10" font-weight="bold" fill="#333" text-anchor="middle">Wheel & Sailboat</text>
+        <text x="65" y="125" font-family="Arial" font-size="8.5" fill="#555" text-anchor="middle">Pioneered the wheeled</text>
+        <text x="65" y="138" font-family="Arial" font-size="8.5" fill="#555" text-anchor="middle">cart and sailboats</text>
+        <text x="65" y="158" font-family="Arial" font-size="8.5" fill="#777" text-anchor="middle">Base-60 system: 60 min</text>
+        <text x="65" y="171" font-family="Arial" font-size="8.5" fill="#777" text-anchor="middle">hour and 360° circle</text>
+      </g>
+      
+      <!-- Panel 3: Architecture -->
+      <g transform="translate(302, 62)">
+        <rect width="130" height="240" rx="5" fill="#ffffff" stroke="#cfa670" stroke-width="1.2"/>
+        <rect width="130" height="26" rx="5" fill="#faede1"/>
+        <text x="65" y="17" font-family="Arial" font-size="11" font-weight="bold" fill="#7a3e14" text-anchor="middle">3. ARCHITECTURE</text>
+        <polygon points="40,82 90,82 82,60 48,60" fill="#bcaaa4"/>
+        <polygon points="48,60 82,60 76,46 54,46" fill="#8d6e63"/>
+        <rect x="58" y="38" width="14" height="8" fill="#5d4037"/>
+        <text x="65" y="105" font-family="Arial" font-size="10" font-weight="bold" fill="#333" text-anchor="middle">Ziggurat Temples</text>
+        <text x="65" y="125" font-family="Arial" font-size="8.5" fill="#555" text-anchor="middle">Stepped mud-brick</text>
+        <text x="65" y="138" font-family="Arial" font-size="8.5" fill="#555" text-anchor="middle">pyramidal towers</text>
+        <text x="65" y="158" font-family="Arial" font-size="8.5" fill="#777" text-anchor="middle">Served as temples,</text>
+        <text x="65" y="171" font-family="Arial" font-size="8.5" fill="#777" text-anchor="middle">granaries, and treasuries</text>
+      </g>
+      
+      <!-- Panel 4: Art & Law -->
+      <g transform="translate(444, 62)">
+        <rect width="135" height="240" rx="5" fill="#ffffff" stroke="#cfa670" stroke-width="1.2"/>
+        <rect width="135" height="26" rx="5" fill="#faede1"/>
+        <text x="67" y="17" font-family="Arial" font-size="11" font-weight="bold" fill="#7a3e14" text-anchor="middle">4. LAW & ART</text>
+        <rect x="52" y="42" width="30" height="48" rx="6" fill="#424242"/>
+        <line x1="56" y1="62" x2="78" y2="62" stroke="#bbb" stroke-width="1"/>
+        <line x1="56" y1="68" x2="78" y2="68" stroke="#bbb" stroke-width="1"/>
+        <line x1="56" y1="74" x2="78" y2="74" stroke="#bbb" stroke-width="1"/>
+        <text x="67" y="105" font-family="Arial" font-size="10" font-weight="bold" fill="#333" text-anchor="middle">Hammurabi's Code</text>
+        <text x="67" y="125" font-family="Arial" font-size="8.5" fill="#555" text-anchor="middle">Inscribed stone steles</text>
+        <text x="67" y="138" font-family="Arial" font-size="8.5" fill="#555" text-anchor="middle">with royal reliefs</text>
+        <text x="67" y="158" font-family="Arial" font-size="8.5" fill="#777" text-anchor="middle">Provided codified rules</text>
+        <text x="67" y="171" font-family="Arial" font-size="8.5" fill="#777" text-anchor="middle">for justice and trade</text>
+      </g>
+    </svg>
+  </div>
+  <ul>
+    <li><strong>Chosen Civilisation:</strong> Mesopotamia (Sumer, Akkad, Babylon).</li>
+    <li><strong>Writing (Cuneiform):</strong> The world's earliest wedge-shaped script on damp clay tablets, enabling the recording of the Epic of Gilgamesh, administration, and trade accounts.</li>
+    <li><strong>Technology & Mathematics:</strong> Invented wheeled transport carts, sailboats, canal irrigation systems, the base-60 numbering system, the 60-minute hour, and the 360-degree circle.</li>
+    <li><strong>Architecture (Ziggurats):</strong> Grand stepped mud-brick tower temples that functioned as holy sanctums, public treasuries, and administrative nerve centers.</li>
+    <li><strong>Law & Art (Code of Hammurabi):</strong> Carved basalt stone stelae depicting King Hammurabi receiving laws from the justice god Shamash, establishing codified civil standards.</li>
+  </ul>
+</div>`
+  }] },
+                { name: "Chapter 5: State and Society upto 1000 CE", solutions: [
   // Q1 & A1
   {
     q: `<div class="q-block">
@@ -2899,8 +3443,8 @@ given in Table 5.5. Mixtures:
 </div>`,
   a: `<div class="a-block">
   <ul>
-    <li><strong>Commercial Integration:</strong> The northern <em>Uttarāpatha</em> and southern <em>Dakshiṇāpatha</em> channels connected inland trading towns with coastal ports, facilitating traffic in textiles, spices, metals, and gemstones[cite: 85, 86, 87].</li>
-    <li><strong>Cultural and Intellectual Exchange:</strong> These highways enabled traveling monks, craftspeople, and academics to share architectural methods, philosophical ideas, and literary traditions across different regions[cite: 81, 87, 88].</li>
+    <li><strong>Commercial Integration:</strong> The northern <em>Uttarāpatha</em> and southern <em>Dakshiṇāpatha</em> channels connected inland trading towns with coastal ports, facilitating traffic in textiles, spices, metals, and gemstones.</li>
+    <li><strong>Cultural and Intellectual Exchange:</strong> These highways enabled traveling monks, craftspeople, and academics to share architectural methods, philosophical ideas, and literary traditions across different regions.</li>
   </ul>
 </div>`, image: `images/figg.png`
 },
@@ -3061,15 +3605,1078 @@ given in Table 5.5. Mixtures:
             { 
                 name: `Political Science`,
                 chapters: [        
-                    { name: "Chapter 6", solutions: [{ q: "Q?", a: `Text.` }] },
-                    { name: "Chapter 7", solutions: [{ q: "Q?", a: `Text.` }] },
+                    { name: "Chapter 6: Democracy", solutions: [
+  // Q1 & A1
+  {
+    q: `<div class="q-block">
+  <p>1. Read the passage and answer the questions that follow: A school cabinet was responsible for planning a Republic Day celebration, and members had different opinions on which activities to include. After a discussion, they decided to vote, and the activities supported by the majority were selected.</p>
+  <p>a. Which democratic values are reflected in this situation?</p>
+  <p>b. How does voting help resolve differences of opinion?</p>
+  <p>c. Why is the majority decision important in a democracy?</p>
+  <p>d. Mention responsibilities of elected representatives after a decision is made.</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>a. Democratic values reflected:</strong> Deliberation, equality, mutual respect for differing viewpoints, collective decision-making, and peaceful consensus through majority consent.</li>
+    <li><strong>b. Role of voting:</strong> Voting provides an orderly, unbiased, and transparent mechanism to resolve conflicting viewpoints peacefully without conflict or arbitrary decisions.</li>
+    <li><strong>c. Importance of majority decision:</strong> It ensures legitimacy and fairness by reflecting the collective preference of the greatest number of participants while maintaining equal voting power.</li>
+    <li><strong>d. Responsibilities of elected representatives:</strong>
+      <br/>• Respect and implement the finalized decision faithfully, even if they initially voted against it.
+      <br/>• Protect the interests and dignity of minority dissenters.
+      <br/>• Execute the assigned celebration duties transparently and remain accountable to the student body.
+    </li>
+  </ul>
+</div>`
+  },
+
+  // Q2 & A2
+  {
+    q: `<div class="q-block">
+  <p>2. How would democracy be affected if citizens stopped following laws and civic responsibilities? Explain with an example.</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Breakdown of Public Order and the Rule of Law:</strong> Democracy relies on mutual trust and civic responsibility. If citizens disobey laws, the rule of law collapses into chaos and arbitrary power, compromising individual rights and protections.</li>
+    <li><strong>Disruption of Public Systems:</strong> Civic apathy and rule violations paralyze municipal and social services.</li>
+    <li><strong>Illustrative Example:</strong> If citizens stop obeying traffic regulations or vandalize public transit buses, public mobility halts, lives are endangered, and state funds must be diverted from healthcare or education to repair public infrastructure.</li>
+  </ul>
+</div>`
+  },
+
+  // Q3 & A3
+  {
+    q: `<div class="q-block">
+  <p>3. Which situation best reflects the idea of popular sovereignty and why?</p>
+  <p>a. A law is passed without public discussion</p>
+  <p>b. Citizens vote to choose their representatives</p>
+  <p>c. A court gives a final judgment</p>
+  <p>d. A minister takes an independent decision</p>
+</div>`,
+    a: `<div class="a-block">
+  <p><strong>Correct Option:</strong> <strong>b. Citizens vote to choose their representatives</strong></p>
+  <p><strong>Reason:</strong> Popular sovereignty establishes that the ultimate source of state authority resides in the people. Exercising universal adult franchise through free and periodic elections directly translates citizens' will into governing authority.</p>
+</div>`
+  },
+
+  // Q4 & A4
+  {
+    q: `<div class="q-block">
+  <p>4. The Rule of Law is violated when:</p>
+  <p>a. Laws are applied equally to all</p>
+  <p>b. Courts review government actions</p>
+  <p>c. Powerful individuals are treated above the law</p>
+  <p>d. Citizens challenge laws through legal means</p>
+</div>`,
+    a: `<div class="a-block">
+  <p><strong>Correct Option:</strong> <strong>c. Powerful individuals are treated above the law</strong></p>
+  <p><strong>Reason:</strong> The fundamental premise of the Rule of Law is equality before the law and equal protection of the laws, ensuring no authority, elite, or powerful individual stands above the legal framework.</p>
+</div>`
+  },
+
+  // Q5 & A5
+  {
+    q: `<div class="q-block">
+  <p>5. Why is the Rule of Law essential for protecting democracy?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Curtails Arbitrary Authority:</strong> Prevents political leaders and state institutions from misusing power, ensuring all state actions comply with established legal procedures.</li>
+    <li><strong>Guarantees Fundamental Equality:</strong> Assures that all individuals—regardless of social rank, wealth, caste, or religion—are held equally accountable and receive equal protection before the courts.</li>
+    <li><strong>Protects Minority and Fundamental Rights:</strong> Guarantees legal remedies (Articles 32 and 226) against executive overreach, maintaining public faith in the constitutional order.</li>
+  </ul>
+</div>`
+  },
+
+  // Q6 & A6
+  {
+    q: `<div class="q-block">
+  <p>6. Is voting alone enough to make a country democratic? Support your answer with examples from the chapter.</p>
+</div>`,
+    a: `<div class="a-block">
+  <p><strong>No, periodic voting alone does not make a country genuinely democratic.</strong></p>
+  <ul>
+    <li><strong>Substantive Features Required:</strong> A true democracy requires independent judicial oversight, separation of powers, free media, protection of fundamental rights, and active civic participation between election cycles.</li>
+    <li><strong>Flawed Electoral Systems:</strong> As shown in comparative models, a system where elections are held but only handpicked candidates can run or opposition voices are silenced (Team D) lacks genuine democratic choice.</li>
+    <li><strong>Grassroots Decision-Making:</strong> Case studies like Jethipura and South Manubankul Panchayats demonstrate that real democracy involves everyday governance, regular Gram Sabhas, women's inclusion, and social accountability, not just casting a ballot once every five years.</li>
+  </ul>
+</div>`
+  },
+
+  // Q7 & A7
+  {
+    q: `<div class="q-block">
+  <p>7. Social media allows people to express opinions freely.</p>
+  <p>a. How can this strengthen democracy?</p>
+  <p>b. How can it weaken democracy if used irresponsibly?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>a. How it strengthens democracy:</strong>
+      <br/>• <em>Democratizes Public Discourse:</em> Gives ordinary citizens a direct platform to question public officials, raise community concerns, and organize civic movements.
+      <br/>• <em>Promotes Transparency:</em> Sheds light on corruption, policy flaws, and bureaucratic delays rapidly in real time.
+    </li>
+    <li><strong>b. How it weakens democracy if used irresponsibly:</strong>
+      <br/>• <em>Proliferation of Misinformation:</em> The spread of unverified fake news distorts public debate and misleads voters.
+      <br/>• <em>Polarization and Social Unrest:</em> Hate speech and targeted digital propaganda inflame communal friction and erode trust in democratic institutions.
+    </li>
+  </ul>
+</div>`
+  },
+
+  // Q8 & A8
+  {
+    q: `<div class="q-block">
+  <p>8. Write a paragraph on what democracy means to you as a young citizen.</p>
+</div>`,
+    a: `<div class="a-block">
+  <p>To me as a young citizen, democracy is not merely a system of government or an election every five years; it is a way of life grounded in equality, empathy, and active participation. It means having the constitutional freedom to ask questions, voice dissenting views without fear, and treat fellow citizens of all backgrounds with dignity. It also means fulfilling my civic responsibilities—staying media-literate, obeying public laws, safeguarding public property, and participating in school councils and community initiatives that advance the common good.</p>
+</div>`
+  },
+
+  // Q9 & A9
+  {
+    q: `<div class="q-block">
+  <p>9. Conduct a model parliament session or Gram Sabha in class on local issues—cleanliness, responsibilities towards public property, or school safety.</p>
+</div>`,
+    a: `<div class="a-block">
+  <p><strong>Action Framework for Class Model Gram Sabha / Parliament:</strong></p>
+  <ul>
+    <li><strong>Role Distribution:</strong> Assign students as Sarpanch/Speaker, Ward Members/Ministers, Panchayat Secretary, and participating villagers/opposition MPs.</li>
+    <li><strong>Agenda — Solid Waste &amp; Public Safety:</strong> Table a resolution addressing broken playground equipment and single-use plastic waste on school premises.</li>
+    <li><strong>Deliberation &amp; Question Hour:</strong> Villagers pose questions regarding budget allocation, maintenance rosters, and student-led clean-up schedules.</li>
+    <li><strong>Voting &amp; Adoption:</strong> After open debate, put the proposal to a voice vote or show of hands, record the minutes via the Secretary, and form a joint student monitoring team.</li>
+  </ul>
+</div>`
+  },
+
+  // Q10 & A10
+  {
+    q: `<div class="q-block">
+  <p>10. Choose any one democratic institution in India (such as Parliament, Election Commission, Judiciary, or Panchayat). Prepare a short note explaining: a. Its role in democracy, b. How it ensures accountability and participation.</p>
+</div>`,
+    a: `<div class="a-block">
+  <p><strong>Chosen Institution: Election Commission of India (ECI)</strong></p>
+  <ul>
+    <li><strong>a. Role in Democracy:</strong> An autonomous constitutional body established under Article 324, tasked with conducting free, fair, and periodic elections to Parliament, State Legislatures, and the offices of President and Vice President.</li>
+    <li><strong>b. Ensuring Accountability &amp; Participation:</strong>
+      <br/>• <em>Enforces the Model Code of Conduct:</em> Prevents ruling parties from misusing official machinery and caps campaign expenditures.
+      <br/>• <em>Maximizes Inclusivity:</em> Maintains updated electoral rolls, uses multi-lingual ballots and election symbols, and sets up over a million polling booths—even in remote areas for single voters—guaranteeing universal adult franchise.
+    </li>
+  </ul>
+</div>`
+  },
+
+  // Q11 & A11
+  {
+    q: `<div class="q-block">
+  <p>11. What role does the Constitution play in strengthening democracy in India?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Establishes Institutional Checks and Balances:</strong> Outlines the clear separation of powers across the Legislature, Executive, and Judiciary to prevent any concentration of authority.</li>
+    <li><strong>Guarantees Fundamental Rights:</strong> Secures essential civil liberties, equality before the law, and legal remedies (Articles 32 and 226) against arbitrary executive actions.</li>
+    <li><strong>Dynamic and Living Character:</strong> Provides an amendment mechanism under Article 368, enabling the constitutional framework to adapt to changing social needs while protecting basic democratic values.</li>
+    <li><strong>Protects Vulnerable Communities:</strong> Mandates special provisions and reservations for Scheduled Castes, Scheduled Tribes, and women in local governance bodies.</li>
+  </ul>
+</div>`
+  },
+
+  // Q12 & A12
+  {
+    q: `<div class="q-block">
+  <p>12. What challenges do you think democracy in India faces today?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Misinformation &amp; Digital Polarization:</strong> The uncontrolled spread of fake news on social media channels distorts political discourse and stokes communal tension.</li>
+    <li><strong>Socio-Economic Inequalities:</strong> Persistent income disparities, poverty, and illiteracy hamper the ability of marginalized groups to participate effectively in governance.</li>
+    <li><strong>Under-Representation of Women:</strong> Despite high reservations in local Panchayati Raj institutions, women's representation in State Assemblies and Parliament remains limited.</li>
+    <li><strong>Civic Indifference &amp; Implementation Gaps:</strong> Apathy toward civic responsibilities and delays in public service delivery weaken citizen trust in institutional processes.</li>
+  </ul>
+</div>`
+  }
+] },
+                    { name: "Chapter 7: Elections", solutions: [
+  // Q1 & A1
+  {
+    q: `<div class="q-block">
+  <p>1. What reforms have been introduced by the ECI to make voting more inclusive for the following groups?</p>
+  <p>a. People with Disabilities</p>
+  <p>b. Service Voters</p>
+  <p>c. Senior Citizens- above 85 years of age</p>
+  <p>d. Prisoners</p>
+  <p>e. Persons in preventive detention</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>a. Persons with Disabilities (PwDs):</strong> EVMs equipped with Braille signage, ramp facilities, and wheelchair assistance at polling booths, dedicated support through the Saksham App, and optional home voting for individuals with at least 40% benchmark disability.</li>
+    <li><strong>b. Service Voters:</strong> Introduction of the Electronically Transmitted Postal Ballot System (ETPBS), allowing armed forces and deployed personnel to receive and cast postal ballots electronically from any duty station outside their constituency.</li>
+    <li><strong>c. Senior Citizens (above 85 years of age):</strong> Nationwide provision of the "Vote-from-Home" facility with postal ballots, overseen directly by polling teams and videographed to ensure secrecy and accessibility.</li>
+    <li><strong>d. Prisoners:</strong> Under Section 62(5) of the Representation of the People Act, 1951, persons confined in prison under a sentence of imprisonment or lawful police custody do not have the right to vote.</li>
+    <li><strong>e. Persons in Preventive Detention:</strong> Explicitly permitted under statutory rules to exercise their franchise through postal ballots dispatched to their place of detention.</li>
+  </ul>
+</div>`
+  },
+
+  // Q2 & A2
+  {
+    q: `<div class="q-block">
+  <p>2. What are the various functions of the Election Commission of India? Which of these functions is most important for the conduct of free and fair elections? Explain.</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Preparation and Revision of Electoral Rolls:</strong> Periodically updates voter registries through Special Intensive Revision (SIR) to include eligible citizens and eliminate duplicates or deceased entries.</li>
+    <li><strong>Notification of Election Schedules:</strong> Decides polling dates, phasing, and counting schedules while taking into account weather, crop seasons, exams, and festivals.</li>
+    <li><strong>Registration and Symbol Allotment:</strong> Registers political parties, accords National/State party status, allocates reserved symbols, and resolves symbol disputes as a quasi-judicial body.</li>
+    <li><strong>Enforcement of the Model Code of Conduct (MCC):</strong> Regulates speeches, campaign finance, and prevents ruling parties from misusing official machinery.</li>
+    <li><strong>Most Important Function:</strong> Enforcement of the Model Code of Conduct and independent superintendence under Article 324. This levels the playing field between incumbent governments and opposition candidates, ensuring impartiality and preserving public trust in election outcomes.</li>
+  </ul>
+</div>`
+  },
+
+  // Q3 & A3
+  {
+    q: `<div class="q-block">
+  <p>3. Elections are the soul of a democracy. Do you agree? Why or why not?</p>
+</div>`,
+    a: `<div class="a-block">
+  <p><strong>Yes, elections are the soul of a democracy for the following reasons:</strong></p>
+  <ul>
+    <li><strong>Popular Sovereignty &amp; Legitimacy:</strong> State authority is derived directly from the consent of the governed; regular elections confer constitutional legitimacy on the ruling government.</li>
+    <li><strong>Accountability and Public Scrutiny:</strong> Periodic elections empower citizens to evaluate rulers, vote non-performing leaders out of office, and hold representatives accountable.</li>
+    <li><strong>Political Equality:</strong> Universal adult franchise grants every citizen one vote of equal weight, regardless of socioeconomic background.</li>
+    <li><strong>Peaceful Transfer of Authority:</strong> Provides a stable, rule-bound mechanism for political change without resorting to violence or instability.</li>
+  </ul>
+</div>`
+  },
+
+  // Q4 & A4
+  {
+    q: `<div class="q-block">
+  <p>4. Explain at least three differences between the national and state/regional political parties.</p>
+</div>`,
+    a: `<div class="a-block">
+  <table style="width: 100%; border-collapse: collapse; font-size: 13px; margin: 10px 0;">
+    <thead>
+      <tr style="background: #eedcb6; text-align: left;">
+        <th style="padding: 6px; border: 1px solid #d4c2a8;">Parameter</th>
+        <th style="padding: 6px; border: 1px solid #d4c2a8;">National Party</th>
+        <th style="padding: 6px; border: 1px solid #d4c2a8;">State / Regional Party</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Area of Influence</strong></td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">Has an all-India presence and influences policy across multiple states.</td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">Influence is largely restricted to a specific state or region.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Recognition Criteria</strong></td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">Must secure at least 6% votes in 4 states plus 4 Lok Sabha seats, or 2% Lok Sabha seats across 3 states, or be recognized in 4 states.</td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">Must secure at least 6% votes plus 2 Assembly seats, or 3% of total Assembly seats, or 8% total state votes.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Symbol Exclusivity</strong></td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">Its reserved symbol is protected exclusively across the entire country.</td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">Its reserved symbol is protected only within the state where it is recognized.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>`
+  },
+
+  // Q5 & A5
+  {
+    q: `<div class="q-block">
+  <p>5. Why should you vote? Arrange the following in the descending order of your choice. Discuss the reasons for your choice.</p>
+  <p>a. Opportunity to choose my representative</p>
+  <p>b. Makes me a responsible person</p>
+  <p>c. Opportunity to change the non-performing representative</p>
+  <p>d. Strengthens democracy</p>
+</div>`,
+    a: `<div class="a-block">
+  <p><strong>Arranged in Descending Order of Priority:</strong></p>
+  <ol>
+    <li><strong>d. Strengthens democracy:</strong> A democracy thrives on high citizen participation; voting protects collective constitutional rights and popular sovereignty.</li>
+    <li><strong>a. Opportunity to choose my representative:</strong> Ensures personal values and community needs are voiced directly in the legislature.</li>
+    <li><strong>c. Opportunity to change the non-performing representative:</strong> Serves as a vital accountability check, ensuring elected officials cannot take their mandate for granted.</li>
+    <li><strong>b. Makes me a responsible person:</strong> Cultivates individual civic duty and active awareness of national affairs.</li>
+  </ol>
+</div>`
+  },
+
+  // Q6 & A6
+  {
+    q: `<div class="q-block">
+  <p>6. What is the Special Intensive Revision (SIR) initiative of the ECI? Explain the objectives and the necessity of conducting SIR.</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Definition:</strong> Special Intensive Revision (SIR) is a house-to-house enumeration and verification exercise conducted by the ECI to update, verify, and authenticate electoral rolls.</li>
+    <li><strong>Primary Objectives:</strong>
+      <br/>• Enroll eligible first-time voters turning 18 years of age.
+      <br/>• Eliminate invalid names due to death, permanent relocation, or duplicate enrollments.
+      <br/>• Correct demographic errors and verify residential addresses.
+    </li>
+    <li><strong>Necessity:</strong> Accurate electoral rolls prevent voter impersonation and bogus voting, ensuring no legitimate citizen is disenfranchised while preserving the integrity of the ballot.</li>
+  </ul>
+</div>`
+  },
+
+  // Q7 & A7
+ // Q7 & A7 (With Image Tags)
+{
+  q: `<div class="q-block">
+  <p>7. Match the political party name with its symbol.</p>
+</div>`,
+  a: `<div class="a-block">
+  <table style="width: 100%; border-collapse: collapse; font-size: 13px; margin: 10px 0;">
+    <thead>
+      <tr style="background: #eedcb6; text-align: left;">
+        <th style="padding: 8px; border: 1px solid #d4c2a8;">Political Party Name</th>
+        <th style="padding: 8px; border: 1px solid #d4c2a8; text-align: center;">Official Symbol</th>
+        <th style="padding: 8px; border: 1px solid #d4c2a8;">Symbol Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #d4c2a8; font-weight: bold;">Aam Aadmi Party (AAP)</td>
+        <td style="padding: 8px; border: 1px solid #d4c2a8; text-align: center;">
+          <img src="images/symbol_aap.png" alt="AAP Broom Symbol" style="width: 32px; height: auto;" />
+        </td>
+        <td style="padding: 8px; border: 1px solid #d4c2a8;">Broom</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #d4c2a8; font-weight: bold;">Bharatiya Janata Party (BJP)</td>
+        <td style="padding: 8px; border: 1px solid #d4c2a8; text-align: center;">
+          <img src="images/symbol_bjp.png" alt="BJP Lotus Symbol" style="width: 32px; height: auto;" />
+        </td>
+        <td style="padding: 8px; border: 1px solid #d4c2a8;">Lotus</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #d4c2a8; font-weight: bold;">Bahujan Samaj Party (BSP)</td>
+        <td style="padding: 8px; border: 1px solid #d4c2a8; text-align: center;">
+          <img src="images/symbol_bsp.png" alt="BSP Elephant Symbol" style="width: 32px; height: auto;" />
+        </td>
+        <td style="padding: 8px; border: 1px solid #d4c2a8;">Elephant</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #d4c2a8; font-weight: bold;">Communist Party of India (Marxist) [CPI (M)]</td>
+        <td style="padding: 8px; border: 1px solid #d4c2a8; text-align: center;">
+          <img src="images/symbol_cpim.png" alt="CPI(M) Hammer, Sickle and Star Symbol" style="width: 32px; height: auto;" />
+        </td>
+        <td style="padding: 8px; border: 1px solid #d4c2a8;">Hammer, Sickle and Star</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #d4c2a8; font-weight: bold;">Indian National Congress (INC)</td>
+        <td style="padding: 8px; border: 1px solid #d4c2a8; text-align: center;">
+          <img src="images/symbol_inc.png" alt="INC Hand Symbol" style="width: 32px; height: auto;" />
+        </td>
+        <td style="padding: 8px; border: 1px solid #d4c2a8;">Hand</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #d4c2a8; font-weight: bold;">National People's Party (NPP)</td>
+        <td style="padding: 8px; border: 1px solid #d4c2a8; text-align: center;">
+          <img src="images/symbol_npp.png" alt="NPP Book Symbol" style="width: 32px; height: auto;" />
+        </td>
+        <td style="padding: 8px; border: 1px solid #d4c2a8;">Book</td>
+      </tr>
+    </tbody>
+  </table>
+</div>`
+},
+
+  // Q8 & A8
+  {
+    q: `<div class="q-block">
+  <p>8. Read the case study below and answer the following questions:</p>
+  <p>a. What initiatives were taken by the ECI to enable the voters to cast their vote?</p>
+  <p>b. If Ishani was allowed to vote even without carrying her Voter ID card or Aadhaar card, which other document might she be carrying that is valid for voting?</p>
+  <p>c. Cite the examples of violations of the Model Code of Conduct.</p>
+  <p>d. Give a suitable title to the passage.</p>
+  <p>e. Find out how the police and army personnel cast their votes.</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>a. ECI Initiatives:</strong> Online voter registration portal, ramps with wheelchair assistance and volunteers for disabled voters, security arrangements, VVPAT verification slips, and vote-from-home facilities for senior citizens.</li>
+    <li><strong>b. Alternative Valid Identity Documents:</strong> Passport, Driving Licence, PAN Card, MNREGA Job Card, Bank/Post Office Passbook with photograph, or Pension payment order.</li>
+    <li><strong>c. Violations of Model Code of Conduct (MCC):</strong> Defacing public and private property with unauthorized wall writing/posters, and conducting active political campaigning within the 48-hour silence period preceding polling.</li>
+    <li><strong>d. Suitable Title:</strong> <em>"Inclusive Democracy: A First-Time Voter's Journey"</em> or <em>"No Voter Left Behind: The Festival of Democracy in Action"</em>.</li>
+    <li><strong>e. Voting Method for Duty Personnel:</strong>
+      <br/>• <em>Army / Defence Personnel (Service Voters):</em> Vote via the Electronically Transmitted Postal Ballot System (ETPBS).
+      <br/>• <em>Police Personnel on Election Duty:</em> Cast their votes via Postal Ballots or Election Duty Certificates (EDC) at voter facilitation centers before election day.
+    </li>
+  </ul>
+</div>`
+  },
+
+  // Q9 & A9
+  {
+    q: `<div class="q-block">
+  <p>9. A comparative chart of three countries is given below. Based on the information given in the chart, answer the questions:</p>
+  <p>a. What is the difference between having a voting right in a country with a multi-party system and another with a single-party system?</p>
+  <p>b. In which of the above countries would you like to stay and why?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>a. Multi-Party vs. Single-Party Voting Rights:</strong>
+      <br/>• In a <em>multi-party system (Country A)</em>, voting provides genuine democratic choice among competing ideologies, holding representatives accountable.
+      <br/>• In a <em>single-party system (Country B)</em>, voting is merely formal approval without alternatives, leaving citizens unable to change government policies.
+    </li>
+    <li><strong>b. Country of Choice:</strong> <strong>Country A</strong>. While Country B or C may display higher economic indicators, Country A guarantees fundamental freedoms, political choice, rule of law, and institutional accountability, which are essential for long-term human dignity and rights.</li>
+  </ul>
+</div>`
+  },
+
+  // Q10 & A10
+  {
+    q: `<div class="q-block">
+  <p>10. What are the challenges to conducting free and fair elections?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Money Power:</strong> Excessive campaign spending and distribution of cash or liquor to induce voters.</li>
+    <li><strong>Muscle Power &amp; Intimidation:</strong> Threats, booth disruption, and violence aimed at suppressing voter turnout.</li>
+    <li><strong>Misinformation &amp; Fake News:</strong> Coordinated digital disinformation campaigns and deepfakes designed to polarize communities.</li>
+    <li><strong>Appeals to Caste and Religion:</strong> Polarization of electorates along communal or sectarian lines, in violation of electoral laws.</li>
+    <li><strong>Unequal Campaign Resources:</strong> Disproportionate financial resources between established parties and independent candidates.</li>
+  </ul>
+</div>`
+  },
+
+  // Q11 & A11
+  {
+    q: `<div class="q-block">
+  <p>11. On the Stage: School election role-play for posts of Head Girl, Head Boy, and Sports Captain.</p>
+</div>`,
+    a: `<div class="a-block">
+  <p><strong>Classroom Simulation Role Breakdown:</strong></p>
+  <ul>
+    <li><strong>Election Commissioner:</strong> Issues the election schedule, oversees the Model Code of Conduct, and announces results.</li>
+    <li><strong>Returning Officer:</strong> Scrutinizes nomination forms and conducts the official tally.</li>
+    <li><strong>Candidates &amp; Campaigners:</strong> Draft student manifestos on school safety, sports equipment, and library resources while adhering to campaign rules.</li>
+    <li><strong>Polling &amp; Presiding Officers:</strong> Check student identity cards against the roll, mark fingers with indelible ink, and oversee voting booths.</li>
+    <li><strong>Polling Agents:</strong> Nominated by candidates to observe polling and ensure counting fairness.</li>
+    <li><strong>Police Personnel:</strong> Maintain quiet order around the polling booth and guard ballot boxes.</li>
+    <li><strong>Journalist:</strong> Interviews students on key issues, reporting live exit reactions.</li>
+  </ul>
+</div>`
+  },
+
+  // Q12 & A12
+  {
+    q: `<div class="q-block">
+  <p>12. Try and make videos or audios on topics like: My Vote My Nation; No Voter to be Left Behind; How to Eliminate the Ill of Money Power, etc.</p>
+</div>`,
+    a: `<div class="a-block">
+  <p><strong>Script Concept — "No Voter to be Left Behind":</strong></p>
+  <ul>
+    <li><strong>Scene 1 (Visual):</strong> A student narrator speaking near an EVM model with Braille signage, highlighting ramp facilities and the Saksham App.</li>
+    <li><strong>Scene 2 (Audio Narration):</strong> <em>"Democracy is strongest when every single citizen has a voice—from remote mountain peaks to city centers, from first-time 18-year-olds to 85+ seniors voting from home."</em></li>
+    <li><strong>Scene 3 (Call to Action):</strong> Display the National Voters' Day pledge: <em>"Pledge to vote fearlessly, free from bias or inducement. Your vote is your power!"</em></li>
+  </ul>
+</div>`
+  },
+
+  // Q13 & A13
+  {
+    q: `<div class="q-block">
+  <p>13. Select one national or state political party. Prepare a comparative chart of the last two State Legislative Assembly elections including manifesto promises, vote percentage, seats won, and women representation.</p>
+</div>`,
+    a: `<div class="a-block">
+  <p><strong>Comparative Case Model (State Legislative Assembly Elections):</strong></p>
+  <table style="width: 100%; border-collapse: collapse; font-size: 13px; margin: 10px 0;">
+    <thead>
+      <tr style="background: #eedcb6; text-align: left;">
+        <th style="padding: 6px; border: 1px solid #d4c2a8;">Parameter</th>
+        <th style="padding: 6px; border: 1px solid #d4c2a8;">Previous Assembly Election</th>
+        <th style="padding: 6px; border: 1px solid #d4c2a8;">Recent Assembly Election</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Key Manifesto Pledges</strong></td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">Rural loan waivers, subsidized domestic power, expansion of public transport.</td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">Youth skill apprenticeships, direct DBT transfers to women heads of household, digital classrooms.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Vote Share Polled (%)</strong></td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">38.5% of total valid votes.</td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">41.2% of total valid votes.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Seats Won</strong></td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">95 seats out of 200.</td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">112 seats out of 200.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Women Candidates Contested</strong></td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">24 women fielded.</td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">31 women fielded.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Women Candidates Elected</strong></td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">11 women elected.</td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8;">16 women elected.</td>
+      </tr>
+    </tbody>
+  </table>
+  <p style="font-size: 11.5px; color: #666;">Source: Official Statistical Reports, Election Commission of India (ECI).</p>
+</div>`
+  },
+
+  // Q14 & A14
+  {
+    q: `<div class="q-block">
+  <p>14. Do you think 'One Nation, One Election' can improve the efficiency of the electoral process? Divide the class and discuss into two groups—one to examine its potential advantages and the other to analyse its limitations.</p>
+</div>`,
+    a: `<div class="a-block">
+  <table style="width: 100%; border-collapse: collapse; font-size: 13px; margin: 10px 0;">
+    <thead>
+      <tr style="background: #eedcb6; text-align: left;">
+        <th style="padding: 6px; border: 1px solid #d4c2a8; width: 50%;">Potential Advantages (Group A)</th>
+        <th style="padding: 6px; border: 1px solid #d4c2a8; width: 50%;">Potential Limitations (Group B)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #d4c2a8; vertical-align: top;">
+          • <strong>Substantial Cost Savings:</strong> Curtails redundant public expenditures on administrative logistics, security deployments, and voting infrastructure.<br/>
+          • <strong>Continuous Governance:</strong> Avoids frequent implementation of the Model Code of Conduct, which often halts new development schemes.<br/>
+          • <strong>Reduced Voter Fatigue:</strong> Encourages consolidated participation in a single electoral exercise.
+        </td>
+        <td style="padding: 6px; border: 1px solid #d4c2a8; vertical-align: top;">
+          • <strong>Federalism &amp; Regional Issues:</strong> Regional concerns may get overshadowed by dominant national narratives.<br/>
+          • <strong>Constitutional Hurdles:</strong> Requires complex amendments to synchronize legislative terms and handle premature government dissolutions.<br/>
+          • <strong>Reduced Mid-term Accountability:</strong> Infrequent voting reduces opportunities for citizens to check representatives between cycles.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>`
+  }
+] },
                 ]
             },
             { 
                 name: `Economics`,
                 chapters: [        
-                    { name: "Chapter 6", solutions: [{ q: "Q?", a: `Text.` }] },
-                    { name: "Chapter 7", solutions: [{ q: "Q?", a: `Text.` }] },
+                    { name: "Chapter 8: Building Blocks of Economics", solutions: [
+  // Q1 & A1
+  {
+    q: `<div class="q-block">
+  <p>1. Why do you think people's wants keep changing over time? How does this affect production in an economy? Why cannot all our wants be satisfied?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Why Wants Change Over Time:</strong> Human desires evolve due to technological advancements, rising income levels, peer influences, urbanization, changing lifestyles, and exposure to new products and marketing.</li>
+    <li><strong>Impact on Production:</strong> Shifting consumer preferences compel producers to reallocate factors of production, upgrade machinery, phase out obsolete goods, and innovate to supply in-demand commodities.</li>
+    <li><strong>Why All Wants Cannot Be Satisfied:</strong> Because resources (land, labour, capital, technology) are fundamentally scarce and limited in supply, whereas human wants are unlimited and constantly expanding.</li>
+  </ul>
+</div>`
+  },
+
+  // Q2 & A2
+  {
+    q: `<div class="q-block">
+  <p>2. 'Human wants are unlimited and keep changing'. How do you think this constant desire for more creates pressure on the environment? Can the fulfilment of wants and the extraction of resources be balanced?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Pressure on the Environment:</strong> Endless demand drives over-extraction of minerals, fossil fuels, and timber, causing rapid deforestation, groundwater depletion, habitat destruction, and greenhouse gas emissions.</li>
+    <li><strong>Balancing Extraction and Fulfilment:</strong>
+      <br/>• Yes, through sustainable development practices, adopting renewable energy sources, and transitioning towards circular economy models (reduce, reuse, recycle).
+      <br/>• Enforcing environmental regulations and distinguishing between basic physiological needs and non-essential consumerist wants.</li>
+  </ul>
+</div>`
+  },
+
+  // Q3 & A3
+  {
+    q: `<div class="q-block">
+  <p>3. Can you think of a resource in your region that is scarce but used wastefully? How could it be managed better?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Scarce Resource:</strong> Groundwater / Fresh Water.</li>
+    <li><strong>Wasteful Practices:</strong> Flood irrigation in water-intensive crops, unmetered extraction through borewells, and leaking municipal pipelines.</li>
+    <li><strong>Better Management Strategies:</strong>
+      <br/>• Promoting micro-irrigation techniques like drip and sprinkler irrigation.
+      <br/>• Implementing mandatory rooftop rainwater harvesting in urban housing.
+      <br/>• Shifting to drought-resistant crops like millets and pulses in water-stressed belts.
+      <br/>• Rational water tariffs and community-level groundwater auditing.</li>
+  </ul>
+</div>`
+  },
+
+  // Q4 & A4
+  {
+    q: `<div class="q-block">
+  <p>4. Which economic system—market, planned, or mixed—do you think gives people the most freedom? Which economic system is best suited for promoting innovation? Why?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>System Giving Most Freedom:</strong> The <strong>Market Economy</strong> grants consumers sovereignty of choice and offers producers complete liberty to start enterprises, set prices, and own private property without bureaucratic licensing.</li>
+    <li><strong>System Best Suited for Promoting Innovation:</strong> The <strong>Market Economy</strong>.</li>
+    <li><strong>Why:</strong> Strong competitive pressures and the profit motive push private firms to develop superior technologies, cut operational costs, and roll out improved consumer goods to stay ahead of rivals.</li>
+  </ul>
+</div>`
+  },
+
+  // Q5 & A5
+  {
+    q: `<div class="q-block">
+  <p>5. Critically examine why pure economic systems rarely exist in reality. Assess the limitations of such systems and justify why a mixed economy is often considered a more practical and effective approach in real-world contexts.</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Limitations of Pure Market Economies:</strong> Left entirely to market forces, private businesses ignore public goods (street lighting, defence, policing), widen wealth inequality, create private monopolies, and neglect social welfare.</li>
+    <li><strong>Limitations of Pure Planned Economies:</strong> Centralized state ownership leads to bureaucratic inefficiency, shortages, lack of consumer choice, and stifled innovation due to absence of competition.</li>
+    <li><strong>Why a Mixed Economy is Most Practical:</strong>
+      <br/>• Combines private enterprise, efficiency, and market innovation with government oversight, fair competition rules, and consumer protection.
+      <br/>• The state steps in to provide public goods, health, basic education, and targeted welfare programs for underprivileged groups while allowing private businesses to thrive.</li>
+  </ul>
+</div>`
+  },
+
+  // Q6 & A6
+  {
+    q: `<div class="q-block">
+  <p>6. A student has ₹100 and must choose between buying a notebook or saving the money for buying a tennis racket later. Which economic concept best explains this situation?</p>
+  <p>a. Demand</p>
+  <p>b. Opportunity cost</p>
+  <p>c. Production</p>
+  <p>d. Inflation</p>
+</div>`,
+    a: `<div class="a-block">
+  <p><strong>Correct Option:</strong> <strong>b. Opportunity cost</strong></p>
+  <p><strong>Reason:</strong> Choosing to spend the limited ₹100 on the notebook means giving up saving towards the tennis racket; the value of the forgone alternative represents the opportunity cost.</p>
+</div>`
+  },
+
+  // Q7 & A7
+  {
+    q: `<div class="q-block">
+  <p>7. How does understanding opportunity cost improve the quality of economic decision-making?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Highlights True Trade-Offs:</strong> Forces individuals, enterprises, and governments to evaluate the true sacrifice involved before committing limited resources to a single choice.</li>
+    <li><strong>Prevents Wasteful Resource Allocation:</strong> Guides firms and governments to select alternatives that maximize social utility and financial return over short-sighted or low-yield projects.</li>
+    <li><strong>Fosters Long-Term Planning:</strong> Encourages assessing future consequences—such as balancing highway infrastructure versus public healthcare spending.</li>
+  </ul>
+</div>`
+  },
+
+  // Q8 & A8
+  {
+    q: `<div class="q-block">
+  <p>8. Can effective economic decisions be made without reliable data? Support your answer with an example.</p>
+</div>`,
+    a: `<div class="a-block">
+  <p><strong>No, effective economic decisions cannot be made on guesswork without reliable data.</strong></p>
+  <ul>
+    <li><strong>Importance of Data:</strong> Accurate statistics from economic surveys, censuses, and market trends are necessary to assess demand, evaluate risks, and formulate sound fiscal policies.</li>
+    <li><strong>Example:</strong> If a government launches a public food distribution or agricultural procurement program without demographic and rainfall data, it risks severe grain shortages in drought-hit districts while oversupplying areas with surplus harvests.</li>
+  </ul>
+</div>`
+  },
+
+  // Q9 & A9
+  {
+    q: `<div class="q-block">
+  <p>9. Analyse how a country's present economic choices can shape its long-term future. Why is it important to consider future consequences while making economic decisions today?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Long-Term Compounding Effects:</strong> Prioritizing investments today in quality public education, skill building, healthcare, and green energy generates a productive workforce and sustainable growth decades later.</li>
+    <li><strong>Risk of Depletion &amp; Debt:</strong> Allocating capital toward short-term consumption subsidies while neglecting infrastructure and environmental safeguards leads to fiscal debt, resource depletion, and industrial stagnation.</li>
+    <li><strong>Intergenerational Equity:</strong> Sustainable decisions today ensure future generations inherit resilient ecosystems, stable financial institutions, and viable natural resources.</li>
+  </ul>
+</div>`
+  },
+
+  // Q10 & A10
+  {
+    q: `<div class="q-block">
+  <p>10. Identify a news article from any newspaper of your choice about a product or commodity (such as vegetables, fruits, fuel, or electronics) where producers or companies are deciding how much to produce or supply. Write 2-3 sentences explaining the example you found and why the production decision was made.</p>
+</div>`,
+    a: `<div class="a-block">
+  <p><strong>Example: Automotive Companies Scaling Up Electric Vehicle (EV) Production</strong></p>
+  <p>Recent news reports highlight automobile manufacturers ramping up the production of electric two-wheelers while cutting down on conventional petrol models. This decision was driven by rising urban fuel prices, government subsidies for green mobility, and growing consumer preference for cost-efficient transportation. Producers adjusted their supply to tap into rising market demand and lower battery component costs.</p>
+</div>`
+  }
+] },
+                    { name: "Chapter 9: The Price Puzzle: What Drives the market", solutions: [
+  // Q1 & A1
+  {
+    q: `<div class="q-block">
+  <p>1. An increase in income always leads to a rise in demand for goods. Defend or refute, giving reasons for the same.</p>
+</div>`,
+    a: `<div class="a-block">
+  <p><strong>Refute.</strong> An increase in income does not always lead to a rise in demand for all goods.</p>
+  <ul>
+    <li><strong>Normal Goods:</strong> For standard and superior goods (such as branded clothing, fruits, and electronics), demand rises as consumers gain higher purchasing power.</li>
+    <li><strong>Inferior Goods:</strong> For low-quality commodities (such as coarse grains or cheap footwear), an increase in income causes demand to <em>fall</em> because consumers can now afford better alternatives and switch away from them.</li>
+    <li><strong>Basic Necessities:</strong> For life essentials (such as salt or life-saving medicines), demand remains practically unchanged regardless of income growth.</li>
+  </ul>
+</div>`
+  },
+
+  // Q2 & A2
+  {
+    q: `<div class="q-block">
+  <p>2. If petrol prices double, what happens to:</p>
+  <p>a. Demand for diesel cars</p>
+  <p>b. Demand for electric cars</p>
+  <p>c. Demand for car accessories</p>
+  <p>d. Demand for public transport</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>a. Demand for diesel cars: Increases.</strong> Diesel cars act as a substitute to petrol cars; buyers switch toward cheaper fuel options.</li>
+    <li><strong>b. Demand for electric cars: Increases.</strong> Electric vehicles are cleaner, more cost-effective substitutes that become much more attractive as fuel prices rise.</li>
+    <li><strong>c. Demand for car accessories: Decreases.</strong> Accessories are complementary goods to cars; when soaring petrol prices dampen car purchases and driving, the demand for accessories drops.</li>
+    <li><strong>d. Demand for public transport: Increases.</strong> Commuters seek affordable substitute travel, leading to higher passenger traffic on buses and metro trains.</li>
+  </ul>
+</div>`
+  },
+
+  // Q3 & A3
+  {
+    q: `<div class="q-block">
+  <p>3. A farmer traditionally irrigates fields manually (labour-intensive). He installs drip irrigation (a technology upgrade) that reduces water use by 40 per cent and increases yield by 30 per cent. How does this affect:</p>
+  <p>a. His cost of production</p>
+  <p>b. His willingness to supply at different prices</p>
+  <p>c. The overall market supply if many farmers adopt this technology</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>a. Cost of production: Decreases per unit of crop.</strong> Higher crop yield paired with lower water and labor expenses lowers the average cost of production per quintal.</li>
+    <li><strong>b. Willingness to supply: Increases at every price point.</strong> Lower production costs expand profit margins, incentivizing the farmer to bring larger quantities to the market.</li>
+    <li><strong>c. Overall market supply: Expands significantly.</strong> Widespread adoption causes an outward (rightward) shift of the total market supply curve, raising crop availability across the market.</li>
+  </ul>
+</div>`
+  },
+
+  // Q4 & A4
+  {
+    q: `<div class="q-block">
+  <p>4. During online festival sales, the prices of many products are very low. Use the concept of demand and supply to explain why the sellers sell at such a low price. What happens to the equilibrium when the price is lowered? Does this benefit only consumers or sellers as well? Explain.</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Why Sellers Lower Prices:</strong> According to the Law of Demand, a drop in price causes an increase in quantity demanded. Retailers take advantage of high festival shopping interest to clear high sales volumes.</li>
+    <li><strong>Effect on Equilibrium:</strong> Discounting below standard equilibrium causes quantity demanded to exceed immediate stock, generating short-term excess demand (flash-sale stockouts) until supply scales up.</li>
+    <li><strong>Mutual Benefit for Both Parties:</strong>
+      <br/>• <em>Consumers benefit</em> by buying items at attractive discounts, saving money.
+      <br/>• <em>Sellers benefit</em> through rapid inventory turnover, bulk sales revenue, and economies of scale, earning higher overall profit despite lower margins per unit.</li>
+  </ul>
+</div>`
+  },
+
+  // Q5 & A5
+  {
+    q: `<div class="q-block">
+  <p>5. Suppose the government sets a maximum sale price for an essential vaccine below the market-driven price. What is likely to happen? Choose from the options below and elucidate your point.</p>
+  <p>a. Surplus | b. Shortage | c. No effect | d. Fall in demand</p>
+</div>`,
+    a: `<div class="a-block">
+  <p><strong>Correct Option: b. Shortage</strong></p>
+  <p><strong>Elucidation:</strong></p>
+  <ul>
+    <li>Setting an official maximum price below the equilibrium price is called a <strong>price ceiling</strong>.</li>
+    <li>At this reduced mandatory price, consumer demand expands rapidly because the vaccine is affordable to everyone.</li>
+    <li>At the same time, vaccine producers reduce output or cannot cover manufacturing costs, leading to quantity demanded being greater than quantity supplied (QD &gt; QS), which causes an acute shortage in the market.</li>
+  </ul>
+</div>`
+  },
+
+  // Q6 & A6
+  {
+    q: `<div class="q-block">
+  <p>6. The government levies higher taxes on products such as tobacco and alcohol to promote healthier choices among citizens. Can you find out other goods where price controls have been set in place? What are the reasons for the same?</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>Examples of Price Controls:</strong>
+      <br/>• <em>Life-Saving Medicines:</em> Capped under the National List of Essential Medicines (NLEM) through Drug Price Control Orders (DPCO) to keep treatments affordable.
+      <br/>• <em>Essential Food Grains (Ration shops / PDS):</em> Subsidized via maximum price ceilings so low-income households can afford rice and wheat.
+      <br/>• <em>Agricultural Crops (MSP - Minimum Support Price):</em> Serves as an official price floor to guarantee farmers a minimum income and protect them from sudden price crashes.
+      <br/>• <em>Public Utilities (Bus fares, Metro tickets, Electricity):</em> Regulated by state bodies to keep public transport and energy affordable for all.</li>
+    <li><strong>Reasons:</strong> To protect public health, prevent monopoly exploitation, ensure universal access to life essentials, and safeguard low-income families from sudden price spikes.</li>
+  </ul>
+</div>`
+  },
+
+  // Q7 & A7
+  {
+    q: `<div class="q-block">
+  <p>7. Can excessive government regulation hurt markets? Explain with suitable examples.</p>
+</div>`,
+    a: `<div class="a-block">
+  <p><strong>Yes, excessive government regulation can disrupt and hurt markets:</strong></p>
+  <ul>
+    <li><strong>Price Distortions &amp; Supply Shortages:</strong> Setting prices artificially below costs removes producer incentives, triggering shortages, hoarding, and black-market trading.</li>
+    <li><strong>Compliance Burden:</strong> Excessive permits, licenses, and inspections raise overhead costs, hurting small businesses and hindering the ease of doing business.</li>
+    <li><strong>Lower Innovation:</strong> Heavy price caps leave little profit margin for companies to invest in research, modernization, or higher quality standards.</li>
+    <li><strong>Example:</strong> Strict rent control laws in several cities discouraged property owners from maintaining buildings and froze new housing investments, resulting in urban rental housing shortages.</li>
+  </ul>
+</div>`
+  },
+
+  // Q8 & A8
+  {
+    q: `<div class="q-block">
+  <p>8. In the table below, different prices of guava are given. Fill in your demand and your friends' demand, and illustrate individual vs. market demand.</p>
+</div>`,
+    a: `<div class="a-block">
+  <table style="width: 100%; border-collapse: collapse; font-size: 13px; margin: 10px 0;">
+    <thead>
+      <tr style="background: #eedcb6; text-align: center;">
+        <th style="padding: 6px; border: 1px solid #d4c2a8;">Price (₹/kg)</th>
+        <th style="padding: 6px; border: 1px solid #d4c2a8;">You (kg)</th>
+        <th style="padding: 6px; border: 1px solid #d4c2a8;">Friend 1 (kg)</th>
+        <th style="padding: 6px; border: 1px solid #d4c2a8;">Friend 2 (kg)</th>
+        <th style="padding: 6px; border: 1px solid #d4c2a8;">Friend 3 (kg)</th>
+        <th style="padding: 6px; border: 1px solid #d4c2a8; font-weight: bold;">Total Market Demand (kg)</th>
+      </tr>
+    </thead>
+    <tbody style="text-align: center;">
+      <tr><td style="padding: 6px; border: 1px solid #d4c2a8;">₹100/kg</td><td>1</td><td>0.5</td><td>1</td><td>0.5</td><td><strong>3.0 kg</strong></td></tr>
+      <tr><td style="padding: 6px; border: 1px solid #d4c2a8;">₹80/kg</td><td>2</td><td>1.0</td><td>1.5</td><td>1.0</td><td><strong>5.5 kg</strong></td></tr>
+      <tr><td style="padding: 6px; border: 1px solid #d4c2a8;">₹50/kg</td><td>3</td><td>2.0</td><td>2.5</td><td>2.0</td><td><strong>9.5 kg</strong></td></tr>
+      <tr><td style="padding: 6px; border: 1px solid #d4c2a8;">₹20/kg</td><td>5</td><td>3.5</td><td>4.0</td><td>3.5</td><td><strong>16.0 kg</strong></td></tr>
+    </tbody>
+  </table>
+  <p><strong>Economic Insight:</strong> As price drops from ₹100 to ₹20, every consumer increases their purchase, demonstrating the Law of Demand. Total market demand is obtained by horizontally adding individual demand figures (You + Friend 1 + Friend 2 + Friend 3), creating a flatter and more responsive market demand curve.</p>
+</div>`
+  },
+
+  // Q9 & A9
+  {
+    q: `<div class="q-block">
+  <p>9. Visit the nearby vegetable market and try to find answers to the following questions:</p>
+  <p>a. Who decides the prices of different vegetables in the vegetable market?</p>
+  <p>b. Sometimes the prices of a few vegetables is too high, and sometimes too low. Why is this?</p>
+  <p>c. The price of tomatoes is high in the morning and eventually gets lower by the evening. Have you ever noticed this? Comment.</p>
+</div>`,
+    a: `<div class="a-block">
+  <ul>
+    <li><strong>a. Price Determination:</strong> No single seller fixes prices; prices emerge continuously through bargaining and the interaction of total market supply arriving from wholesale mandis and buyer demand.</li>
+    <li><strong>b. Price Swings:</strong>
+      <br/>• <em>High prices:</em> Crop damage from unseasonal rains or transport delays restrict supplies, causing shortages.
+      <br/>• <em>Low prices:</em> Bumper seasonal harvests cause massive arrivals in the market, creating excess supply that pushes prices down.</li>
+    <li><strong>c. Morning vs. Evening Tomato Prices:</strong> Tomatoes are perishable. In the morning, freshness is high and shopper footfall is heavy, enabling vendors to charge premium rates. By late evening, vendors cut prices to clear unsold stock before it spoils overnight.</li>
+  </ul>
+</div>`
+  },
+
+  // Q10 & A10
+  {
+    q: `<div class="q-block">
+  <p>10. Categorise the following combination of goods into substitute goods and complementary goods:</p>
+  <p>a. Movie ticket in the cinema hall and popcorn | b. Eraser and pencil | c. Laptop and computer | d. Air Conditioner and cooler | e. Notebook and pen | f. Apple and banana | g. Mobile and earphones</p>
+</div>`,
+    a: `<div class="a-block">
+  <table style="width: 100%; border-collapse: collapse; font-size: 13px; margin: 10px 0;">
+    <thead>
+      <tr style="background: #eedcb6; text-align: left;">
+        <th style="padding: 6px; border: 1px solid #d4c2a8;">Pair of Goods</th>
+        <th style="padding: 6px; border: 1px solid #d4c2a8;">Category</th>
+        <th style="padding: 6px; border: 1px solid #d4c2a8;">Reason</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td style="padding: 6px; border: 1px solid #d4c2a8;">a. Movie ticket and popcorn</td><td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Complementary Goods</strong></td><td>Consumed together during leisure entertainment.</td></tr>
+      <tr><td style="padding: 6px; border: 1px solid #d4c2a8;">b. Eraser and pencil</td><td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Complementary Goods</strong></td><td>Used together for writing and drawing.</td></tr>
+      <tr><td style="padding: 6px; border: 1px solid #d4c2a8;">c. Laptop and computer</td><td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Substitute Goods</strong></td><td>Alternative personal computing machines that can replace each other.</td></tr>
+      <tr><td style="padding: 6px; border: 1px solid #d4c2a8;">d. Air Conditioner and cooler</td><td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Substitute Goods</strong></td><td>Alternative cooling appliances for summer.</td></tr>
+      <tr><td style="padding: 6px; border: 1px solid #d4c2a8;">e. Notebook and pen</td><td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Complementary Goods</strong></td><td>Both are required together to take notes.</td></tr>
+      <tr><td style="padding: 6px; border: 1px solid #d4c2a8;">f. Apple and banana</td><td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Substitute Goods</strong></td><td>Alternative fruit choices that can replace each other.</td></tr>
+      <tr><td style="padding: 6px; border: 1px solid #d4c2a8;">g. Mobile and earphones</td><td style="padding: 6px; border: 1px solid #d4c2a8;"><strong>Complementary Goods</strong></td><td>Used jointly for personal audio and calling.</td></tr>
+    </tbody>
+  </table>
+</div>`
+  },
+
+  // Q11 & A11
+  {
+    q: `<div class="q-block">
+  <p>11. Fig. 9.8 shows the demand curve DD' and supply curve SS'. Based on the figure, answer the following questions:</p>
+  <p>a. What does point E represent in this market?</p>
+  <p>b. What is the equilibrium price and equilibrium quantity at point E?</p>
+  <p>c. Point A lies on DD'. Point B lies on SS'. What do the points A and B indicate about demand and supply? What does the gap between A and B represent?</p>
+  <p>d. Point F lies on DD'. Point C lies on SS'. What do the points F and C indicate about demand and supply? What does the gap between C and F represent?</p>
+  <p>e. If the price stays at the lower dashed line, what could happen next in a free market?</p>
+</div>`,
+    a: `<div class="a-block">
+  <div style="text-align: center; margin: 16px 0;">
+    <svg viewBox="0 0 540 340" width="100%" height="auto" style="max-width: 500px; background: #ffffff; border: 1px solid #d4c2a8; border-radius: 8px;">
+      <text x="270" y="24" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#333" text-anchor="middle">Fig. 9.8: Market Equilibrium, Excess Supply &amp; Excess Demand</text>
+      
+      <line x1="70" y1="280" x2="490" y2="280" stroke="#333" stroke-width="1.8"/>
+      <line x1="70" y1="40" x2="70" y2="280" stroke="#333" stroke-width="1.8"/>
+      
+      <text x="60" y="45" font-family="Arial" font-size="11" font-weight="bold" fill="#222" text-anchor="end">Price (₹)</text>
+      <text x="490" y="300" font-family="Arial" font-size="11" font-weight="bold" fill="#222" text-anchor="end">Quantity (kg)</text>
+      
+      <text x="62" y="234" font-family="Arial" font-size="10" fill="#666" text-anchor="end">100</text>
+      <text x="62" y="179" font-family="Arial" font-size="10" fill="#666" text-anchor="end">200</text>
+      <text x="62" y="152" font-family="Arial" font-size="10" font-weight="bold" fill="#e65100" text-anchor="end">250</text>
+      <text x="62" y="124" font-family="Arial" font-size="10" fill="#666" text-anchor="end">300</text>
+      <text x="62" y="69" font-family="Arial" font-size="10" fill="#666" text-anchor="end">400</text>
+      
+      <text x="140" y="295" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">10</text>
+      <text x="210" y="295" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">20</text>
+      <text x="280" y="295" font-family="Arial" font-size="10" font-weight="bold" fill="#e65100" text-anchor="middle">30</text>
+      <text x="350" y="295" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">40</text>
+      <text x="420" y="295" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">50</text>
+      
+      <line x1="70" y1="120" x2="470" y2="120" stroke="#999" stroke-width="1.2" stroke-dasharray="4,4"/>
+      <line x1="70" y1="197" x2="470" y2="197" stroke="#999" stroke-width="1.2" stroke-dasharray="4,4"/>
+      <line x1="70" y1="148" x2="280" y2="148" stroke="#f57c00" stroke-width="1.2" stroke-dasharray="3,3"/>
+      <line x1="280" y1="148" x2="280" y2="280" stroke="#f57c00" stroke-width="1.2" stroke-dasharray="3,3"/>
+      
+      <!-- Supply SS' -->
+      <line x1="110" y1="240" x2="445" y2="60" stroke="#2e7d32" stroke-width="2.5"/>
+      <text x="100" y="255" font-family="Arial" font-size="12" font-weight="bold" fill="#2e7d32">S</text>
+      <text x="450" y="60" font-family="Arial" font-size="12" font-weight="bold" fill="#2e7d32">S'</text>
+      
+      <!-- Demand DD' -->
+      <line x1="110" y1="60" x2="445" y2="240" stroke="#0288d1" stroke-width="2.5"/>
+      <text x="100" y="65" font-family="Arial" font-size="12" font-weight="bold" fill="#0288d1">D</text>
+      <text x="450" y="255" font-family="Arial" font-size="12" font-weight="bold" fill="#0288d1">D'</text>
+      
+      <circle cx="235" cy="120" r="4" fill="#0288d1"/>
+      <text x="235" y="110" font-family="Arial" font-size="11" font-weight="bold" fill="#0288d1" text-anchor="middle">A</text>
+      <circle cx="330" cy="120" r="4" fill="#2e7d32"/>
+      <text x="330" y="110" font-family="Arial" font-size="11" font-weight="bold" fill="#2e7d32" text-anchor="middle">B</text>
+      <text x="282" y="112" font-family="Arial" font-size="9" fill="#c62828" font-weight="bold" text-anchor="middle">Excess Supply (Surplus)</text>
+      
+      <circle cx="280" cy="148" r="5" fill="#f57c00"/>
+      <text x="296" y="146" font-family="Arial" font-size="12" font-weight="bold" fill="#e65100">E</text>
+      
+      <circle cx="190" cy="197" r="4" fill="#2e7d32"/>
+      <text x="190" y="215" font-family="Arial" font-size="11" font-weight="bold" fill="#2e7d32" text-anchor="middle">C</text>
+      <circle cx="365" cy="197" r="4" fill="#0288d1"/>
+      <text x="365" y="215" font-family="Arial" font-size="11" font-weight="bold" fill="#0288d1" text-anchor="middle">F</text>
+      <text x="280" y="215" font-family="Arial" font-size="9" fill="#0277bd" font-weight="bold" text-anchor="middle">Excess Demand (Shortage)</text>
+    </svg>
+  </div>
+  <ul>
+    <li><strong>a. Point E:</strong> Represents <strong>Market Equilibrium</strong>, the point where the demand curve intersects the supply curve (Quantity Demanded = Quantity Supplied).</li>
+    <li><strong>b. Equilibrium Values:</strong> Equilibrium Price = <strong>₹250</strong>; Equilibrium Quantity = <strong>30 kg</strong>.</li>
+    <li><strong>c. Points A, B and Gap AB:</strong> At ₹300, Point A shows quantity demanded (~24 kg) while Point B shows quantity supplied (~37 kg). Since supply exceeds demand, the gap AB represents <strong>Excess Supply (Surplus)</strong>.</li>
+    <li><strong>d. Points C, F and Gap CF:</strong> At the lower price line (~₹160), Point C shows quantity supplied (~17 kg) while Point F shows quantity demanded (~43 kg). Since demand exceeds supply, the gap CF represents <strong>Excess Demand (Shortage)</strong>.</li>
+    <li><strong>e. Free Market Adjustment:</strong> Unsatisfied buyers competing for scarce goods bid prices upward. As price rises from the lower line toward ₹250, sellers expand output while buyers scale back demand until market equilibrium is restored at Point E.</li>
+  </ul>
+</div>`
+  },
+
+  // Q12 & A12
+  {
+    q: `<div class="q-block">
+  <p>12. Draw a market equilibrium graph using the following demand schedule.</p>
+  <table style="width: 100%; border-collapse: collapse; font-size: 13px; margin: 8px 0;">
+    <thead>
+      <tr style="background: #eedcb6; text-align: center;">
+        <th style="padding: 4px; border: 1px solid #d4c2a8;">Price (₹)</th>
+        <th style="padding: 4px; border: 1px solid #d4c2a8;">10</th>
+        <th style="padding: 4px; border: 1px solid #d4c2a8;">20</th>
+        <th style="padding: 4px; border: 1px solid #d4c2a8;">30</th>
+        <th style="padding: 4px; border: 1px solid #d4c2a8;">40</th>
+        <th style="padding: 4px; border: 1px solid #d4c2a8;">50</th>
+      </tr>
+    </thead>
+    <tbody style="text-align: center;">
+      <tr><td style="padding: 4px; border: 1px solid #d4c2a8; font-weight: bold;">Q.D. (kg)</td><td>5</td><td>10</td><td>15</td><td>20</td><td>25</td></tr>
+      <tr><td style="padding: 4px; border: 1px solid #d4c2a8; font-weight: bold;">Q.S. (kg)</td><td>25</td><td>20</td><td>15</td><td>10</td><td>5</td></tr>
+    </tbody>
+  </table>
+  <p>a. Plot the demand and supply curve using the above data.</p>
+  <p>b. Identify the equilibrium price and quantity.</p>
+  <p>c. Observe the above data and analyse what happens if the price is set at ₹20 or ₹40.</p>
+</div>`,
+    a: `<div class="a-block">
+  <div style="text-align: center; margin: 16px 0;">
+    <svg viewBox="0 0 540 330" width="100%" height="auto" style="max-width: 500px; background: #ffffff; border: 1px solid #d4c2a8; border-radius: 8px;">
+      <!-- Title -->
+      <text x="270" y="24" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#333" text-anchor="middle">Market Equilibrium Graph</text>
+      
+      <!-- Coordinate Axes -->
+      <line x1="70" y1="260" x2="470" y2="260" stroke="#333" stroke-width="1.8"/>
+      <line x1="70" y1="45" x2="70" y2="260" stroke="#333" stroke-width="1.8"/>
+      
+      <text x="60" y="50" font-family="Arial" font-size="11" font-weight="bold" fill="#222" text-anchor="end">Price (₹)</text>
+      <text x="470" y="280" font-family="Arial" font-size="11" font-weight="bold" fill="#222" text-anchor="end">Quantity (kg)</text>
+      
+      <!-- Y-Axis Ticks -->
+      <text x="62" y="229" font-family="Arial" font-size="10" fill="#666" text-anchor="end">10</text>
+      <text x="62" y="194" font-family="Arial" font-size="10" fill="#666" text-anchor="end">20</text>
+      <text x="62" y="159" font-family="Arial" font-size="10" font-weight="bold" fill="#e65100" text-anchor="end">30</text>
+      <text x="62" y="124" font-family="Arial" font-size="10" fill="#666" text-anchor="end">40</text>
+      <text x="62" y="89" font-family="Arial" font-size="10" fill="#666" text-anchor="end">50</text>
+      
+      <!-- X-Axis Ticks -->
+      <text x="130" y="278" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">5</text>
+      <text x="190" y="278" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">10</text>
+      <text x="250" y="278" font-family="Arial" font-size="10" font-weight="bold" fill="#e65100" text-anchor="middle">15</text>
+      <text x="310" y="278" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">20</text>
+      <text x="370" y="278" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">25</text>
+      
+      <!-- Equilibrium Dashed Guidelines -->
+      <line x1="70" y1="155" x2="250" y2="155" stroke="#f57c00" stroke-width="1.2" stroke-dasharray="3,3"/>
+      <line x1="250" y1="155" x2="250" y2="260" stroke="#f57c00" stroke-width="1.2" stroke-dasharray="3,3"/>
+      
+      <!-- Upward Sloping Curved Arc: Starts at (130, 225), passes through (250, 155), ends at (370, 85) -->
+      <path d="M 130,225 Q 220,180 250,155 T 370,85" fill="none" stroke="#0288d1" stroke-width="2.6"/>
+      <circle cx="130" cy="225" r="3.5" fill="#0288d1"/>
+      <circle cx="190" cy="183" r="3.5" fill="#0288d1"/>
+      <circle cx="310" cy="127" r="3.5" fill="#0288d1"/>
+      <circle cx="370" cy="85" r="3.5" fill="#0288d1"/>
+      
+      <!-- Downward Sloping Curved Arc: Starts at (130, 85), passes through (250, 155), ends at (370, 225) -->
+      <path d="M 130,85 Q 180,135 250,155 T 370,225" fill="none" stroke="#2e7d32" stroke-width="2.6"/>
+      <circle cx="130" cy="85" r="3.5" fill="#2e7d32"/>
+      <circle cx="185" cy="125" r="3.5" fill="#2e7d32"/>
+      <circle cx="315" cy="185" r="3.5" fill="#2e7d32"/>
+      <circle cx="370" cy="225" r="3.5" fill="#2e7d32"/>
+      
+      <!-- Equilibrium Point E -->
+      <circle cx="250" cy="155" r="5.5" fill="#f57c00"/>
+      <text x="264" y="151" font-family="Arial" font-size="11" font-weight="bold" fill="#e65100">E (₹30, 15 kg)</text>
+
+      <!-- Curve Name Tags -->
+      <text x="382" y="85" font-family="Arial" font-size="11" font-weight="bold" fill="#0288d1">Supply Curve</text>
+      <text x="125" y="75" font-family="Arial" font-size="11" font-weight="bold" fill="#2e7d32">Demand Curve</text>
+      
+      <!-- Bottom Legend -->
+      <g transform="translate(130, 305)" font-family="Arial, sans-serif" font-size="11">
+        <path d="M 0,5 Q 10,0 20,5" fill="none" stroke="#0288d1" stroke-width="2.5"/>
+        <text x="26" y="9" fill="#333">Upward-sloping (Supply)</text>
+        <path d="M 180,5 Q 190,10 200,5" fill="none" stroke="#2e7d32" stroke-width="2.5"/>
+        <text x="206" y="9" fill="#333">Downward-sloping (Demand)</text>
+      </g>
+    </svg>
+  </div>
+  <ul>
+    <li><strong>a. Plotting &amp; Curve Identification:</strong>
+      <br/>• In economic analysis, demand curves slope downwards due to the inverse relationship between price and quantity, while supply curves slope upwards due to the direct relationship between price and quantity[cite: 63, 67].
+      <br/>• Plotted across the schedule, the downward-sloping curve represents consumer demand behaviour, and the upward-sloping curve represents producer supply behaviour[cite: 63, 67, 80].
+    </li>
+    <li><strong>b. Equilibrium Price and Quantity:</strong> Both curves intersect at <strong>Point E</strong>:
+      <br/>• <strong>Equilibrium Price = ₹30</strong>[cite: 70, 80]
+      <br/>• <strong>Equilibrium Quantity = 15 kg</strong>[cite: 70, 80]
+    </li>
+    <li><strong>c. Analysis at ₹20 and ₹40:</strong>
+      <br/>• <em>At Price = ₹20:</em> The market experiences a 10 kg shortage/imbalance[cite: 80]. Competitive buying pressure bids prices upward toward the ₹30 equilibrium[cite: 70].
+      <br/>• <em>At Price = ₹40:</em> The market experiences a 10 kg surplus/imbalance[cite: 80]. Unsold inventory creates downward pricing pressure, bringing it back down toward the ₹30 equilibrium level[cite: 70].
+    </li>
+  </ul>
+</div>`
+  }
+] },
                 ]
             },
             ]
