@@ -1,4 +1,4 @@
-// Complete Error-Free NCERT Database with Integrated Copy Actions
+﻿// Complete Error-Free NCERT Database with Integrated Copy Actions
 const ncertDatabase = {
     science: {
         title: "Science Chapters",
@@ -2602,7 +2602,174 @@ given in Table 5.5. Mixtures:
                     { name: "Poem: Nine Gold Medals", solutions: [{ q: "Q?", a: `Text.` }] }, 
                     { name: "Poem: A Friend Found in Music", solutions: [{ q: "Q?", a: `Text.` }] }, 
                     { name: "Poem: Words", solutions: [{ q: "Q?", a: `Text.` }] }, 
-                    { name: "Poem: Believe in Yourself", solutions: [{ q: "Q?", a: `Text.` }] }
+                    { name: "Poem: Believe in Yourself", solutions: [
+  // 1. Check Your Understanding
+  {
+    q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <h2 style="margin: 0 0 8px 0; color: #cfa670; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px;">Check Your Understanding (Pg. 234)</h2>
+    <p style="margin: 0 0 12px 0; color: #333; font-weight: bold;">I State whether the following sentences are true or false. Share your answers with your classmates and teacher.</p>
+    <ol style="margin: 0; padding-left: 20px; line-height: 1.6; color: #333;">
+        <li style="margin-bottom: 5px;">Reaching the peak of skill in a field typically demands a focused and intense dedication for about a decade.</li>
+        <li style="margin-bottom: 5px;">The mother believes that significant effort and personal sacrifices are essential for turning aspirations into reality.</li>
+        <li style="margin-bottom: 5px;">The path to achieving the deepest desires has very little difficulty or a few obstacles.</li>
+        <li style="margin-bottom: 5px;">The mother is of the opinion that a person's life goals and hopes can evolve over time.</li>
+        <li style="margin-bottom: 5px;">Having a strong network of individuals can be a hurdle in pursuing one's ambition.</li>
+        <li style="margin-bottom: 5px;">The mother feels that pursuing a major life goal will not involve any financial expense or sacrifice.</li>
+        <li style="margin-bottom: 0;">For many individuals, their aspirations remain just wishes because they don't move beyond mere daydreaming.</li>
+    </ol>
+</div>`,
+    a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ol style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
+        <li style="margin-bottom: 5px;"><strong>True</strong> (The letter explicitly states that reaching a world-class standard requires singularly and intensively pursuing a subject for at least ten years).</li>
+        <li style="margin-bottom: 5px;"><strong>True</strong> (The mother notes that what differentiates greatness from the ordinary is how much effort and sacrifice people invest).</li>
+        <li style="margin-bottom: 5px;"><strong>False</strong> (The text points out that the road is uphill most of the way and requires negotiating a maze of hurdles).</li>
+        <li style="margin-bottom: 5px;"><strong>True</strong> (The mother reflects that from her own experience, life itself may change a person's dreams).</li>
+        <li style="margin-bottom: 5px;"><strong>False</strong> (The text highlights that an extensive support network stands behind every achiever).</li>
+        <li style="margin-bottom: 5px;"><strong>False</strong> (The mother advises counting the cost in years of effort, financial investments, and sacrifice).</li>
+        <li style="margin-bottom: 0;"><strong>True</strong> (The text states that for many people, dreams remain dreams because they never get beyond wishful thinking).</li>
+    </ol>
+</div>`
+  },
+
+  // 2. Critical Reflection - Extract 1
+  {
+    q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0 0 12px 0; color: #333; font-weight: bold;">I Read the extracts given below and answer the questions that follow.</p>
+    <p style="margin: 0 0 12px 0; color: #555; font-style: italic; line-height: 1.5; background-color: #fff; padding: 10px; border-radius: 4px; border: 1px solid #e0e0e0; border-left: 3px solid #666;">
+        1. It starts with a passion for a particular interest, then comes the conviction that it is imperative to realise it. Count the cost in years of effort, financial investments and sacrifice. Then if it is still burning in your blood and you are ready to commit yourself to the task, plunge. It could be in any field—sports, science, arts, business, or design. The road may be uphill most of the way and often you are buoyed up only by the knowledge that you are doing what you love best and are doing the right thing. When stamina is running out, the prospect of success will keep you on track.
+    </p>
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #333; list-style-type: none;">
+        <li style="margin-bottom: 10px;"><strong>(i)</strong> Complete the analogy with a suitable word from the extract.<br>enthusiasm: passion:: belief: ________________</li>
+        <li style="margin-bottom: 10px;"><strong>(ii)</strong> Choose the correct option to complete the following sentence appropriately.<br>The author says that a realistic assessment of effort, investment and sacrifice is crucial for preventing ________________.<br>
+            <div style="padding-left: 15px; margin-top: 4px; font-weight: normal; color: #555;">
+                A. the need for external support network<br>
+                B. an early abandonment of the dream<br>
+                C. initial excitement from fading over time<br>
+                D. others from questioning one's commitment
+            </div>
+        </li>
+        <li style="margin-bottom: 10px;"><strong>(iii)</strong> Complete the following with the correct option from those given in the brackets.<br>The word 'plunge' as used in the extract indicates a ________________ (complete/gradual) involvement in a task.</li>
+        <li style="margin-bottom: 10px;"><strong>(iv)</strong> Complete the sentence with an appropriate reason.<br>The author's emphasis on 'when you are doing what you love best and are doing the right thing' works as a form of intrinsic motivation because ________________.</li>
+        <li style="margin-bottom: 0;"><strong>(v)</strong> Mention one motivating factor besides 'prospect of success', that might keep a person on track, despite running out of stamina.</li>
+    </ul>
+</div>`,
+    a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444; list-style-type: none;">
+        <li style="margin-bottom: 8px;"><strong>(i) Answer:</strong> conviction</li>
+        <li style="margin-bottom: 8px;"><strong>(ii) Answer:</strong> B. an early abandonment of the dream</li>
+        <li style="margin-bottom: 8px;"><strong>(iii) Answer:</strong> complete</li>
+        <li style="margin-bottom: 8px;"><strong>(iv) Answer:</strong> pursuing something out of genuine love generates internal satisfaction and purpose, providing an enduring emotional anchor that does not rely on external validation or immediate rewards.</li>
+        <li style="margin-bottom: 0;"><strong>(v) Answer:</strong> The inner knowledge and reassurance that you are doing what you love best and are doing the right thing.</li>
+    </ul>
+</div>`
+  },
+
+  // 3. Critical Reflection - Extract 2
+  {
+    q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0 0 12px 0; color: #333; font-weight: bold;">2. Read the extract given below and answer the questions that follow.</p>
+    <p style="margin: 0 0 12px 0; color: #555; font-style: italic; line-height: 1.5; background-color: #fff; padding: 10px; border-radius: 4px; border: 1px solid #e0e0e0; border-left: 3px solid #666;">
+        From my own experience, life itself may change a person's dreams. These hopes and aspirations are no less than the original dream of younger days. To fulfil them you will need to negotiate a path through a maze of hurdles. The dream will take a much longer time to realise, and the people who are participants in your dreamscape would be many more.
+    </p>
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #333; list-style-type: none;">
+        <li style="margin-bottom: 10px;"><strong>(i)</strong> Complete the sentence appropriately.<br>The phrase 'life itself may change a person's dreams' suggests that dreams are not static but rather ________________ (evolving/dynamic).</li>
+        <li style="margin-bottom: 10px;"><strong>(ii)</strong> What does the author mean by, 'hopes and aspirations are no less than the original dream of younger days'?</li>
+        <li style="margin-bottom: 10px;"><strong>(iii)</strong> Identify the phrase from the extract that indicates a complex and challenging journey.</li>
+        <li style="margin-bottom: 10px;"><strong>(iv)</strong> Complete the sentence with an appropriate reason.<br>The author says, 'people who are participants in your dreamscape would be many more' because ________________.</li>
+        <li style="margin-bottom: 0;"><strong>(v)</strong> What is the tone of the author in this extract?<br>
+            <div style="padding-left: 15px; margin-top: 4px; font-weight: normal; color: #555;">
+                A. appreciative and celebratory<br>
+                B. excited and cheerful<br>
+                C. optimistic and encouraging<br>
+                D. eager and inquisitive
+            </div>
+        </li>
+    </ul>
+</div>`,
+    a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444; list-style-type: none;">
+        <li style="margin-bottom: 8px;"><strong>(i) Answer:</strong> evolving</li>
+        <li style="margin-bottom: 8px;"><strong>(ii) Answer:</strong> The author means that the modified aspirations people adopt later in life carry the exact same dignity, worth, and emotional depth as the ambitions of their youth.</li>
+        <li style="margin-bottom: 8px;"><strong>(iii) Answer:</strong> 'a maze of hurdles'</li>
+        <li style="margin-bottom: 8px;"><strong>(iv) Answer:</strong> as goals mature and life progresses, realizing an ambition requires broader collaboration, social connections, and community support.</li>
+        <li style="margin-bottom: 0;"><strong>(v) Answer:</strong> C. optimistic and encouraging</li>
+    </ul>
+</div>`
+  },
+
+  // 4. Answer the Following Questions - (i)
+  {
+    q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">(i) The letter begins thus, 'By all means follow that dream'. What do you think Ming must have written to her mother about?</p>
+</div>`,
+    a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0; line-height: 1.6; color: #444;"><strong>(i) Answer:</strong> Ming must have written to her mother about an ambitious aspiration or an uncommon career path she was passionate about pursuing, seeking her mother's blessing, advice, and emotional support.</p>
+</div>`
+  },
+
+  // 5. Answer the Following Questions - (ii)
+  {
+    q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">(ii) How can one attain an international level of skill in any field? Mention any two ways.</p>
+</div>`,
+    a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0; line-height: 1.6; color: #444;"><strong>(ii) Answer:</strong> One can attain an international level of skill by (a) pursuing the subject exclusively and intensively for at least ten years, and (b) demonstrating readiness to make personal sacrifices, invest effort, and shoulder financial costs.</p>
+</div>`
+  },
+
+  // 6. Answer the Following Questions - (iii)
+  {
+    q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">(iii) What differentiates the mere dreamers from actual achievers?</p>
+</div>`,
+    a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0; line-height: 1.6; color: #444;"><strong>(iii) Answer:</strong> Mere dreamers remain confined to wishful thinking and choose to trade their aspirations for security or ease. Actual achievers back their passion with deep conviction, count the costs honestly, and commit to the hard work needed to overcome hurdles.</p>
+</div>`
+  },
+
+  // 7. Answer the Following Questions - (iv)
+  {
+    q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">(iv) How does Ming's mother use critical questions and personal anecdotes to persuade Ming and convey her message effectively?</p>
+</div>`,
+    a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0; line-height: 1.6; color: #444;"><strong>(iv) Answer:</strong> Ming's mother prompts her daughter to reflect on whether her conviction is strong enough to endure years of effort and sacrifice. She grounds this advice by sharing her personal experience of chasing the dream of publishing her book over a span of ten years, showing that long timelines and changing goals are natural parts of the journey.</p>
+</div>`
+  },
+
+  // 8. Answer the Following Questions - (v)
+  {
+    q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">(v) How does Ming's mother balance encouragement with caution in her advice?</p>
+</div>`,
+    a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0; line-height: 1.6; color: #444;"><strong>(v) Answer:</strong> The mother encourages Ming by urging her to pursue her ambition if a burning conviction courses through her veins. At the same time, she cautions her by outlining practical costs—such as the required ten-year timeline, potential financial burdens, unexpected changes in circumstance, and the reality of obstacles along the way.</p>
+</div>`
+  },
+
+  // 9. Answer the Following Questions - (vi)
+  {
+    q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">(vi) In the letter, Ming's mother specifically addresses the challenges people face in pursuing their dreams. Do you think this advice is still relevant in contemporary society? If yes, why? If no, why not?</p>
+</div>`,
+    a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <p style="margin: 0; line-height: 1.6; color: #444;"><strong>(vi) Answer:</strong> Yes, this advice remains very relevant today. While modern digital tools provide quicker visibility, mastering any trade still takes sustained effort over many years. Moreover, young people frequently navigate career uncertainties, financial pressures, and shifting responsibilities, making perseverance and resilience essential.</p>
+</div>`
+  },
+
+  // 10. Answer the Following Questions - (vii)
+  {
+    q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
+    <p style="margin: 0; color: #333; font-weight: bold;">(vii) What 'costs' in terms of effort, sacrifice, and time are you willing or unwilling to invest to pursue your goals?</p>
+</div>`,
+    a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
+    <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444; list-style-type: none;">
+        <li style="margin-bottom: 5px;"><strong>Willing to invest:</strong> I am prepared to dedicate long hours to disciplined study, practice consistently, and give up leisure or momentary comfort to master my chosen field.</li>
+        <li style="margin-bottom: 0;"><strong>Unwilling to invest:</strong> I am unwilling to compromise my personal integrity, neglect my physical and mental well-being, or ignore meaningful connections with family and friends.</li>
+    </ul>
+</div>`
+  }
+] }
                 ] 
             }
         ]
@@ -4662,16 +4829,16 @@ of Civilisation
   </div>
   <ul>
     <li><strong>a. Plotting &amp; Curve Identification:</strong>
-      <br/>• In economic analysis, demand curves slope downwards due to the inverse relationship between price and quantity, while supply curves slope upwards due to the direct relationship between price and quantity[cite: 63, 67].
-      <br/>• Plotted across the schedule, the downward-sloping curve represents consumer demand behaviour, and the upward-sloping curve represents producer supply behaviour[cite: 63, 67, 80].
+      <br/>• In economic analysis, demand curves slope downwards due to the inverse relationship between price and quantity, while supply curves slope upwards due to the direct relationship between price and quantity.
+      <br/>• Plotted across the schedule, the downward-sloping curve represents consumer demand behaviour, and the upward-sloping curve represents producer supply behaviour.
     </li>
     <li><strong>b. Equilibrium Price and Quantity:</strong> Both curves intersect at <strong>Point E</strong>:
-      <br/>• <strong>Equilibrium Price = ₹30</strong>[cite: 70, 80]
-      <br/>• <strong>Equilibrium Quantity = 15 kg</strong>[cite: 70, 80]
+      <br/>• <strong>Equilibrium Price = ₹30</strong>
+      <br/>• <strong>Equilibrium Quantity = 15 kg</strong>
     </li>
     <li><strong>c. Analysis at ₹20 and ₹40:</strong>
-      <br/>• <em>At Price = ₹20:</em> The market experiences a 10 kg shortage/imbalance[cite: 80]. Competitive buying pressure bids prices upward toward the ₹30 equilibrium[cite: 70].
-      <br/>• <em>At Price = ₹40:</em> The market experiences a 10 kg surplus/imbalance[cite: 80]. Unsold inventory creates downward pricing pressure, bringing it back down toward the ₹30 equilibrium level[cite: 70].
+      <br/>• <em>At Price = ₹20:</em> The market experiences a 10 kg shortage/imbalance. Competitive buying pressure bids prices upward toward the ₹30 equilibrium.
+      <br/>• <em>At Price = ₹40:</em> The market experiences a 10 kg surplus/imbalance. Unsold inventory creates downward pricing pressure, bringing it back down toward the ₹30 equilibrium level.
     </li>
   </ul>
 </div>`
@@ -4693,14 +4860,8 @@ function getLayerElement(rawId) {
     return el;
 }
 
-let previousLayerId = 'subject-view';
-
 function showLayer(layerId) {
     if (layerId === 'homepage-view') layerId = 'subject-view';
-    const active = document.querySelector('.view-layer:not(.hidden)');
-    if (active && active.id && active.id !== layerId && active.id !== 'feedback-view') {
-        previousLayerId = active.id;
-    }
     document.querySelectorAll('.view-layer').forEach(layer => layer.classList.add('hidden'));
     const target = getLayerElement(layerId);
     if (target) target.classList.remove('hidden');
@@ -4709,19 +4870,6 @@ function showLayer(layerId) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-function goBackFromFeedback() {
-    showLayer(previousLayerId || 'subject-view');
-}
-
-function goToHome() {
-    clearSearch();
-    updateActiveTab('all');
-    showLayer('subject-view');
-}
-
-/* ============================================================ */
-/* SUBJECT TABS BAR LOGIC                                       */
-/* ============================================================ */
 function updateActiveTab(tabKey) {
     document.querySelectorAll('.nav-tab').forEach(tab => {
         if (tab.getAttribute('data-tab') === tabKey) {
@@ -4733,62 +4881,275 @@ function updateActiveTab(tabKey) {
     });
 }
 
-function filterByTab(tabKey) {
-    updateActiveTab(tabKey);
+function goToHomeUI() {
     clearSearch();
-    if (tabKey === 'all') {
-        showLayer('subject-view');
-    } else {
-        selectSubject(tabKey);
-    }
+    updateActiveTab('all');
+    showLayer('subject-view');
 }
 
 /* ============================================================ */
-/* SUBJECT & CHAPTER NAVIGATION                                 */
+/* MULTI-PAGE CLIENT-SIDE ROUTER                                */
 /* ============================================================ */
-function selectSubject(subjectKey) {
+
+function getChapterUrlNumber(chapter, fallbackIndex = 0) {
+    if (chapter && chapter.name) {
+        const match = chapter.name.match(/Chapter\s+(\d+)/i);
+        if (match) {
+            return parseInt(match[1], 10);
+        }
+    }
+    return fallbackIndex + 1;
+}
+
+function findChapterIndexInBranch(branchData, cNum) {
+    if (!branchData || !branchData.chapters) return -1;
+    // 1. Try matching extracted chapter number (e.g. Chapter 4 -> 4)
+    let idx = branchData.chapters.findIndex((ch, i) => getChapterUrlNumber(ch, i) === cNum);
+    if (idx !== -1) return idx;
+    // 2. Fallback: 1-based relative array index
+    const fallback = cNum - 1;
+    if (fallback >= 0 && fallback < branchData.chapters.length) {
+        return fallback;
+    }
+    return -1;
+}
+
+function findChapterIndex(chapters, cNum) {
+    if (!chapters) return -1;
+    let idx = chapters.findIndex((ch, i) => getChapterUrlNumber(ch, i) === cNum);
+    if (idx !== -1) return idx;
+    const fallback = cNum - 1;
+    if (fallback >= 0 && fallback < chapters.length) {
+        return fallback;
+    }
+    return -1;
+}
+
+function handleRoute() {
+    const rawHash = window.location.hash || '#/';
+    // Parse path and query string (e.g. #/subject/sst/branch/2/chapter/4?q=1)
+    const hashWithoutPrefix = rawHash.replace(/^#\/?/, '');
+    const [pathPart, queryPart] = hashWithoutPrefix.split('?');
+    const path = (pathPart || '').replace(/^\/+|\/+$/g, '');
+    const segments = path ? path.split('/') : [];
+
+    // Parse query params (e.g. ?q=1 -> Natural numbers start from 1)
+    let questionTarget = null;
+    if (queryPart) {
+        const params = new URLSearchParams(queryPart);
+        if (params.has('q')) {
+            const parsedQ = parseInt(params.get('q'), 10);
+            if (!isNaN(parsedQ)) {
+                questionTarget = parsedQ > 0 ? parsedQ - 1 : 0;
+            }
+        }
+    }
+
+    clearSearch();
+
+    // 1. Home Route: #/ or empty
+    if (segments.length === 0 || segments[0] === '' || segments[0] === 'home') {
+        goToHomeUI();
+        document.title = "Class 9 NCERT Solved Hub • Simple, Direct & Copy-Ready Solutions";
+        return;
+    }
+
+    const first = segments[0].toLowerCase();
+
+    // 2. Static Policy & Info Pages
+    if (first === 'privacy') {
+        updateActiveTab('none');
+        showLayer('privacy-view');
+        document.title = "Privacy Policy - NCERT Solved Hub";
+        return;
+    }
+
+    if (first === 'terms') {
+        updateActiveTab('none');
+        showLayer('terms-view');
+        document.title = "Terms of Service - NCERT Solved Hub";
+        return;
+    }
+
+    if (first === 'contact') {
+        updateActiveTab('none');
+        showLayer('contact-view');
+        document.title = "Contact Us - NCERT Solved Hub";
+        return;
+    }
+
+    // 3. Subject-specific routes: #/subject/:subjectKey/...
+    if (first === 'subject' && segments[1]) {
+        const subKey = segments[1].toLowerCase();
+        const data = ncertDatabase[subKey];
+        if (!data) {
+            goToHomeUI();
+            return;
+        }
+
+        // 3a. Branch Chapter Solutions: #/subject/:subKey/branch/:bNum/chapter/:cNum
+        if (segments[2] === 'branch' && segments[3] !== undefined && segments[4] === 'chapter' && segments[5] !== undefined) {
+            const bNum = parseInt(segments[3], 10);
+            const cNum = parseInt(segments[5], 10);
+            if (!isNaN(bNum) && !isNaN(cNum)) {
+                const bIdx = bNum > 0 ? bNum - 1 : 0;
+                const branchData = data.branches?.[bIdx];
+                if (branchData) {
+                    const cIdx = findChapterIndexInBranch(branchData, cNum);
+                    if (cIdx !== -1) {
+                        renderBranchChapter(subKey, bIdx, cIdx, questionTarget);
+                        return;
+                    }
+                }
+                renderBranchView(subKey, bIdx);
+                return;
+            }
+        }
+
+        // 3b. Branch Chapter List: #/subject/:subKey/branch/:bNum
+        if (segments[2] === 'branch' && segments[3] !== undefined) {
+            const bNum = parseInt(segments[3], 10);
+            if (!isNaN(bNum)) {
+                const bIdx = bNum > 0 ? bNum - 1 : 0;
+                renderBranchView(subKey, bIdx);
+                return;
+            }
+        }
+
+        // 3c. Standard Chapter Solutions: #/subject/:subKey/chapter/:cNum
+        if (segments[2] === 'chapter' && segments[3] !== undefined) {
+            const cNum = parseInt(segments[3], 10);
+            if (!isNaN(cNum)) {
+                if (!data.isBranching) {
+                    const cIdx = findChapterIndex(data.chapters, cNum);
+                    if (cIdx !== -1) {
+                        renderChapter(subKey, cIdx, questionTarget);
+                        return;
+                    }
+                } else {
+                    // For branching subjects, find which branch contains this textbook chapter number
+                    for (let b = 0; b < (data.branches || []).length; b++) {
+                        const bBranch = data.branches[b];
+                        const cIdx = findChapterIndexInBranch(bBranch, cNum);
+                        if (cIdx !== -1 && getChapterUrlNumber(bBranch.chapters[cIdx], cIdx) === cNum) {
+                            renderBranchChapter(subKey, b, cIdx, questionTarget);
+                            return;
+                        }
+                    }
+                }
+            }
+        }
+
+        // 3d. Subject Chapter / Branch List: #/subject/:subKey
+        renderSubjectView(subKey);
+        return;
+    }
+
+    // Fallback: Default to Home
+    goToHomeUI();
+}
+
+/* ============================================================ */
+/* PAGE RENDERERS                                               */
+/* ============================================================ */
+
+function renderSubjectView(subjectKey) {
     currentSubjectKey = subjectKey;
     updateActiveTab(subjectKey);
     const data = ncertDatabase[subjectKey];
     if (!data) return;
 
-    document.getElementById('chapter-title-heading').innerText = data.title;
+    const titleEl = document.getElementById('chapter-title-heading');
+    if (titleEl) titleEl.innerText = data.title;
+
+    const backBtn = document.getElementById('chapter-back-link');
+    if (backBtn) {
+        backBtn.href = "#/";
+        backBtn.innerText = "← Back to Subjects";
+    }
+
     const grid = getLayerElement('chapters-list-grid');
     if (!grid) return;
     grid.innerHTML = '';
-    
+
     if (data.isBranching) {
         data.branches.forEach((branch, index) => {
-            grid.innerHTML += `<button class="chapter-select-btn" style="border-left: 5px solid #2563eb;" onclick="selectBranch('${index}')">📁 ${branch.name}</button>`;
+            grid.innerHTML += `<a class="chapter-select-btn" style="border-left: 5px solid #2563eb;" href="#/subject/${subjectKey}/branch/${index + 1}">📁 ${branch.name}</a>`;
         });
     } else {
         data.chapters.forEach((chapter, index) => {
-            grid.innerHTML += `<button class="chapter-select-btn" onclick="selectChapter(${index})">📖 ${chapter.name}</button>`;
+            const chapNum = getChapterUrlNumber(chapter, index);
+            const cleanTitle = (chapter.name || '').replace(/[\r\n]+/g, ' ').trim();
+            grid.innerHTML += `<a class="chapter-select-btn" href="#/subject/${subjectKey}/chapter/${chapNum}">📖 ${cleanTitle}</a>`;
         });
     }
+
     showLayer('chapter-view');
+    document.title = `${data.title} - Class 9 NCERT Solved Hub`;
 }
 
-function selectBranch(branchIndex) {
-    const branchData = ncertDatabase[currentSubjectKey].branches[branchIndex];
-    document.getElementById('chapter-title-heading').innerText = branchData.name + " Chapters";
+function renderBranchView(subjectKey, branchIndex) {
+    currentSubjectKey = subjectKey;
+    updateActiveTab(subjectKey);
+    const data = ncertDatabase[subjectKey];
+    if (!data || !data.branches || !data.branches[branchIndex]) {
+        renderSubjectView(subjectKey);
+        return;
+    }
+
+    const branchData = data.branches[branchIndex];
+    const titleEl = document.getElementById('chapter-title-heading');
+    if (titleEl) titleEl.innerText = branchData.name + " Chapters";
+
+    const backBtn = document.getElementById('chapter-back-link');
+    if (backBtn) {
+        backBtn.href = `#/subject/${subjectKey}`;
+        backBtn.innerText = `← Back to ${data.title.replace(' Section', '').replace(' Chapters', '')}`;
+    }
+
     const grid = getLayerElement('chapters-list-grid');
     if (!grid) return;
     grid.innerHTML = '';
     branchData.chapters.forEach((chapter, index) => {
-        grid.innerHTML += `<button class="chapter-select-btn" onclick="selectBranchChapter(${branchIndex}, ${index})">📖 ${chapter.name}</button>`;
+        const chapNum = getChapterUrlNumber(chapter, index);
+        const cleanTitle = (chapter.name || '').replace(/[\r\n]+/g, ' ').trim();
+        grid.innerHTML += `<a class="chapter-select-btn" href="#/subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}">📖 ${cleanTitle}</a>`;
     });
+
+    showLayer('chapter-view');
+    document.title = `${branchData.name} Chapters - Class 9 NCERT Solved Hub`;
 }
 
-function selectBranchChapter(branchIndex, chapterIndex) {
-    const chapterData = ncertDatabase[currentSubjectKey].branches[branchIndex].chapters[chapterIndex];
-    document.getElementById('final-solution-heading').innerText = chapterData.name;
+function renderBranchChapter(subjectKey, branchIndex, chapterIndex, questionTarget = null) {
+    currentSubjectKey = subjectKey;
+    updateActiveTab(subjectKey);
+    const subjectData = ncertDatabase[subjectKey];
+    const branchData = subjectData?.branches?.[branchIndex];
+    const chapterData = branchData?.chapters?.[chapterIndex];
+    if (!chapterData) {
+        renderBranchView(subjectKey, branchIndex);
+        return;
+    }
+
+    const chapNum = getChapterUrlNumber(chapterData, chapterIndex);
+    const cleanTitle = (chapterData.name || '').replace(/[\r\n]+/g, ' ').trim();
+
+    const headingEl = document.getElementById('final-solution-heading');
+    if (headingEl) headingEl.innerText = cleanTitle;
+
+    const backBtn = document.getElementById('solution-back-link');
+    if (backBtn) {
+        backBtn.href = `#/subject/${subjectKey}/branch/${branchIndex + 1}`;
+        backBtn.innerText = `← Back to ${branchData.name}`;
+    }
+
     const stack = getLayerElement('solutions-content-container');
     if (!stack) return;
     stack.innerHTML = '';
-    
+
     chapterData.solutions.forEach((sol, idx) => {
         const uniqueId = `ans-branch-${idx}`;
+        const questionHref = `#/subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}?q=${idx + 1}`;
         stack.innerHTML += `
             <div class="solution-card" id="card-branch-${idx}">
                 <div class="card-question-header">
@@ -4801,22 +5162,58 @@ function selectBranchChapter(branchIndex, chapterIndex) {
                     <button class="btn-copy-solution" onclick="copyTextToClipboard('${uniqueId}', this)">
                         <span>📋</span> Copy Answer
                     </button>
+                    <button class="btn-copy-solution" onclick="copyQuestionLink('${questionHref}', this)" title="Copy direct link to this question">
+                        <span>🔗</span> Share Link
+                    </button>
                 </div>
             </div>
         `;
     });
+
     showLayer('solution-view');
+    document.title = `${cleanTitle} Solutions - ${branchData.name} | NCERT Solved Hub`;
+
+    if (questionTarget !== null && questionTarget !== undefined) {
+        setTimeout(() => {
+            const card = document.getElementById(`card-branch-${questionTarget}`);
+            if (card) {
+                card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                card.classList.add('highlight-target');
+                setTimeout(() => card.classList.remove('highlight-target'), 2500);
+            }
+        }, 180);
+    }
 }
 
-function selectChapter(chapterIndex) {
-    const chapterData = ncertDatabase[currentSubjectKey].chapters[chapterIndex];
-    document.getElementById('final-solution-heading').innerText = chapterData.name;
+function renderChapter(subjectKey, chapterIndex, questionTarget = null) {
+    currentSubjectKey = subjectKey;
+    updateActiveTab(subjectKey);
+    const subjectData = ncertDatabase[subjectKey];
+    const chapterData = subjectData?.chapters?.[chapterIndex];
+    if (!chapterData) {
+        renderSubjectView(subjectKey);
+        return;
+    }
+
+    const chapNum = getChapterUrlNumber(chapterData, chapterIndex);
+    const cleanTitle = (chapterData.name || '').replace(/[\r\n]+/g, ' ').trim();
+
+    const headingEl = document.getElementById('final-solution-heading');
+    if (headingEl) headingEl.innerText = cleanTitle;
+
+    const backBtn = document.getElementById('solution-back-link');
+    if (backBtn) {
+        backBtn.href = `#/subject/${subjectKey}`;
+        backBtn.innerText = `← Back to Chapters`;
+    }
+
     const stack = getLayerElement('solutions-content-container');
     if (!stack) return;
     stack.innerHTML = '';
-    
+
     chapterData.solutions.forEach((sol, idx) => {
         const uniqueId = `ans-std-${idx}`;
+        const questionHref = `#/subject/${subjectKey}/chapter/${chapNum}?q=${idx + 1}`;
         stack.innerHTML += `
             <div class="solution-card" id="card-std-${idx}">
                 <div class="card-question-header">
@@ -4829,11 +5226,63 @@ function selectChapter(chapterIndex) {
                     <button class="btn-copy-solution" onclick="copyTextToClipboard('${uniqueId}', this)">
                         <span>📋</span> Copy Answer
                     </button>
+                    <button class="btn-copy-solution" onclick="copyQuestionLink('${questionHref}', this)" title="Copy direct link to this question">
+                        <span>🔗</span> Share Link
+                    </button>
                 </div>
             </div>
         `;
     });
+
     showLayer('solution-view');
+    const subTitle = subjectData.title.replace(' Section', '').replace(' Chapters', '');
+    document.title = `${cleanTitle} Solutions - ${subTitle} | NCERT Solved Hub`;
+
+    if (questionTarget !== null && questionTarget !== undefined) {
+        setTimeout(() => {
+            const card = document.getElementById(`card-std-${questionTarget}`);
+            if (card) {
+                card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                card.classList.add('highlight-target');
+                setTimeout(() => card.classList.remove('highlight-target'), 2500);
+            }
+        }, 180);
+    }
+}
+
+// Navigation helpers
+function selectSubject(subjectKey) {
+    window.location.hash = `#/subject/${subjectKey}`;
+}
+
+function selectBranch(branchIndex) {
+    window.location.hash = `#/subject/${currentSubjectKey}/branch/${branchIndex + 1}`;
+}
+
+function selectChapter(chapterIndex) {
+    const data = ncertDatabase[currentSubjectKey];
+    const chap = data?.chapters?.[chapterIndex];
+    const chapNum = getChapterUrlNumber(chap, chapterIndex);
+    window.location.hash = `#/subject/${currentSubjectKey}/chapter/${chapNum}`;
+}
+
+function selectBranchChapter(branchIndex, chapterIndex) {
+    const data = ncertDatabase[currentSubjectKey];
+    const chap = data?.branches?.[branchIndex]?.chapters?.[chapterIndex];
+    const chapNum = getChapterUrlNumber(chap, chapterIndex);
+    window.location.hash = `#/subject/${currentSubjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}`;
+}
+
+function filterByTab(tabKey) {
+    if (tabKey === 'all') {
+        window.location.hash = '#/';
+    } else {
+        window.location.hash = `#/subject/${tabKey}`;
+    }
+}
+
+function goToHome() {
+    window.location.hash = '#/';
 }
 
 /* ============================================================ */
@@ -4855,6 +5304,23 @@ function copyTextToClipboard(elementId, buttonElement) {
     }).catch(err => {
         console.error('Failed to copy text: ', err);
         showToast("Could not copy answer automatically", "error");
+    });
+}
+
+function copyQuestionLink(relativeHash, buttonElement) {
+    const fullUrl = window.location.origin + window.location.pathname + relativeHash;
+    navigator.clipboard.writeText(fullUrl).then(() => {
+        const originalContent = buttonElement.innerHTML;
+        buttonElement.innerHTML = "<span>✅</span> Link Copied!";
+        buttonElement.classList.add('btn-copied');
+        showToast("Direct link to question copied!", "success");
+        setTimeout(() => {
+            buttonElement.innerHTML = originalContent;
+            buttonElement.classList.remove('btn-copied');
+        }, 2000);
+    }).catch(err => {
+        console.error('Failed to copy link: ', err);
+        showToast("Link: " + fullUrl, "info");
     });
 }
 
@@ -4914,13 +5380,15 @@ function handleSearch(val) {
         if (subData.isBranching) {
             subData.branches.forEach((branch, bIdx) => {
                 branch.chapters.forEach((chap, cIdx) => {
+                    const chapNum = getChapterUrlNumber(chap, cIdx);
+                    const cleanChapTitle = (chap.name || '').replace(/[\r\n]+/g, ' ').trim();
                     chap.solutions.forEach((sol, qIdx) => {
                         const qClean = stripHtml(sol.q);
                         const aClean = stripHtml(sol.a);
                         if (
                             qClean.toLowerCase().includes(lowerQuery) ||
                             aClean.toLowerCase().includes(lowerQuery) ||
-                            chap.name.toLowerCase().includes(lowerQuery) ||
+                            cleanChapTitle.toLowerCase().includes(lowerQuery) ||
                             branch.name.toLowerCase().includes(lowerQuery)
                         ) {
                             results.push({
@@ -4928,8 +5396,9 @@ function handleSearch(val) {
                                 subjectName: subjectDisplayName,
                                 branchName: branch.name,
                                 branchIndex: bIdx,
-                                chapterName: chap.name,
+                                chapterName: cleanChapTitle,
                                 chapterIndex: cIdx,
+                                chapterNumber: chapNum,
                                 isBranching: true,
                                 questionIndex: qIdx,
                                 question: qClean,
@@ -4941,21 +5410,24 @@ function handleSearch(val) {
             });
         } else {
             subData.chapters.forEach((chap, cIdx) => {
+                const chapNum = getChapterUrlNumber(chap, cIdx);
+                const cleanChapTitle = (chap.name || '').replace(/[\r\n]+/g, ' ').trim();
                 chap.solutions.forEach((sol, qIdx) => {
                     const qClean = stripHtml(sol.q);
                     const aClean = stripHtml(sol.a);
                     if (
                         qClean.toLowerCase().includes(lowerQuery) ||
                         aClean.toLowerCase().includes(lowerQuery) ||
-                        chap.name.toLowerCase().includes(lowerQuery)
+                        cleanChapTitle.toLowerCase().includes(lowerQuery)
                     ) {
                         results.push({
                             subjectKey: subKey,
                             subjectName: subjectDisplayName,
                             branchName: '',
                             branchIndex: -1,
-                            chapterName: chap.name,
+                            chapterName: cleanChapTitle,
                             chapterIndex: cIdx,
+                            chapterNumber: chapNum,
                             isBranching: false,
                             questionIndex: qIdx,
                             question: qClean,
@@ -4978,8 +5450,12 @@ function handleSearch(val) {
             `;
         } else {
             countEl.innerText = `Found ${results.length} result${results.length > 1 ? 's' : ''} for "${query}"`;
-            list.innerHTML = results.slice(0, 30).map(r => `
-                <div class="search-result-card" onclick="jumpToSearchResult('${r.subjectKey}', ${r.isBranching}, ${r.branchIndex}, ${r.chapterIndex}, ${r.questionIndex})">
+            list.innerHTML = results.slice(0, 30).map(r => {
+                const targetHash = r.isBranching
+                    ? `#/subject/${r.subjectKey}/branch/${r.branchIndex + 1}/chapter/${r.chapterNumber}?q=${r.questionIndex + 1}`
+                    : `#/subject/${r.subjectKey}/chapter/${r.chapterNumber}?q=${r.questionIndex + 1}`;
+                return `
+                <a class="search-result-card" href="${targetHash}" onclick="clearSearch()">
                     <div class="search-result-meta">
                         <span class="badge-sub badge-${r.subjectKey}">${r.subjectName}</span>
                         ${r.branchName ? `<span class="badge-branch">${r.branchName}</span>` : ''}
@@ -4991,8 +5467,9 @@ function handleSearch(val) {
                     <div class="search-result-a">
                         ${highlightMatch(r.answer, query)}
                     </div>
-                </div>
-            `).join('');
+                </a>
+                `;
+            }).join('');
         }
     }
 }
@@ -5007,386 +5484,22 @@ function clearSearch() {
 }
 
 function focusSearch() {
-    showLayer('subject-view');
-    const input = document.getElementById('global-search-input');
-    if (input) {
-        input.focus();
-        input.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
+    window.location.hash = '#/';
+    setTimeout(() => {
+        const input = document.getElementById('global-search-input');
+        if (input) {
+            input.focus();
+            input.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    }, 100);
 }
 
-function jumpToSearchResult(subKey, isBranching, branchIdx, chapIdx, qIdx) {
+function jumpToSearchResult(subKey, isBranching, branchIdx, chapNum, qIdx) {
     clearSearch();
-    currentSubjectKey = subKey;
-    updateActiveTab(subKey);
-
-    if (isBranching) {
-        selectBranchChapter(branchIdx, chapIdx);
-        setTimeout(() => {
-            const card = document.getElementById(`card-branch-${qIdx}`);
-            if (card) {
-                card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                card.classList.add('highlight-target');
-                setTimeout(() => card.classList.remove('highlight-target'), 2500);
-            }
-        }, 150);
-    } else {
-        selectChapter(chapIdx);
-        setTimeout(() => {
-            const card = document.getElementById(`card-std-${qIdx}`);
-            if (card) {
-                card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                card.classList.add('highlight-target');
-                setTimeout(() => card.classList.remove('highlight-target'), 2500);
-            }
-        }, 150);
-    }
-}
-
-/* ============================================================ */
-/* FEEDBACK & COMMUNITY DISCUSSIONS SYSTEM                      */
-/* ============================================================ */
-
-const DEFAULT_SEED_FEEDBACKS = [
-    {
-        id: "fb_seed_1",
-        name: "Aarav Sharma",
-        type: "Appreciation",
-        subject: "Social Science",
-        rating: 5,
-        message: "The flowcharts and detailed answers for Chapter 2 Geography (Shaping of the Earth's Surface) are super clear! Helped me prepare my school project.",
-        date: new Date(Date.now() - 1000 * 60 * 60 * 3).toISOString(),
-        likes: 8,
-        liked: false
-    },
-    {
-        id: "fb_seed_2",
-        name: "Sneha Patel",
-        type: "Question Request",
-        subject: "Science",
-        rating: 5,
-        message: "Could you please add the exemplar numerical problems for Chapter 8 Motion as well? That would be really helpful for our upcoming term exams!",
-        date: new Date(Date.now() - 1000 * 60 * 60 * 22).toISOString(),
-        likes: 5,
-        liked: false
-    },
-    {
-        id: "fb_seed_3",
-        name: "Vikram R.",
-        type: "Feature Suggestion",
-        subject: "General",
-        rating: 5,
-        message: "Love the fast search shortcut (Ctrl + K)! Would be awesome to add a quick Print / PDF download option for entire chapters.",
-        date: new Date(Date.now() - 1000 * 60 * 60 * 48).toISOString(),
-        likes: 12,
-        liked: false
-    },
-    {
-        id: "fb_seed_4",
-        name: "Pooja Verma",
-        type: "Error in Answer",
-        subject: "Economics",
-        rating: 4,
-        message: "In Chapter 9 The Price Puzzle (Q12), the market equilibrium graph and price calculation are now explained so simply. Thanks for the quick updates!",
-        date: new Date(Date.now() - 1000 * 60 * 60 * 72).toISOString(),
-        likes: 4,
-        liked: false
-    }
-];
-
-let currentFbFilter = 'all';
-let currentFbSort = 'newest';
-
-function getStoredFeedbacks() {
-    try {
-        const stored = localStorage.getItem('ncert_feedback_list');
-        if (!stored) {
-            localStorage.setItem('ncert_feedback_list', JSON.stringify(DEFAULT_SEED_FEEDBACKS));
-            return [...DEFAULT_SEED_FEEDBACKS];
-        }
-        const parsed = JSON.parse(stored);
-        if (!Array.isArray(parsed) || parsed.length === 0) {
-            return [...DEFAULT_SEED_FEEDBACKS];
-        }
-        return parsed;
-    } catch (e) {
-        console.warn('LocalStorage error reading feedback:', e);
-        return [...DEFAULT_SEED_FEEDBACKS];
-    }
-}
-
-function saveStoredFeedbacks(feedbacks) {
-    try {
-        localStorage.setItem('ncert_feedback_list', JSON.stringify(feedbacks));
-    } catch (e) {
-        console.warn('LocalStorage error saving feedback:', e);
-    }
-}
-
-function openFeedbackPage() {
-    showLayer('feedback-view');
-    renderFeedbackStream();
-}
-
-// Backward compatibility aliases
-function openFeedbackModal() {
-    openFeedbackPage();
-}
-
-function closeFeedbackModal() {
-    goBackFromFeedback();
-}
-
-function closeFeedbackOnOverlay(event) {
-    if (event && event.target && event.target.id === 'feedback-modal') {
-        closeFeedbackModal();
-    }
-}
-
-function setPageRating(val) {
-    const hidden = document.getElementById('fb-page-rating-val');
-    if (hidden) hidden.value = val;
-    document.querySelectorAll('#page-rating-stars .star').forEach(star => {
-        const starVal = parseInt(star.getAttribute('data-value'), 10);
-        if (starVal <= val) {
-            star.classList.add('selected');
-        } else {
-            star.classList.remove('selected');
-        }
-    });
-}
-
-function setRating(val) {
-    setPageRating(val);
-}
-
-function getAvatarColors(name) {
-    const palettes = [
-        ['#4f46e5', '#7c3aed'],
-        ['#059669', '#10b981'],
-        ['#d97706', '#f59e0b'],
-        ['#dc2626', '#ef4444'],
-        ['#0284c7', '#38bdf8'],
-        ['#7c3aed', '#c084fc'],
-        ['#db2777', '#f472b6'],
-        ['#2563eb', '#60a5fa']
-    ];
-    let hash = 0;
-    const str = (name || "Student").toLowerCase();
-    for (let i = 0; i < str.length; i++) {
-        hash = str.charCodeAt(i) + ((hash << 5) - hash);
-    }
-    const idx = Math.abs(hash) % palettes.length;
-    return `linear-gradient(135deg, ${palettes[idx][0]}, ${palettes[idx][1]})`;
-}
-
-function getInitials(name) {
-    if (!name || !name.trim()) return "ST";
-    const parts = name.trim().split(/\s+/);
-    if (parts.length === 1) return parts[0].substring(0, 2).toUpperCase();
-    return (parts[0][0] + parts[1][0]).toUpperCase();
-}
-
-function formatTimeAgo(isoString) {
-    if (!isoString) return "Recently";
-    const now = Date.now();
-    const past = new Date(isoString).getTime();
-    const diffSec = Math.max(0, Math.floor((now - past) / 1000));
-    if (diffSec < 60) return "Just now";
-    const diffMin = Math.floor(diffSec / 60);
-    if (diffMin < 60) return `${diffMin}m ago`;
-    const diffHour = Math.floor(diffMin / 60);
-    if (diffHour < 24) return `${diffHour}h ago`;
-    const diffDay = Math.floor(diffHour / 24);
-    if (diffDay === 1) return "Yesterday";
-    if (diffDay < 30) return `${diffDay}d ago`;
-    return new Date(isoString).toLocaleDateString();
-}
-
-function getCategoryBadge(type) {
-    switch (type) {
-        case "Error in Answer":
-            return '<span class="comment-tag-badge tag-error">🐞 Report Error</span>';
-        case "Question Request":
-            return '<span class="comment-tag-badge tag-request">📝 Request</span>';
-        case "Feature Suggestion":
-            return '<span class="comment-tag-badge tag-suggestion">💡 Suggestion</span>';
-        case "Appreciation":
-            return '<span class="comment-tag-badge tag-appreciation">❤️ Appreciation</span>';
-        default:
-            return '<span class="comment-tag-badge tag-suggestion">💬 Feedback</span>';
-    }
-}
-
-function filterComments(category) {
-    currentFbFilter = category;
-    document.querySelectorAll('#feedback-filter-pills .filter-pill-btn').forEach(btn => {
-        btn.classList.toggle('active', btn.getAttribute('data-filter') === category);
-    });
-    renderFeedbackStream();
-}
-
-function sortComments(sortVal) {
-    currentFbSort = sortVal;
-    renderFeedbackStream();
-}
-
-function toggleLikeFeedback(id) {
-    const list = getStoredFeedbacks();
-    const item = list.find(x => String(x.id) === String(id));
-    if (item) {
-        if (item.liked) {
-            item.liked = false;
-            item.likes = Math.max(0, (item.likes || 1) - 1);
-        } else {
-            item.liked = true;
-            item.likes = (item.likes || 0) + 1;
-        }
-        saveStoredFeedbacks(list);
-        renderFeedbackStream();
-    }
-}
-
-function deleteFeedback(id) {
-    if (!confirm("Are you sure you want to delete this feedback comment?")) {
-        return;
-    }
-    let list = getStoredFeedbacks();
-    const initialLen = list.length;
-    list = list.filter(x => String(x.id) !== String(id));
-    if (list.length < initialLen) {
-        saveStoredFeedbacks(list);
-        renderFeedbackStream();
-        showToast("🗑️ Feedback comment deleted successfully.", "info");
-    }
-}
-
-function renderFeedbackStream() {
-    const container = document.getElementById('feedback-items-stream');
-    const countEl = document.getElementById('feedback-count-num');
-    if (!container) return;
-
-    let list = getStoredFeedbacks();
-
-    // Update count in header
-    if (countEl) {
-        countEl.textContent = list.length;
-    }
-
-    // Apply Filter
-    if (currentFbFilter !== 'all') {
-        list = list.filter(x => x.type === currentFbFilter);
-    }
-
-    // Apply Sort
-    if (currentFbSort === 'newest') {
-        list.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
-    } else if (currentFbSort === 'top') {
-        list.sort((a, b) => (b.likes || 0) - (a.likes || 0));
-    } else if (currentFbSort === 'rating') {
-        list.sort((a, b) => (b.rating || 0) - (a.rating || 0));
-    }
-
-    if (list.length === 0) {
-        container.innerHTML = `
-            <div class="feedback-empty-state">
-                <div class="feedback-empty-icon">💬</div>
-                <h4>No feedbacks found</h4>
-                <p>Be the first to share feedback or post a comment!</p>
-            </div>
-        `;
-        return;
-    }
-
-    container.innerHTML = list.map(item => {
-        const initials = getInitials(item.name || item.email || "Student");
-        const avatarBg = getAvatarColors(item.name || item.email || "Student");
-        const timeAgo = formatTimeAgo(item.date);
-        const stars = "★".repeat(Math.max(1, Math.min(5, Number(item.rating) || 5))) +
-                      "☆".repeat(Math.max(0, 5 - Math.max(1, Math.min(5, Number(item.rating) || 5))));
-        const categoryBadge = getCategoryBadge(item.type);
-        const subjectTag = item.subject ? `<span class="comment-subject-tag">${item.subject}</span>` : '';
-        const authorName = item.name || item.email || "Anonymous Student";
-        const likes = item.likes || 0;
-        const likedClass = item.liked ? 'liked' : '';
-
-        return `
-            <div class="fb-comment-card" id="fb-card-${item.id}">
-                <div class="comment-avatar" style="background: ${avatarBg};">
-                    ${initials}
-                </div>
-                <div class="comment-main">
-                    <div class="comment-header-row">
-                        <div class="comment-author-info">
-                            <span class="comment-author-name">${authorName}</span>
-                            ${categoryBadge}
-                            ${subjectTag}
-                        </div>
-                        <div class="comment-meta-right">
-                            <span class="comment-stars-display" title="${item.rating || 5} Stars">${stars}</span>
-                            <span class="comment-time-text">${timeAgo}</span>
-                        </div>
-                    </div>
-                    <div class="comment-body-text">${item.message}</div>
-                    <div class="comment-actions-bar">
-                        <button type="button" class="comment-btn like-btn ${likedClass}" onclick="toggleLikeFeedback('${item.id}')" title="Helpful / Like">
-                            <span>👍</span> <span class="like-count">${likes}</span>
-                        </button>
-                        <button type="button" class="comment-btn delete-btn" onclick="deleteFeedback('${item.id}')" title="Delete comment (Moderator / User permission)">
-                            <span>🗑️</span> <span>Delete</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        `;
-    }).join('');
-}
-
-function handleFeedbackSubmit(event) {
-    if (event) event.preventDefault();
-    const type = document.querySelector('input[name="fbCategory"]:checked')?.value || "General";
-    const name = document.getElementById('fb-page-name')?.value?.trim() || "";
-    const subject = document.getElementById('fb-page-subject')?.value || "General";
-    const rating = parseInt(document.getElementById('fb-page-rating-val')?.value || "5", 10);
-    const message = document.getElementById('fb-page-message')?.value?.trim();
-
-    if (!message) {
-        showToast("⚠️ Please enter your comments or feedback.", "error");
-        return;
-    }
-
-    const newFeedback = {
-        id: "fb_" + Date.now() + "_" + Math.floor(Math.random() * 1000),
-        name: name || "Student",
-        type,
-        subject,
-        rating,
-        message,
-        date: new Date().toISOString(),
-        likes: 0,
-        liked: false
-    };
-
-    const list = getStoredFeedbacks();
-    list.unshift(newFeedback);
-    saveStoredFeedbacks(list);
-
-    resetFeedbackForm();
-    renderFeedbackStream();
-    showToast("🎉 Thank you! Your feedback has been published.", "success");
-}
-
-function resetFeedbackForm() {
-    const form = document.getElementById('feedback-page-form');
-    if (form) form.reset();
-    setPageRating(5);
-    const defaultRadio = document.querySelector('input[name="fbCategory"][value="Error in Answer"]');
-    if (defaultRadio) defaultRadio.checked = true;
-}
-
-// Legacy submit handler redirect
-function submitFeedback(event) {
-    handleFeedbackSubmit(event);
+    const targetHash = isBranching
+        ? `#/subject/${subKey}/branch/${branchIdx + 1}/chapter/${chapNum}?q=${qIdx + 1}`
+        : `#/subject/${subKey}/chapter/${chapNum}?q=${qIdx + 1}`;
+    window.location.hash = targetHash;
 }
 
 /* ============================================================ */
@@ -5410,9 +5523,17 @@ window.addEventListener('keydown', (e) => {
         focusSearch();
     } else if (e.key === 'Escape') {
         clearSearch();
-        closeFeedbackModal();
     } else if (e.key === '/' && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
         e.preventDefault();
         focusSearch();
     }
 });
+
+/* ============================================================ */
+/* ROUTER & EVENT LISTENERS INITIALIZATION                      */
+/* ============================================================ */
+window.addEventListener('hashchange', handleRoute);
+window.addEventListener('DOMContentLoaded', handleRoute);
+if (document.readyState === 'complete' || document.readyState === 'interactive') {
+    handleRoute();
+}

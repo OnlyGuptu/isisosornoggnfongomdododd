@@ -11,7 +11,7 @@
     <!-- Top Navigation Header -->
     <nav class="navbar">
         <div class="nav-left">
-            <div class="logo" onclick="goToHome()">NCERT<span>Solved</span></div>
+            <a href="#/" class="logo">NCERT<span>Solved</span></a>
             <div class="badge">Class 9 • 2026-27</div>
         </div>
         <div class="nav-right">
@@ -20,31 +20,27 @@
                 <span class="btn-text">Search</span>
                 <kbd class="shortcut-pill">Ctrl+K</kbd>
             </button>
-            <button class="nav-action-btn feedback-trigger-btn" onclick="openFeedbackPage()" title="Student Feedback">
-                <span class="btn-icon">💬</span>
-                <span class="btn-text">Feedback</span>
-            </button>
         </div>
     </nav>
 
     <!-- Quick Subject Tabs Navigation Bar -->
     <div class="tabs-nav-bar" id="subject-tabs-bar">
         <div class="tabs-scroll-container">
-            <button class="nav-tab active" data-tab="all" onclick="filterByTab('all')">
+            <a class="nav-tab active" data-tab="all" href="#/">
                 <span class="tab-icon">🌐</span> All Subjects
-            </button>
-            <button class="nav-tab" data-tab="science" onclick="filterByTab('science')">
+            </a>
+            <a class="nav-tab" data-tab="science" href="#/subject/science">
                 <span class="tab-icon">🔬</span> Science
-            </button>
-            <button class="nav-tab" data-tab="sst" onclick="filterByTab('sst')">
+            </a>
+            <a class="nav-tab" data-tab="sst" href="#/subject/sst">
                 <span class="tab-icon">🌍</span> Social Science
-            </button>
-            <button class="nav-tab" data-tab="maths" onclick="filterByTab('maths')">
+            </a>
+            <a class="nav-tab" data-tab="maths" href="#/subject/maths">
                 <span class="tab-icon">📐</span> Mathematics
-            </button>
-            <button class="nav-tab" data-tab="english" onclick="filterByTab('english')">
+            </a>
+            <a class="nav-tab" data-tab="english" href="#/subject/english">
                 <span class="tab-icon">📖</span> English
-            </button>
+            </a>
         </div>
     </div>
 
@@ -92,7 +88,7 @@
 
             <div class="subject-grid">
                 <!-- Science Card -->
-                <button class="subject-card-btn card-science" onclick="selectSubject('science')">
+                <a class="subject-card-btn card-science" href="#/subject/science">
                     <div class="card-header">
                         <div class="card-icon-wrapper icon-science">🔬</div>
                         <span class="card-tag">12 Chapters</span>
@@ -105,10 +101,10 @@
                         <span>Explore Chapters</span>
                         <span class="card-arrow">→</span>
                     </div>
-                </button>
+                </a>
 
                 <!-- Social Science Card -->
-                <button class="subject-card-btn card-sst" onclick="selectSubject('sst')">
+                <a class="subject-card-btn card-sst" href="#/subject/sst">
                     <div class="card-header">
                         <div class="card-icon-wrapper icon-sst">🌍</div>
                         <span class="card-tag">4 Branches</span>
@@ -121,10 +117,10 @@
                         <span>Explore Chapters</span>
                         <span class="card-arrow">→</span>
                     </div>
-                </button>
+                </a>
 
                 <!-- Mathematics Card -->
-                <button class="subject-card-btn card-maths" onclick="selectSubject('maths')">
+                <a class="subject-card-btn card-maths" href="#/subject/maths">
                     <div class="card-header">
                         <div class="card-icon-wrapper icon-maths">📐</div>
                         <span class="card-tag">Ganita Prakash</span>
@@ -137,10 +133,10 @@
                         <span>Explore Chapters</span>
                         <span class="card-arrow">→</span>
                     </div>
-                </button>
+                </a>
 
                 <!-- English Card -->
-                <button class="subject-card-btn card-english" onclick="selectSubject('english')">
+                <a class="subject-card-btn card-english" href="#/subject/english">
                     <div class="card-header">
                         <div class="card-icon-wrapper icon-english">📖</div>
                         <span class="card-tag">Prose &amp; Poetry</span>
@@ -153,7 +149,7 @@
                         <span>Explore Chapters</span>
                         <span class="card-arrow">→</span>
                     </div>
-                </button>
+                </a>
             </div>
 
             <!-- Creator Note Callout -->
@@ -169,21 +165,21 @@
         <!-- LAYER 2: Chapter Selection Screen -->
         <section id="chapter-view" class="view-layer hidden">
             <div class="navigation-crumbs">
-                <button class="btn-back" onclick="goToHome()">← Back to Subjects</button>
+                <a id="chapter-back-link" class="btn-back" href="#/">← Back to Subjects</a>
             </div>
             <div class="hero-section">
                 <h1 id="chapter-title-heading">Subject Chapters</h1>
                 <p>Select a chapter block below to view its exercises and solutions.</p>
             </div>
             <div id="chapters-list-grid" class="chapters-buttons-grid">
-                <!-- Dynamically generated chapter buttons go here -->
+                <!-- Dynamically generated chapter links go here -->
             </div>
         </section>
 
         <!-- LAYER 3: Final Solutions Screen -->
         <section id="solution-view" class="view-layer hidden">
             <div class="navigation-crumbs">
-                <button class="btn-back" onclick="showLayer('chapter-view')">← Back to Chapters</button>
+                <a id="solution-back-link" class="btn-back" href="#/">← Back to Chapters</a>
             </div>
             <div class="hero-section">
                 <h1 id="final-solution-heading">Chapter Solutions</h1>
@@ -196,87 +192,11 @@
 
     </div>
 
-    <!-- Floating Feedback & Back to Top Buttons -->
+    <!-- Floating Back to Top Button -->
     <div class="floating-controls">
         <button id="back-to-top-btn" class="floating-btn back-to-top-btn hidden" onclick="scrollToTop()" title="Back to top">
             ↑
         </button>
-        <button class="floating-btn feedback-floating-btn" onclick="openFeedbackPage()" title="Share Feedback">
-            <span class="btn-icon">💬</span>
-            <span class="floating-btn-text">Feedback</span>
-        </button>
-    </div>
-
-    <!-- Interactive Feedback Modal -->
-    <div id="feedback-modal" class="modal-overlay hidden" onclick="closeFeedbackOnOverlay(event)">
-        <div class="modal-card">
-            <div class="modal-header">
-                <div class="modal-title-group">
-                    <span class="modal-icon">💬</span>
-                    <div>
-                        <h3>Student Feedback &amp; Suggestions</h3>
-                        <p>Found a typo, have a question request, or suggestions?</p>
-                    </div>
-                </div>
-                <button class="modal-close-btn" onclick="closeFeedbackModal()" title="Close">✕</button>
-            </div>
-            <form id="feedback-form" onsubmit="submitFeedback(event)">
-                <div class="form-group">
-                    <label>Feedback Category</label>
-                    <div class="feedback-type-pills">
-                        <label class="type-pill">
-                            <input type="radio" name="feedbackType" value="Error in Answer" checked>
-                            <span>🐞 Report Error</span>
-                        </label>
-                        <label class="type-pill">
-                            <input type="radio" name="feedbackType" value="Question Request">
-                            <span>📝 Request Question</span>
-                        </label>
-                        <label class="type-pill">
-                            <input type="radio" name="feedbackType" value="Feature Suggestion">
-                            <span>💡 Suggestion</span>
-                        </label>
-                        <label class="type-pill">
-                            <input type="radio" name="feedbackType" value="Appreciation">
-                            <span>❤️ Appreciation</span>
-                        </label>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="feedback-subject">Subject</label>
-                    <select id="feedback-subject" class="form-select">
-                        <option value="General">General / Website</option>
-                        <option value="Science">Science</option>
-                        <option value="Social Science">Social Science (SST)</option>
-                        <option value="Mathematics">Mathematics</option>
-                        <option value="English">English</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label>Rating</label>
-                    <div class="rating-stars" id="rating-stars">
-                        <span class="star selected" data-value="1" onclick="setRating(1)">★</span>
-                        <span class="star selected" data-value="2" onclick="setRating(2)">★</span>
-                        <span class="star selected" data-value="3" onclick="setRating(3)">★</span>
-                        <span class="star selected" data-value="4" onclick="setRating(4)">★</span>
-                        <span class="star selected" data-value="5" onclick="setRating(5)">★</span>
-                    </div>
-                    <input type="hidden" id="feedback-rating" value="5">
-                </div>
-                <div class="form-group">
-                    <label for="feedback-message">Your Comments / Details <span class="required">*</span></label>
-                    <textarea id="feedback-message" class="form-textarea" rows="3" required placeholder="Tell us which chapter or question, what's wrong, or how we can improve..."></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="feedback-email">Name / Email (Optional)</label>
-                    <input type="text" id="feedback-email" class="form-input" placeholder="e.g. rahul@example.com">
-                </div>
-                <div class="form-actions">
-                    <button type="button" class="btn-cancel" onclick="closeFeedbackModal()">Cancel</button>
-                    <button type="submit" class="btn-submit-feedback">Send Feedback 🚀</button>
-                </div>
-            </form>
-        </div>
     </div>
 
     <!-- Toast Notification Container -->
@@ -286,7 +206,7 @@
     <!-- ========================================== -->
     <div id="privacy-view" class="view-layer hidden container">
         <div class="navigation-crumbs">
-            <button class="btn-back" onclick="showLayer('subject-view')">← Back to Subjects</button>
+            <a class="btn-back" href="#/">← Back to Subjects</a>
         </div>
         <div class="solution-card" style="margin-top: 1rem; background: #ffffff; border: 1px solid #e2e8f0; padding: 1.8rem; border-radius: 10px;">
             <h2 style="color: #0f172a; margin-bottom: 1.5rem;">Privacy Policy</h2>
@@ -308,7 +228,7 @@
     <!-- ========================================== -->
     <div id="terms-view" class="view-layer hidden container">
         <div class="navigation-crumbs">
-            <button class="btn-back" onclick="showLayer('subject-view')">← Back to Subjects</button>
+            <a class="btn-back" href="#/">← Back to Subjects</a>
         </div>
         <div class="solution-card" style="margin-top: 1rem; background: #ffffff; border: 1px solid #e2e8f0; padding: 1.8rem; border-radius: 10px;">
             <h2 style="color: #0f172a; margin-bottom: 1.5rem;">Terms of Service</h2>
@@ -330,7 +250,7 @@
     <!-- ========================================== -->
     <div id="contact-view" class="view-layer hidden container">
         <div class="navigation-crumbs">
-            <button class="btn-back" onclick="showLayer('subject-view')">← Back to Subjects</button>
+            <a class="btn-back" href="#/">← Back to Subjects</a>
         </div>
         <div class="solution-card" style="margin-top: 1rem; max-width: 600px; margin: 1rem auto; border-top: 4px solid #2563eb; background: #ffffff; border-left: 1px solid #e2e8f0; border-right: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0; padding: 1.8rem; border-radius: 10px;">
             <h2 style="color: #0f172a; margin-bottom: 1rem; text-align: center;">Contact Us</h2>
@@ -343,151 +263,14 @@
     </div>
 
     <!-- ========================================== -->
-    <!-- FEEDBACK & DISCUSSIONS LAYER               -->
-    <!-- ========================================== -->
-    <div id="feedback-view" class="view-layer hidden container">
-        <div class="navigation-crumbs">
-            <button class="btn-back" onclick="goBackFromFeedback()">← Back</button>
-            <span class="crumb-separator">/</span>
-            <span class="crumb-current">Community Feedback &amp; Suggestions</span>
-        </div>
-
-        <div class="feedback-page-shell">
-            <!-- Header Banner -->
-            <div class="feedback-page-hero">
-                <div class="hero-left">
-                    <div class="hero-icon-bubble">💬</div>
-                    <div>
-                        <h2>Student Feedback &amp; Discussions</h2>
-                        <p>Share corrections, ask for new questions, or give suggestions. Community responses update in real time.</p>
-                    </div>
-                </div>
-                <div class="hero-right">
-                    <div class="feedback-stat-counter" id="feedback-stat-badge">
-                        <span class="stat-number" id="feedback-count-num">0</span>
-                        <span class="stat-label">Feedbacks</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- YouTube-style Feedback Input Composer -->
-            <div class="feedback-composer-box">
-                <div class="composer-top">
-                    <div class="composer-user-avatar" id="current-user-avatar-badge">YOU</div>
-                    <div class="composer-user-info">
-                        <h4>Add Public Feedback</h4>
-                        <p>Rate the solutions and let the community know what you think.</p>
-                    </div>
-                </div>
-
-                <form id="feedback-page-form" onsubmit="handleFeedbackSubmit(event)">
-                    <!-- Category Selector Pills -->
-                    <div class="composer-row">
-                        <label class="composer-label">Category</label>
-                        <div class="fb-category-pills">
-                            <label class="fb-cat-pill">
-                                <input type="radio" name="fbCategory" value="Error in Answer" checked>
-                                <span>🐞 Report Error</span>
-                            </label>
-                            <label class="fb-cat-pill">
-                                <input type="radio" name="fbCategory" value="Question Request">
-                                <span>📝 Request Question</span>
-                            </label>
-                            <label class="fb-cat-pill">
-                                <input type="radio" name="fbCategory" value="Feature Suggestion">
-                                <span>💡 Suggestion</span>
-                            </label>
-                            <label class="fb-cat-pill">
-                                <input type="radio" name="fbCategory" value="Appreciation">
-                                <span>❤️ Appreciation</span>
-                            </label>
-                        </div>
-                    </div>
-
-                    <!-- Meta Grid: Name, Subject, Stars -->
-                    <div class="composer-grid-three">
-                        <div class="composer-field">
-                            <label for="fb-page-name" class="composer-label">Your Name / Handle</label>
-                            <input type="text" id="fb-page-name" class="composer-input" placeholder="e.g. Rohan, Class 9 (or leave blank)">
-                        </div>
-                        <div class="composer-field">
-                            <label for="fb-page-subject" class="composer-label">Subject</label>
-                            <select id="fb-page-subject" class="composer-select">
-                                <option value="General">General / Website</option>
-                                <option value="Science">Science</option>
-                                <option value="Social Science">Social Science (SST)</option>
-                                <option value="Mathematics">Mathematics</option>
-                                <option value="English">English</option>
-                            </select>
-                        </div>
-                        <div class="composer-field">
-                            <label class="composer-label">Rating</label>
-                            <div class="composer-rating-stars" id="page-rating-stars">
-                                <span class="star selected" data-value="1" onclick="setPageRating(1)">★</span>
-                                <span class="star selected" data-value="2" onclick="setPageRating(2)">★</span>
-                                <span class="star selected" data-value="3" onclick="setPageRating(3)">★</span>
-                                <span class="star selected" data-value="4" onclick="setPageRating(4)">★</span>
-                                <span class="star selected" data-value="5" onclick="setPageRating(5)">★</span>
-                            </div>
-                            <input type="hidden" id="fb-page-rating-val" value="5">
-                        </div>
-                    </div>
-
-                    <!-- Comment Message Textarea -->
-                    <div class="composer-field">
-                        <label for="fb-page-message" class="composer-label">Comment / Feedback <span class="required">*</span></label>
-                        <textarea id="fb-page-message" class="composer-textarea" rows="3" required placeholder="Write your comment... Mention chapter, question number, or suggestions..."></textarea>
-                    </div>
-
-                    <!-- Buttons Row -->
-                    <div class="composer-buttons">
-                        <button type="button" class="btn-cancel-comment" onclick="resetFeedbackForm()">Cancel</button>
-                        <button type="submit" class="btn-post-comment">Post Comment 🚀</button>
-                    </div>
-                </form>
-            </div>
-
-            <!-- Feedbacks Stream Section (YouTube-style comments list) -->
-            <div class="feedback-stream-container">
-                <div class="stream-header-bar">
-                    <div class="stream-title-group">
-                        <span class="stream-main-title">Comments &amp; Reviews</span>
-                        <div class="stream-filter-pills" id="feedback-filter-pills">
-                            <button class="filter-pill-btn active" data-filter="all" onclick="filterComments('all')">All</button>
-                            <button class="filter-pill-btn" data-filter="Error in Answer" onclick="filterComments('Error in Answer')">🐞 Errors</button>
-                            <button class="filter-pill-btn" data-filter="Question Request" onclick="filterComments('Question Request')">📝 Requests</button>
-                            <button class="filter-pill-btn" data-filter="Feature Suggestion" onclick="filterComments('Feature Suggestion')">💡 Suggestions</button>
-                            <button class="filter-pill-btn" data-filter="Appreciation" onclick="filterComments('Appreciation')">❤️ Kudos</button>
-                        </div>
-                    </div>
-                    <div class="stream-sort-group">
-                        <label for="comment-sort-select">Sort by:</label>
-                        <select id="comment-sort-select" class="sort-dropdown" onchange="sortComments(this.value)">
-                            <option value="newest">⚡ Newest First</option>
-                            <option value="top">🔥 Top Liked</option>
-                            <option value="rating">⭐ Highest Rating</option>
-                        </select>
-                    </div>
-                </div>
-
-                <!-- Live comments feed -->
-                <div id="feedback-items-stream" class="feedback-items-stream">
-                    <!-- Dynamic comment cards loaded here -->
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- ========================================== -->
     <!-- FOOTER LINKS                               -->
     <!-- ========================================== -->
    <footer style="text-align: center; padding: 0.8rem 0; border-top: 1px solid #e2e8f0; margin-top: 1rem; font-size: 0.85rem; color: #64748b;">
     <p>© 2026 NCERTSolved. All rights reserved.</p>
     <p style="margin-top: 0.2rem;">
-        <a href="#" style="color: #2563eb; text-decoration: none; margin: 0 0.5rem;" onclick="event.preventDefault(); showLayer('privacy-view')">Privacy Policy</a> | 
-        <a href="#" style="color: #2563eb; text-decoration: none; margin: 0 0.5rem;" onclick="event.preventDefault(); showLayer('terms-view')">Terms of Service</a> | 
-        <a href="#" style="color: #2563eb; text-decoration: none; margin: 0 0.5rem;" onclick="event.preventDefault(); showLayer('contact-view')">Contact Us</a> | 
-        <a href="#" style="color: #2563eb; text-decoration: none; margin: 0 0.5rem;" onclick="event.preventDefault(); openFeedbackPage()">Feedback</a>
+        <a href="#/privacy" style="color: #2563eb; text-decoration: none; margin: 0 0.5rem;">Privacy Policy</a> | 
+        <a href="#/terms" style="color: #2563eb; text-decoration: none; margin: 0 0.5rem;">Terms of Service</a> | 
+        <a href="#/contact" style="color: #2563eb; text-decoration: none; margin: 0 0.5rem;">Contact Us</a>
     </p>
 </footer>
     <script src="script.js"></script>
