@@ -1,0 +1,663 @@
+/* ============================================================ */
+/* NCERTSOLVED - DEDICATED MOBILE STYLESHEET (mobile.css)      */
+/* Applies EXCLUSIVELY to Mobile/Tablet (screens <= 768px)      */
+/* Desktop & PC styles remain 100% UNTOUCHED in style.css       */
+/* ============================================================ */
+
+@media (max-width: 768px) {
+
+    /* --- 1. Root & Mobile Ambient Glow Effects --- */
+    body {
+        -webkit-tap-highlight-color: transparent;
+        background-color: #f8fafc;
+        background-image: 
+            radial-gradient(circle at 50% 0%, rgba(219, 234, 254, 0.45) 0%, rgba(248, 250, 252, 0) 65%),
+            radial-gradient(circle at 100% 40%, rgba(243, 232, 255, 0.35) 0%, rgba(248, 250, 252, 0) 50%);
+        background-attachment: fixed;
+    }
+
+    /* --- 2. Frosted Glass Top Navbar --- */
+    .navbar {
+        padding: 0.75rem 1.15rem;
+        background: rgba(255, 255, 255, 0.88);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border-bottom: 1px solid rgba(226, 232, 240, 0.85);
+        box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.04);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .nav-left .logo {
+        font-size: 1.35rem;
+        letter-spacing: -0.02em;
+    }
+
+    .nav-left .logo span {
+        background: linear-gradient(135deg, #2563eb, #3b82f6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .nav-left .badge {
+        font-size: 0.72rem;
+        padding: 0.2rem 0.55rem;
+        background: #eff6ff;
+        border: 1px solid #bfdbfe;
+        color: #1e40af;
+        border-radius: 9999px;
+        box-shadow: 0 0 12px rgba(59, 130, 246, 0.12);
+    }
+
+    .search-trigger-btn {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px;
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+        transition: transform 0.15s ease, background-color 0.15s ease;
+    }
+
+    .search-trigger-btn:active {
+        transform: scale(0.92);
+        background: #f1f5f9;
+    }
+
+    .search-trigger-btn .btn-icon {
+        font-size: 1.15rem;
+    }
+
+    /* --- 3. Luminous Subject Tabs Navigation Bar --- */
+    .tabs-nav-bar {
+        top: 57px;
+        background: rgba(255, 255, 255, 0.94);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+        box-shadow: 0 4px 14px -3px rgba(0, 0, 0, 0.03);
+    }
+
+    .tabs-scroll-container {
+        padding: 0.55rem 1rem;
+        gap: 0.55rem;
+        scrollbar-width: none;
+    }
+
+    .tabs-scroll-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .nav-tab {
+        padding: 0.5rem 0.95rem;
+        font-size: 0.85rem;
+        font-weight: 600;
+        border-radius: 9999px;
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        color: #475569;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+        transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+    }
+
+    .nav-tab:active {
+        transform: scale(0.95);
+    }
+
+    .nav-tab.active {
+        background: linear-gradient(135deg, #2563eb, #1d4ed8);
+        color: #ffffff !important;
+        border-color: #2563eb;
+        box-shadow: 0 4px 16px rgba(37, 99, 235, 0.38), 0 0 8px rgba(37, 99, 235, 0.25);
+    }
+
+    .nav-tab.active .tab-icon {
+        transform: scale(1.1);
+        filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.6));
+    }
+
+    /* --- 4. Hero Section & Search Input --- */
+    .container {
+        padding: 1.25rem 1rem;
+    }
+
+    .hero-section {
+        padding: 0.5rem 0 1rem 0;
+        text-align: center;
+    }
+
+    .hero-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        padding: 0.35rem 0.85rem;
+        font-size: 0.78rem;
+        font-weight: 600;
+        background: #ffffff;
+        border: 1px solid #dbeafe;
+        color: #1e40af;
+        border-radius: 9999px;
+        box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
+        margin-bottom: 0.75rem;
+    }
+
+    .pill-dot {
+        width: 7px;
+        height: 7px;
+        background: #2563eb;
+        border-radius: 50%;
+        box-shadow: 0 0 8px #2563eb;
+        animation: mobilePulseDot 2s infinite ease-in-out;
+    }
+
+    @keyframes mobilePulseDot {
+        0%, 100% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(1.4); opacity: 0.6; }
+    }
+
+    .hero-title {
+        font-size: 1.75rem;
+        line-height: 1.25;
+        font-weight: 800;
+        letter-spacing: -0.03em;
+        margin-bottom: 0.6rem;
+    }
+
+    .hero-title .gradient-text {
+        background: linear-gradient(135deg, #1d4ed8 0%, #7c3aed 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+    }
+
+    .hero-subtitle {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        color: #64748b;
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    /* Mobile Search Bar with Soft Ambient Ring */
+    .search-box-container {
+        margin: 1.25rem 0 0.85rem 0;
+    }
+
+    .search-input-wrapper {
+        background: #ffffff;
+        border: 1.5px solid #e2e8f0;
+        border-radius: 14px;
+        padding: 0.35rem 0.5rem 0.35rem 0.85rem;
+        box-shadow: 0 4px 16px -2px rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(226, 232, 240, 0.5);
+        transition: all 0.25s ease;
+    }
+
+    .search-input-wrapper:focus-within {
+        border-color: #3b82f6;
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.16), 0 8px 24px -4px rgba(37, 99, 235, 0.12);
+    }
+
+    #global-search-input {
+        font-size: 0.92rem;
+        padding: 0.55rem 0;
+    }
+
+    .search-shortcut-hint {
+        display: none;
+    }
+
+    /* Mobile Feature Chips */
+    .features-pills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.4rem;
+        margin-top: 0.85rem;
+    }
+
+    .feat-pill {
+        font-size: 0.74rem;
+        padding: 0.3rem 0.65rem;
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(8px);
+        border: 1px solid #e2e8f0;
+        border-radius: 9999px;
+        color: #475569;
+        font-weight: 500;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.02);
+    }
+
+    .feat-icon {
+        font-size: 0.85rem;
+    }
+
+    /* --- 5. Luminous Subject Cards with Neon/Pastel Halos --- */
+    .subject-grid {
+        grid-template-columns: 1fr;
+        gap: 0.9rem;
+        margin-top: 1.25rem;
+    }
+
+    .subject-card-btn {
+        padding: 1.25rem;
+        border-radius: 16px;
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        box-shadow: 0 4px 14px rgba(15, 23, 42, 0.03);
+        transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+    }
+
+    .subject-card-btn:active {
+        transform: scale(0.985);
+    }
+
+    .card-icon-wrapper {
+        width: 48px;
+        height: 48px;
+        border-radius: 14px;
+        font-size: 1.55rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.2s ease;
+    }
+
+    /* Card Signature Glowing Lights */
+    /* Science: Cyan / Neon Blue Glow */
+    .card-science {
+        border-left: 4px solid #06b6d4;
+    }
+    .card-science .icon-science {
+        background: linear-gradient(135deg, #ecfeff, #cffafe);
+        border: 1px solid #a5f3fc;
+        box-shadow: 0 0 16px rgba(6, 182, 212, 0.28);
+    }
+    .card-science:active {
+        box-shadow: 0 4px 20px rgba(6, 182, 212, 0.2);
+    }
+
+    /* Social Science: Emerald / Teal Glow */
+    .card-sst {
+        border-left: 4px solid #10b981;
+    }
+    .card-sst .icon-sst {
+        background: linear-gradient(135deg, #ecfdf5, #d1fae5);
+        border: 1px solid #a7f3d0;
+        box-shadow: 0 0 16px rgba(16, 185, 129, 0.28);
+    }
+    .card-sst:active {
+        box-shadow: 0 4px 20px rgba(16, 185, 129, 0.2);
+    }
+
+    /* Mathematics: Amber / Gold Glow */
+    .card-maths {
+        border-left: 4px solid #f59e0b;
+    }
+    .card-maths .icon-maths {
+        background: linear-gradient(135deg, #fffbeb, #fef3c7);
+        border: 1px solid #fde68a;
+        box-shadow: 0 0 16px rgba(245, 158, 11, 0.28);
+    }
+    .card-maths:active {
+        box-shadow: 0 4px 20px rgba(245, 158, 11, 0.2);
+    }
+
+    /* English: Violet / Purple Glow */
+    .card-english {
+        border-left: 4px solid #8b5cf6;
+    }
+    .card-english .icon-english {
+        background: linear-gradient(135deg, #f5f3ff, #ede9fe);
+        border: 1px solid #ddd6fe;
+        box-shadow: 0 0 16px rgba(139, 92, 246, 0.28);
+    }
+    .card-english:active {
+        box-shadow: 0 4px 20px rgba(139, 92, 246, 0.2);
+    }
+
+    /* Hindi: Coral / Rose Glow */
+    .card-hindi {
+        border-left: 4px solid #f43f5e;
+    }
+    .card-hindi .icon-hindi {
+        background: linear-gradient(135deg, #fff1f2, #ffe4e6);
+        border: 1px solid #fecdd3;
+        box-shadow: 0 0 16px rgba(244, 63, 94, 0.28);
+    }
+    .card-hindi:active {
+        box-shadow: 0 4px 20px rgba(244, 63, 94, 0.2);
+    }
+
+    .card-tag {
+        font-size: 0.74rem;
+        padding: 0.25rem 0.6rem;
+        border-radius: 9999px;
+        font-weight: 600;
+        background: #f1f5f9;
+        color: #475569;
+    }
+
+    .card-title {
+        font-size: 1.18rem;
+        font-weight: 700;
+        color: #0f172a;
+        margin-top: 0.65rem;
+    }
+
+    .card-desc {
+        font-size: 0.86rem;
+        line-height: 1.5;
+        color: #64748b;
+        margin: 0.35rem 0 0.85rem 0;
+    }
+
+    .card-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.84rem;
+        font-weight: 600;
+        color: #2563eb;
+        border-top: 1px dashed #e2e8f0;
+        padding-top: 0.65rem;
+    }
+
+    /* --- 6. Chapter Selection & Exercise Cards --- */
+    .chapters-buttons-grid {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+
+    .chapter-select-btn {
+        padding: 0.95rem 1rem;
+        border-radius: 14px;
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+        transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+
+    .chapter-select-btn:active {
+        transform: scale(0.985);
+        background: #f8fafc;
+    }
+
+    .chap-icon-badge {
+        width: 42px;
+        height: 42px;
+        border-radius: 12px;
+        font-size: 1.35rem;
+        background: #eff6ff;
+        border: 1px solid #dbeafe;
+        box-shadow: 0 0 10px rgba(59, 130, 246, 0.15);
+    }
+
+    .chap-btn-title {
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: #1e293b;
+        line-height: 1.35;
+    }
+
+    .chapter-select-btn::after {
+        font-size: 0.75rem;
+        padding-left: 0.25rem;
+    }
+
+    /* Interactive Exercise Switcher Pill Bar on Mobile */
+    .exercise-switcher-bar {
+        display: flex;
+        overflow-x: auto;
+        padding: 0.5rem 0.25rem 0.75rem 0.25rem;
+        gap: 0.5rem;
+        scrollbar-width: none;
+    }
+
+    .exercise-switcher-bar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .exercise-pill {
+        padding: 0.45rem 0.85rem;
+        font-size: 0.82rem;
+        font-weight: 600;
+        white-space: nowrap;
+        border-radius: 9999px;
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        color: #334155;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        transition: all 0.2s ease;
+    }
+
+    .exercise-pill:active {
+        transform: scale(0.94);
+    }
+
+    .exercise-pill.active {
+        background: linear-gradient(135deg, #2563eb, #1d4ed8);
+        color: #ffffff !important;
+        border-color: #2563eb;
+        box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+    }
+
+    .exercise-pill .pill-count {
+        font-size: 0.72rem;
+        padding: 0.15rem 0.45rem;
+        border-radius: 9999px;
+        background: #f1f5f9;
+        color: #475569;
+    }
+
+    .exercise-pill.active .pill-count {
+        background: rgba(255, 255, 255, 0.25);
+        color: #ffffff;
+    }
+
+    /* --- 7. Solution & Question Cards Polish --- */
+    .solutions-stack {
+        gap: 1rem;
+    }
+
+    .solution-card {
+        padding: 1.25rem 1.15rem;
+        border-radius: 16px;
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        box-shadow: 0 4px 14px rgba(15, 23, 42, 0.03);
+    }
+
+    .card-question-header {
+        display: flex;
+        gap: 0.75rem;
+        align-items: flex-start;
+        margin-bottom: 0.85rem;
+    }
+
+    .q-badge {
+        font-size: 0.78rem;
+        font-weight: 700;
+        padding: 0.25rem 0.65rem;
+        border-radius: 8px;
+        background: linear-gradient(135deg, #eff6ff, #dbeafe);
+        color: #1d4ed8;
+        border: 1px solid #bfdbfe;
+        box-shadow: 0 0 10px rgba(37, 99, 235, 0.15);
+        flex-shrink: 0;
+    }
+
+    .question-text {
+        font-size: 0.95rem;
+        line-height: 1.55;
+        font-weight: 600;
+        color: #0f172a;
+    }
+
+    .question-text h3 {
+        font-size: 1rem;
+        margin-bottom: 0.4rem;
+        color: #1e40af;
+    }
+
+    .answer-text {
+        font-size: 0.92rem;
+        line-height: 1.68;
+        color: #334155;
+        border-left: 3px solid #3b82f6;
+        padding-left: 0.85rem;
+        margin: 0.75rem 0;
+    }
+
+    /* Hint Box with Luminous Yellow/Gold Ambient */
+    .hint-box {
+        margin: 0.75rem 0;
+        padding: 0.85rem 1rem;
+        border-radius: 12px;
+        background: #fefce8;
+        border: 1px solid #fde047;
+        box-shadow: 0 0 14px rgba(250, 204, 21, 0.15);
+        color: #713f12;
+        font-size: 0.88rem;
+        line-height: 1.55;
+    }
+
+    /* Card Action Buttons: Full Mobile Touch Targets */
+    .card-actions-bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-top: 0.85rem;
+        border-top: 1px dashed #e2e8f0;
+        padding-top: 0.75rem;
+        width: 100%;
+    }
+
+    .btn-toggle-hint,
+    .btn-toggle-solution {
+        flex: 1;
+        min-width: 140px;
+        min-height: 42px;
+        padding: 0.5rem 0.85rem;
+        font-size: 0.82rem;
+        font-weight: 600;
+        border-radius: 10px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.4rem;
+        transition: all 0.15s ease;
+    }
+
+    .btn-toggle-hint {
+        background: #fffbeb;
+        border: 1px solid #fde68a;
+        color: #b45309;
+    }
+
+    .btn-toggle-hint:active {
+        background: #fef3c7;
+        transform: scale(0.96);
+    }
+
+    .btn-toggle-solution {
+        background: #f8fafc;
+        border: 1px solid #e2e8f0;
+        color: #475569;
+    }
+
+    .btn-toggle-solution:active {
+        background: #f1f5f9;
+        transform: scale(0.96);
+    }
+
+    .btn-toggle-solution.active {
+        background: #eff6ff;
+        border-color: #bfdbfe;
+        color: #1d4ed8;
+    }
+
+    /* --- 8. Floating Controls & Back-to-Top Button --- */
+    .floating-controls {
+        bottom: 1.25rem;
+        right: 1.25rem;
+    }
+
+    .floating-btn.back-to-top-btn {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #2563eb, #1d4ed8);
+        color: #ffffff;
+        border: none;
+        box-shadow: 0 4px 18px rgba(37, 99, 235, 0.4), 0 0 10px rgba(37, 99, 235, 0.3);
+        font-size: 1.25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.15s ease;
+    }
+
+    .floating-btn.back-to-top-btn:active {
+        transform: scale(0.92);
+    }
+
+    /* --- 9. Creator Banner Polish --- */
+    .creator-banner {
+        border-radius: 16px;
+        padding: 1.15rem;
+        margin: 1.5rem 0 1rem 0;
+        background: linear-gradient(135deg, #ffffff, #f8fafc);
+        border: 1px solid #e2e8f0;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+    }
+
+    .creator-avatar {
+        font-size: 1.8rem;
+    }
+
+    .creator-content h4 {
+        font-size: 1rem;
+        color: #0f172a;
+    }
+
+    .creator-content p {
+        font-size: 0.88rem;
+        line-height: 1.5;
+        color: #64748b;
+    }
+
+    /* --- 10. Navigation Crumbs / Back Button --- */
+    .navigation-crumbs {
+        margin-bottom: 0.85rem;
+    }
+
+    .btn-back {
+        font-size: 0.85rem;
+        font-weight: 600;
+        padding: 0.45rem 0.85rem;
+        border-radius: 10px;
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        color: #2563eb;
+        display: inline-flex;
+        align-items: center;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.02);
+    }
+
+    .btn-back:active {
+        transform: scale(0.96);
+        background: #f8fafc;
+    }
+}
+

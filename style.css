@@ -391,6 +391,7 @@ body {
 .badge-sst { background: #fffbeb; color: #d97706; }
 .badge-maths { background: #eff6ff; color: #2563eb; }
 .badge-english { background: #f5f3ff; color: #7c3aed; }
+.badge-hindi { background: #fff1f2; color: #e11d48; }
 
 .badge-branch {
     font-size: 0.72rem;
@@ -462,9 +463,9 @@ body {
     font-size: 0.95rem;
 }
 
-/* Layer Display Management */
 .view-layer {
-    animation: fadeIn 0.3s ease-in-out;
+    opacity: 1;
+    animation: fadeIn 0.25s ease-out forwards;
 }
 
 .hidden {
@@ -688,6 +689,25 @@ body {
     color: #7c3aed;
 }
 
+/* 5. Hindi (Rose / Crimson) */
+.card-hindi {
+    border-top: 4px solid #e11d48;
+}
+.card-hindi:hover {
+    border-color: #e11d48;
+}
+.icon-hindi {
+    background-color: #fff1f2;
+    border: 1px solid #fecdd3;
+}
+.card-hindi .card-tag {
+    background-color: #fff1f2;
+    color: #e11d48;
+}
+.card-hindi .card-footer {
+    color: #e11d48;
+}
+
 /* Student Creator Note Callout */
 .creator-banner {
     display: flex;
@@ -738,32 +758,107 @@ body {
     background-color: #ffffff;
     border: 1px solid #e2e8f0;
     color: #1e293b;
-    padding: 1.5rem;
-    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    border-radius: 12px;
     text-align: left;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     font-weight: 600;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: all 0.2s;
+    gap: 1rem;
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
     text-decoration: none;
 }
 
-
 .chapter-select-btn:hover {
     background-color: #f8fafc;
     border-color: #2563eb;
-    padding-left: 1.8rem;
+    transform: translateX(4px);
+    box-shadow: 0 6px 16px -2px rgba(37, 99, 235, 0.1), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
 }
 
 .chapter-select-btn::after {
     content: "View Solutions →";
     font-size: 0.85rem;
     color: #2563eb;
-    font-weight: bold;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-left: 0.75rem;
+    transition: transform 0.2s ease;
+}
+
+.chapter-select-btn:hover::after {
+    transform: translateX(3px);
+}
+
+.branch-select-btn::after {
+    content: "Explore Chapters →";
+    color: #2563eb;
+}
+
+.chap-btn-content {
+    display: flex;
+    align-items: center;
+    gap: 1.15rem;
+    flex: 1;
+    min-width: 0;
+}
+
+.chap-icon-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    font-size: 1.45rem;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    flex-shrink: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.chapter-select-btn:hover .chap-icon-badge {
+    transform: scale(1.12);
+    background: #eff6ff;
+    border-color: #93c5fd;
+    box-shadow: 0 4px 10px rgba(37, 99, 235, 0.12);
+}
+
+.branch-icon-badge {
+    background: #eff6ff;
+    border-color: #bfdbfe;
+}
+
+.branch-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.branch-chap-count {
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: #64748b;
+}
+
+.chap-btn-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #1e293b;
+    line-height: 1.45;
+    word-break: break-word;
+}
+
+.heading-icon-badge {
+    display: inline-block;
+    margin-right: 0.45rem;
+    font-size: 1.1em;
+    vertical-align: -0.06em;
 }
 
 /* LAYER 3: Final Q&A Boxes Stack */
@@ -878,11 +973,67 @@ body {
 }
 
 .question-text p {
-    margin: 0;
+    margin: 0 0 8px 0;
     color: inherit;
     font-weight: inherit;
     line-height: inherit;
     font-size: inherit;
+}
+
+.question-text p:last-child {
+    margin-bottom: 0;
+}
+
+.question-text h2,
+.answer-text h2 {
+    margin: 0 0 8px 0;
+    color: #cfa670;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.question-text table,
+.answer-text table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13.5px;
+    margin: 10px 0;
+}
+
+.question-text th,
+.answer-text th {
+    background: #eedcb6;
+    padding: 6px 10px;
+    border: 1px solid #d4c2a8;
+    text-align: left;
+    font-weight: 700;
+    color: #333333;
+}
+
+.question-text td,
+.answer-text td {
+    padding: 6px 10px;
+    border: 1px solid #d4c2a8;
+    color: #333333;
+}
+
+.question-text ol,
+.question-text ul {
+    margin: 8px 0;
+    padding-left: 20px;
+    line-height: 1.6;
+    color: #333333;
+}
+
+.question-text li {
+    margin-bottom: 6px;
+    line-height: 1.6;
+}
+
+.question-text li:last-child {
+    margin-bottom: 0;
 }
 
 /* Prevents duplicated inner boxes if previously wrapped in an inline style div */
@@ -1033,6 +1184,168 @@ body {
     100% { background-color: #ffffff; }
 }
 
+/* ============================================================ */
+/* EXERCISE SET SELECTOR & INTERACTIVE HINT / SOLUTION TOGGLES  */
+/* ============================================================ */
+.exercise-select-btn::after {
+    content: "View Solutions →";
+    color: #2563eb;
+}
+
+.exercise-all-btn {
+    background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%);
+    border: 1.5px solid #93c5fd;
+}
+
+.exercise-all-btn::after {
+    content: "View All Sets →";
+    color: #1d4ed8;
+}
+
+.exercise-switcher-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.55rem;
+    margin-bottom: 1.5rem;
+    padding: 0.85rem 1rem;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.exercise-switcher-label {
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #64748b;
+    margin-right: 0.35rem;
+}
+
+.exercise-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.45rem 0.9rem;
+    border-radius: 9999px;
+    font-size: 0.86rem;
+    font-weight: 600;
+    color: #334155;
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.exercise-pill:hover {
+    background: #eff6ff;
+    border-color: #60a5fa;
+    color: #1d4ed8;
+}
+
+.exercise-pill.active {
+    background: #2563eb;
+    border-color: #2563eb;
+    color: #ffffff;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.25);
+}
+
+.exercise-pill-count {
+    font-size: 0.74rem;
+    padding: 0.1rem 0.42rem;
+    border-radius: 999px;
+    background: rgba(15, 23, 42, 0.08);
+    color: inherit;
+}
+
+.exercise-pill.active .exercise-pill-count {
+    background: rgba(255, 255, 255, 0.22);
+    color: #ffffff;
+}
+
+/* Interactive Hint / Critical Formula Box */
+.hint-box {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fffbeb;
+    border: 1px solid #fde68a;
+    border-left: 4px solid #f59e0b;
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+    color: #78350f;
+    font-size: 0.94rem;
+    line-height: 1.6;
+    transition: all 0.2s ease;
+}
+
+.hint-box.hidden {
+    display: none;
+}
+
+.hint-box-header {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: #b45309;
+    margin-bottom: 4px;
+}
+
+.btn-toggle-hint {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background-color: #fffbeb;
+    color: #b45309;
+    border: 1px solid #fcd34d;
+    padding: 0.45rem 0.95rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-toggle-hint:hover,
+.btn-toggle-hint.active {
+    background-color: #fef3c7;
+    border-color: #f59e0b;
+    color: #92400e;
+}
+
+.btn-toggle-solution {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background-color: #f8fafc;
+    color: #334155;
+    border: 1px solid #cbd5e1;
+    padding: 0.45rem 0.95rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-toggle-solution:hover {
+    background-color: #eff6ff;
+    border-color: #2563eb;
+    color: #2563eb;
+}
+
+.answer-text.hidden {
+    display: none;
+}
+
 /* Floating Controls */
 .floating-controls {
     position: fixed;
@@ -1163,8 +1476,114 @@ body {
     .floating-btn-text {
         display: none;
     }
+    .chapter-select-btn {
+        padding: 1rem 1.1rem;
+        gap: 0.75rem;
+    }
+    .chap-btn-content {
+        gap: 0.75rem;
+    }
+    .chap-icon-badge {
+        width: 38px;
+        height: 38px;
+        font-size: 1.25rem;
+        border-radius: 9px;
+    }
+    .chap-btn-title {
+        font-size: 0.95rem;
+    }
+    .chapter-select-btn::after {
+        font-size: 0.75rem;
+    }
 }
 
 
 
 
+
+/* ============================================================ */
+/* DISABLED / INTRODUCTORY CHAPTER CARDS (NO EXERCISES)        */
+/* ============================================================ */
+.chapter-select-btn.chapter-no-exercises {
+    background: #f8fafc;
+    border: 1.5px dashed #cbd5e1;
+    cursor: not-allowed;
+    position: relative;
+    user-select: none;
+    box-shadow: none;
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.chapter-select-btn.chapter-no-exercises::after {
+    display: none !important;
+}
+
+.chapter-select-btn.chapter-no-exercises .chap-icon-badge {
+    background: #f1f5f9;
+    border-color: #e2e8f0;
+    filter: grayscale(0.4);
+    transition: all 0.25s ease;
+}
+
+.chapter-select-btn.chapter-no-exercises .chap-btn-title {
+    color: #475569;
+}
+
+.chapter-select-btn.chapter-no-exercises .branch-chap-count {
+    color: #94a3b8;
+    font-size: 0.82rem;
+    font-weight: 500;
+}
+
+/* Hover effect: Smooth golden-amber highlight signaling introductory / no exercises */
+.chapter-select-btn.chapter-no-exercises:hover {
+    background-color: #fefce8;
+    border-color: #fde047;
+    transform: none;
+    box-shadow: 0 4px 14px rgba(234, 179, 8, 0.12);
+}
+
+.chapter-select-btn.chapter-no-exercises:hover .chap-icon-badge {
+    transform: scale(1.06);
+    background: #fef08a;
+    border-color: #facc15;
+    filter: none;
+    box-shadow: 0 3px 8px rgba(234, 179, 8, 0.15);
+}
+
+/* Tooltip Badge on Right */
+.no-ex-hover-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    background: #f1f5f9;
+    color: #64748b;
+    border: 1px solid #e2e8f0;
+    padding: 0.45rem 0.95rem;
+    border-radius: 9999px;
+    font-size: 0.84rem;
+    font-weight: 600;
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-left: 0.75rem;
+}
+
+.no-ex-hover-badge .no-ex-icon {
+    font-size: 0.95rem;
+}
+
+.chapter-select-btn.chapter-no-exercises:hover .no-ex-hover-badge {
+    background: #fef08a;
+    color: #854d0e;
+    border-color: #eab308;
+    box-shadow: 0 2px 10px rgba(202, 138, 4, 0.22);
+    transform: scale(1.04);
+}
+
+@media (max-width: 640px) {
+    .no-ex-hover-badge {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.75rem;
+    }
+}
