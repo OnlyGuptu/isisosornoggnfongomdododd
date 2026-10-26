@@ -1,69 +1,462 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
     <loc>https://ncertsolved.in/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-
-  <!-- Core Subject Sections -->
+  <!-- Core Subject Hubs -->
   <url>
     <loc>https://ncertsolved.in/?route=subject/science</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://ncertsolved.in/?route=subject/maths</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://ncertsolved.in/?route=subject/sst</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://ncertsolved.in/?route=subject/english</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <!-- Subject Branches -->
+  <!-- Social Science Books (Parts 1 & 2) -->
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/sst/part/1</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.88</priority>
   </url>
   <url>
-    <loc>https://ncertsolved.in/?route=subject/hindi</loc>
-    <lastmod>2026-10-20</lastmod>
+    <loc>https://ncertsolved.in/?route=subject/sst/part/2</loc>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.88</priority>
   </url>
-
+  <!-- Social Science Branches -->
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/sst/branch/1</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/sst/branch/2</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/sst/branch/3</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/sst/branch/4</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/sst/branch/5</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/sst/branch/6</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <!-- Mathematics Branches -->
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/maths/branch/1</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/maths/branch/2</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <!-- English Branches -->
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/english/branch/1</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/english/branch/2</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <!-- Hindi Branches -->
+  <!-- Science Chapters (Chapters 2 to 13) -->
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/science/chapter/2</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/science/chapter/3</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/science/chapter/4</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/science/chapter/5</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/science/chapter/6</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/science/chapter/7</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/science/chapter/8</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/science/chapter/9</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/science/chapter/10</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/science/chapter/11</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/science/chapter/12</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/science/chapter/13</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Social Science Chapters (Chapters 2 to 9 across Geography, History, Political Science, Economics) -->
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/sst/branch/1/chapter/2</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/sst/branch/1/chapter/3</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/sst/branch/2/chapter/4</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/sst/branch/2/chapter/5</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/sst/branch/3/chapter/6</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/sst/branch/3/chapter/7</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/sst/branch/4/chapter/8</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/sst/branch/4/chapter/9</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- SST Part 2 Chapters -->
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/sst/branch/5/chapter/1</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/sst/branch/5/chapter/2</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/sst/branch/6/chapter/3</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Mathematics Chapters (Ganita Prakash Part 1: Ch 1-8, Part 2: Ch 9-14) -->
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/maths/branch/1/chapter/1</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/maths/branch/1/chapter/2</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/maths/branch/1/chapter/3</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/maths/branch/1/chapter/4</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/maths/branch/1/chapter/5</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/maths/branch/1/chapter/6</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/maths/branch/1/chapter/7</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/maths/branch/1/chapter/8</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/maths/branch/2/chapter/9</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/maths/branch/2/chapter/10</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/maths/branch/2/chapter/11</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/maths/branch/2/chapter/12</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/maths/branch/2/chapter/13</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/maths/branch/2/chapter/14</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- English Chapters (Prose 1-8 & Poetry 1-8) -->
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/english/branch/1/chapter/1</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/english/branch/1/chapter/2</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/english/branch/1/chapter/3</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/english/branch/1/chapter/4</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/english/branch/1/chapter/5</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/english/branch/1/chapter/6</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/english/branch/1/chapter/7</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/english/branch/1/chapter/8</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/english/branch/2/chapter/1</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/english/branch/2/chapter/2</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/english/branch/2/chapter/3</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/english/branch/2/chapter/4</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/english/branch/2/chapter/5</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/english/branch/2/chapter/6</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/english/branch/2/chapter/7</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncertsolved.in/?route=subject/english/branch/2/chapter/8</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Hindi Chapters (Gadya Khand: Paath 1-7, Padya Khand: Paath 8-12) -->
   <!-- Legal & E-E-A-T Policy Pages -->
   <url>
     <loc>https://ncertsolved.in/?route=about</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ncertsolved.in/?route=privacy</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ncertsolved.in/?route=terms</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ncertsolved.in/?route=contact</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 </urlset>
-

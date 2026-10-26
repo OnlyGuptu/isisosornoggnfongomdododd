@@ -1,4 +1,4 @@
-// Complete Error-Free NCERT Database with Integrated Copy Actions
+﻿// Complete Error-Free NCERT Database with Integrated Copy Actions
 const ncertDatabase = {
     science: {
         title: "Science Chapters",
@@ -3568,7 +3568,7 @@ given in Table 5.5. Mixtures:
         {
           "qNum": "Q1",
           "hint": "Distance along an axis is the absolute difference between coordinates: $|x_2 - x_1|$ or $|y_2 - y_1|$.",
-          "q": "<div class=\"q-block\">\n  <h3>Exercise Set 1.1</h3>\n  <p>Referring to Fig. 1.3, answer the following questions:</p>\n  <ol type=\"i\">\n    <li>If D₁R₁ represents the door to Reiaan's room, how far is the door from the left wall (the y-axis) of the room? How far is the door from the x-axis?</li>\n    <li>What are the coordinates of D₁?</li>\n    <li>If R₁ is the point (11.5, 0), how wide is the door? Do you think this is a comfortable width for the room door? If a person in a wheelchair wants to enter the room, will he/she be able to do so easily?</li>\n    <li>If B₁(0, 1.5) and B₂(0, 4) represent the ends of the bathroom door, is the bathroom door narrower or wider than the room door?</li>\n  </ol>\n</div>",
+          "q": "<div class=\"q-block\">\n  <h3>Exercise Set 1.1</h3>\n  <div style=\"margin: 12px 0; text-align: center;\">\n<svg width=\"400\" height=\"260\" viewBox=\"0 0 400 260\" style=\"background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; max-width:100%;\">\n  <text x=\"200\" y=\"22\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#1e293b\">Fig. 1.3: Cartesian Layout of Reiaan's Room</text>\n  <rect x=\"70\" y=\"40\" width=\"300\" height=\"170\" fill=\"#f1f5f9\" stroke=\"#94a3b8\" stroke-width=\"2\"/>\n  <text x=\"220\" y=\"125\" font-size=\"14\" fill=\"#64748b\" text-anchor=\"middle\" font-weight=\"500\">Reiaan's Bedroom</text>\n  <line x1=\"70\" y1=\"230\" x2=\"70\" y2=\"30\" stroke=\"#1e293b\" stroke-width=\"2.5\"/>\n  <line x1=\"50\" y1=\"210\" x2=\"390\" y2=\"210\" stroke=\"#1e293b\" stroke-width=\"2.5\"/>\n  <text x=\"385\" y=\"230\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e293b\">x (ft)</text>\n  <text x=\"45\" y=\"40\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e293b\">y (ft)</text>\n  <text x=\"54\" y=\"224\" font-size=\"10\" fill=\"#475569\">O(0,0)</text>\n  <line x1=\"70\" y1=\"172.5\" x2=\"70\" y2=\"110\" stroke=\"#0284c7\" stroke-width=\"6\"/>\n  <circle cx=\"70\" cy=\"172.5\" r=\"4\" fill=\"#0284c7\"/>\n  <circle cx=\"70\" cy=\"110\" r=\"4\" fill=\"#0284c7\"/>\n  <text x=\"12\" y=\"176\" font-size=\"10\" font-weight=\"bold\" fill=\"#0284c7\">Bâ‚(0, 1.5)</text>\n  <text x=\"12\" y=\"114\" font-size=\"10\" font-weight=\"bold\" fill=\"#0284c7\">Bâ‚‚(0, 4)</text>\n  <text x=\"110\" y=\"145\" font-size=\"10\" fill=\"#0284c7\" font-weight=\"bold\">Bathroom Door (2.5 ft)</text>\n  <line x1=\"262\" y1=\"210\" x2=\"346\" y2=\"210\" stroke=\"#16a34a\" stroke-width=\"6\"/>\n  <circle cx=\"262\" cy=\"210\" r=\"4\" fill=\"#16a34a\"/>\n  <circle cx=\"346\" cy=\"210\" r=\"4\" fill=\"#16a34a\"/>\n  <text x=\"245\" y=\"235\" font-size=\"10\" font-weight=\"bold\" fill=\"#16a34a\">Dâ‚(8, 0)</text>\n  <text x=\"325\" y=\"235\" font-size=\"10\" font-weight=\"bold\" fill=\"#16a34a\">Râ‚(11.5, 0)</text>\n  <text x=\"304\" y=\"195\" font-size=\"10\" fill=\"#16a34a\" font-weight=\"bold\" text-anchor=\"middle\">Room Door (3.5 ft)</text>\n  <line x1=\"70\" y1=\"245\" x2=\"262\" y2=\"245\" stroke=\"#64748b\" stroke-dasharray=\"3,3\" stroke-width=\"1.5\"/>\n  <text x=\"166\" y=\"243\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Distance = 8 ft</text>\n</svg>\n</div>\n  <p>Referring to Fig. 1.3, answer the following questions:</p>\n  <ol type=\"i\">\n    <li>If D₁R₁ represents the door to Reiaan's room, how far is the door from the left wall (the y-axis) of the room? How far is the door from the x-axis?</li>\n    <li>What are the coordinates of D₁?</li>\n    <li>If R₁ is the point (11.5, 0), how wide is the door? Do you think this is a comfortable width for the room door? If a person in a wheelchair wants to enter the room, will he/she be able to do so easily?</li>\n    <li>If B₁(0, 1.5) and B₂(0, 4) represent the ends of the bathroom door, is the bathroom door narrower or wider than the room door?</li>\n  </ol>\n</div>",
           "a": "<div class=\"a-block\">\n  <ol type=\"i\">\n    <li>The door starts at point D₁, which is 8 units (feet) away from the left wall (y-axis). Since the door lies directly on the x-axis, its distance from the x-axis is 0 units.</li>\n    <li>The coordinates of D₁ are (8, 0).</li>\n    <li>The width of the door is $11.5 - 8 = 3.5$ feet. Yes, 3.5 feet is a comfortable width for a room door. A person using a wheelchair requires about 32 inches (approx 2.7 feet) of clearance, so they will easily be able to enter the room.</li>\n    <li>The width of the bathroom door is the distance between B₁(0, 1.5) and B₂(0, 4), which is $4 - 1.5 = 2.5$ feet. Therefore, the bathroom door (2.5 feet) is narrower than the room door (3.5 feet).</li>\n  </ol>\n</div>"
         },
         {
@@ -3612,7 +3612,7 @@ given in Table 5.5. Mixtures:
         {
           "qNum": "Q3",
           "hint": "Check which sides are parallel: a quadrilateral with exactly one pair of parallel opposite sides is a trapezium.",
-          "q": "<div class=\"q-block\">\n  <h3>Exercise Set 1.2</h3>\n  <p>3. Look at Reiaan's bathroom.</p>\n  <ol type=\"i\">\n    <li>What are the coordinates of the four corners O, F, R, and P of the bathroom?</li>\n    <li>What is the shape of the showering area SHWR in Reiaan's bathroom? Write the coordinates of the four corners.</li>\n    <li>Mark off a 3 ft × 2 ft space for the washbasin and a 2 ft × 3 ft space for the toilet. Write the coordinates of the corners of these spaces.</li>\n  </ol>\n</div>",
+          "q": "<div class=\"q-block\">\n  <h3>Exercise Set 1.2</h3>\n  <div style=\"margin: 12px 0; text-align: center;\">\n<svg width=\"420\" height=\"280\" viewBox=\"0 0 420 280\" style=\"background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; max-width:100%;\">\n  <text x=\"210\" y=\"20\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#1e293b\">Fig. 1.5: Cartesian Plan of Reiaan's Bathroom</text>\n  <line x1=\"160\" y1=\"230\" x2=\"380\" y2=\"230\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/>\n  <line x1=\"320\" y1=\"255\" x2=\"320\" y2=\"20\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/>\n  <text x=\"370\" y=\"245\" font-size=\"11\" font-weight=\"bold\" fill=\"#64748b\">x</text>\n  <text x=\"330\" y=\"30\" font-size=\"11\" font-weight=\"bold\" fill=\"#64748b\">y</text>\n  <rect x=\"200\" y=\"30\" width=\"120\" height=\"200\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <polygon points=\"200,110 280,110 280,30 200,30\" fill=\"#e0f2fe\" stroke=\"#0284c7\" stroke-width=\"1.5\"/>\n  <text x=\"240\" y=\"70\" font-size=\"10\" font-weight=\"bold\" fill=\"#0369a1\" text-anchor=\"middle\">SHWR Area</text>\n  <text x=\"240\" y=\"85\" font-size=\"9\" fill=\"#0369a1\" text-anchor=\"middle\">(Trapezium)</text>\n  <rect x=\"200\" y=\"190\" width=\"60\" height=\"40\" fill=\"#dcfce7\" stroke=\"#16a34a\" stroke-width=\"1.5\"/>\n  <text x=\"230\" y=\"214\" font-size=\"9\" font-weight=\"bold\" fill=\"#15803d\" text-anchor=\"middle\">Washbasin</text>\n  <rect x=\"200\" y=\"130\" width=\"40\" height=\"60\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.5\"/>\n  <text x=\"220\" y=\"164\" font-size=\"9\" font-weight=\"bold\" fill=\"#b45309\" text-anchor=\"middle\">Toilet</text>\n  <line x1=\"320\" y1=\"200\" x2=\"320\" y2=\"150\" stroke=\"#8b5cf6\" stroke-width=\"4\"/>\n  <text x=\"330\" y=\"178\" font-size=\"9\" font-weight=\"bold\" fill=\"#7c3aed\">Door</text>\n  <text x=\"145\" y=\"242\" font-size=\"9\" font-weight=\"bold\" fill=\"#1e293b\">P(-6, 0)</text>\n  <circle cx=\"200\" cy=\"230\" r=\"3\" fill=\"#1e293b\"/>\n  <text x=\"325\" y=\"242\" font-size=\"9\" font-weight=\"bold\" fill=\"#1e293b\">O(0, 0)</text>\n  <circle cx=\"320\" cy=\"230\" r=\"3\" fill=\"#1e293b\"/>\n  <text x=\"325\" y=\"25\" font-size=\"9\" font-weight=\"bold\" fill=\"#1e293b\">F(0, 10)</text>\n  <circle cx=\"320\" cy=\"30\" r=\"3\" fill=\"#1e293b\"/>\n  <text x=\"145\" y=\"25\" font-size=\"9\" font-weight=\"bold\" fill=\"#1e293b\">R(-6, 10)</text>\n  <circle cx=\"200\" cy=\"30\" r=\"3\" fill=\"#1e293b\"/>\n  <text x=\"150\" y=\"112\" font-size=\"9\" font-weight=\"bold\" fill=\"#0284c7\">S(-6, 6)</text>\n  <circle cx=\"200\" cy=\"110\" r=\"3\" fill=\"#0284c7\"/>\n  <text x=\"285\" y=\"115\" font-size=\"9\" font-weight=\"bold\" fill=\"#0284c7\">H(-2, 6)</text>\n  <circle cx=\"280\" cy=\"110\" r=\"3\" fill=\"#0284c7\"/>\n  <text x=\"285\" y=\"25\" font-size=\"9\" font-weight=\"bold\" fill=\"#0284c7\">W(-2, 10)</text>\n  <circle cx=\"280\" cy=\"30\" r=\"3\" fill=\"#0284c7\"/>\n</svg>\n</div>\n  <p>3. Look at Reiaan's bathroom.</p>\n  <ol type=\"i\">\n    <li>What are the coordinates of the four corners O, F, R, and P of the bathroom?</li>\n    <li>What is the shape of the showering area SHWR in Reiaan's bathroom? Write the coordinates of the four corners.</li>\n    <li>Mark off a 3 ft × 2 ft space for the washbasin and a 2 ft × 3 ft space for the toilet. Write the coordinates of the corners of these spaces.</li>\n  </ol>\n</div>",
           "a": "<div class=\"a-block\">\n  <ol type=\"i\">\n    <li>Based on the Cartesian axes in Fig. 1.5, the coordinates for the bathroom corners are: $O(0, 0)$, $F(0, 10)$, $R(-6, 10)$, and $P(-6, 0)$.</li>\n    <li>The showering area SHWR is in the shape of a <strong>trapezium</strong> because only two of its opposite sides (the top wall and the horizontal divider) are parallel. Its coordinates are: $S(-6, 6)$, $H(-2, 6)$, $W(-2, 10)$, and $R(-6, 10)$.</li>\n    <li>For a $3\\text{ ft} \\times 2\\text{ ft}$ washbasin placed in the bottom left corner, the coordinates would be: $P(-6, 0)$, $(-3, 0)$, $(-3, 2)$, and $(-6, 2)$. For a $2\\text{ ft} \\times 3\\text{ ft}$ toilet placed along the left wall, the coordinates could reasonably be: $(-6, 2)$, $(-4, 2)$, $(-4, 5)$, and $(-6, 5)$.</li>\n  </ol>\n</div>"
         },
         {
@@ -4097,12 +4097,12 @@ given in Table 5.5. Mixtures:
                             "a": "<div class=\"a-block\">\n  <p><em>Reflections on the parameters 'a' (slope) and 'b' (y-intercept):</em></p>\n  <ul>\n    <li><strong>(i) y = 3x - 1, y = 3x, y = 3x + 1:</strong> Here, the slope <em>a</em> is constant (3), so the three lines are <strong>parallel</strong>. The y-intercept <em>b</em> changes (-1, 0, 1), shifting the parallel lines vertically up and down the y-axis.</li>\n    <li><strong>(ii) y = 4x, y = 2x, y = x:</strong> Here, the y-intercept <em>b</em> is fixed at 0 (all pass through the origin). The slope <em>a</em> changes (4, 2, 1). As <em>a</em> increases, the lines become progressively <strong>steeper</strong> (closer to the y-axis).</li>\n    <li><strong>(iii) y = -6x, y = -3x, y = -x:</strong> All pass through the origin. Since slopes are negative, they represent linear decay. As the magnitude of <em>a</em> increases (from 1 to 6), the lines get steeper in the negative direction.</li>\n    <li><strong>(iv) y = 5x, y = -5x:</strong> Both pass through the origin. They have the same steepness but opposite directions; <em>y = 5x</em> represents growth (rising left to right), while <em>y = -5x</em> represents decay (falling left to right). They are reflections of each other across the y-axis.</li>\n    <li><strong>(v) y = -2x - 3, y = -2x, y = 2x + 3:</strong> The first two lines (<em>y = -2x - 3</em> and <em>y = -2x</em>) are parallel to each other with a negative slope, but with different y-intercepts (-3 and 0). The third line (<em>y = 2x + 3</em>) has a positive slope (intersecting the others) and cuts the y-axis at +3.</li>\n  </ul>\n</div>\n<div style=\"margin: 12px 0; text-align: center;\">\n<svg width=\"340\" height=\"220\" viewBox=\"0 0 340 220\" style=\"background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; max-width:100%;\">\n  <text x=\"170\" y=\"20\" font-size=\"11.5\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#1e293b\">Parallel Lines: y = 3x − 1, y = 3x, y = 3x + 1</text>\n  <!-- Axes -->\n  <line x1=\"40\" y1=\"120\" x2=\"300\" y2=\"120\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/>\n  <line x1=\"170\" y1=\"35\" x2=\"170\" y2=\"200\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/>\n  <text x=\"295\" y=\"115\" font-size=\"10\" fill=\"#64748b\">x</text>\n  <text x=\"175\" y=\"45\" font-size=\"10\" fill=\"#64748b\">y</text>\n  <!-- Line y = 3x (through (170, 120)) -->\n  <line x1=\"130\" y1=\"190\" x2=\"210\" y2=\"50\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n  <text x=\"215\" y=\"55\" font-size=\"9\" font-weight=\"bold\" fill=\"#3b82f6\">y = 3x</text>\n  <!-- Line y = 3x + 1 (shifted up) -->\n  <line x1=\"120\" y1=\"185\" x2=\"200\" y2=\"45\" stroke=\"#10b981\" stroke-width=\"2\"/>\n  <text x=\"165\" y=\"42\" font-size=\"9\" font-weight=\"bold\" fill=\"#10b981\">y = 3x + 1</text>\n  <!-- Line y = 3x - 1 (shifted down) -->\n  <line x1=\"140\" y1=\"195\" x2=\"220\" y2=\"55\" stroke=\"#f59e0b\" stroke-width=\"2\"/>\n  <text x=\"225\" y=\"70\" font-size=\"9\" font-weight=\"bold\" fill=\"#f59e0b\">y = 3x − 1</text>\n</svg>\n<div style=\"font-size: 0.85em; color: #64748b; margin-top: 4px;\">Role of 'b': Parallel lines with same slope (a = 3) shifted vertically by y-intercept b</div>\n</div>"
                         },
                         {
-                            "q": "<div class=\"q-block\">\n  <h3>End-of-Chapter Exercises</h3>\n  <p>1. Write a polynomial of degree 3 in the variable x, in which the coefficient of the x² term is -7.</p>\n</div>",
-                            "a": "<div class=\"a-block\">\n  <p>A possible example is: <strong>5x³ - 7x² + 2x + 1</strong>. (Any polynomial where the highest power is <em>x³</em> and the term containing <em>x²</em> is <em>-7x²</em> is correct).</p>\n</div>"
+                            "q": "<div class=\"q-block\">\n  <h3>End-of-Chapter Exercises</h3>\n  <p>1. Write a polynomial of degree 3 in the variable x, in which the coefficient of the x&sup2; term is -7.</p>\n</div>",
+                            "a": "<div class=\"a-block\">\n  <p>A possible example is: <strong>5x&sup3; - 7x&sup2; + 2x + 1</strong>. (Any polynomial where the highest power is <em>x&sup3;</em> and the term containing <em>x&sup2;</em> is <em>-7x&sup2;</em> is correct).</p>\n</div>"
                         },
                         {
-                            "q": "<div class=\"q-block\">\n  <h3>End-of-Chapter Exercises</h3>\n  <p>2. Find the values of the following polynomials at the indicated values of the variables.</p>\n  <p>(i) 5x² - 3x + 7 if x = 1</p>\n  <p>(ii) 4t³ - t² + 6 if t = a</p>\n</div>",
-                            "a": "<div class=\"a-block\">\n  <ul>\n    <li><strong>(i) If x = 1:</strong> 5(1)² - 3(1) + 7 = 5 - 3 + 7 = <strong>9</strong></li>\n    <li><strong>(ii) If t = a:</strong> Simply replace <em>t</em> with <em>a</em> to get <strong>4a³ - a² + 6</strong></li>\n  </ul>\n</div>"
+                            "q": "<div class=\"q-block\">\n  <h3>End-of-Chapter Exercises</h3>\n  <p>2. Find the values of the following polynomials at the indicated values of the variables.</p>\n  <p>(i) 5x&sup2; - 3x + 7 if x = 1</p>\n  <p>(ii) 4t&sup3; - t&sup2; + 6 if t = a</p>\n</div>",
+                            "a": "<div class=\"a-block\">\n  <ul>\n    <li><strong>(i) If x = 1:</strong> 5(1)&sup2; - 3(1) + 7 = 5 - 3 + 7 = <strong>9</strong></li>\n    <li><strong>(ii) If t = a:</strong> Simply replace <em>t</em> with <em>a</em> to get <strong>4a&sup3; - a&sup2; + 6</strong></li>\n  </ul>\n</div>"
                         },
                         {
                             "q": "<div class=\"q-block\">\n  <h3>End-of-Chapter Exercises</h3>\n  <p>3. If we multiply a number by 5/2 and add 2/3 to the product, we get -7/12. Find the number.</p>\n</div>",
@@ -4181,21 +4181,6 @@ given in Table 5.5. Mixtures:
                                     "qNum": "Q4",
                                     "q": "<div class=\"q-block\">\n  <h3>Exercise Set 3.1</h3>\n  <p>4. Ancient Indians used the joints of their fingers to count, a practice still seen today. Each finger has 3 joints, and the thumb is used to count them. How many can you count on one hand? How does this relate to the ancient base-12 counting systems?</p>\n</div>",
                                     "a": "<div class=\"a-block\">\n  <ul>\n    <li><strong>Count on one hand:</strong> The four fingers (index, middle, ring, pinky) each have 3 distinct segments/joints. Using the thumb as a pointer gives:\n      <br/><em>4 fingers &times; 3 joints = <strong>12</strong></em> distinct counts on a single hand.\n    </li>\n    <li><strong>Relation to base-12 system:</strong> This physiological method is the natural foundation for duodecimal (base-12) systems. It explains the historical division of days and nights into 12 hours each (total 24 hours), the 12 signs of the zodiac, and units like dozens (12) and grosses (144).</li>\n  </ul>\n</div>"
-                                },
-                                {
-                                    "qNum": "Q5",
-                                    "q": "<div class=\"q-block\">\n  <h3>Exercise Set 3.4</h3>\n  <p>5. Find three rational numbers between 3.1415 and 3.1416.</p>\n</div>",
-                                    "a": "<div class=\"a-block\">\n  <p>Express with extra decimal places: <em>3.14150</em> and <em>3.14160</em>.</p>\n  <p>Three rational numbers strictly between them are:</p>\n  <p><strong>3.14152, 3.14155, 3.14158</strong> (in fractional form: 314152/100000, 314155/100000, 314158/100000).</p>\n</div>"
-                                },
-                                {
-                                    "qNum": "Q3",
-                                    "q": "<div class=\"q-block\">\n  <h3>End-of-Chapter Exercises</h3>\n  <p>3. Convert the following decimal numbers in the form of p/q:</p>\n  <p>(i) 12.6 &nbsp;&nbsp;&nbsp; (ii) 0.0120 &nbsp;&nbsp;&nbsp; (iii) 3.052&#773; &nbsp;&nbsp;&nbsp; (iv) 1.235 &nbsp;&nbsp;&nbsp; (v) 0.23&#773; &nbsp;&nbsp;&nbsp; (vi) 2.05&#773; &nbsp;&nbsp;&nbsp; (vii) 2.125 &nbsp;&nbsp;&nbsp; (viii) 3.125 &nbsp;&nbsp;&nbsp; (ix) 2.1625</p>\n</div>",
-                                    "a": "<div class=\"a-block\">\n  <ul>\n    <li><strong>(i) 12.6:</strong> 126/10 = <strong>63/5</strong></li>\n    <li><strong>(ii) 0.0120:</strong> 0.012 = 12/1000 = <strong>3/250</strong></li>\n    <li><strong>(iii) 3.052&#773; (where 52 repeats):</strong>\n      <br/>Let <em>x = 3.05252...</em>\n      <br/>10x = 30.5252... and 1000x = 3052.5252...\n      <br/>1000x - 10x = 3052 - 30 &rArr; 990x = 3022 &rArr; x = 3022/990 = <strong>1511/495</strong>\n    </li>\n    <li><strong>(iv) 1.235:</strong> 1235/1000 = <strong>247/200</strong></li>\n    <li><strong>(v) 0.23&#773; (where 23 repeats):</strong>\n      <br/>Let <em>x = 0.2323...</em> &rArr; 100x = 23.2323...\n      <br/>100x - x = 23 &rArr; 99x = 23 &rArr; x = <strong>23/99</strong>\n    </li>\n    <li><strong>(vi) 2.05&#773; (where 5 repeats):</strong>\n      <br/>Let <em>x = 2.0555...</em>\n      <br/>10x = 20.555... and 100x = 205.555...\n      <br/>100x - 10x = 205 - 20 &rArr; 90x = 185 &rArr; x = 185/90 = <strong>37/18</strong>\n    </li>\n    <li><strong>(vii) 2.125:</strong> 2125/1000 = <strong>17/8</strong></li>\n    <li><strong>(viii) 3.125:</strong> 3125/1000 = <strong>25/8</strong></li>\n    <li><strong>(ix) 2.1625:</strong> 21625/10000 = <strong>173/80</strong></li>\n  </ul>\n</div>"
-                                },
-                                {
-                                    "qNum": "Q16",
-                                    "q": "<div class=\"q-block\">\n  <h3>End-of-Chapter Exercises</h3>\n  <p>16. Find the lengths of the hypotenuses of all the right triangles in Fig. 3.14 which is referred to as the square root spiral.</p>\n</div>",
-                                    "a": "<div class=\"a-block\">\n  <p>In the square root spiral, each consecutive right triangle has a perpendicular side of 1 unit and uses the hypotenuse of the preceding triangle as its base:</p>\n  <ol>\n    <li>Triangle 1: Hypotenuse = &radic;(1&sup2; + 1&sup2;) = <strong>&radic;2</strong></li>\n    <li>Triangle 2: Hypotenuse = &radic;((&radic;2)&sup2; + 1&sup2;) = &radic;(2 + 1) = <strong>&radic;3</strong></li>\n    <li>Triangle 3: Hypotenuse = &radic;((&radic;3)&sup2; + 1&sup2;) = &radic;(3 + 1) = &radic;4 = <strong>2</strong></li>\n    <li>Triangle 4: Hypotenuse = &radic;((&radic;4)&sup2; + 1&sup2;) = <strong>&radic;5</strong></li>\n    <li>Triangle 5: Hypotenuse = &radic;((&radic;5)&sup2; + 1&sup2;) = <strong>&radic;6</strong></li>\n    <li>Triangle 6: Hypotenuse = &radic;((&radic;6)&sup2; + 1&sup2;) = <strong>&radic;7</strong></li>\n    <li>Triangle 7: Hypotenuse = &radic;((&radic;7)&sup2; + 1&sup2;) = &radic;8 = <strong>2&radic;2</strong></li>\n    <li>Triangle 8: Hypotenuse = &radic;((&radic;8)&sup2; + 1&sup2;) = &radic;9 = <strong>3</strong></li>\n    <li>Triangle 9: Hypotenuse = &radic;((&radic;9)&sup2; + 1&sup2;) = <strong>&radic;10</strong></li>\n    <li>Triangle 10: Hypotenuse = &radic;((&radic;10)&sup2; + 1&sup2;) = <strong>&radic;11</strong></li>\n    <li>Triangle 11: Hypotenuse = &radic;((&radic;11)&sup2; + 1&sup2;) = <strong>&radic;12</strong> (or 2&radic;3)</li>\n    <li>Triangle 12: Hypotenuse = &radic;((&radic;12)&sup2; + 1&sup2;) = <strong>&radic;13</strong></li>\n    <li>Triangle 13: Hypotenuse = &radic;((&radic;13)&sup2; + 1&sup2;) = <strong>&radic;14</strong></li>\n    <li>Triangle 14: Hypotenuse = &radic;((&radic;14)&sup2; + 1&sup2;) = <strong>&radic;15</strong></li>\n    <li>Triangle 15: Hypotenuse = &radic;((&radic;15)&sup2; + 1&sup2;) = &radic;16 = <strong>4</strong></li>\n    <li>Triangle 16: Hypotenuse = &radic;((&radic;16)&sup2; + 1&sup2;) = <strong>&radic;17</strong></li>\n  </ol>\n</div>"
                                 }
                             ]
                         },
@@ -4585,7 +4570,7 @@ given in Table 5.5. Mixtures:
                             "a": "<div class=\"a-block\">\n  <p>Let <em>a &lt; b</em>:</p>\n  <ol>\n    <li>Add <em>a</em> to both sides of the inequality:\n      <br/><em>a + a &lt; a + b &rArr; 2a &lt; a + b &rArr; a &lt; (a + b)/2</em>\n    </li>\n    <li>Add <em>b</em> to both sides of the original inequality:\n      <br/><em>a + b &lt; b + b &rArr; a + b &lt; 2b &rArr; (a + b)/2 &lt; b</em>\n    </li>\n    <li>Combining both results gives:\n      <br/><strong><em>a &lt; (a + b)/2 &lt; b</em></strong>\n    </li>\n  </ol>\n  <p>Hence, the average <em>(a + b)/2</em> always lies strictly between <em>a</em> and <em>b</em>.</p>\n</div>"
                         },
                         {
-                            "q": "<div class=\"q-block\">\n  <h3>End-of-Chapter Exercises</h3>\n  <p>16. Find the lengths of the hypotenuses of all the right triangles in Fig. 3.14 which is referred to as the square root spiral.</p>\n</div>",
+                            "q": "<div class=\"q-block\">\n  <h3>End-of-Chapter Exercises</h3>\n  <div style=\"margin: 14px 0; text-align: center;\">\n<svg width=\"420\" height=\"320\" viewBox=\"110 70 300 270\" style=\"background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; max-width:100%;\">\n  <text x=\"260\" y=\"92\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#1e293b\">Fig. 3.14: The Square Root Spiral (Theodorus Spiral)</text>\n  <!-- Origin O -->\n  <circle cx=\"240\" cy=\"190\" r=\"3.5\" fill=\"#1e293b\"/>\n  <text x=\"226\" y=\"195\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e293b\">O</text>\n  <!-- Initial Base P0 -->\n  <line x1=\"240\" y1=\"190\" x2=\"272\" y2=\"190\" stroke=\"#64748b\" stroke-width=\"1.5\"/>\n  <text x=\"256\" y=\"203\" font-size=\"9\" fill=\"#64748b\" text-anchor=\"middle\">1</text>\n  <!-- Triangle 1 -->\n  <line x1=\"272\" y1=\"190\" x2=\"272\" y2=\"158\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/>\n  <line x1=\"240\" y1=\"190\" x2=\"272\" y2=\"158\" stroke=\"#0284c7\" stroke-width=\"1.8\"/>\n  <circle cx=\"272\" cy=\"158\" r=\"2.5\" fill=\"#0284c7\"/>\n  <text x=\"262\" y=\"168\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#0284c7\" text-anchor=\"middle\">&radic;2</text>\n  <!-- Triangle 2 -->\n  <line x1=\"272\" y1=\"158\" x2=\"249.4\" y2=\"135.4\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/>\n  <line x1=\"240\" y1=\"190\" x2=\"249.4\" y2=\"135.4\" stroke=\"#16a34a\" stroke-width=\"1.8\"/>\n  <circle cx=\"249.4\" cy=\"135.4\" r=\"2.5\" fill=\"#16a34a\"/>\n  <text x=\"246.5\" y=\"152.5\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#16a34a\" text-anchor=\"middle\">&radic;3</text>\n  <!-- Triangle 3 -->\n  <line x1=\"249.4\" y1=\"135.4\" x2=\"217.8\" y2=\"130\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/>\n  <line x1=\"240\" y1=\"190\" x2=\"217.8\" y2=\"130\" stroke=\"#ea580c\" stroke-width=\"1.8\"/>\n  <circle cx=\"217.8\" cy=\"130\" r=\"2.5\" fill=\"#ea580c\"/>\n  <text x=\"224.7\" y=\"148.8\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#ea580c\" text-anchor=\"middle\">&radic;4=2</text>\n  <!-- Triangle 4 -->\n  <line x1=\"217.8\" y1=\"130\" x2=\"187.8\" y2=\"141\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/>\n  <line x1=\"240\" y1=\"190\" x2=\"187.8\" y2=\"141\" stroke=\"#8b5cf6\" stroke-width=\"1.8\"/>\n  <circle cx=\"187.8\" cy=\"141\" r=\"2.5\" fill=\"#8b5cf6\"/>\n  <text x=\"204.1\" y=\"156.3\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#8b5cf6\" text-anchor=\"middle\">&radic;5</text>\n  <!-- Triangle 5 -->\n  <line x1=\"187.8\" y1=\"141\" x2=\"165.9\" y2=\"164.4\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/>\n  <line x1=\"240\" y1=\"190\" x2=\"165.9\" y2=\"164.4\" stroke=\"#d97706\" stroke-width=\"1.8\"/>\n  <circle cx=\"165.9\" cy=\"164.4\" r=\"2.5\" fill=\"#d97706\"/>\n  <text x=\"189.1\" y=\"172.4\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#d97706\" text-anchor=\"middle\">&radic;6</text>\n  <!-- Triangle 6 -->\n  <line x1=\"165.9\" y1=\"164.4\" x2=\"155.5\" y2=\"194.6\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/>\n  <line x1=\"240\" y1=\"190\" x2=\"155.5\" y2=\"194.6\" stroke=\"#059669\" stroke-width=\"1.8\"/>\n  <circle cx=\"155.5\" cy=\"194.6\" r=\"2.5\" fill=\"#059669\"/>\n  <text x=\"181.9\" y=\"193.2\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#059669\" text-anchor=\"middle\">&radic;7</text>\n  <!-- Triangle 7 -->\n  <line x1=\"155.5\" y1=\"194.6\" x2=\"157.2\" y2=\"226.6\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/>\n  <line x1=\"240\" y1=\"190\" x2=\"157.2\" y2=\"226.6\" stroke=\"#2563eb\" stroke-width=\"1.8\"/>\n  <circle cx=\"157.2\" cy=\"226.6\" r=\"2.5\" fill=\"#2563eb\"/>\n  <text x=\"183.1\" y=\"215.2\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#2563eb\" text-anchor=\"middle\">&radic;8</text>\n  <!-- Triangle 8 -->\n  <line x1=\"157.2\" y1=\"226.6\" x2=\"170.1\" y2=\"255.8\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/>\n  <line x1=\"240\" y1=\"190\" x2=\"170.1\" y2=\"255.8\" stroke=\"#db2777\" stroke-width=\"1.8\"/>\n  <circle cx=\"170.1\" cy=\"255.8\" r=\"2.5\" fill=\"#db2777\"/>\n  <text x=\"191.9\" y=\"235.2\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#db2777\" text-anchor=\"middle\">&radic;9=3</text>\n  <!-- Triangle 9 -->\n  <line x1=\"170.1\" y1=\"255.8\" x2=\"192.1\" y2=\"279.1\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/>\n  <line x1=\"240\" y1=\"190\" x2=\"192.1\" y2=\"279.1\" stroke=\"#0284c7\" stroke-width=\"1.8\"/>\n  <circle cx=\"192.1\" cy=\"279.1\" r=\"2.5\" fill=\"#0284c7\"/>\n  <text x=\"207.1\" y=\"251.3\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#0284c7\" text-anchor=\"middle\">&radic;10</text>\n  <!-- Triangle 10 -->\n  <line x1=\"192.1\" y1=\"279.1\" x2=\"220.3\" y2=\"294.3\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/>\n  <line x1=\"240\" y1=\"190\" x2=\"220.3\" y2=\"294.3\" stroke=\"#16a34a\" stroke-width=\"1.8\"/>\n  <circle cx=\"220.3\" cy=\"294.3\" r=\"2.5\" fill=\"#16a34a\"/>\n  <text x=\"226.5\" y=\"261.7\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#16a34a\" text-anchor=\"middle\">&radic;11</text>\n  <!-- Triangle 11 -->\n  <line x1=\"220.3\" y1=\"294.3\" x2=\"251.7\" y2=\"300.2\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/>\n  <line x1=\"240\" y1=\"190\" x2=\"251.7\" y2=\"300.2\" stroke=\"#ea580c\" stroke-width=\"1.8\"/>\n  <circle cx=\"251.7\" cy=\"300.2\" r=\"2.5\" fill=\"#ea580c\"/>\n  <text x=\"248\" y=\"265.8\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#ea580c\" text-anchor=\"middle\">&radic;12</text>\n  <!-- Triangle 12 -->\n  <line x1=\"251.7\" y1=\"300.2\" x2=\"283.5\" y2=\"296.8\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/>\n  <line x1=\"240\" y1=\"190\" x2=\"283.5\" y2=\"296.8\" stroke=\"#8b5cf6\" stroke-width=\"1.8\"/>\n  <circle cx=\"283.5\" cy=\"296.8\" r=\"2.5\" fill=\"#8b5cf6\"/>\n  <text x=\"269.9\" y=\"263.4\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#8b5cf6\" text-anchor=\"middle\">&radic;13</text>\n  <!-- Triangle 13 -->\n  <line x1=\"283.5\" y1=\"296.8\" x2=\"313.2\" y2=\"284.8\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/>\n  <line x1=\"240\" y1=\"190\" x2=\"313.2\" y2=\"284.8\" stroke=\"#d97706\" stroke-width=\"1.8\"/>\n  <circle cx=\"313.2\" cy=\"284.8\" r=\"2.5\" fill=\"#d97706\"/>\n  <text x=\"290.3\" y=\"255.2\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#d97706\" text-anchor=\"middle\">&radic;14</text>\n  <!-- Triangle 14 -->\n  <line x1=\"313.2\" y1=\"284.8\" x2=\"338.5\" y2=\"265.2\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/>\n  <line x1=\"240\" y1=\"190\" x2=\"338.5\" y2=\"265.2\" stroke=\"#059669\" stroke-width=\"1.8\"/>\n  <circle cx=\"338.5\" cy=\"265.2\" r=\"2.5\" fill=\"#059669\"/>\n  <text x=\"307.7\" y=\"241.7\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#059669\" text-anchor=\"middle\">&radic;15</text>\n  <!-- Triangle 15 -->\n  <line x1=\"338.5\" y1=\"265.2\" x2=\"357.9\" y2=\"239.8\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/>\n  <line x1=\"240\" y1=\"190\" x2=\"357.9\" y2=\"239.8\" stroke=\"#2563eb\" stroke-width=\"1.8\"/>\n  <circle cx=\"357.9\" cy=\"239.8\" r=\"2.5\" fill=\"#2563eb\"/>\n  <text x=\"321.1\" y=\"224.2\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#2563eb\" text-anchor=\"middle\">&radic;16=4</text>\n  <!-- Triangle 16 -->\n  <line x1=\"357.9\" y1=\"239.8\" x2=\"370.4\" y2=\"210.3\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/>\n  <line x1=\"240\" y1=\"190\" x2=\"370.4\" y2=\"210.3\" stroke=\"#db2777\" stroke-width=\"1.8\"/>\n  <circle cx=\"370.4\" cy=\"210.3\" r=\"2.5\" fill=\"#db2777\"/>\n  <text x=\"329.7\" y=\"204\" font-size=\"8.5\" font-weight=\"bold\" fill=\"#db2777\" text-anchor=\"middle\">&radic;17</text>\n</svg>\n</div>\n  <p>16. Find the lengths of the hypotenuses of all the right triangles in Fig. 3.14 which is referred to as the square root spiral.</p>\n</div>",
                             "a": "<div class=\"a-block\">\n  <p>In the square root spiral, each consecutive right triangle has a perpendicular side of 1 unit and uses the hypotenuse of the preceding triangle as its base:</p>\n  <ol>\n    <li>Triangle 1: Hypotenuse = &radic;(1&sup2; + 1&sup2;) = <strong>&radic;2</strong></li>\n    <li>Triangle 2: Hypotenuse = &radic;((&radic;2)&sup2; + 1&sup2;) = &radic;(2 + 1) = <strong>&radic;3</strong></li>\n    <li>Triangle 3: Hypotenuse = &radic;((&radic;3)&sup2; + 1&sup2;) = &radic;(3 + 1) = &radic;4 = <strong>2</strong></li>\n    <li>Triangle 4: Hypotenuse = &radic;((&radic;4)&sup2; + 1&sup2;) = <strong>&radic;5</strong></li>\n    <li>Triangle 5: Hypotenuse = &radic;((&radic;5)&sup2; + 1&sup2;) = <strong>&radic;6</strong></li>\n    <li>Triangle 6: Hypotenuse = &radic;((&radic;6)&sup2; + 1&sup2;) = <strong>&radic;7</strong></li>\n    <li>Triangle 7: Hypotenuse = &radic;((&radic;7)&sup2; + 1&sup2;) = &radic;8 = <strong>2&radic;2</strong></li>\n    <li>Triangle 8: Hypotenuse = &radic;((&radic;8)&sup2; + 1&sup2;) = &radic;9 = <strong>3</strong></li>\n    <li>Triangle 9: Hypotenuse = &radic;((&radic;9)&sup2; + 1&sup2;) = <strong>&radic;10</strong></li>\n    <li>Triangle 10: Hypotenuse = &radic;((&radic;10)&sup2; + 1&sup2;) = <strong>&radic;11</strong></li>\n    <li>Triangle 11: Hypotenuse = &radic;((&radic;11)&sup2; + 1&sup2;) = <strong>&radic;12</strong> (or 2&radic;3)</li>\n    <li>Triangle 12: Hypotenuse = &radic;((&radic;12)&sup2; + 1&sup2;) = <strong>&radic;13</strong></li>\n    <li>Triangle 13: Hypotenuse = &radic;((&radic;13)&sup2; + 1&sup2;) = <strong>&radic;14</strong></li>\n    <li>Triangle 14: Hypotenuse = &radic;((&radic;14)&sup2; + 1&sup2;) = <strong>&radic;15</strong></li>\n    <li>Triangle 15: Hypotenuse = &radic;((&radic;15)&sup2; + 1&sup2;) = &radic;16 = <strong>4</strong></li>\n    <li>Triangle 16: Hypotenuse = &radic;((&radic;16)&sup2; + 1&sup2;) = <strong>&radic;17</strong></li>\n  </ol>\n</div>"
                         }
                     ]
@@ -6009,7 +5994,7 @@ given in Table 5.5. Mixtures:
                                     "qNum": "Q2",
                                     "globalIndex": 6,
                                     "q": "<p>For the following experiments write down the sample space S.</p>\n<ul>\n<li>(i) Rolling a die and tossing a coin together.</li>\n<li>(ii) Choosing a random integer between -5 and +5.</li>\n<li>(iii) A box containing 5 green and 7 red balls. One ball is drawn at random.</li>\n</ul>",
-                                    "a": "<ul>\n<li><strong>(i)</strong> $S = \\{1H, 1T, 2H, 2T, 3H, 3T, 4H, 4T, 5H, 5T, 6H, 6T\\}$</li>\n<li><strong>(ii)</strong> Assuming inclusive: $S = \\{-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5\\}$.</li>\n<li><strong>(iii)</strong> $S = \\{\\text{Green}, \\text{Red}\\}$.</li>\n</ul>",
+                                    "a": "<ul>\n<li><strong>(i)</strong> $S = \\{1H, 1T, 2H, 2T, 3H, 3T, 4H, 4T, 5H, 5T, 6H, 6T\\}$</li>\n<li><strong>(ii)</strong> Assuming inclusive: $S = \\{ -4, -3, -2, -1, 0, 1, 2, 3, 4 \\}$.</li>\n<li><strong>(iii)</strong> $S = \\{\\text{Green}, \\text{Red}\\}$.</li>\n</ul>",
                                     "hint": "",
                                     "exerciseId": "7.3",
                                     "exerciseName": "Exercise Set 7.3",
@@ -10199,7 +10184,7 @@ given in Table 5.5. Mixtures:
         isBranching: true,
         branches: [ 
             {
-                name: "Geography",
+                name: "Part 1 - Geography",
                 chapters: [
                     { name: "Chapter 1: Understanding Social Science", hasNoExercises: true, solutions: [{ q: "Introductory Module", a: `This chapter is an introductory orientation module in the NCERT Class 9 textbook and contains no end-of-chapter exercises.` }] },
                     { name: "Chapter 2: Shaping of the Earth’s Surface", solutions: [
@@ -10610,7 +10595,7 @@ given in Table 5.5. Mixtures:
                      ]
             },
             {   
-                name: `History`,     
+                name: "Part 1 - History",     
                 chapters: [
                 { name: `Chapter 4: Early Humans and Beginning
 of Civilisation
@@ -11158,7 +11143,7 @@ of Civilisation
                         
             },
             { 
-                name: `Political Science`,
+                name: "Part 1 - Political Science",
                 chapters: [        
                     { name: "Chapter 6: Democracy", solutions: [
   // Q1 & A1
@@ -11714,7 +11699,7 @@ of Civilisation
                 ]
             },
             { 
-                name: `Economics`,
+                name: "Part 1 - Economics",
                 chapters: [        
                     { name: "Chapter 8: Building Blocks of Economics", solutions: [
   // Q1 & A1
@@ -12233,6 +12218,436 @@ of Civilisation
   }
 ] },
                 ]
+            },
+            {
+                name: "Part 2 - Geography",
+                chapters: [
+                    {
+                        name: "Chapter 1: Oceans and Life",
+                        solutions: [
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>1. How do different features of the ocean floor affect human activities such as fishing, transport, and underwater exploration?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p>Different features of the ocean floor (submarine relief) directly impact human activities in the following ways:</p>
+  <ul>
+    <li><strong>Fishing:</strong> The <strong>Continental Shelf</strong> is a submerged, shallow edge that is highly rich in marine life and resources, making it a vital zone for the fishing industry.</li>
+    <li><strong>Transport and Navigation:</strong> Physical barriers like <strong>seamounts</strong> (underwater mountains) and shallow continental shelves pose challenges to ship navigation. Bathymetry must be carefully mapped to ensure ships do not run aground.</li>
+    <li><strong>Underwater Exploration:</strong> The continental shelf provides crucial resources like oil and natural gas. Deeper features like the <strong>abyssal plain</strong>, <strong>mid-ocean ridges</strong>, and <strong>ocean trenches</strong> serve as focal points for deep-sea scientific exploration and the study of tectonic activities.</li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>2. How do waves, tides, and ocean currents influence climate, marine life, and human activities around the world?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <ul>
+    <li><strong>Waves:</strong> Waves act as coastal architects, shaping the shoreline through erosion (forming sea caves, arches) and deposition (beaches). However, giant waves like tsunamis can cause immense destruction to coastal human settlements.</li>
+    <li><strong>Tides:</strong> High tides raise water levels near the shore, which is crucial for navigation as it allows ships to enter harbors safely. Tides also aid fishing communities because fish move closer to the shore during high tide, and the massive movement of water is harnessed to generate renewable tidal energy.</li>
+    <li><strong>Ocean Currents:</strong> Currents act as a global climate regulator. Warm currents (like the Gulf Stream) keep higher-latitude coastal regions warm and ice-free, while cold currents (like the Labrador Current) bring freezing water to lower latitudes. The regions where warm and cold currents meet are extremely rich in nutrients, creating the world's most productive fishing grounds.</li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>3. Describe the importance of marine resources.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p>Marine resources (both living and non-living) hold immense economic, environmental, and cultural value:</p>
+  <ul>
+    <li><strong>Food and Livelihood:</strong> Oceans provide fish and seafood, which are major sources of protein. Fishing and aquaculture sustain the livelihoods and economies of millions in coastal communities.</li>
+    <li><strong>Energy and Minerals:</strong> The ocean is a vast source of conventional energy (offshore oil and natural gas) and offers immense potential for renewable 'blue energy' from tides and waves. It also provides essential minerals, sand, and gravel.</li>
+    <li><strong>Trade and Tourism:</strong> The oceans act as global highways, carrying 90% of global trade by volume. Furthermore, coastal tourism is a multi-billion dollar industry.</li>
+    <li><strong>Cultural Significance:</strong> Marine items like the sacred conch (shankha) and cowrie shells hold deep divine and cultural significance in Indian traditions.</li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>4. Draw a poster that encourages people to protect marine resources. Include a slogan (like Save Our Seas or Fish for the Future) and explain your message in 2-3 sentences.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><em>(This is an art-based activity for the student. A conceptual explanation is provided below.)</em></p>
+  <p><strong>Slogan:</strong> "Save Our Seas: The Blue Economy is our Future!"</p>
+  <p><strong>Message:</strong> The ocean is a vast storehouse of resources vital for life, food security, and climate regulation. We must embrace the 'Blue Economy' by using marine resources responsibly and sustainably to promote economic growth while strictly protecting marine ecosystems and preventing ocean pollution for future generations.</p>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>5. Using a map of India, mark at least five coastal states that might need tsunami warnings.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><em>(This is a map-based activity. Students should locate these on a political map of India.)</em></p>
+  <p>Based on the severe devastation caused by the 2004 Indian Ocean Tsunami, the five highly vulnerable coastal states/territories that require robust tsunami early warning systems are:</p>
+  <ol>
+    <li><strong>Tamil Nadu</strong></li>
+    <li><strong>Puducherry</strong></li>
+    <li><strong>Andhra Pradesh</strong></li>
+    <li><strong>Keralam</strong></li>
+    <li><strong>Andaman &amp; Nicobar Islands</strong></li>
+  </ol>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>6. Work in a group and act out what would happen when a cyclone warning is issued. Highlight what role different people, like scientists, officials, and coastal villagers, would play.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><em>(This is a group role-play activity. A breakdown of the roles is provided below.)</em></p>
+  <ul>
+    <li><strong>Scientists (IMD/INCOIS):</strong> They monitor atmospheric disturbances over warm ocean waters, predict the cyclone's path using modeling/simulation, and issue real-time alerts via satellite early warning systems.</li>
+    <li><strong>Government Officials:</strong> Upon receiving alerts at the warning centre, officials coordinate with disaster management authorities and dispatch emergency response teams to ensure coastal display boards are updated and vulnerable populations are evacuated to cyclone shelters.</li>
+    <li><strong>Coastal Villagers &amp; Fishermen:</strong> Fishermen receive immediate alerts in their regional language via devices like GEMINI on their mobile phones. They avoid venturing into the sea, secure their fishing gear, and safely evacuate inland alongside other villagers.</li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>7. Suppose a foreign ship is sailing through India's territorial sea. What principle allows the ship to pass through these waters, subject to certain conditions?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p>The principle that allows a foreign ship to pass through India's territorial sea is known as <strong>Innocent Passage</strong>. This principle permits foreign vessels to navigate through a country's territorial waters as long as they do not threaten the peace, good order, or security of the coastal nation. To comply, ships must move continuously without stopping (except in emergencies) and are strictly prohibited from engaging in activities such as fishing, military operations, or other non-peaceful actions.</p>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>8. A country has an Exclusive Economic Zone (EEZ) extending up to 200 nautical miles from its baseline. What rights does the country have over the natural resources in this zone?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p>Within its Exclusive Economic Zone (EEZ), the coastal country holds special and exclusive rights to use, explore, and manage the ocean's natural resources. This includes the rights to fish, extract oil and natural gas, and harness renewable blue energy. However, the country does not fully own or control the waters in this zone; therefore, ships from other countries retain the right to peacefully navigate and pass through the EEZ.</p>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>9. Create a model of an ocean with ship routes, protected zones, and safety measures. Based on the model, explain how it follows maritime laws and protects the ocean.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><em>(This is a physical model-making activity for the student. A conceptual explanation of the model is provided below.)</em></p>
+  <ul>
+    <li><strong>Protected Zones:</strong> The model demonstrates maritime laws established by UNCLOS by marking the <strong>Territorial Sea</strong> (up to 12 NM) where local laws apply, and the <strong>Exclusive Economic Zone (EEZ)</strong> (up to 200 NM) for regulated resource extraction.</li>
+    <li><strong>Ship Routes &amp; Safety Measures:</strong> It displays designated shipping lanes where vessels adhere to <strong>COLREGS</strong> ("rules of the road") using proper signals and safe speeds to prevent collisions. It also features <strong>Tsunami Detection Buoys</strong> connected via satellite to early warning centres to protect coastal life.</li>
+    <li><strong>Protecting the Ocean:</strong> The model highlights compliance with the <strong>MARPOL Convention</strong> to prevent pollution from ships, ensuring the sustainable growth of the "Blue Economy" while keeping the marine ecosystem healthy and safe for trade.</li>
+  </ul>
+</div>`
+                            }
+                        ]
+                    },
+                    {
+                        name: "Chapter 2: Life on Earth",
+                        solutions: [
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>1. Why does India have diverse biomes? How does the local geography connect to the diversity?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p>India has diverse biomes because of its highly varied local geography, which creates distinct climatic conditions, temperatures, and precipitation patterns across the country.</p>
+  <ul>
+    <li>The high altitude of the <strong>Himalaya</strong> creates a sub-tropical/sub-polar climate dominated by conifer forests and unique wildlife like snow leopards.</li>
+    <li>Regions near the coast or equator with high rainfall, such as the <strong>Western Ghats, North-East India, and the Andaman &amp; Nicobar Islands</strong>, support dense Tropical Rainforest biomes.</li>
+    <li>The arid western region features Desert biomes, like the <strong>Thar Desert</strong> in Rajasthan and the <strong>Rann of Kutch</strong> salt desert in Gujarat.</li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>2. Make a list of economically valuable native plants in your region and comment on their abundance.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><em>(This is an observation-based activity that depends on the student's specific region. However, based on the text, here are examples from various Indian states:)</em></p>
+  <ul>
+    <li><strong>Assam, Tripura, Keralam:</strong> Timber and bamboo are highly abundant and valuable.</li>
+    <li><strong>Madhya Pradesh, Chhattisgarh:</strong> Tendu leaves, mahua flowers, sal seeds, and gums are actively gathered by forest dwellers.</li>
+    <li><strong>Himalayan region &amp; Western Ghats:</strong> Medicinal herbs like ashwagandha, neem, and tulsi are economically and medically significant.</li>
+    <li><strong>Jharkhand, Odisha:</strong> Wild fruits, honey, mushrooms, and roots are abundant and provide local income.</li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>3. Prepare a map of your state or Union Territory showing national parks and sanctuaries.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><em>(This is a map-based activity for the student. The text mentions several key protected areas and biodiversity hotspots across India that can be included:)</em></p>
+  <ul>
+    <li><strong>Namdapha National Park</strong> (Arunachal Pradesh)</li>
+    <li><strong>Rann of Kutch</strong> (Gujarat)</li>
+    <li><strong>Gahirmatha beach</strong> (Odisha)</li>
+    <li><strong>Gulf of Mannar</strong> (Tamil Nadu)</li>
+    <li><strong>Pachmarhi</strong> (Madhya Pradesh)</li>
+    <li><strong>Achanakmar-Amarkantak</strong> (Madhya Pradesh/Chhattisgarh)</li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>4. Study the impact of forest fires on people dependent on forests. Try to include the causes, losses, and preventive measures.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <ul>
+    <li><strong>Impact &amp; Losses:</strong> Forest fires spread quickly through dense vegetation, destroying homes, crucial forest resources (food, fuel, medicinal plants), and wildlife habitats. This leads to severe economic insecurity and health issues for the rural and tribal communities that depend heavily on these forests for their daily survival.</li>
+    <li><strong>Causes:</strong> The main reasons for forest fires are climate change (extreme heat/dryness) as well as human-induced factors.</li>
+    <li><strong>Preventive Measures:</strong> Human care and vigilance are primary preventive measures. Empowering local communities through self-governance (like the Gram Sabha in Mendha Lekha) ensures they actively regulate and prevent forest fires to protect their livelihoods.</li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>5. Why are forests often called the 'lungs of the Earth'?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p>Forests are called the 'lungs of the Earth' because they play an incredibly important role in maintaining oxygen levels in the atmosphere. Just as human lungs provide oxygen to the body, forests (especially massive ones like the tropical rainforests) act as giant green umbrellas that generate fresh oxygen and balance the Earth's climate by absorbing carbon dioxide.</p>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>6. If large forest areas continue to be destroyed, what do you think would be its long-term effect on the global climate?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p>If large forest areas face continuous destruction (deforestation), it would severely disrupt the ecological balance and biodiversity. Because forests are responsible for maintaining oxygen levels and regulating temperature, their loss would destabilize the Earth's climate, likely accelerating global warming and climate change, and destroying the natural habitats that countless species rely on for survival.</p>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>7. Discuss some traditional forest conservation methods with your grandparents or an elderly person.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><em>(This is an experiential activity, but based on the text, traditional conservation methods include:)</em></p>
+  <ul>
+    <li><strong>Sacred Groves:</strong> Local communities protect small forest patches for religious and cultural purposes (known locally as Devrai, Devarakadu, Kavu, or Sarna). These untouchable patches preserve rare plants, medicinal species, and groundwater sources.</li>
+    <li><strong>Rituals and Respect:</strong> Communities like the Gonds and Bhils perform specific rituals to honor forest deities before collecting resources, reflecting a deep, sustainable respect for nature.</li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>8. How do forest dwellers contribute to the protection and conservation of forests?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p>Forest dwellers act as the primary guardians of the forest in several ways:</p>
+  <ul>
+    <li><strong>Knowledge Holders:</strong> They possess rich traditional knowledge about using herbs and plants sustainably without depleting biodiversity, which is passed down through generations.</li>
+    <li><strong>Forest Protection Movements:</strong> They have historically led major conservation efforts, such as the Bishnoi Movement in Rajasthan (led by Amrita Devi) and the Chipko Movement in Uttarakhand, where women hugged trees to stop deforestation.</li>
+    <li><strong>Community Forest Management:</strong> Through self-governance models (like the Gram Sabha in Mendha Lekha), they regulate tree cutting, prevent forest fires, and ensure that resources like bamboo are harvested sustainably.</li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>9. What is a forest fire? Prepare a plan for prevention and mitigation of forest fires.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p>A forest fire is a fire that spreads rapidly through dense forest vegetation, often causing extensive damage to human life, wildlife, and the environment.</p>
+  <p><strong>Prevention and Mitigation Plan:</strong></p>
+  <ul>
+    <li><strong>Community Management:</strong> Empower local tribal and rural communities to monitor forests, as seen in the Mendha Lekha model where local self-governance successfully prevents forest fires.</li>
+    <li><strong>Human Care &amp; Awareness:</strong> Since human-induced factors are a major cause, strict regulations on campfires, waste burning, and general human care in forested areas must be enforced.</li>
+    <li><strong>Early Warning &amp; Identification:</strong> Identifying extremely fire-prone zones (as done by the Forest Survey of India) to deploy quicker emergency responses when climate change or heatwaves increase the risk of fire.</li>
+  </ul>
+</div>`
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                name: "Part 2 - History",
+                chapters: [
+                    {
+                        name: "Chapter 3: Resistance and Resilience (1000 CE - 1700 CE)",
+                        solutions: [
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>1. Choose the most appropriate answer.<br>
+  Resistance and resilience are closely connected because:<br>
+  a. Resistance always involves warfare.<br>
+  b. Resilience enables communities to endure difficulties and sustain resistance.<br>
+  c. Resistance is possible only when a kingdom has a large army.<br>
+  d. Resilient societies avoid all forms of conflict.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><strong>Correct Answer: b. Resilience enables communities to endure difficulties and sustain resistance.</strong></p>
+  <p>While resistance involves actively opposing a threat, the capacity to absorb hardship and adapt over time comes from resilience. Therefore, resilience serves as the backbone that allows communities to sustain their resistance.</p>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>2. Why and how did groups such as the Sikhs, Marathas, and Rajputs assert their political power and identity during periods of changing political authority?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p>These groups asserted their political power to safeguard their sovereignty, territories, and socio-cultural traditions from centralized empires like the Delhi Sultanate and the Mughals.</p>
+  <ul>
+    <li><strong>Rajputs:</strong> They utilized rugged terrains (like the Aravalli hills) for guerrilla warfare, built strong forts, and formed strategic alliances or confederacies to maintain regional autonomy.</li>
+    <li><strong>Marathas:</strong> Driven by the concept of <em>swarajya</em> (self-rule), they built extensive networks of hill forts, employed swift guerrilla tactics, and established tributary relationships to exhaust the Mughal Empire.</li>
+    <li><strong>Sikhs:</strong> Facing severe religious persecution and the execution of their Gurus, they combined spiritual and political identity (<em>miri-piri</em>), formed the Khalsa with a distinct martial code, and organized into armed confederacies (<em>misals</em>) to defend their faith and land.</li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>3. Why did some Rajput rulers decide to negotiate alliances with the Mughal power?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p>Some Rajput rulers, such as the Kachhwahas of Amber, decided to negotiate cooperative alliances with the Mughals based on strategic considerations. The Mughals needed the Rajputs' military strength and administrative loyalty to consolidate their vast empire. In return, integrating into the Mughal system through grants of <em>mansabs</em> (ranks) provided these Rajput rulers with political stability, wealth, and continued local authority without the devastation of constant warfare.</p>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>4. Imagine a market in a port town of India such as Surat, Masulipatnam, or Puducherry. You are a foreign trader from Italy or France and want to make a deal of cotton textiles. How would you secure the product in the local market? Whose help would you seek and what kind of challenges would you face in terms of language, quality of product, prices of commodities, etc.?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p>To secure cotton textiles, I would need to navigate the established local economic systems and supply chains.</p>
+  <ul>
+    <li><strong>Whose help to seek:</strong> I would seek the assistance of powerful local merchant groups (like Gujarati or Coromandel merchants), brokers, and <em>dubhashis</em> (interpreters/translators) who act as intermediaries between foreign companies and local weavers.</li>
+    <li><strong>Challenges:</strong> 
+      <br>- <em>Language:</em> Overcoming communication barriers would require relying heavily on local <em>dubhashis</em> or merchant groups who learned European languages.
+      <br>- <em>Prices and Quality:</em> I would face intense competition from established Arab, Chinese, and other European traders. Ensuring quality and negotiating prices would require using local financial instruments like the <em>hundii</em> and building trust with local bankers (<em>sarrafs</em>).
+    </li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>5. Watch any video at the given link (https://www.indianculture.gov.in/forts-of-india/tales-of-forts) and analyse the various functions of forts and fortresses. How did rulers perceive the importance of forts in terms of strategic concerns.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><em>(Based on the chapter's context regarding forts:)</em></p>
+  <p>Rulers perceived forts as essential strategic nuclei for survival and resistance. Forts functioned as:</p>
+  <ul>
+    <li><strong>Military Bases:</strong> They enabled rulers (like the Marathas and Rajputs) to launch swift guerrilla attacks and provided safe retreats.</li>
+    <li><strong>Administrative and Judicial Centres:</strong> Forts housed the administration and authority of the state.</li>
+    <li><strong>Refuges during Sieges:</strong> Equipped with strong defenses, armouries, and water sources, forts like Raigad or Senji provided the self-sufficiency needed to withstand prolonged enemy blockades and avoid total defeat.</li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>6. What architectural changes occurred in temple construction during the period under study? How do these changes reflect upon the resilient nature of Indian civilisation?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p>From the 16th century onwards, temples were often constructed in less visible locations, such as along narrow lanes, with entrances that did not open onto main streets. They lacked tall <em>shikharas</em> and the conventional appearance of temples, instead resembling ordinary residential houses (often referred to as 'haveli temples').</p>
+  <p>These architectural adaptations reflect the resilient nature of Indian civilization, as communities creatively modified their sacred structures to avoid visibility and destruction by invading forces, ensuring that their cultural and religious practices could continue uninterrupted.</p>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>7. A kingdom has limited military resources but possesses fertile agricultural land, strong local support, and detailed knowledge of its terrain. Explain two ways in which these resources could contribute to the kingdom's resilience when faced with a threat.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <ol>
+    <li><strong>Tactical Advantage (Terrain Knowledge &amp; Support):</strong> Detailed knowledge of forests, river systems, or rugged hills allows a smaller force to avoid direct confrontation and instead use guerrilla warfare, ambushes, and surprise attacks (as successfully demonstrated by the Ahoms in Assam and the Marathas in the Deccan). Strong local support ensures reliable logistics, guides, and safe havens.</li>
+    <li><strong>Economic Sustenance (Fertile Land):</strong> Fertile agricultural land ensures a continuous food supply and surplus revenue, which is critical for sustaining the population and the military during prolonged sieges or extended conflicts.</li>
+  </ol>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>8. Consider the following statement: "A tradition becomes more resilient when people can carry it with them." Do you agree? Explain using examples from the Bhakti tradition.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><strong>Yes, I agree.</strong></p>
+  <p>The Bhakti tradition exemplifies this perfectly. When physical temples faced restrictions or destruction, devotees shifted to non-material forms of worship that they could "carry with them," such as <em>nam kirtan</em> (recitation of the divine name) and community singing (<em>satsang</em>). By composing hymns in local, accessible languages (like Tulsidas's <em>Ramcharitmanas</em> in Awadhi or the vakhs of Lal Ded), the tradition moved from rigid physical structures into the households and daily lives of the common people. This adaptability made the tradition far more resilient, widespread, and difficult for any external authority to suppress.</p>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>9. Voices from the Past: Choose any two of the following and write a short first-person account explaining what resilience means from that person's perspective: (A Bhakti saint, A Rajput soldier, An Ahom commander, A Maratha administrator, A merchant, A Jat leader)</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><em>(Representative accounts based on the text:)</em></p>
+  <ul>
+    <li><strong>An Ahom Commander:</strong> "For me, resilience is the river and the forest. We may not have the massive armies of the Mughals, but we know the Brahmaputra's currents and the monsoon's fury. By using our fast <em>bachari</em> boats and drawing the enemy into our challenging terrain, we bend like the bamboo in the wind, only to strike back when they are exhausted. Our independence is secured by our patience and our land."</li>
+    <li><strong>A Bhakti Saint:</strong> "Resilience is the devotion that lives in the heart, not just in stone temples. When our sacred sites are threatened, we sing the divine name in the streets and in our homes. By writing hymns in the language of the common people, I ensure that our faith and solidarity cannot be crushed by any king's sword. True strength is found in our shared community and love for the divine."</li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>10. Design a Fort. You are a military architect advising a ruler. Draw a simple, labelled plan of a fort that includes the following: Residential complex, Defensive walls, Water source, Food storage, Escape route, Watchtower, Administrative area. Now, write a few sentences explaining how your design would help the kingdom withstand a long siege.</p>
+</div>`,
+                                a: `<div class="a-block">
+<div style="margin: 14px 0; text-align: center;">
+<svg width="440" height="300" viewBox="0 0 440 300" style="background:#fdfcfb; border:1px solid #e2e8f0; border-radius:8px; max-width:100%;">
+  <text x="220" y="22" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e293b">Strategic Plan of Hill Fortress (Concentric Siege Defense)</text>
+  <polygon points="40,260 20,150 70,50 200,30 380,45 420,150 390,265 210,285" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="75" y="275" font-size="9" fill="#94a3b8" font-style="italic">Steep Rocky Escarpment</text>
+  <polygon points="60,240 45,150 85,70 200,52 360,65 395,150 370,245 210,265" fill="#f1f5f9" stroke="#475569" stroke-width="2.5"/>
+  <polygon points="120,215 105,145 135,100 215,88 315,95 335,150 320,220 215,232" fill="#e2e8f0" stroke="#1e293b" stroke-width="2"/>
+  <circle cx="60" cy="240" r="7" fill="#334155"/>
+  <circle cx="45" cy="150" r="7" fill="#334155"/>
+  <circle cx="85" cy="70" r="7" fill="#334155"/>
+  <circle cx="360" cy="65" r="7" fill="#334155"/>
+  <circle cx="395" cy="150" r="7" fill="#334155"/>
+  <circle cx="370" cy="245" r="7" fill="#334155"/>
+  <text x="365" y="52" font-size="9" font-weight="bold" fill="#334155">Watchtower</text>
+  <text x="25" y="145" font-size="9" font-weight="bold" fill="#334155">Watchtower</text>
+  <line x1="200" y1="265" x2="220" y2="265" stroke="#dc2626" stroke-width="4"/>
+  <text x="210" y="280" font-size="9" font-weight="bold" fill="#dc2626" text-anchor="middle">Fortified Main Gate</text>
+  <rect x="140" y="125" width="45" height="35" rx="4" fill="#bae6fd" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="162" y="146" font-size="8.5" font-weight="bold" fill="#0369a1" text-anchor="middle">Water Tank /</text>
+  <text x="162" y="156" font-size="8" fill="#0369a1" text-anchor="middle">Perennial Well</text>
+  <rect x="235" y="125" width="45" height="35" rx="4" fill="#fef08a" stroke="#ca8a04" stroke-width="1.5"/>
+  <text x="257" y="146" font-size="8.5" font-weight="bold" fill="#854d0e" text-anchor="middle">Granary /</text>
+  <text x="257" y="156" font-size="8" fill="#854d0e" text-anchor="middle">Food Storage</text>
+  <rect x="188" y="102" width="44" height="24" rx="3" fill="#e9d5ff" stroke="#9333ea" stroke-width="1.5"/>
+  <text x="210" y="117" font-size="8" font-weight="bold" fill="#6b21a8" text-anchor="middle">Admin Complex</text>
+  <rect x="180" y="175" width="60" height="32" rx="3" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="210" y="191" font-size="8.5" font-weight="bold" fill="#15803d" text-anchor="middle">Residential</text>
+  <text x="210" y="201" font-size="8" fill="#15803d" text-anchor="middle">Quarters</text>
+  <path d="M 215,88 Q 230,60 270,40 T 320,20" fill="none" stroke="#ea580c" stroke-width="2" stroke-dasharray="3,3"/>
+  <circle cx="215" cy="88" r="3" fill="#ea580c"/>
+  <circle cx="320" cy="20" r="3" fill="#ea580c"/>
+  <text x="325" y="32" font-size="8.5" font-weight="bold" fill="#ea580c">Secret Escape Route</text>
+  <text x="325" y="42" font-size="7.5" fill="#ea580c">(Sally Port)</text>
+</svg>
+<div style="font-size: 0.82em; color: #64748b; margin-top: 4px;">Strategic Fortress Plan: Concentric defense, elevated citadel, self-sufficient water &amp; grain reserves, and concealed evacuation trail.</div>
+</div>
+  <p><strong>Design &amp; Siege Defense Strategy:</strong></p>
+  <p>To withstand a prolonged siege, the fort is built on elevated rocky terrain featuring concentric <strong>defensive walls</strong> and multiple high <strong>watchtowers</strong> along the curtain wall to monitor enemy movements and eliminate blind spots.</p>
+  <p>Deep within the secure inner citadel lies a perennial <strong>water source</strong> (stepwell/cistern) and a fortified <strong>granary / food storage</strong>, ensuring the garrison and inhabitants can comfortably survive for months without external provisioning.</p>
+  <p>The <strong>administrative complex</strong> and <strong>residential quarters</strong> are situated centrally for governance and protection. Finally, a concealed <strong>secret escape route</strong> (sally port) through the rear cliffs ensures leadership can safely evacuate, regroup, and launch counter-offensives if the outer defenses are ever breached.</p>
+</div>`
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                name: "Part 2 - Political Science",
+                chapters: []
+            },
+            {
+                name: "Part 2 - Economics",
+                chapters: []
             }
         ]
     },
@@ -15351,8 +15766,65 @@ function findChapterIndex(chapters, cNum) {
     return -1;
 }
 
+function updateSeoMeta(title, description, routePath = '') {
+    document.title = title;
+    const cleanRoute = (routePath || '').replace(/^\/+|\/+$/g, '');
+    const canonicalUrl = cleanRoute ? `https://ncertsolved.in/?route=${cleanRoute}` : 'https://ncertsolved.in/';
+
+    let canonicalEl = document.querySelector('link[rel="canonical"]');
+    if (!canonicalEl) {
+        canonicalEl = document.createElement('link');
+        canonicalEl.setAttribute('rel', 'canonical');
+        document.head.appendChild(canonicalEl);
+    }
+    canonicalEl.setAttribute('href', canonicalUrl);
+
+    const setMeta = (selector, attrName, attrValue, contentValue) => {
+        let el = document.querySelector(selector);
+        if (!el) {
+            el = document.createElement('meta');
+            el.setAttribute(attrName, attrValue);
+            document.head.appendChild(el);
+        }
+        el.setAttribute('content', contentValue);
+    };
+
+    if (description) {
+        setMeta('meta[name="description"]', 'name', 'description', description);
+        setMeta('meta[property="og:description"]', 'property', 'og:description', description);
+    }
+    setMeta('meta[property="og:title"]', 'property', 'og:title', title);
+    setMeta('meta[name="twitter:title"]', 'name', 'twitter:title', title);
+    setMeta('meta[name="twitter:description"]', 'name', 'twitter:description', description);
+    setMeta('meta[property="og:url"]', 'property', 'og:url', canonicalUrl);
+}
+
+function stripHtmlForSeo(htmlStr) {
+    if (!htmlStr) return '';
+    return String(htmlStr)
+        .replace(/<[^>]+>/g, ' ')
+        .replace(/\$\$[\s\S]*?\$\$/g, '')
+        .replace(/\$[^$]+\$/g, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+}
+
 function handleRoute() {
-    const rawHash = window.location.hash || '#/';
+    // 0. Support incoming query routes from Google Search & external links (e.g. ?route=subject/english/branch/1/chapter/4)
+    let rawHash = window.location.hash || '';
+    try {
+        const searchParams = new URLSearchParams(window.location.search);
+        const searchRoute = searchParams.get('route');
+        if (searchRoute && (!rawHash || rawHash === '#/' || rawHash === '#')) {
+            rawHash = '#/' + searchRoute.replace(/^\/+/, '');
+            if (window.history && window.history.replaceState) {
+                window.history.replaceState(null, '', window.location.pathname + rawHash);
+            } else {
+                window.location.hash = rawHash;
+            }
+        }
+    } catch (e) {}
+    if (!rawHash) rawHash = '#/';
     // Parse path and query string (e.g. #/subject/sst/branch/2/chapter/4?q=1)
     const hashWithoutPrefix = rawHash.replace(/^#\/?/, '');
     const [pathPart, queryPart] = hashWithoutPrefix.split('?');
@@ -15376,7 +15848,11 @@ function handleRoute() {
     // 1. Home Route: #/ or empty
     if (segments.length === 0 || segments[0] === '' || segments[0] === 'home') {
         goToHomeUI();
-        document.title = "Class 9 NCERT Solved Hub \u2022 Simple, Direct & Copy-Ready Solutions";
+        updateSeoMeta(
+            "Class 9 NCERT Solved Hub \u2022 Simple, Direct & Exam-Ready Solutions",
+            "Free, verified NCERT Class 9 textbook solutions for Science, Mathematics, Social Science, English, and Hindi. Clean step-by-step answers, formulas, hints, and exam notes.",
+            ""
+        );
         return;
     }
 
@@ -15386,28 +15862,44 @@ function handleRoute() {
     if (first === 'about') {
         updateActiveTab('none');
         showLayer('about-view');
-        document.title = "About Us & Editorial Policy - NCERT Solved Hub";
+        updateSeoMeta(
+            "About Us & Editorial Policy - NCERT Solved Hub",
+            "Learn about NCERTSolved, our editorial verification process, and how we build step-by-step NCERT Class 9 textbook solutions for CBSE students.",
+            "about"
+        );
         return;
     }
 
     if (first === 'privacy') {
         updateActiveTab('none');
         showLayer('privacy-view');
-        document.title = "Privacy Policy - NCERT Solved Hub";
+        updateSeoMeta(
+            "Privacy Policy - NCERT Solved Hub",
+            "Read the Privacy Policy for NCERTSolved (ncertsolved.in), detailing cookie usage, Google AdSense data policies, and student privacy protection.",
+            "privacy"
+        );
         return;
     }
 
     if (first === 'terms') {
         updateActiveTab('none');
         showLayer('terms-view');
-        document.title = "Terms of Service - NCERT Solved Hub";
+        updateSeoMeta(
+            "Terms of Service - NCERT Solved Hub",
+            "Review the Terms of Service, educational fair use guidelines, and intellectual property policies for using NCERTSolved Class 9 textbook solutions.",
+            "terms"
+        );
         return;
     }
 
     if (first === 'contact') {
         updateActiveTab('none');
         showLayer('contact-view');
-        document.title = "Contact Us - NCERT Solved Hub";
+        updateSeoMeta(
+            "Contact Us - NCERT Solved Hub",
+            "Get in touch with the NCERTSolved academic team to report textbook errata, request solution clarifications, or send feedback.",
+            "contact"
+        );
         return;
     }
 
@@ -15418,6 +15910,15 @@ function handleRoute() {
         if (!data) {
             goToHomeUI();
             return;
+        }
+
+        // 3-part. SST Part Book Filter: #/subject/sst/part/:partNum (e.g. #/subject/sst/part/1 or /part/2)
+        if (subKey === 'sst' && segments[2] === 'part' && segments[3] !== undefined) {
+            const partNum = parseInt(segments[3], 10);
+            if (!isNaN(partNum)) {
+                renderSstPartView(partNum);
+                return;
+            }
         }
 
         // 3a-ex. Branch Chapter Specific Exercise Solutions: #/subject/:subKey/branch/:bNum/chapter/:cNum/exercise/:exId
@@ -15626,12 +16127,12 @@ function toggleSolution(solId, btnEl) {
 function getBranchIcon(branch, index) {
     if (branch && branch.icon) return branch.icon;
     const name = (branch?.name || '').toLowerCase();
-    if (name.includes('गद्य') || name.includes('gadya')) return '\u{1F4D6}';
-    if (name.includes('पद्य') || name.includes('padya')) return '\u{1FAB6}';
     if (name.includes('geography')) return '\u{1F5FA}\uFE0F';
     if (name.includes('history')) return '\u{1F3DB}\uFE0F';
     if (name.includes('political') || name.includes('civics')) return '\u2696\uFE0F';
     if (name.includes('economics')) return '\u{1F4C8}';
+    if (name.includes('गद्य') || name.includes('gadya')) return '\u{1F4D6}';
+    if (name.includes('पद्य') || name.includes('padya')) return '\u{1FAB6}';
     if (name.includes('prose')) return '\u{1F4D6}';
     if (name.includes('poetry') || name.includes('poem')) return '\u{1FAB6}';
     if (name.includes('part 1')) return '\u{1F4D0}';
@@ -15660,6 +16161,8 @@ function getChapterIcon(chapter, index, subjectKey = '') {
 
     // 2. Social Science Chapters
     if (name.includes('understanding social science')) return '\u{1F9ED}';
+    if (name.includes('oceans and life') || name.includes('ocean')) return '\u{1F30A}';
+    if (name.includes('life on earth') || name.includes('biome')) return '\u{1F33F}';
     if (name.includes('shaping of the earth')) return '\u{1F30B}';
     if (name.includes('atmosphere') || name.includes('climate')) return '\u26C5';
     if (name.includes('early human') || name.includes('civilisation') || name.includes('civilization')) return '\u{1F3FA}';
@@ -15762,6 +16265,51 @@ function renderSubjectView(subjectKey) {
     if (!grid) return;
     grid.innerHTML = '';
 
+    // SST Special 2-Tier Structure: First show Part 1 & Part 2 Books
+    if (subjectKey === 'sst') {
+        const sstBooks = [
+            {
+                partNum: 1,
+                name: "Social Science (Part 1)",
+                icon: "\u{1F4DA}",
+                desc: "Geography (Earth's Surface & Climate), History (Early Civilisations), Political Science & Economics.",
+                badge: "4 Branches • 8 Solved Chapters",
+                color: "#f59e0b"
+            },
+            {
+                partNum: 2,
+                name: "Social Science (Part 2)",
+                icon: "\u{1F30A}",
+                desc: "Geography (Oceans and Life, Marine Resources, Blue Economy), History, Political Science & Economics.",
+                badge: "4 Branches • New Syllabus",
+                color: "#0284c7"
+            }
+        ];
+
+        sstBooks.forEach(book => {
+            grid.innerHTML += `
+                <a class="chapter-select-btn branch-select-btn" style="border-left: 5px solid ${book.color}; padding: 1.25rem 1.15rem;" href="#/subject/sst/part/${book.partNum}">
+                    <div class="chap-btn-content">
+                        <span class="chap-icon-badge branch-icon-badge" style="font-size: 1.6rem;">${book.icon}</span>
+                        <div class="branch-text-wrapper">
+                            <span class="chap-btn-title" style="font-size: 1.12rem; font-weight: 700;">${book.name}</span>
+                            <span class="branch-chap-count" style="margin-top: 4px; color: #475569; font-size: 0.86rem; line-height: 1.45;">${book.desc}</span>
+                            <span style="display: inline-block; margin-top: 6px; font-size: 0.76rem; font-weight: 700; color: ${book.color}; background: #fef3c7; padding: 2px 8px; border-radius: 9999px;">${book.badge}</span>
+                        </div>
+                    </div>
+                </a>
+            `;
+        });
+
+        showLayer('chapter-view');
+        updateSeoMeta(
+            "Social Science (Parts 1 & 2) - Class 9 NCERT Solved Hub",
+            "NCERT Class 9 Social Science textbook solutions for both Part 1 and Part 2: Geography, History, Political Science, and Economics.",
+            "subject/sst"
+        );
+        return;
+    }
+
     if (data.isBranching) {
         data.branches.forEach((branch, index) => {
             const branchIcon = getBranchIcon(branch, index);
@@ -15815,7 +16363,67 @@ function renderSubjectView(subjectKey) {
     }
 
     showLayer('chapter-view');
-    document.title = `${data.title} - Class 9 NCERT Solved Hub`;
+    const subCleanName = data.title.replace(/ Sections?/i, '').replace(/ Chapters?/i, '');
+    updateSeoMeta(
+        `${data.title} - Class 9 NCERT Solved Hub`,
+        `Complete NCERT Class 9 ${subCleanName} textbook solutions. Browse all chapters, exercise sets, formulas, and verified step-by-step exam answers.`,
+        `subject/${subjectKey}`
+    );
+}
+
+function renderSstPartView(partNum) {
+    currentSubjectKey = 'sst';
+    updateActiveTab('sst');
+    const data = ncertDatabase.sst;
+    if (!data) return;
+
+    const isPart1 = (partNum === 1);
+    const bookTitle = isPart1 ? "Social Science (Part 1)" : "Social Science (Part 2)";
+    const bookIcon = isPart1 ? "\u{1F4DA}" : "\u{1F30A}";
+
+    const titleEl = document.getElementById('chapter-title-heading');
+    if (titleEl) titleEl.innerHTML = `<span class="heading-icon-badge">${bookIcon}</span> ${bookTitle} Subjects`;
+
+    const backBtn = document.getElementById('chapter-back-link');
+    if (backBtn) {
+        backBtn.href = "#/subject/sst";
+        backBtn.innerText = "\u2190 Back to SST Books";
+    }
+
+    const grid = getLayerElement('chapters-list-grid');
+    if (!grid) return;
+    grid.innerHTML = '';
+
+    // Branch indices: Part 1 is 0 to 3, Part 2 is 4 to 7
+    const startIdx = isPart1 ? 0 : 4;
+    const endIdx = isPart1 ? 3 : 7;
+
+    for (let index = startIdx; index <= endIdx; index++) {
+        const branch = data.branches[index];
+        if (!branch) continue;
+        const branchIcon = getBranchIcon(branch, index);
+        const count = branch.chapters ? branch.chapters.length : 0;
+        const countText = count > 0 ? `${count} Chapter${count !== 1 ? 's' : ''}` : 'Under Development';
+        const cleanDisplayName = branch.name.replace(/^Part\s*[12]\s*-\s*/i, '');
+        grid.innerHTML += `
+            <a class="chapter-select-btn branch-select-btn" style="border-left: 5px solid #2563eb;" href="#/subject/sst/branch/${index + 1}">
+                <div class="chap-btn-content">
+                    <span class="chap-icon-badge branch-icon-badge">${branchIcon}</span>
+                    <div class="branch-text-wrapper">
+                        <span class="chap-btn-title">${cleanDisplayName}</span>
+                        <span class="branch-chap-count">${countText}</span>
+                    </div>
+                </div>
+            </a>
+        `;
+    }
+
+    showLayer('chapter-view');
+    updateSeoMeta(
+        `${bookTitle} - Class 9 NCERT Solved Hub`,
+        `NCERT Class 9 ${bookTitle} solutions across Geography, History, Political Science, and Economics with chapter solutions.`,
+        `subject/sst/part/${partNum}`
+    );
 }
 
 function renderBranchView(subjectKey, branchIndex) {
@@ -15834,8 +16442,14 @@ function renderBranchView(subjectKey, branchIndex) {
 
     const backBtn = document.getElementById('chapter-back-link');
     if (backBtn) {
-        backBtn.href = `#/subject/${subjectKey}`;
-        backBtn.innerText = `\u2190 Back to ${data.title.replace(/ Sections?/i, "").replace(/ Chapters?/i, "")}`;
+        if (subjectKey === 'sst') {
+            const partNum = branchIndex >= 4 ? 2 : 1;
+            backBtn.href = `#/subject/sst/part/${partNum}`;
+            backBtn.innerText = `\u2190 Back to SST Part ${partNum} Subjects`;
+        } else {
+            backBtn.href = `#/subject/${subjectKey}`;
+            backBtn.innerText = `\u2190 Back to ${data.title.replace(/ Sections?/i, "").replace(/ Chapters?/i, "")}`;
+        }
     }
 
     const grid = getLayerElement('chapters-list-grid');
@@ -15894,7 +16508,12 @@ function renderBranchView(subjectKey, branchIndex) {
     }
 
     showLayer('chapter-view');
-    document.title = `${branchData.name} Chapters - Class 9 NCERT Solved Hub`;
+    const chapTotal = Array.isArray(branchData.chapters) ? branchData.chapters.length : 0;
+    updateSeoMeta(
+        `${branchData.name} Chapters - Class 9 NCERT Solved Hub`,
+        `NCERT Class 9 ${branchData.name} (${data.title.replace(/ Sections?/i, '')}) chapter-wise textbook solutions across ${chapTotal} chapters with step-by-step answers and hints.`,
+        `subject/${subjectKey}/branch/${branchIndex + 1}`
+    );
 }
 
 function renderBranchExerciseList(subjectKey, branchIndex, chapterIndex) {
@@ -15965,7 +16584,11 @@ function renderBranchExerciseList(subjectKey, branchIndex, chapterIndex) {
     }
 
     showLayer('chapter-view');
-    document.title = `${cleanTitle} Exercises - ${branchData.name} | NCERT Solved Hub`;
+    updateSeoMeta(
+        `NCERT Solutions for Class 9 ${subjectKey.toUpperCase() === "SST" ? "Social Science" : (subjectKey.charAt(0).toUpperCase() + subjectKey.slice(1))} ${cleanTitle} Exercises | NCERTSolved`,
+        `NCERT Class 9 ${branchData.name} ${cleanTitle} textbook solutions: ${chapterData.exercises.length} exercise sets and ${totalQuestions} step-by-step solved questions with hints.`,
+        `subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}`
+    );
 }
 
 function renderBranchChapter(subjectKey, branchIndex, chapterIndex, questionTarget = null, activeExerciseId = 'all') {
@@ -16072,7 +16695,15 @@ function renderBranchChapter(subjectKey, branchIndex, chapterIndex, questionTarg
     });
 
     showLayer('solution-view');
-    document.title = `${cleanTitle}${activeExObj ? ' - ' + activeExObj.name : ''} Solutions | NCERT Solved Hub`;
+    const firstQSnippet = listToRender.length > 0 ? stripHtmlForSeo(listToRender[0].q).slice(0, 95) : '';
+    const seoRoute = activeExObj
+        ? `subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}/exercise/${encodeURIComponent(activeExObj.id)}`
+        : `subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}`;
+    updateSeoMeta(
+        `${cleanTitle}${activeExObj ? ' - ' + activeExObj.name : ''} Solutions | NCERT Solved Hub`,
+        `NCERT Class 9 ${branchData.name} ${cleanTitle}${activeExObj ? ' (' + activeExObj.name + ')' : ''} step-by-step solutions (${listToRender.length} Q&As). ${firstQSnippet ? 'Includes: ' + firstQSnippet + '...' : ''}`.trim(),
+        seoRoute
+    );
 
     renderMathInContainer(stack);
 
@@ -16143,7 +16774,12 @@ function renderChapter(subjectKey, chapterIndex, questionTarget = null) {
 
     showLayer('solution-view');
     const subTitle = subjectData.title.replace(' Section', '').replace(' Chapters', '');
-    document.title = `${cleanTitle} Solutions - ${subTitle} | NCERT Solved Hub`;
+    const firstQStd = chapterData.solutions.length > 0 ? stripHtmlForSeo(chapterData.solutions[0].q).slice(0, 95) : '';
+    updateSeoMeta(
+        `NCERT Solutions for Class 9 ${subTitle} ${cleanTitle} | NCERTSolved`,
+        `NCERT Class 9 ${subTitle} ${cleanTitle} textbook solutions (${chapterData.solutions.length} solved questions). ${firstQStd ? 'Includes: ' + firstQStd + '...' : ''}`.trim(),
+        `subject/${subjectKey}/chapter/${chapNum}`
+    );
 
     renderMathInContainer(stack);
 
@@ -16418,6 +17054,86 @@ function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+/* ============================================================ */
+/* THEME (DARK / LIGHT MODE) CONTROLLER                         */
+/* ============================================================ */
+function getTheme() {
+    return document.documentElement.getAttribute('data-theme') || 'light';
+}
+
+function updateThemeUI(theme) {
+    const isDark = theme === 'dark';
+    const icon = isDark ? '&#9728;&#65039;' : '&#127769;';
+    const navText = isDark ? 'Light' : 'Dark';
+    const pillText = isDark ? 'Light Mode' : 'Dark Mode';
+
+    const navBtn = document.getElementById('theme-toggle-btn');
+    if (navBtn) {
+        const iconEl = navBtn.querySelector('.theme-icon');
+        const textEl = navBtn.querySelector('.theme-text');
+        if (iconEl) iconEl.innerHTML = icon;
+        if (textEl) textEl.textContent = navText;
+        navBtn.setAttribute('title', isDark ? 'Switch to Light Mode' : 'Switch to Dark Mode');
+    }
+
+    const pillBtns = document.querySelectorAll('.theme-toggle-pill');
+    pillBtns.forEach((pill) => {
+        const pIcon = pill.querySelector('.theme-pill-icon');
+        const pText = pill.querySelector('.theme-pill-text');
+        if (pIcon) pIcon.innerHTML = icon;
+        if (pText) pText.textContent = pillText;
+    });
+}
+
+function toggleTheme() {
+    const current = getTheme();
+    const next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    try {
+        localStorage.setItem('ncert_theme', next);
+    } catch (e) {}
+    updateThemeUI(next);
+    if (typeof showToast === 'function') {
+        showToast(next === 'dark' ? 'Dark Mode enabled \uD83C\uDF19' : 'Light Mode enabled \u2600\uFE0F');
+    }
+}
+
+function toggleOfflineInfoModal() {
+    const modal = document.getElementById('offline-info-modal');
+    if (!modal) return;
+    modal.classList.toggle('hidden');
+}
+
+function updateOfflineStatusUI() {
+    const isOffline = !navigator.onLine;
+    const textEl = document.getElementById('offline-status-text');
+    const badgeEl = document.getElementById('offline-modal-badge');
+    const btnEl = document.getElementById('offline-info-btn');
+    if (textEl) {
+        textEl.textContent = isOffline ? 'Offline Mode Active' : 'Offline Ready';
+    }
+    if (btnEl) {
+        btnEl.style.borderColor = isOffline ? '#10b981' : '';
+        btnEl.style.backgroundColor = isOffline ? '#ecfdf5' : '';
+        btnEl.style.color = isOffline ? '#059669' : '';
+    }
+    if (badgeEl) {
+        badgeEl.innerHTML = isOffline
+            ? '\u2713 You are Offline \u2022 All 1,000+ Solutions Working!'
+            : '\u2713 All 1,000+ Solutions Loaded in Memory';
+    }
+}
+
+window.addEventListener('offline', () => {
+    updateOfflineStatusUI();
+    showToast("Internet turned off — Offline Mode active! You can keep browsing all chapters.", "success");
+});
+
+window.addEventListener('online', () => {
+    updateOfflineStatusUI();
+    showToast("Back online!", "info");
+});
+
 window.addEventListener('scroll', () => {
     const btn = document.getElementById('back-to-top-btn');
     if (btn) {
@@ -16432,6 +17148,10 @@ window.addEventListener('keydown', (e) => {
         focusSearch();
     } else if (e.key === 'Escape') {
         clearSearch();
+        const modal = document.getElementById('offline-info-modal');
+        if (modal && !modal.classList.contains('hidden')) {
+            modal.classList.add('hidden');
+        }
     } else if (e.key === '/' && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
         e.preventDefault();
         focusSearch();
@@ -16445,7 +17165,12 @@ normalizeDatabaseExercises();
 window.addEventListener('hashchange', handleRoute);
 window.addEventListener('DOMContentLoaded', () => {
     normalizeDatabaseExercises();
+    updateOfflineStatusUI();
+    updateThemeUI(getTheme());
     handleRoute();
 });
-if (document.readyState === 'complete' || document.readyState === 'interactive') 
+if (document.readyState === 'complete' || document.readyState === 'interactive') {
+    updateOfflineStatusUI();
+    updateThemeUI(getTheme());
     handleRoute();
+}

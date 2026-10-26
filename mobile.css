@@ -1,161 +1,228 @@
-/* ============================================================ */
-/* NCERTSOLVED - DEDICATED MOBILE STYLESHEET (mobile.css)      */
-/* Applies EXCLUSIVELY to Mobile/Tablet (screens <= 768px)      */
-/* Desktop & PC styles remain 100% UNTOUCHED in style.css       */
+﻿/* ============================================================ */
+/* NCERTSOLVED - COMPLETE MOBILE REVAMP STYLESHEET (mobile.css) */
+/* Applies EXCLUSIVELY to Mobile & Tablets (screens <= 768px)   */
+/* Desktop & PC styles remain 100% UNTOUCHED in style.css        */
 /* ============================================================ */
 
 @media (max-width: 768px) {
 
-    /* --- 1. Root & Mobile Ambient Glow Effects --- */
-    body {
+    /* --- 1. Global Viewport & Overflow Hardening --- */
+    html, body {
+        overflow-x: hidden !important;
+        width: 100% !important;
+        max-width: 100vw !important;
+        position: relative;
         -webkit-tap-highlight-color: transparent;
         background-color: #f8fafc;
         background-image: 
-            radial-gradient(circle at 50% 0%, rgba(219, 234, 254, 0.45) 0%, rgba(248, 250, 252, 0) 65%),
-            radial-gradient(circle at 100% 40%, rgba(243, 232, 255, 0.35) 0%, rgba(248, 250, 252, 0) 50%);
+            radial-gradient(circle at 50% 0%, rgba(219, 234, 254, 0.5) 0%, rgba(248, 250, 252, 0) 65%),
+            radial-gradient(circle at 100% 30%, rgba(243, 232, 255, 0.4) 0%, rgba(248, 250, 252, 0) 50%);
         background-attachment: fixed;
     }
 
-    /* --- 2. Frosted Glass Top Navbar --- */
+    *, *::before, *::after {
+        box-sizing: border-box !important;
+    }
+
+    .container {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 1rem 0.85rem 3rem 0.85rem !important;
+        margin: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    /* --- 2. Frosted App-Like Top Navbar --- */
     .navbar {
-        padding: 0.75rem 1.15rem;
-        background: rgba(255, 255, 255, 0.88);
-        backdrop-filter: blur(16px);
-        -webkit-backdrop-filter: blur(16px);
-        border-bottom: 1px solid rgba(226, 232, 240, 0.85);
-        box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.04);
-        position: sticky;
-        top: 0;
-        z-index: 1000;
+        padding: 0.65rem 0.9rem !important;
+        background: rgba(255, 255, 255, 0.92) !important;
+        backdrop-filter: blur(16px) !important;
+        -webkit-backdrop-filter: blur(16px) !important;
+        border-bottom: 1px solid rgba(226, 232, 240, 0.85) !important;
+        box-shadow: 0 2px 12px rgba(15, 23, 42, 0.04) !important;
+        position: sticky !important;
+        top: 0 !important;
+        z-index: 1000 !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    .nav-left {
+        display: flex !important;
+        align-items: center !important;
+        gap: 0.5rem !important;
+        min-width: 0 !important;
+        flex: 1 !important;
     }
 
     .nav-left .logo {
-        font-size: 1.35rem;
-        letter-spacing: -0.02em;
+        font-size: 1.25rem !important;
+        font-weight: 800 !important;
+        letter-spacing: -0.03em !important;
+        white-space: nowrap !important;
+        display: inline-flex !important;
+        align-items: center !important;
     }
 
     .nav-left .logo span {
-        background: linear-gradient(135deg, #2563eb, #3b82f6);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        background: linear-gradient(135deg, #2563eb, #3b82f6) !important;
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
     }
 
     .nav-left .badge {
-        font-size: 0.72rem;
-        padding: 0.2rem 0.55rem;
-        background: #eff6ff;
-        border: 1px solid #bfdbfe;
-        color: #1e40af;
-        border-radius: 9999px;
-        box-shadow: 0 0 12px rgba(59, 130, 246, 0.12);
+        display: none !important; /* Hide badge on mobile so logo & action buttons never collide */
     }
 
-    .search-trigger-btn {
-        width: 40px;
-        height: 40px;
-        padding: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 12px;
-        background: #ffffff;
-        border: 1px solid #e2e8f0;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
-        transition: transform 0.15s ease, background-color 0.15s ease;
+    .nav-right {
+        display: flex !important;
+        align-items: center !important;
+        gap: 0.45rem !important;
+        flex-shrink: 0 !important;
+        margin-left: auto !important;
     }
 
-    .search-trigger-btn:active {
-        transform: scale(0.92);
-        background: #f1f5f9;
+    .nav-action-btn,
+    .search-trigger-btn,
+    .theme-toggle-btn {
+        width: 38px !important;
+        height: 38px !important;
+        min-width: 38px !important;
+        min-height: 38px !important;
+        padding: 0 !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        border-radius: 10px !important;
+        background: #ffffff !important;
+        border: 1px solid #e2e8f0 !important;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04) !important;
+        cursor: pointer !important;
+        flex-shrink: 0 !important;
+        transition: transform 0.15s ease, background-color 0.15s ease !important;
     }
 
-    .search-trigger-btn .btn-icon {
-        font-size: 1.15rem;
+    .nav-action-btn:active,
+    .search-trigger-btn:active,
+    .theme-toggle-btn:active {
+        transform: scale(0.92) !important;
+        background: #f1f5f9 !important;
     }
 
-    /* --- 3. Luminous Subject Tabs Navigation Bar --- */
+    .nav-action-btn .btn-icon,
+    .search-trigger-btn .btn-icon,
+    .theme-toggle-btn .btn-icon {
+        font-size: 1.15rem !important;
+        line-height: 1 !important;
+        margin: 0 !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .nav-action-btn .btn-text,
+    .theme-toggle-btn .btn-text,
+    .shortcut-pill {
+        display: none !important;
+    }
+
+    /* --- 3. Horizontal Swipable Subject Tabs Bar --- */
     .tabs-nav-bar {
-        top: 57px;
-        background: rgba(255, 255, 255, 0.94);
-        backdrop-filter: blur(16px);
-        -webkit-backdrop-filter: blur(16px);
-        border-bottom: 1px solid rgba(226, 232, 240, 0.8);
-        box-shadow: 0 4px 14px -3px rgba(0, 0, 0, 0.03);
+        position: sticky !important;
+        top: 51px !important;
+        z-index: 900 !important;
+        background: rgba(255, 255, 255, 0.95) !important;
+        backdrop-filter: blur(16px) !important;
+        -webkit-backdrop-filter: blur(16px) !important;
+        border-bottom: 1px solid rgba(226, 232, 240, 0.85) !important;
+        box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.03) !important;
+        width: 100% !important;
+        overflow: hidden !important;
     }
 
     .tabs-scroll-container {
-        padding: 0.55rem 1rem;
-        gap: 0.55rem;
-        scrollbar-width: none;
+        display: flex !important;
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+        white-space: nowrap !important;
+        padding: 0.5rem 0.85rem !important;
+        gap: 0.5rem !important;
+        scrollbar-width: none !important;
+        -ms-overflow-style: none !important;
+        -webkit-overflow-scrolling: touch !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
     }
 
     .tabs-scroll-container::-webkit-scrollbar {
-        display: none;
+        display: none !important;
     }
 
     .nav-tab {
-        padding: 0.5rem 0.95rem;
-        font-size: 0.85rem;
-        font-weight: 600;
-        border-radius: 9999px;
-        background: #ffffff;
-        border: 1px solid #e2e8f0;
-        color: #475569;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
-        transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-        display: inline-flex;
-        align-items: center;
-        gap: 0.45rem;
+        padding: 0.45rem 0.85rem !important;
+        font-size: 0.82rem !important;
+        font-weight: 600 !important;
+        border-radius: 9999px !important;
+        background: #ffffff !important;
+        border: 1px solid #e2e8f0 !important;
+        color: #475569 !important;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02) !important;
+        transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        gap: 0.35rem !important;
+        flex-shrink: 0 !important;
+        text-decoration: none !important;
     }
 
     .nav-tab:active {
-        transform: scale(0.95);
+        transform: scale(0.95) !important;
     }
 
     .nav-tab.active {
-        background: linear-gradient(135deg, #2563eb, #1d4ed8);
+        background: linear-gradient(135deg, #2563eb, #1d4ed8) !important;
         color: #ffffff !important;
-        border-color: #2563eb;
-        box-shadow: 0 4px 16px rgba(37, 99, 235, 0.38), 0 0 8px rgba(37, 99, 235, 0.25);
+        border-color: #2563eb !important;
+        box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35) !important;
     }
 
     .nav-tab.active .tab-icon {
-        transform: scale(1.1);
-        filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.6));
+        transform: scale(1.1) !important;
+        filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.5)) !important;
     }
 
-    /* --- 4. Hero Section & Search Input --- */
-    .container {
-        padding: 1.25rem 1rem;
-    }
-
+    /* --- 4. Hero Section & Thumb-Reach Search Box --- */
     .hero-section {
-        padding: 0.5rem 0 1rem 0;
-        text-align: center;
+        padding: 0.4rem 0 0.85rem 0 !important;
+        text-align: center !important;
+        width: 100% !important;
     }
 
     .hero-pill {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.45rem;
-        padding: 0.35rem 0.85rem;
-        font-size: 0.78rem;
-        font-weight: 600;
-        background: #ffffff;
-        border: 1px solid #dbeafe;
-        color: #1e40af;
-        border-radius: 9999px;
-        box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
-        margin-bottom: 0.75rem;
+        display: inline-flex !important;
+        align-items: center !important;
+        gap: 0.4rem !important;
+        padding: 0.3rem 0.75rem !important;
+        font-size: 0.74rem !important;
+        font-weight: 600 !important;
+        background: #ffffff !important;
+        border: 1px solid #dbeafe !important;
+        color: #1e40af !important;
+        border-radius: 9999px !important;
+        box-shadow: 0 2px 6px rgba(37, 99, 235, 0.06) !important;
+        margin-bottom: 0.6rem !important;
     }
 
     .pill-dot {
-        width: 7px;
-        height: 7px;
-        background: #2563eb;
-        border-radius: 50%;
-        box-shadow: 0 0 8px #2563eb;
-        animation: mobilePulseDot 2s infinite ease-in-out;
+        width: 6px !important;
+        height: 6px !important;
+        background: #2563eb !important;
+        border-radius: 50% !important;
+        box-shadow: 0 0 6px #2563eb !important;
+        animation: mobilePulseDot 2s infinite ease-in-out !important;
     }
 
     @keyframes mobilePulseDot {
@@ -164,500 +231,734 @@
     }
 
     .hero-title {
-        font-size: 1.75rem;
-        line-height: 1.25;
-        font-weight: 800;
-        letter-spacing: -0.03em;
-        margin-bottom: 0.6rem;
+        font-size: 1.55rem !important;
+        line-height: 1.25 !important;
+        font-weight: 800 !important;
+        letter-spacing: -0.03em !important;
+        margin-bottom: 0.5rem !important;
+        color: #0f172a !important;
+        padding: 0 0.25rem !important;
     }
 
     .hero-title .gradient-text {
-        background: linear-gradient(135deg, #1d4ed8 0%, #7c3aed 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        display: inline-block;
+        background: linear-gradient(135deg, #1d4ed8 0%, #7c3aed 100%) !important;
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+        display: inline-block !important;
     }
 
     .hero-subtitle {
-        font-size: 0.9rem;
-        line-height: 1.5;
-        color: #64748b;
-        max-width: 95%;
-        margin: 0 auto;
+        font-size: 0.88rem !important;
+        line-height: 1.5 !important;
+        color: #64748b !important;
+        padding: 0 0.5rem !important;
+        margin: 0 auto !important;
     }
 
-    /* Mobile Search Bar with Soft Ambient Ring */
+    /* Mobile Search Input Wrapper */
     .search-box-container {
-        margin: 1.25rem 0 0.85rem 0;
+        margin: 1rem 0 0.65rem 0 !important;
+        width: 100% !important;
+        position: relative !important;
     }
 
     .search-input-wrapper {
-        background: #ffffff;
-        border: 1.5px solid #e2e8f0;
-        border-radius: 14px;
-        padding: 0.35rem 0.5rem 0.35rem 0.85rem;
-        box-shadow: 0 4px 16px -2px rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(226, 232, 240, 0.5);
-        transition: all 0.25s ease;
+        background: #ffffff !important;
+        border: 1.5px solid #e2e8f0 !important;
+        border-radius: 12px !important;
+        padding: 0.35rem 0.65rem !important;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03) !important;
+        display: flex !important;
+        align-items: center !important;
+        gap: 0.5rem !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
     }
 
     .search-input-wrapper:focus-within {
-        border-color: #3b82f6;
-        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.16), 0 8px 24px -4px rgba(37, 99, 235, 0.12);
+        border-color: #3b82f6 !important;
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12), 0 4px 14px rgba(37, 99, 235, 0.08) !important;
+    }
+
+    .search-input-icon {
+        font-size: 1rem !important;
+        color: #64748b !important;
+        flex-shrink: 0 !important;
     }
 
     #global-search-input {
-        font-size: 0.92rem;
-        padding: 0.55rem 0;
+        font-size: 0.9rem !important;
+        padding: 0.45rem 0 !important;
+        width: 100% !important;
+        border: none !important;
+        outline: none !important;
+        color: #1e293b !important;
+        background: transparent !important;
+    }
+
+    #global-search-input::placeholder {
+        color: #94a3b8 !important;
+        font-size: 0.84rem !important;
     }
 
     .search-shortcut-hint {
-        display: none;
+        display: none !important;
     }
 
-    /* Mobile Feature Chips */
+    /* Mobile Feature Chips - Smooth Horizontal Swipe Rail */
     .features-pills {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 0.4rem;
-        margin-top: 0.85rem;
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+        justify-content: flex-start !important;
+        gap: 0.45rem !important;
+        margin-top: 0.75rem !important;
+        padding: 0.25rem 0.2rem 0.55rem 0.2rem !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+        -webkit-overflow-scrolling: touch !important;
+        scrollbar-width: none !important;
+    }
+
+    .features-pills::-webkit-scrollbar {
+        display: none !important;
     }
 
     .feat-pill {
-        font-size: 0.74rem;
-        padding: 0.3rem 0.65rem;
-        background: rgba(255, 255, 255, 0.85);
-        backdrop-filter: blur(8px);
-        border: 1px solid #e2e8f0;
-        border-radius: 9999px;
-        color: #475569;
-        font-weight: 500;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.02);
+        display: inline-flex !important;
+        align-items: center !important;
+        gap: 0.35rem !important;
+        font-size: 0.78rem !important;
+        padding: 0.35rem 0.75rem !important;
+        background: rgba(255, 255, 255, 0.95) !important;
+        backdrop-filter: blur(6px) !important;
+        border: 1px solid #e2e8f0 !important;
+        border-radius: 9999px !important;
+        color: #475569 !important;
+        font-weight: 600 !important;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03) !important;
+        white-space: nowrap !important;
+        flex-shrink: 0 !important;
     }
 
     .feat-icon {
-        font-size: 0.85rem;
+        font-size: 0.78rem !important;
     }
 
-    /* --- 5. Luminous Subject Cards with Neon/Pastel Halos --- */
+    /* --- 5. Mobile Subject Cards with Smooth Touch Ripple --- */
     .subject-grid {
-        grid-template-columns: 1fr;
-        gap: 0.9rem;
-        margin-top: 1.25rem;
+        display: flex !important;
+        flex-direction: column !important;
+        grid-template-columns: none !important;
+        gap: 0.75rem !important;
+        margin-top: 1rem !important;
+        width: 100% !important;
     }
 
     .subject-card-btn {
-        padding: 1.25rem;
-        border-radius: 16px;
-        background: #ffffff;
-        border: 1px solid #e2e8f0;
-        box-shadow: 0 4px 14px rgba(15, 23, 42, 0.03);
-        transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+        width: 100% !important;
+        padding: 1.1rem !important;
+        border-radius: 14px !important;
+        background: #ffffff !important;
+        border: 1px solid #e2e8f0 !important;
+        box-shadow: 0 2px 8px rgba(15, 23, 42, 0.03) !important;
+        box-sizing: border-box !important;
+        transition: transform 0.15s ease, box-shadow 0.15s ease !important;
+        text-decoration: none !important;
+        display: flex !important;
+        flex-direction: column !important;
     }
 
     .subject-card-btn:active {
-        transform: scale(0.985);
+        transform: scale(0.98) !important;
+        background: #f8fafc !important;
+    }
+
+    .card-header {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        margin-bottom: 0.85rem !important;
+        width: 100% !important;
     }
 
     .card-icon-wrapper {
-        width: 48px;
-        height: 48px;
-        border-radius: 14px;
-        font-size: 1.55rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: transform 0.2s ease;
+        width: 44px !important;
+        height: 44px !important;
+        min-width: 44px !important;
+        border-radius: 12px !important;
+        font-size: 1.4rem !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
     }
 
-    /* Card Signature Glowing Lights */
-    /* Science: Cyan / Neon Blue Glow */
+    /* Subject Card Themes - Exact Same Colors as PC */
+    /* 1. Science (Emerald) */
     .card-science {
-        border-left: 4px solid #06b6d4;
+        border-top: 4px solid #10b981 !important;
+        border-left: 1px solid #e2e8f0 !important;
     }
-    .card-science .icon-science {
-        background: linear-gradient(135deg, #ecfeff, #cffafe);
-        border: 1px solid #a5f3fc;
-        box-shadow: 0 0 16px rgba(6, 182, 212, 0.28);
+    .icon-science {
+        background-color: #ecfdf5 !important;
+        border: 1px solid #a7f3d0 !important;
+        box-shadow: 0 0 10px rgba(16, 185, 129, 0.15) !important;
     }
-    .card-science:active {
-        box-shadow: 0 4px 20px rgba(6, 182, 212, 0.2);
+    .card-science .card-tag {
+        background-color: #ecfdf5 !important;
+        color: #059669 !important;
+    }
+    .card-science .card-footer {
+        color: #059669 !important;
     }
 
-    /* Social Science: Emerald / Teal Glow */
+    /* 2. SST (Amber / Orange) */
     .card-sst {
-        border-left: 4px solid #10b981;
+        border-top: 4px solid #f59e0b !important;
+        border-left: 1px solid #e2e8f0 !important;
     }
-    .card-sst .icon-sst {
-        background: linear-gradient(135deg, #ecfdf5, #d1fae5);
-        border: 1px solid #a7f3d0;
-        box-shadow: 0 0 16px rgba(16, 185, 129, 0.28);
+    .icon-sst {
+        background-color: #fffbeb !important;
+        border: 1px solid #fde68a !important;
+        box-shadow: 0 0 10px rgba(245, 158, 11, 0.15) !important;
     }
-    .card-sst:active {
-        box-shadow: 0 4px 20px rgba(16, 185, 129, 0.2);
+    .card-sst .card-tag {
+        background-color: #fffbeb !important;
+        color: #d97706 !important;
+    }
+    .card-sst .card-footer {
+        color: #d97706 !important;
     }
 
-    /* Mathematics: Amber / Gold Glow */
+    /* 3. Maths (Royal Blue) */
     .card-maths {
-        border-left: 4px solid #f59e0b;
+        border-top: 4px solid #3b82f6 !important;
+        border-left: 1px solid #e2e8f0 !important;
     }
-    .card-maths .icon-maths {
-        background: linear-gradient(135deg, #fffbeb, #fef3c7);
-        border: 1px solid #fde68a;
-        box-shadow: 0 0 16px rgba(245, 158, 11, 0.28);
+    .icon-maths {
+        background-color: #eff6ff !important;
+        border: 1px solid #bfdbfe !important;
+        box-shadow: 0 0 10px rgba(59, 130, 246, 0.15) !important;
     }
-    .card-maths:active {
-        box-shadow: 0 4px 20px rgba(245, 158, 11, 0.2);
+    .card-maths .card-tag {
+        background-color: #eff6ff !important;
+        color: #2563eb !important;
+    }
+    .card-maths .card-footer {
+        color: #2563eb !important;
     }
 
-    /* English: Violet / Purple Glow */
+    /* 4. English (Violet) */
     .card-english {
-        border-left: 4px solid #8b5cf6;
+        border-top: 4px solid #8b5cf6 !important;
+        border-left: 1px solid #e2e8f0 !important;
     }
-    .card-english .icon-english {
-        background: linear-gradient(135deg, #f5f3ff, #ede9fe);
-        border: 1px solid #ddd6fe;
-        box-shadow: 0 0 16px rgba(139, 92, 246, 0.28);
+    .icon-english {
+        background-color: #f5f3ff !important;
+        border: 1px solid #ddd6fe !important;
+        box-shadow: 0 0 10px rgba(139, 92, 246, 0.15) !important;
     }
-    .card-english:active {
-        box-shadow: 0 4px 20px rgba(139, 92, 246, 0.2);
+    .card-english .card-tag {
+        background-color: #f5f3ff !important;
+        color: #7c3aed !important;
+    }
+    .card-english .card-footer {
+        color: #7c3aed !important;
     }
 
-    /* Hindi: Coral / Rose Glow */
+    /* 5. Hindi (Rose / Crimson) */
     .card-hindi {
-        border-left: 4px solid #f43f5e;
+        border-top: 4px solid #e11d48 !important;
+        border-left: 1px solid #e2e8f0 !important;
     }
-    .card-hindi .icon-hindi {
-        background: linear-gradient(135deg, #fff1f2, #ffe4e6);
-        border: 1px solid #fecdd3;
-        box-shadow: 0 0 16px rgba(244, 63, 94, 0.28);
+    .icon-hindi {
+        background-color: #fff1f2 !important;
+        border: 1px solid #fecdd3 !important;
+        box-shadow: 0 0 10px rgba(225, 29, 72, 0.15) !important;
     }
-    .card-hindi:active {
-        box-shadow: 0 4px 20px rgba(244, 63, 94, 0.2);
+    .card-hindi .card-tag {
+        background-color: #fff1f2 !important;
+        color: #e11d48 !important;
+    }
+    .card-hindi .card-footer {
+        color: #e11d48 !important;
     }
 
     .card-tag {
-        font-size: 0.74rem;
-        padding: 0.25rem 0.6rem;
-        border-radius: 9999px;
-        font-weight: 600;
+        font-size: 0.72rem !important;
+        padding: 0.2rem 0.55rem !important;
+        border-radius: 9999px !important;
+        font-weight: 700 !important;
         background: #f1f5f9;
         color: #475569;
+        white-space: nowrap !important;
+        flex-shrink: 0 !important;
     }
 
     .card-title {
-        font-size: 1.18rem;
-        font-weight: 700;
-        color: #0f172a;
-        margin-top: 0.65rem;
+        font-size: 1.15rem !important;
+        font-weight: 700 !important;
+        color: #0f172a !important;
+        margin: 0 !important;
     }
 
     .card-desc {
-        font-size: 0.86rem;
-        line-height: 1.5;
-        color: #64748b;
-        margin: 0.35rem 0 0.85rem 0;
+        font-size: 0.84rem !important;
+        line-height: 1.45 !important;
+        color: #64748b !important;
+        margin: 0.35rem 0 0.75rem 0 !important;
     }
 
     .card-footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 0.84rem;
-        font-weight: 600;
-        color: #2563eb;
-        border-top: 1px dashed #e2e8f0;
-        padding-top: 0.65rem;
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        font-size: 0.82rem !important;
+        font-weight: 600 !important;
+        border-top: 1px dashed #e2e8f0 !important;
+        padding-top: 0.6rem !important;
     }
 
-    /* --- 6. Chapter Selection & Exercise Cards --- */
+    /* --- 6. Mobile Chapter Selection List --- */
     .chapters-buttons-grid {
-        grid-template-columns: 1fr;
-        gap: 0.75rem;
+        display: flex !important;
+        flex-direction: column !important;
+        grid-template-columns: none !important;
+        gap: 0.65rem !important;
+        width: 100% !important;
     }
 
     .chapter-select-btn {
-        padding: 0.95rem 1rem;
-        border-radius: 14px;
-        background: #ffffff;
-        border: 1px solid #e2e8f0;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
-        transition: transform 0.15s ease, border-color 0.15s ease;
+        width: 100% !important;
+        padding: 0.85rem 0.95rem !important;
+        border-radius: 12px !important;
+        background: #ffffff !important;
+        border: 1px solid #e2e8f0 !important;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.02) !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        gap: 0.65rem !important;
+        text-decoration: none !important;
+        box-sizing: border-box !important;
+        transition: transform 0.15s ease, background-color 0.15s ease !important;
     }
 
     .chapter-select-btn:active {
-        transform: scale(0.985);
-        background: #f8fafc;
+        transform: scale(0.98) !important;
+        background: #f8fafc !important;
+    }
+
+    .chap-btn-content {
+        display: flex !important;
+        align-items: center !important;
+        gap: 0.75rem !important;
+        flex: 1 1 0 !important;
+        min-width: 0 !important;
+        width: 0 !important;
     }
 
     .chap-icon-badge {
-        width: 42px;
-        height: 42px;
-        border-radius: 12px;
-        font-size: 1.35rem;
-        background: #eff6ff;
-        border: 1px solid #dbeafe;
-        box-shadow: 0 0 10px rgba(59, 130, 246, 0.15);
+        width: 40px !important;
+        height: 40px !important;
+        min-width: 40px !important;
+        min-height: 40px !important;
+        border-radius: 10px !important;
+        font-size: 1.25rem !important;
+        background: #eff6ff !important;
+        border: 1px solid #dbeafe !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-shrink: 0 !important;
+    }
+
+    .branch-text-wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0.2rem !important;
+        flex: 1 1 0 !important;
+        min-width: 0 !important;
+        width: 0 !important;
     }
 
     .chap-btn-title {
-        font-size: 0.95rem;
-        font-weight: 600;
-        color: #1e293b;
-        line-height: 1.35;
+        display: block !important;
+        font-size: 0.94rem !important;
+        font-weight: 600 !important;
+        color: #1e293b !important;
+        line-height: 1.4 !important;
+        white-space: normal !important;
+        word-break: normal !important; /* CRITICAL: Never break individual words into 1-letter vertical lines */
+        overflow-wrap: break-word !important;
+        word-wrap: break-word !important;
+        hyphens: none !important;
+        width: 100% !important;
+    }
+
+    .branch-chap-count {
+        font-size: 0.76rem !important;
+        color: #64748b !important;
+        display: block !important;
+        margin-top: 0.15rem !important;
+        line-height: 1.35 !important;
     }
 
     .chapter-select-btn::after {
-        font-size: 0.75rem;
-        padding-left: 0.25rem;
+        content: "→" !important;
+        font-size: 0.95rem !important;
+        color: #2563eb !important;
+        font-weight: 700 !important;
+        flex-shrink: 0 !important;
+        margin-left: 0.35rem !important;
     }
 
-    /* Interactive Exercise Switcher Pill Bar on Mobile */
-    .exercise-switcher-bar {
-        display: flex;
-        overflow-x: auto;
-        padding: 0.5rem 0.25rem 0.75rem 0.25rem;
-        gap: 0.5rem;
-        scrollbar-width: none;
+    /* Introductory Non-Exercise Cards (Science Ch 1, SST Ch 1) - Vertical Card on Mobile */
+    .chapter-select-btn.chapter-no-exercises {
+        background: #fefce8 !important;
+        border: 1.5px dashed #facc15 !important;
+        cursor: pointer !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 0.65rem !important;
+        padding: 0.95rem 1rem !important;
+        width: 100% !important;
     }
 
-    .exercise-switcher-bar::-webkit-scrollbar {
-        display: none;
+    .chapter-select-btn.chapter-no-exercises::after {
+        display: none !important;
     }
 
-    .exercise-pill {
-        padding: 0.45rem 0.85rem;
-        font-size: 0.82rem;
-        font-weight: 600;
-        white-space: nowrap;
-        border-radius: 9999px;
-        background: #ffffff;
-        border: 1px solid #e2e8f0;
-        color: #334155;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
-        display: inline-flex;
-        align-items: center;
-        gap: 0.4rem;
-        transition: all 0.2s ease;
+    .chapter-select-btn.chapter-no-exercises .chap-btn-content {
+        width: 100% !important;
+        display: flex !important;
+        align-items: flex-start !important;
+        gap: 0.75rem !important;
     }
 
-    .exercise-pill:active {
-        transform: scale(0.94);
+    .chapter-select-btn.chapter-no-exercises .chap-icon-badge {
+        background: #fef9c3 !important;
+        border-color: #fde047 !important;
+        flex-shrink: 0 !important;
+        margin-top: 2px !important;
     }
 
-    .exercise-pill.active {
-        background: linear-gradient(135deg, #2563eb, #1d4ed8);
-        color: #ffffff !important;
-        border-color: #2563eb;
-        box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+    .chapter-select-btn.chapter-no-exercises .no-ex-hover-badge {
+        display: inline-flex !important;
+        align-items: center !important;
+        gap: 0.35rem !important;
+        padding: 0.3rem 0.65rem !important;
+        font-size: 0.76rem !important;
+        background: #fef08a !important;
+        color: #854d0e !important;
+        border: 1px solid #eab308 !important;
+        border-radius: 9999px !important;
+        white-space: nowrap !important;
+        align-self: flex-start !important;
+        margin-left: 0 !important;
     }
 
-    .exercise-pill .pill-count {
-        font-size: 0.72rem;
-        padding: 0.15rem 0.45rem;
-        border-radius: 9999px;
-        background: #f1f5f9;
-        color: #475569;
-    }
-
-    .exercise-pill.active .pill-count {
-        background: rgba(255, 255, 255, 0.25);
-        color: #ffffff;
-    }
-
-    /* --- 7. Solution & Question Cards Polish --- */
+    /* --- 7. Solution & Question Cards (Homework Ergonomics) --- */
     .solutions-stack {
-        gap: 1rem;
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0.85rem !important;
+        width: 100% !important;
     }
 
     .solution-card {
-        padding: 1.25rem 1.15rem;
-        border-radius: 16px;
-        background: #ffffff;
-        border: 1px solid #e2e8f0;
-        box-shadow: 0 4px 14px rgba(15, 23, 42, 0.03);
+        padding: 1rem 0.95rem !important;
+        border-radius: 14px !important;
+        background: #ffffff !important;
+        border: 1px solid #e2e8f0 !important;
+        box-shadow: 0 2px 8px rgba(15, 23, 42, 0.03) !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+        overflow: hidden !important;
     }
 
     .card-question-header {
-        display: flex;
-        gap: 0.75rem;
-        align-items: flex-start;
-        margin-bottom: 0.85rem;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 0.45rem !important;
+        margin-bottom: 0.75rem !important;
+        width: 100% !important;
     }
 
     .q-badge {
-        font-size: 0.78rem;
-        font-weight: 700;
-        padding: 0.25rem 0.65rem;
-        border-radius: 8px;
-        background: linear-gradient(135deg, #eff6ff, #dbeafe);
-        color: #1d4ed8;
-        border: 1px solid #bfdbfe;
-        box-shadow: 0 0 10px rgba(37, 99, 235, 0.15);
-        flex-shrink: 0;
+        font-size: 0.75rem !important;
+        font-weight: 700 !important;
+        padding: 0.2rem 0.55rem !important;
+        border-radius: 6px !important;
+        background: #eff6ff !important;
+        color: #1d4ed8 !important;
+        border: 1px solid #bfdbfe !important;
+        display: inline-block !important;
     }
 
     .question-text {
-        font-size: 0.95rem;
-        line-height: 1.55;
-        font-weight: 600;
-        color: #0f172a;
+        font-size: 0.94rem !important;
+        line-height: 1.55 !important;
+        font-weight: 600 !important;
+        color: #0f172a !important;
+        width: 100% !important;
+        word-break: break-word !important;
     }
 
     .question-text h3 {
-        font-size: 1rem;
-        margin-bottom: 0.4rem;
-        color: #1e40af;
+        font-size: 0.98rem !important;
+        margin-bottom: 0.35rem !important;
+        color: #1e40af !important;
+        line-height: 1.4 !important;
     }
 
     .answer-text {
-        font-size: 0.92rem;
-        line-height: 1.68;
-        color: #334155;
-        border-left: 3px solid #3b82f6;
-        padding-left: 0.85rem;
-        margin: 0.75rem 0;
+        font-size: 0.9rem !important;
+        line-height: 1.68 !important;
+        color: #334155 !important;
+        border-left: 3px solid #3b82f6 !important;
+        padding-left: 0.75rem !important;
+        margin: 0.65rem 0 !important;
+        word-break: break-word !important;
+        overflow-x: auto !important;
     }
 
-    /* Hint Box with Luminous Yellow/Gold Ambient */
+    /* Math Formulas & KaTeX Overflow Protection */
+    .katex, .katex-display {
+        max-width: 100% !important;
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+        padding: 0.2rem 0 !important;
+        -webkit-overflow-scrolling: touch !important;
+    }
+
+    /* Tables inside solutions */
+    .answer-text table, .solution-card table {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch !important;
+        border-collapse: collapse !important;
+        font-size: 0.85rem !important;
+    }
+
+    /* Hint Box with Luminous Yellow Ambient */
     .hint-box {
-        margin: 0.75rem 0;
-        padding: 0.85rem 1rem;
-        border-radius: 12px;
-        background: #fefce8;
-        border: 1px solid #fde047;
-        box-shadow: 0 0 14px rgba(250, 204, 21, 0.15);
-        color: #713f12;
-        font-size: 0.88rem;
-        line-height: 1.55;
+        margin: 0.65rem 0 !important;
+        padding: 0.75rem 0.85rem !important;
+        border-radius: 10px !important;
+        background: #fefce8 !important;
+        border: 1px solid #fde047 !important;
+        box-shadow: 0 0 10px rgba(250, 204, 21, 0.12) !important;
+        color: #713f12 !important;
+        font-size: 0.86rem !important;
+        line-height: 1.55 !important;
+        word-break: break-word !important;
     }
 
-    /* Card Action Buttons: Full Mobile Touch Targets */
+    /* Card Action Buttons (Touch Friendly) */
     .card-actions-bar {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-        margin-top: 0.85rem;
-        border-top: 1px dashed #e2e8f0;
-        padding-top: 0.75rem;
-        width: 100%;
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 0.45rem !important;
+        margin-top: 0.75rem !important;
+        border-top: 1px dashed #e2e8f0 !important;
+        padding-top: 0.65rem !important;
+        width: 100% !important;
     }
 
     .btn-toggle-hint,
     .btn-toggle-solution {
-        flex: 1;
-        min-width: 140px;
-        min-height: 42px;
-        padding: 0.5rem 0.85rem;
-        font-size: 0.82rem;
-        font-weight: 600;
-        border-radius: 10px;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 0.4rem;
-        transition: all 0.15s ease;
+        flex: 1 !important;
+        min-height: 40px !important;
+        padding: 0.45rem 0.65rem !important;
+        font-size: 0.78rem !important;
+        font-weight: 600 !important;
+        border-radius: 8px !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 0.35rem !important;
+        transition: all 0.15s ease !important;
+        cursor: pointer !important;
+        white-space: nowrap !important;
     }
 
     .btn-toggle-hint {
-        background: #fffbeb;
-        border: 1px solid #fde68a;
-        color: #b45309;
+        background: #fffbeb !important;
+        border: 1px solid #fde68a !important;
+        color: #b45309 !important;
     }
 
     .btn-toggle-hint:active {
-        background: #fef3c7;
-        transform: scale(0.96);
+        background: #fef3c7 !important;
+        transform: scale(0.96) !important;
     }
 
     .btn-toggle-solution {
-        background: #f8fafc;
-        border: 1px solid #e2e8f0;
-        color: #475569;
+        background: #f8fafc !important;
+        border: 1px solid #e2e8f0 !important;
+        color: #475569 !important;
     }
 
     .btn-toggle-solution:active {
-        background: #f1f5f9;
-        transform: scale(0.96);
+        background: #f1f5f9 !important;
+        transform: scale(0.96) !important;
     }
 
     .btn-toggle-solution.active {
-        background: #eff6ff;
-        border-color: #bfdbfe;
-        color: #1d4ed8;
+        background: #eff6ff !important;
+        border-color: #bfdbfe !important;
+        color: #1d4ed8 !important;
     }
 
-    /* --- 8. Floating Controls & Back-to-Top Button --- */
-    .floating-controls {
-        bottom: 1.25rem;
-        right: 1.25rem;
+    /* Exercise Switcher Pills */
+    .exercise-switcher-bar {
+        display: flex !important;
+        overflow-x: auto !important;
+        padding: 0.45rem 0.2rem 0.65rem 0.2rem !important;
+        gap: 0.45rem !important;
+        scrollbar-width: none !important;
+        -webkit-overflow-scrolling: touch !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
     }
 
-    .floating-btn.back-to-top-btn {
-        width: 48px;
-        height: 48px;
-        border-radius: 50%;
-        background: linear-gradient(135deg, #2563eb, #1d4ed8);
-        color: #ffffff;
-        border: none;
-        box-shadow: 0 4px 18px rgba(37, 99, 235, 0.4), 0 0 10px rgba(37, 99, 235, 0.3);
-        font-size: 1.25rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: transform 0.15s ease;
+    .exercise-switcher-bar::-webkit-scrollbar {
+        display: none !important;
     }
 
-    .floating-btn.back-to-top-btn:active {
-        transform: scale(0.92);
+    .exercise-pill {
+        padding: 0.4rem 0.75rem !important;
+        font-size: 0.78rem !important;
+        font-weight: 600 !important;
+        white-space: nowrap !important;
+        border-radius: 9999px !important;
+        background: #ffffff !important;
+        border: 1px solid #e2e8f0 !important;
+        color: #334155 !important;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.02) !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        gap: 0.35rem !important;
+        flex-shrink: 0 !important;
+        text-decoration: none !important;
     }
 
-    /* --- 9. Creator Banner Polish --- */
-    .creator-banner {
-        border-radius: 16px;
-        padding: 1.15rem;
-        margin: 1.5rem 0 1rem 0;
-        background: linear-gradient(135deg, #ffffff, #f8fafc);
-        border: 1px solid #e2e8f0;
-        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+    .exercise-pill:active {
+        transform: scale(0.95) !important;
     }
 
-    .creator-avatar {
-        font-size: 1.8rem;
+    .exercise-pill.active {
+        background: linear-gradient(135deg, #2563eb, #1d4ed8) !important;
+        color: #ffffff !important;
+        border-color: #2563eb !important;
+        box-shadow: 0 3px 10px rgba(37, 99, 235, 0.3) !important;
     }
 
-    .creator-content h4 {
-        font-size: 1rem;
-        color: #0f172a;
-    }
-
-    .creator-content p {
-        font-size: 0.88rem;
-        line-height: 1.5;
-        color: #64748b;
-    }
-
-    /* --- 10. Navigation Crumbs / Back Button --- */
+    /* --- 8. Back Button & Breadcrumbs Navigation --- */
     .navigation-crumbs {
-        margin-bottom: 0.85rem;
+        margin-bottom: 0.65rem !important;
+        width: 100% !important;
     }
 
     .btn-back {
-        font-size: 0.85rem;
-        font-weight: 600;
-        padding: 0.45rem 0.85rem;
-        border-radius: 10px;
-        background: #ffffff;
-        border: 1px solid #e2e8f0;
-        color: #2563eb;
-        display: inline-flex;
-        align-items: center;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.02);
+        font-size: 0.82rem !important;
+        font-weight: 600 !important;
+        padding: 0.4rem 0.75rem !important;
+        border-radius: 8px !important;
+        background: #ffffff !important;
+        border: 1px solid #e2e8f0 !important;
+        color: #2563eb !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02) !important;
+        text-decoration: none !important;
     }
 
     .btn-back:active {
-        transform: scale(0.96);
-        background: #f8fafc;
+        transform: scale(0.95) !important;
+        background: #f8fafc !important;
+    }
+
+    /* --- 9. Floating Back-to-Top Button (Safe Area Aware) --- */
+    .floating-controls {
+        position: fixed !important;
+        bottom: calc(1rem + env(safe-area-inset-bottom, 0px)) !important;
+        right: 1rem !important;
+        z-index: 800 !important;
+    }
+
+        .hidden,
+    .floating-btn.back-to-top-btn.hidden {
+        display: none !important;
+    }
+
+    .floating-btn.back-to-top-btn {
+        width: 44px !important;
+        height: 44px !important;
+        border-radius: 50% !important;
+        background: linear-gradient(135deg, #2563eb, #1d4ed8) !important;
+        color: #ffffff !important;
+        border: none !important;
+        box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4) !important;
+        font-size: 1.15rem !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        cursor: pointer !important;
+        transition: transform 0.15s ease !important;
+    }
+
+    .floating-btn.back-to-top-btn:active {
+        transform: scale(0.9) !important;
+    }
+
+    /* --- 10. Creator Note & Footer Polish --- */
+    .creator-banner {
+        border-radius: 14px !important;
+        padding: 1rem !important;
+        margin: 1.25rem 0 0.85rem 0 !important;
+        background: #ffffff !important;
+        border: 1px solid #e2e8f0 !important;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02) !important;
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0.65rem !important;
+        width: 100% !important;
+    }
+
+    .creator-avatar {
+        font-size: 1.6rem !important;
+    }
+
+    .creator-content h4 {
+        font-size: 0.95rem !important;
+        color: #0f172a !important;
+        margin-bottom: 0.25rem !important;
+    }
+
+    .creator-content p {
+        font-size: 0.84rem !important;
+        line-height: 1.48 !important;
+        color: #64748b !important;
+        margin: 0 !important;
+    }
+
+    footer {
+        padding: 1.25rem 0.85rem calc(1.5rem + env(safe-area-inset-bottom, 0px)) 0.85rem !important;
+        font-size: 0.8rem !important;
+        text-align: center !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    footer p {
+        margin: 0.35rem 0 !important;
+        word-break: break-word !important;
     }
 }
-

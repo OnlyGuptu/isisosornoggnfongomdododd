@@ -1,0 +1,563 @@
+﻿/* ============================================================ */
+/* NCERTSOLVED - REVAMPED DARK MODE STYLESHEET                  */
+/* Scoped exclusively to [data-theme="dark"]                    */
+/* ============================================================ */
+
+html[data-theme="dark"] {
+    color-scheme: dark;
+}
+
+html[data-theme="dark"],
+html[data-theme="dark"] body {
+    background-color: #090d16 !important;
+    background-image: 
+        radial-gradient(at 0% 0%, rgba(30, 58, 138, 0.15) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(88, 28, 135, 0.12) 0px, transparent 50%) !important;
+    background-attachment: fixed !important;
+    color: #e2e8f0 !important;
+}
+
+/* ============================================================ */
+/* NAVBAR & HEADER                                              */
+/* ============================================================ */
+html[data-theme="dark"] .navbar {
+    background: rgba(11, 15, 25, 0.88) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4) !important;
+}
+
+html[data-theme="dark"] .logo {
+    color: #f8fafc !important;
+}
+
+html[data-theme="dark"] .logo span {
+    color: #38bdf8 !important;
+}
+
+html[data-theme="dark"] .badge {
+    background: #1e293b !important;
+    color: #94a3b8 !important;
+    border: 1px solid #334155 !important;
+}
+
+html[data-theme="dark"] .nav-action-btn {
+    background: #1e293b !important;
+    border: 1px solid #334155 !important;
+    color: #f1f5f9 !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25) !important;
+}
+
+html[data-theme="dark"] .nav-action-btn:hover {
+    background: #283548 !important;
+    border-color: #475569 !important;
+    color: #38bdf8 !important;
+}
+
+html[data-theme="dark"] .shortcut-pill {
+    background: #0f172a !important;
+    border-color: #334155 !important;
+    color: #94a3b8 !important;
+}
+
+/* Theme Toggle Button Specifics */
+.theme-toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.42rem 0.85rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 9999px;
+    transition: all 0.2s ease;
+}
+
+.theme-toggle-pill {
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #3b82f6 !important;
+    background: rgba(37, 99, 235, 0.08) !important;
+    color: #2563eb !important;
+    font-weight: 700 !important;
+    transition: all 0.2s ease;
+}
+
+html[data-theme="dark"] .theme-toggle-pill {
+    background: rgba(56, 189, 248, 0.12) !important;
+    border-color: #38bdf8 !important;
+    color: #38bdf8 !important;
+}
+
+.theme-toggle-pill:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+/* ============================================================ */
+/* TABS NAVIGATION                                              */
+/* ============================================================ */
+html[data-theme="dark"] .tabs-nav-bar {
+    background: rgba(15, 23, 42, 0.8) !important;
+    border-bottom: 1px solid #1e293b !important;
+}
+
+html[data-theme="dark"] .nav-tab {
+    color: #94a3b8 !important;
+}
+
+html[data-theme="dark"] .nav-tab:hover {
+    background: #1e293b !important;
+    color: #f8fafc !important;
+}
+
+html[data-theme="dark"] .nav-tab.active {
+    background: rgba(37, 99, 235, 0.22) !important;
+    color: #60a5fa !important;
+    border-color: rgba(96, 165, 250, 0.35) !important;
+}
+
+/* ============================================================ */
+/* HERO SECTION & HEADINGS                                      */
+/* ============================================================ */
+html[data-theme="dark"] .hero-pill {
+    background: #1e293b !important;
+    border: 1px solid #334155 !important;
+    color: #38bdf8 !important;
+}
+
+html[data-theme="dark"] .hero-title {
+    color: #f8fafc !important;
+}
+
+html[data-theme="dark"] .hero-subtitle {
+    color: #94a3b8 !important;
+}
+
+html[data-theme="dark"] .gradient-text {
+    background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+/* ============================================================ */
+/* SEARCH BAR & AUTOCOMPLETE                                    */
+/* ============================================================ */
+html[data-theme="dark"] .search-input-wrapper {
+    background: #111827 !important;
+    border: 1px solid #374151 !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;
+}
+
+html[data-theme="dark"] #global-search-input {
+    color: #f8fafc !important;
+}
+
+html[data-theme="dark"] #global-search-input::placeholder {
+    color: #64748b !important;
+}
+
+html[data-theme="dark"] .search-input-wrapper:focus-within {
+    border-color: #38bdf8 !important;
+    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.22), 0 8px 25px rgba(0, 0, 0, 0.6) !important;
+}
+
+html[data-theme="dark"] .search-shortcut-hint kbd {
+    background: #0f172a !important;
+    border-color: #334155 !important;
+    color: #cbd5e1 !important;
+}
+
+html[data-theme="dark"] .search-results-container {
+    background: #111827 !important;
+    border: 1px solid #1f2937 !important;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6) !important;
+}
+
+html[data-theme="dark"] .search-results-header {
+    background: #0f172a !important;
+    border-bottom: 1px solid #1e293b !important;
+    color: #94a3b8 !important;
+}
+
+html[data-theme="dark"] .btn-close-results {
+    background: #1e293b !important;
+    border-color: #334155 !important;
+    color: #cbd5e1 !important;
+}
+
+html[data-theme="dark"] .search-result-item {
+    border-bottom: 1px solid #1f2937 !important;
+}
+
+html[data-theme="dark"] .search-result-item:hover {
+    background: #1e293b !important;
+}
+
+html[data-theme="dark"] .search-result-title {
+    color: #f8fafc !important;
+}
+
+html[data-theme="dark"] .search-result-meta {
+    color: #94a3b8 !important;
+}
+
+html[data-theme="dark"] .search-result-snippet {
+    color: #cbd5e1 !important;
+}
+
+html[data-theme="dark"] .feat-pill {
+    background: #111827 !important;
+    border: 1px solid #1f2937 !important;
+    color: #cbd5e1 !important;
+}
+
+html[data-theme="dark"] .feat-pill:hover {
+    background: #1f2937 !important;
+    border-color: #374151 !important;
+    color: #f8fafc !important;
+}
+
+/* ============================================================ */
+/* HOMEPAGE SUBJECT CARDS                                       */
+/* ============================================================ */
+html[data-theme="dark"] .subject-card-btn {
+    background: #111827 !important;
+    border: 1px solid #1f2937 !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35) !important;
+}
+
+html[data-theme="dark"] .subject-card-btn:hover {
+    border-color: rgba(96, 165, 250, 0.45) !important;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.6), 0 0 20px rgba(56, 189, 248, 0.12) !important;
+}
+
+html[data-theme="dark"] .card-title {
+    color: #f8fafc !important;
+}
+
+html[data-theme="dark"] .card-desc {
+    color: #94a3b8 !important;
+}
+
+html[data-theme="dark"] .card-footer {
+    border-top: 1px solid #1f2937 !important;
+    color: #94a3b8 !important;
+}
+
+html[data-theme="dark"] .subject-card-btn:hover .card-footer {
+    color: #38bdf8 !important;
+}
+
+/* Card Tags */
+html[data-theme="dark"] .card-science .card-tag {
+    background: rgba(16, 185, 129, 0.15) !important;
+    color: #34d399 !important;
+}
+
+html[data-theme="dark"] .card-sst .card-tag {
+    background: rgba(245, 158, 11, 0.15) !important;
+    color: #fbbf24 !important;
+}
+
+html[data-theme="dark"] .card-maths .card-tag {
+    background: rgba(139, 92, 246, 0.15) !important;
+    color: #a78bfa !important;
+}
+
+html[data-theme="dark"] .card-english .card-tag {
+    background: rgba(59, 130, 246, 0.15) !important;
+    color: #60a5fa !important;
+}
+
+html[data-theme="dark"] .card-hindi .card-tag {
+    background: rgba(244, 63, 94, 0.15) !important;
+    color: #fb7185 !important;
+}
+
+/* Creator Banner */
+html[data-theme="dark"] .creator-banner {
+    background: linear-gradient(135deg, rgba(30, 27, 75, 0.6) 0%, rgba(15, 23, 42, 0.85) 100%) !important;
+    border: 1px solid rgba(99, 102, 241, 0.3) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35) !important;
+}
+
+html[data-theme="dark"] .creator-content h4 {
+    color: #c7d2fe !important;
+}
+
+html[data-theme="dark"] .creator-content p {
+    color: #94a3b8 !important;
+}
+
+/* ============================================================ */
+/* CHAPTER VIEW & CHAPTER BUTTONS                               */
+/* ============================================================ */
+html[data-theme="dark"] .btn-back {
+    background: #1e293b !important;
+    border: 1px solid #334155 !important;
+    color: #93c5fd !important;
+}
+
+html[data-theme="dark"] .btn-back:hover {
+    background: #283548 !important;
+    color: #ffffff !important;
+}
+
+html[data-theme="dark"] .chapter-btn {
+    background: #111827 !important;
+    border: 1px solid #1f2937 !important;
+    color: #f8fafc !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+html[data-theme="dark"] .chapter-btn:hover {
+    background: #1e293b !important;
+    border-color: #3b82f6 !important;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5) !important;
+}
+
+html[data-theme="dark"] .branch-card,
+html[data-theme="dark"] .sst-part-card {
+    background: #111827 !important;
+    border: 1px solid #1f2937 !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35) !important;
+}
+
+html[data-theme="dark"] .branch-card h3,
+html[data-theme="dark"] .sst-part-card h3 {
+    color: #f8fafc !important;
+}
+
+html[data-theme="dark"] .branch-card p,
+html[data-theme="dark"] .sst-part-card p {
+    color: #94a3b8 !important;
+}
+
+/* Exercise Tabs / Pills */
+html[data-theme="dark"] .exercise-nav-pill,
+html[data-theme="dark"] .ex-pill {
+    background: #1e293b !important;
+    border: 1px solid #334155 !important;
+    color: #cbd5e1 !important;
+}
+
+html[data-theme="dark"] .exercise-nav-pill.active,
+html[data-theme="dark"] .ex-pill.active {
+    background: #2563eb !important;
+    border-color: #3b82f6 !important;
+    color: #ffffff !important;
+}
+
+/* ============================================================ */
+/* SOLUTIONS STACK & Q&A CARDS                                  */
+/* ============================================================ */
+html[data-theme="dark"] .solution-card {
+    background: #111827 !important;
+    border: 1px solid #1f2937 !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4) !important;
+    color: #e2e8f0 !important;
+}
+
+html[data-theme="dark"] .q-block {
+    background: rgba(30, 41, 59, 0.55) !important;
+    border: 1px solid #334155 !important;
+    border-left: 4px solid #38bdf8 !important;
+    border-radius: 8px !important;
+    padding: 1.1rem 1.3rem !important;
+    margin-bottom: 1rem !important;
+}
+
+html[data-theme="dark"] .q-block h3,
+html[data-theme="dark"] .q-block h4 {
+    color: #38bdf8 !important;
+}
+
+html[data-theme="dark"] .q-block p {
+    color: #f1f5f9 !important;
+}
+
+html[data-theme="dark"] .a-block {
+    background: rgba(15, 23, 42, 0.65) !important;
+    border-left: 4px solid #22c55e !important;
+    border-radius: 6px !important;
+    padding: 1.2rem 1.4rem !important;
+    color: #e2e8f0 !important;
+    line-height: 1.7 !important;
+}
+
+html[data-theme="dark"] .a-block strong,
+html[data-theme="dark"] .a-block b {
+    color: #ffffff !important;
+}
+
+html[data-theme="dark"] .a-block em,
+html[data-theme="dark"] .a-block i {
+    color: #93c5fd !important;
+}
+
+html[data-theme="dark"] .a-block ul,
+html[data-theme="dark"] .a-block ol {
+    color: #cbd5e1 !important;
+}
+
+html[data-theme="dark"] .a-block li::marker {
+    color: #38bdf8 !important;
+}
+
+/* Tables inside answers */
+html[data-theme="dark"] table {
+    border-collapse: collapse !important;
+    border-color: #374151 !important;
+    background: #0f172a !important;
+}
+
+html[data-theme="dark"] th {
+    background: #1e293b !important;
+    color: #f8fafc !important;
+    border: 1px solid #374151 !important;
+    font-weight: 700 !important;
+}
+
+html[data-theme="dark"] td {
+    border: 1px solid #374151 !important;
+    color: #e2e8f0 !important;
+}
+
+html[data-theme="dark"] tr:nth-child(even) td {
+    background: rgba(30, 41, 59, 0.35) !important;
+}
+
+/* Math & Formulas */
+html[data-theme="dark"] .katex {
+    color: #f8fafc !important;
+}
+
+html[data-theme="dark"] code {
+    background: #1e293b !important;
+    color: #38bdf8 !important;
+    border: 1px solid #334155 !important;
+    border-radius: 4px !important;
+    padding: 0.15rem 0.4rem !important;
+}
+
+/* SVGs & Blueprints */
+html[data-theme="dark"] svg text {
+    fill: #f1f5f9 !important;
+}
+
+/* ============================================================ */
+/* LEGAL PAGES, FOOTER & MODALS                                 */
+/* ============================================================ */
+html[data-theme="dark"] #privacy-view .solution-card,
+html[data-theme="dark"] #terms-view .solution-card,
+html[data-theme="dark"] #about-view .solution-card,
+html[data-theme="dark"] #contact-view .solution-card {
+    background: #111827 !important;
+    border: 1px solid #1f2937 !important;
+    color: #cbd5e1 !important;
+}
+
+html[data-theme="dark"] #privacy-view h2,
+html[data-theme="dark"] #terms-view h2,
+html[data-theme="dark"] #about-view h2,
+html[data-theme="dark"] #contact-view h2 {
+    color: #f8fafc !important;
+}
+
+html[data-theme="dark"] #privacy-view h3,
+html[data-theme="dark"] #terms-view h3,
+html[data-theme="dark"] #about-view h3 {
+    color: #38bdf8 !important;
+}
+
+html[data-theme="dark"] #privacy-view .answer-text,
+html[data-theme="dark"] #terms-view .answer-text,
+html[data-theme="dark"] #about-view .answer-text {
+    color: #cbd5e1 !important;
+}
+
+html[data-theme="dark"] footer {
+    background: #090d16 !important;
+    border-top: 1px solid #1f2937 !important;
+    color: #64748b !important;
+}
+
+html[data-theme="dark"] footer p {
+    color: #94a3b8 !important;
+}
+
+html[data-theme="dark"] footer a {
+    color: #38bdf8 !important;
+}
+
+html[data-theme="dark"] #offline-info-modal > div {
+    background: #111827 !important;
+    border: 1px solid #1f2937 !important;
+    border-top: 4px solid #10b981 !important;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.7) !important;
+}
+
+html[data-theme="dark"] #offline-info-modal h3 {
+    color: #f8fafc !important;
+}
+
+html[data-theme="dark"] #offline-info-modal p {
+    color: #cbd5e1 !important;
+}
+
+html[data-theme="dark"] #offline-info-modal div[style*="background: #f8fafc"] {
+    background: #0f172a !important;
+    border-color: #1e293b !important;
+    color: #94a3b8 !important;
+}
+
+html[data-theme="dark"] #offline-info-modal strong {
+    color: #f8fafc !important;
+}
+
+html[data-theme="dark"] #back-to-top-btn {
+    background: #1e293b !important;
+    border: 1px solid #334155 !important;
+    color: #38bdf8 !important;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4) !important;
+}
+
+html[data-theme="dark"] #back-to-top-btn:hover {
+    background: #2563eb !important;
+    color: #ffffff !important;
+    border-color: #3b82f6 !important;
+}
+
+html[data-theme="dark"] .toast {
+    background: #1e293b !important;
+    border: 1px solid #334155 !important;
+    color: #f8fafc !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5) !important;
+}
+
+
+/* Dark Mode for Non-Exercise Cards */
+html[data-theme="dark"] .chapter-select-btn.chapter-no-exercises {
+    background: rgba(113, 63, 18, 0.15) !important;
+    border-color: rgba(234, 179, 8, 0.4) !important;
+}
+
+html[data-theme="dark"] .chapter-select-btn.chapter-no-exercises .chap-icon-badge {
+    background: rgba(113, 63, 18, 0.3) !important;
+    border-color: rgba(234, 179, 8, 0.5) !important;
+}
+
+html[data-theme="dark"] .chapter-select-btn.chapter-no-exercises .no-ex-hover-badge {
+    background: rgba(113, 63, 18, 0.4) !important;
+    border-color: rgba(234, 179, 8, 0.6) !important;
+    color: #fde047 !important;
+}
+
+html[data-theme="dark"] .theme-toggle-btn,
+html[data-theme="dark"] .search-trigger-btn {
+    background: #1e293b !important;
+    border-color: #334155 !important;
+    color: #f1f5f9 !important;
+}

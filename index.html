@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,12 +9,36 @@
     <meta name="author" content="NCERTSolved Educational Team">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <link rel="canonical" href="https://ncertsolved.in/">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="favicon.svg">
+
+    <script>
+        (function() {
+            try {
+                const saved = localStorage.getItem("ncert_theme");
+                if (saved === "dark") {
+                    document.documentElement.setAttribute("data-theme", "dark");
+                } else {
+                    document.documentElement.setAttribute("data-theme", "light");
+                }
+            } catch (e) {}
+        })();
+    </script>
 
     <!-- Open Graph / Social Media Sharing -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ncertsolved.in/">
     <meta property="og:title" content="Class 9 NCERT Solved Hub • Simple & Direct Textbook Solutions">
     <meta property="og:description" content="Access 1,000+ verified, step-by-step textbook solutions across Science, Mathematics, Social Science, English, and Hindi with interactive hints and zero paywalls.">
+    <meta property="og:image" content="https://ncertsolved.in/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="NCERT Solved Class 9 Textbook Solutions">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Class 9 NCERT Solved Hub • Simple & Direct Textbook Solutions">
+    <meta name="twitter:description" content="Access 1,000+ verified, step-by-step textbook solutions across Science, Mathematics, Social Science, English, and Hindi with zero paywalls.">
+    <meta name="twitter:image" content="https://ncertsolved.in/og-image.png">
 
     <!-- Schema.org Educational Website JSON-LD for Search Engines -->
     <script type="application/ld+json">
@@ -35,6 +59,7 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css" media="(max-width: 768px)">
+    <link rel="stylesheet" href="dark-mode.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
@@ -63,6 +88,11 @@
             <div class="badge">Class 9 • 2026-27</div>
         </div>
         <div class="nav-right">
+            <button id="theme-toggle-btn" class="nav-action-btn theme-toggle-btn" onclick="toggleTheme()" title="Toggle Dark / Light Mode" aria-label="Toggle Theme">
+                <span class="btn-icon theme-icon">&#127769;</span>
+                <span class="btn-text theme-text">Dark</span>
+            </button>
+            <button id="offline-info-btn" class="nav-action-btn search-trigger-btn" onclick="toggleOfflineInfoModal()" title="Zero-Data / Offline Mode Info" aria-label="Offline &amp; Low Data Info"><span class="btn-icon" id="offline-status-icon">&#128246;</span><span class="btn-text" id="offline-status-text">Offline Ready</span></button>
             <button class="nav-action-btn search-trigger-btn" onclick="focusSearch()" title="Search questions (Ctrl + K)">
                 <span class="btn-icon">🔍</span>
                 <span class="btn-text">Search</span>
@@ -75,22 +105,22 @@
     <div class="tabs-nav-bar" id="subject-tabs-bar">
         <div class="tabs-scroll-container">
             <a class="nav-tab active" data-tab="all" href="#/">
-                <span class="tab-icon">🌐</span> All Subjects
+                <span class="tab-icon">&#127760;</span> All Subjects
             </a>
             <a class="nav-tab" data-tab="science" href="#/subject/science">
-                <span class="tab-icon">🔬</span> Science
+                <span class="tab-icon">&#128300;</span> Science
             </a>
             <a class="nav-tab" data-tab="sst" href="#/subject/sst">
-                <span class="tab-icon">🌍</span> Social Science
+                <span class="tab-icon">&#127757;</span> Social Science
             </a>
             <a class="nav-tab" data-tab="maths" href="#/subject/maths">
-                <span class="tab-icon">📐</span> Mathematics
+                <span class="tab-icon">&#128208;</span> Mathematics
             </a>
             <a class="nav-tab" data-tab="english" href="#/subject/english">
-                <span class="tab-icon">📖</span> English
+                <span class="tab-icon">&#128214;</span> English
             </a>
             <a class="nav-tab" data-tab="hindi" href="#/subject/hindi">
-                <span class="tab-icon">🪶</span> हिन्दी
+                <span class="tab-icon">&#129702;</span> हिन्दी
             </a>
         </div>
     </div>
@@ -104,7 +134,7 @@
                     <span class="pill-dot"></span> Class 9 NCERT Solutions Hub
                 </div>
                 <h1 class="hero-title">
-                    Simple, Direct &amp; <span class="gradient-text">Exam-Ready Solutions</span>
+                    Skip the fluff. Get straight to <span class="gradient-text">the right answer.</span>
                 </h1>
                 <p class="hero-subtitle">
                     Straightforward, verified textbook solutions designed by students. Zero clutter, no paywalls — just crisp, exam-ready answers for your notes.
@@ -130,6 +160,8 @@
                 </div>
 
                 <div class="features-pills">
+                    <button class="feat-pill theme-toggle-pill" onclick="toggleTheme()" title="Switch between Dark and Light mode"><span class="feat-icon theme-pill-icon">&#127769;</span> <span class="theme-pill-text">Dark Mode</span></button>
+                    <span class="feat-pill" onclick="toggleOfflineInfoModal()" style="cursor: pointer;" title="Click to see how Offline / Zero-Data Mode works"><span class="feat-icon">&#128246;</span> Works Offline Once Loaded (&#8505;&#65039;)</span>
                     <span class="feat-pill"><span class="feat-icon">⚡</span> Direct Question Links</span>
                     <span class="feat-pill"><span class="feat-icon">🎯</span> Straightforward Answers</span>
                     <span class="feat-pill"><span class="feat-icon">🖼️</span> Clean Diagrams &amp; Tables</span>
@@ -141,7 +173,7 @@
                 <!-- Science Card -->
                 <a class="subject-card-btn card-science" href="#/subject/science">
                     <div class="card-header">
-                        <div class="card-icon-wrapper icon-science">🔬</div>
+                        <div class="card-icon-wrapper icon-science">&#128300;</div>
                         <span class="card-tag">13 Chapters</span>
                     </div>
                     <div class="card-body">
@@ -150,30 +182,30 @@
                     </div>
                     <div class="card-footer">
                         <span>Explore Chapters</span>
-                        <span class="card-arrow">→</span>
+                        <span class="card-arrow">&rarr;</span>
                     </div>
                 </a>
 
                 <!-- Social Science Card -->
                 <a class="subject-card-btn card-sst" href="#/subject/sst">
                     <div class="card-header">
-                        <div class="card-icon-wrapper icon-sst">🌍</div>
-                        <span class="card-tag">4 Branches</span>
+                        <div class="card-icon-wrapper icon-sst">&#127757;</div>
+                        <span class="card-tag">Parts 1 &amp; 2</span>
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">Social Science</h3>
-                        <p class="card-desc">Geography (Shaping the Earth's Surface), History, Political Science &amp; Economics with disaster plans.</p>
+                        <p class="card-desc">Parts 1 &amp; 2: Geography (Earth's Surface &amp; Oceans), History, Political Science &amp; Economics.</p>
                     </div>
                     <div class="card-footer">
                         <span>Explore Chapters</span>
-                        <span class="card-arrow">→</span>
+                        <span class="card-arrow">&rarr;</span>
                     </div>
                 </a>
 
                 <!-- Mathematics Card -->
                 <a class="subject-card-btn card-maths" href="#/subject/maths">
                     <div class="card-header">
-                        <div class="card-icon-wrapper icon-maths">📐</div>
+                        <div class="card-icon-wrapper icon-maths">&#128208;</div>
                         <span class="card-tag">Ganita Manjari</span>
                     </div>
                     <div class="card-body">
@@ -182,14 +214,14 @@
                     </div>
                     <div class="card-footer">
                         <span>Explore Chapters</span>
-                        <span class="card-arrow">→</span>
+                        <span class="card-arrow">&rarr;</span>
                     </div>
                 </a>
 
                 <!-- English Card -->
                 <a class="subject-card-btn card-english" href="#/subject/english">
                     <div class="card-header">
-                        <div class="card-icon-wrapper icon-english">📖</div>
+                        <div class="card-icon-wrapper icon-english">&#128214;</div>
                         <span class="card-tag">Prose &amp; Poetry</span>
                     </div>
                     <div class="card-body">
@@ -198,15 +230,15 @@
                     </div>
                     <div class="card-footer">
                         <span>Explore Chapters</span>
-                        <span class="card-arrow">→</span>
+                        <span class="card-arrow">&rarr;</span>
                     </div>
                 </a>
 
                 <!-- Hindi Card -->
                 <a class="subject-card-btn card-hindi" href="#/subject/hindi">
                     <div class="card-header">
-                        <div class="card-icon-wrapper icon-hindi">🪶</div>
-                        <span class="card-tag">गद्य एवं पद्य</span>
+                        <div class="card-icon-wrapper icon-hindi">&#129702;</div>
+                        <span class="card-tag" style="background: rgba(245, 158, 11, 0.15); color: #d97706; font-weight: 700;">In Progress</span>
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">हिन्दी</h3>
@@ -214,14 +246,14 @@
                     </div>
                     <div class="card-footer">
                         <span>Explore Chapters</span>
-                        <span class="card-arrow">→</span>
+                        <span class="card-arrow">&rarr;</span>
                     </div>
                 </a>
             </div>
 
             <!-- Creator Note Callout -->
             <div class="creator-banner">
-                <div class="creator-avatar">💡</div>
+                <div class="creator-avatar">&#128161;</div>
                 <div class="creator-content">
                     <h4>From One Student to Another</h4>
                     <p>“I created this website because I know what we students actually need in an NCERT site: simple, direct answers without endless popups or fluff. Thanks for visiting — your support motivates me to keep improving this resource!”</p>
@@ -232,7 +264,7 @@
         <!-- LAYER 2: Chapter Selection Screen -->
         <section id="chapter-view" class="view-layer hidden">
             <div class="navigation-crumbs">
-                <a id="chapter-back-link" class="btn-back" href="#/">← Back to Subjects</a>
+                <a id="chapter-back-link" class="btn-back" href="#/">&larr; Back to Subjects</a>
             </div>
             <div class="hero-section">
                 <h1 id="chapter-title-heading">Subject Chapters</h1>
@@ -246,7 +278,7 @@
         <!-- LAYER 3: Final Solutions Screen -->
         <section id="solution-view" class="view-layer hidden">
             <div class="navigation-crumbs">
-                <a id="solution-back-link" class="btn-back" href="#/">← Back to Chapters</a>
+                <a id="solution-back-link" class="btn-back" href="#/">&larr; Back to Chapters</a>
             </div>
             <div class="hero-section">
                 <h1 id="final-solution-heading">Chapter Solutions</h1>
@@ -256,13 +288,12 @@
                 <!-- Final text solutions injected here -->
             </div>
         </section>
-
-    </div>
+</div>
 
     <!-- Floating Back to Top Button -->
     <div class="floating-controls">
         <button id="back-to-top-btn" class="floating-btn back-to-top-btn hidden" onclick="scrollToTop()" title="Back to top">
-            ↑
+            &uarr;
         </button>
     </div>
 
@@ -273,7 +304,7 @@
     <!-- ========================================== -->
     <div id="privacy-view" class="view-layer hidden container">
         <div class="navigation-crumbs">
-            <a class="btn-back" href="#/">← Back to Subjects</a>
+            <a class="btn-back" href="#/">&larr; Back to Subjects</a>
         </div>
         <div class="solution-card" style="margin-top: 1rem; background: #ffffff; border: 1px solid #e2e8f0; padding: 2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
             <h2 style="color: #0f172a; margin-bottom: 0.5rem; font-size: 1.75rem;">Privacy Policy</h2>
@@ -322,7 +353,7 @@
     <!-- ========================================== -->
     <div id="terms-view" class="view-layer hidden container">
         <div class="navigation-crumbs">
-            <a class="btn-back" href="#/">← Back to Subjects</a>
+            <a class="btn-back" href="#/">&larr; Back to Subjects</a>
         </div>
         <div class="solution-card" style="margin-top: 1rem; background: #ffffff; border: 1px solid #e2e8f0; padding: 1.8rem; border-radius: 10px;">
             <h2 style="color: #0f172a; margin-bottom: 1.5rem;">Terms of Service</h2>
@@ -344,7 +375,7 @@
     <!-- ========================================== -->
     <div id="about-view" class="view-layer hidden container">
         <div class="navigation-crumbs">
-            <a class="btn-back" href="#/">← Back to Subjects</a>
+            <a class="btn-back" href="#/">&larr; Back to Subjects</a>
         </div>
         <div class="solution-card" style="margin-top: 1rem; background: #ffffff; border: 1px solid #e2e8f0; padding: 2.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
             <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
@@ -384,7 +415,7 @@
     <!-- ========================================== -->
     <div id="contact-view" class="view-layer hidden container">
         <div class="navigation-crumbs">
-            <a class="btn-back" href="#/">← Back to Subjects</a>
+            <a class="btn-back" href="#/">&larr; Back to Subjects</a>
         </div>
         <div class="solution-card" style="margin-top: 1rem; max-width: 600px; margin: 1rem auto; border-top: 4px solid #2563eb; background: #ffffff; border-left: 1px solid #e2e8f0; border-right: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0; padding: 1.8rem; border-radius: 10px;">
             <h2 style="color: #0f172a; margin-bottom: 1rem; text-align: center;">Contact Us</h2>
@@ -411,6 +442,28 @@
             Disclaimer: NCERTSolved is an independent student resource and is not affiliated with or endorsed by NCERT or CBSE. Textbook questions are cited under Educational Fair Use for academic reference.
         </p>
     </footer>
+    <!-- Offline / Low-Data Student Info Modal -->
+    <div id="offline-info-modal" class="hidden" onclick="if(event.target===this) toggleOfflineInfoModal()" style="position: fixed; inset: 0; background: rgba(15, 23, 42, 0.55); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); z-index: 2000; display: flex; align-items: center; justify-content: center; padding: 1rem; box-sizing: border-box;">
+        <div style="background: #ffffff; max-width: 480px; width: 100%; border-radius: 16px; border: 1px solid #e2e8f0; border-top: 4px solid #10b981; box-shadow: 0 20px 40px -12px rgba(15, 23, 42, 0.25); padding: 1.5rem; position: relative; font-family: inherit;">
+            <button onclick="toggleOfflineInfoModal()" aria-label="Close" style="position: absolute; top: 1rem; right: 1rem; width: 32px; height: 32px; border-radius: 8px; border: 1px solid #e2e8f0; background: #f8fafc; color: #475569; font-weight: 700; cursor: pointer; display: flex; align-items: center; justify-content: center;">&#10005;</button>
+            <div style="display: flex; align-items: center; gap: 0.65rem; margin-bottom: 0.85rem;">
+                <span style="font-size: 1.5rem; background: #ecfdf5; border: 1px solid #a7f3d0; width: 42px; height: 42px; border-radius: 10px; display: inline-flex; align-items: center; justify-content: center;">&#128246;</span>
+                <div>
+                    <h3 style="margin: 0; font-size: 1.12rem; color: #0f172a; font-weight: 800;">Low on Mobile Data? Turn Off Internet!</h3>
+                    <span id="offline-modal-badge" style="display: inline-block; margin-top: 2px; font-size: 0.75rem; font-weight: 700; color: #059669; background: #ecfdf5; padding: 0.12rem 0.5rem; border-radius: 9999px; border: 1px solid #a7f3d0;">&#10003; All 1,000+ Solutions Loaded in Memory</span>
+                </div>
+            </div>
+            <p style="font-size: 0.92rem; color: #334155; line-height: 1.55; margin: 0 0 0.85rem 0;">
+                Once this website finishes loading, <strong>every single subject, branch, chapter, and global search</strong> is already stored inside your browser's memory.
+            </p>
+            <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 0.9rem 1rem; margin-bottom: 1rem; font-size: 0.86rem; color: #475569; line-height: 1.55;">
+                <div style="margin-bottom: 0.45rem;"><strong style="color: #0f172a;">&#9989; How to save 100% of your data:</strong><br>You can safely turn off your <strong>Mobile Data / Wi-Fi</strong> right now and keep studying all 5 subjects, switching chapters, and searching questions with zero internet!</div>
+                <div style="margin-bottom: 0.45rem;"><strong style="color: #0f172a;">&#9888;&#65039; Just don't close or refresh the tab:</strong><br>Everything works offline as long as you keep this tab open. Do not press Refresh (`F5` / pull-to-refresh) or close the tab while offline.</div>
+                <div><strong style="color: #0f172a;">&#128444;&#65039; Note on Diagrams:</strong><br>All text answers, tables, SVG charts, and math formulas work 100% offline. Only external chapter photo diagrams need internet if you haven't viewed them yet.</div>
+            </div>
+            <button onclick="toggleOfflineInfoModal()" style="width: 100%; padding: 0.7rem 1rem; border-radius: 10px; border: none; background: #2563eb; color: #ffffff; font-size: 0.92rem; font-weight: 700; cursor: pointer; box-shadow: 0 2px 8px rgba(37, 99, 235, 0.25);">Got it, Thanks!</button>
+        </div>
+    </div>
     <script>
         const initialParams = new URLSearchParams(window.location.search);
         if (initialParams.has('route')) {
