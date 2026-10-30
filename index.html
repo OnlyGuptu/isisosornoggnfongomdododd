@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,12 +9,20 @@
     <meta name="author" content="NCERTSolved Educational Team">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <link rel="canonical" href="https://ncertsolved.in/">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <link rel="alternate icon" href="favicon.ico">
-    <link rel="apple-touch-icon" href="favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="alternate icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/favicon.svg">
 
     <script>
         (function() {
+            try {
+                if (window.location.pathname.endsWith('/index.html') || window.location.pathname === '/index.html') {
+                    var cleanPath = window.location.pathname.replace(/index\.html$/, '') || '/';
+                    var cleanUrl = cleanPath + window.location.search + window.location.hash;
+                    window.history.replaceState(null, '', cleanUrl);
+                }
+            } catch (e) {}
+
             try {
                 const saved = localStorage.getItem("ncert_theme");
                 if (saved === "dark") {
@@ -57,9 +65,9 @@
     }
     </script>
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mobile.css" media="(max-width: 768px)">
-    <link rel="stylesheet" href="dark-mode.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/mobile.css" media="(max-width: 768px)">
+    <link rel="stylesheet" href="/dark-mode.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
@@ -84,7 +92,7 @@
     <!-- Top Navigation Header -->
     <nav class="navbar">
         <div class="nav-left">
-            <a href="#/" class="logo">NCERT<span>Solved</span></a>
+            <a href="/" class="logo">NCERT<span>Solved</span></a>
             <div class="badge">Class 9 • 2026-27</div>
         </div>
         <div class="nav-right">
@@ -104,23 +112,23 @@
     <!-- Quick Subject Tabs Navigation Bar -->
     <div class="tabs-nav-bar" id="subject-tabs-bar">
         <div class="tabs-scroll-container">
-            <a class="nav-tab active" data-tab="all" href="#/">
+            <a class="nav-tab active" data-tab="all" href="/">
                 <span class="tab-icon">&#127760;</span> All Subjects
             </a>
-            <a class="nav-tab" data-tab="science" href="#/subject/science">
+            <a class="nav-tab" data-tab="science" href="/subject/science/">
                 <span class="tab-icon">&#128300;</span> Science
             </a>
-            <a class="nav-tab" data-tab="sst" href="#/subject/sst">
+            <a class="nav-tab" data-tab="sst" href="/subject/sst/">
                 <span class="tab-icon">&#127757;</span> Social Science
             </a>
-            <a class="nav-tab" data-tab="maths" href="#/subject/maths">
+            <a class="nav-tab" data-tab="maths" href="/subject/maths/">
                 <span class="tab-icon">&#128208;</span> Mathematics
             </a>
-            <a class="nav-tab" data-tab="english" href="#/subject/english">
+            <a class="nav-tab" data-tab="english" href="/subject/english/">
                 <span class="tab-icon">&#128214;</span> English
             </a>
-            <a class="nav-tab" data-tab="hindi" href="#/subject/hindi">
-                <span class="tab-icon">&#129702;</span> हिन्दी
+            <a class="nav-tab" data-tab="hindi" href="/subject/hindi/">
+                <span class="tab-icon">&#129718;</span> हिन्दी
             </a>
         </div>
     </div>
@@ -160,7 +168,6 @@
                 </div>
 
                 <div class="features-pills">
-                    <button class="feat-pill theme-toggle-pill" onclick="toggleTheme()" title="Switch between Dark and Light mode"><span class="feat-icon theme-pill-icon">&#127769;</span> <span class="theme-pill-text">Dark Mode</span></button>
                     <span class="feat-pill" onclick="toggleOfflineInfoModal()" style="cursor: pointer;" title="Click to see how Offline / Zero-Data Mode works"><span class="feat-icon">&#128246;</span> Works Offline Once Loaded (&#8505;&#65039;)</span>
                     <span class="feat-pill"><span class="feat-icon">⚡</span> Direct Question Links</span>
                     <span class="feat-pill"><span class="feat-icon">🎯</span> Straightforward Answers</span>
@@ -171,7 +178,7 @@
 
             <div class="subject-grid">
                 <!-- Science Card -->
-                <a class="subject-card-btn card-science" href="#/subject/science">
+                <a class="subject-card-btn card-science" href="/subject/science/">
                     <div class="card-header">
                         <div class="card-icon-wrapper icon-science">&#128300;</div>
                         <span class="card-tag">13 Chapters</span>
@@ -187,7 +194,7 @@
                 </a>
 
                 <!-- Social Science Card -->
-                <a class="subject-card-btn card-sst" href="#/subject/sst">
+                <a class="subject-card-btn card-sst" href="/subject/sst/">
                     <div class="card-header">
                         <div class="card-icon-wrapper icon-sst">&#127757;</div>
                         <span class="card-tag">Parts 1 &amp; 2</span>
@@ -203,7 +210,7 @@
                 </a>
 
                 <!-- Mathematics Card -->
-                <a class="subject-card-btn card-maths" href="#/subject/maths">
+                <a class="subject-card-btn card-maths" href="/subject/maths/">
                     <div class="card-header">
                         <div class="card-icon-wrapper icon-maths">&#128208;</div>
                         <span class="card-tag">Ganita Manjari</span>
@@ -219,7 +226,7 @@
                 </a>
 
                 <!-- English Card -->
-                <a class="subject-card-btn card-english" href="#/subject/english">
+                <a class="subject-card-btn card-english" href="/subject/english/">
                     <div class="card-header">
                         <div class="card-icon-wrapper icon-english">&#128214;</div>
                         <span class="card-tag">Prose &amp; Poetry</span>
@@ -235,10 +242,10 @@
                 </a>
 
                 <!-- Hindi Card -->
-                <a class="subject-card-btn card-hindi" href="#/subject/hindi">
+                <a class="subject-card-btn card-hindi" href="/subject/hindi/">
                     <div class="card-header">
-                        <div class="card-icon-wrapper icon-hindi">&#129702;</div>
-                        <span class="card-tag" style="background: rgba(245, 158, 11, 0.15); color: #d97706; font-weight: 700;">In Progress</span>
+                        <div class="card-icon-wrapper icon-hindi">&#129718;</div>
+                        <span class="card-tag">गद्य एवं पद्य</span>
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">हिन्दी</h3>
@@ -264,7 +271,7 @@
         <!-- LAYER 2: Chapter Selection Screen -->
         <section id="chapter-view" class="view-layer hidden">
             <div class="navigation-crumbs">
-                <a id="chapter-back-link" class="btn-back" href="#/">&larr; Back to Subjects</a>
+                <a id="chapter-back-link" class="btn-back" href="/">&larr; Back to Subjects</a>
             </div>
             <div class="hero-section">
                 <h1 id="chapter-title-heading">Subject Chapters</h1>
@@ -278,7 +285,7 @@
         <!-- LAYER 3: Final Solutions Screen -->
         <section id="solution-view" class="view-layer hidden">
             <div class="navigation-crumbs">
-                <a id="solution-back-link" class="btn-back" href="#/">&larr; Back to Chapters</a>
+                <a id="solution-back-link" class="btn-back" href="/">&larr; Back to Chapters</a>
             </div>
             <div class="hero-section">
                 <h1 id="final-solution-heading">Chapter Solutions</h1>
@@ -304,7 +311,7 @@
     <!-- ========================================== -->
     <div id="privacy-view" class="view-layer hidden container">
         <div class="navigation-crumbs">
-            <a class="btn-back" href="#/">&larr; Back to Subjects</a>
+            <a class="btn-back" href="/">&larr; Back to Subjects</a>
         </div>
         <div class="solution-card" style="margin-top: 1rem; background: #ffffff; border: 1px solid #e2e8f0; padding: 2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
             <h2 style="color: #0f172a; margin-bottom: 0.5rem; font-size: 1.75rem;">Privacy Policy</h2>
@@ -353,7 +360,7 @@
     <!-- ========================================== -->
     <div id="terms-view" class="view-layer hidden container">
         <div class="navigation-crumbs">
-            <a class="btn-back" href="#/">&larr; Back to Subjects</a>
+            <a class="btn-back" href="/">&larr; Back to Subjects</a>
         </div>
         <div class="solution-card" style="margin-top: 1rem; background: #ffffff; border: 1px solid #e2e8f0; padding: 1.8rem; border-radius: 10px;">
             <h2 style="color: #0f172a; margin-bottom: 1.5rem;">Terms of Service</h2>
@@ -375,7 +382,7 @@
     <!-- ========================================== -->
     <div id="about-view" class="view-layer hidden container">
         <div class="navigation-crumbs">
-            <a class="btn-back" href="#/">&larr; Back to Subjects</a>
+            <a class="btn-back" href="/">&larr; Back to Subjects</a>
         </div>
         <div class="solution-card" style="margin-top: 1rem; background: #ffffff; border: 1px solid #e2e8f0; padding: 2.2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
             <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
@@ -415,7 +422,7 @@
     <!-- ========================================== -->
     <div id="contact-view" class="view-layer hidden container">
         <div class="navigation-crumbs">
-            <a class="btn-back" href="#/">&larr; Back to Subjects</a>
+            <a class="btn-back" href="/">&larr; Back to Subjects</a>
         </div>
         <div class="solution-card" style="margin-top: 1rem; max-width: 600px; margin: 1rem auto; border-top: 4px solid #2563eb; background: #ffffff; border-left: 1px solid #e2e8f0; border-right: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0; padding: 1.8rem; border-radius: 10px;">
             <h2 style="color: #0f172a; margin-bottom: 1rem; text-align: center;">Contact Us</h2>
@@ -433,10 +440,10 @@
    <footer style="text-align: center; padding: 1.25rem 1rem; border-top: 1px solid #e2e8f0; margin-top: 2rem; font-size: 0.88rem; color: #64748b; background: #ffffff;">
         <p style="font-weight: 600; color: #334155;">© 2026 NCERTSolved • Independent Educational Resource for Class 9 Students</p>
         <p style="margin-top: 0.4rem;">
-            <a href="#/about" style="color: #2563eb; text-decoration: none; margin: 0 0.6rem; font-weight: 500;">About Us</a> | 
-            <a href="#/privacy" style="color: #2563eb; text-decoration: none; margin: 0 0.6rem; font-weight: 500;">Privacy Policy</a> | 
-            <a href="#/terms" style="color: #2563eb; text-decoration: none; margin: 0 0.6rem; font-weight: 500;">Terms of Service</a> | 
-            <a href="#/contact" style="color: #2563eb; text-decoration: none; margin: 0 0.6rem; font-weight: 500;">Contact Us</a>
+            <a href="/about/" style="color: #2563eb; text-decoration: none; margin: 0 0.6rem; font-weight: 500;">About Us</a> | 
+            <a href="/privacy/" style="color: #2563eb; text-decoration: none; margin: 0 0.6rem; font-weight: 500;">Privacy Policy</a> | 
+            <a href="/terms/" style="color: #2563eb; text-decoration: none; margin: 0 0.6rem; font-weight: 500;">Terms of Service</a> | 
+            <a href="/contact/" style="color: #2563eb; text-decoration: none; margin: 0 0.6rem; font-weight: 500;">Contact Us</a>
         </p>
         <p style="font-size: 0.78rem; color: #94a3b8; max-width: 720px; margin: 0.5rem auto 0 auto; line-height: 1.4;">
             Disclaimer: NCERTSolved is an independent student resource and is not affiliated with or endorsed by NCERT or CBSE. Textbook questions are cited under Educational Fair Use for academic reference.
@@ -470,7 +477,6 @@
             window.location.hash = '#/' + initialParams.get('route');
         }
     </script>
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
 </body>
 </html>
-

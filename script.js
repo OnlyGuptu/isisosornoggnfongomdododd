@@ -1,4 +1,4 @@
-﻿// Complete Error-Free NCERT Database with Integrated Copy Actions
+// Complete Error-Free NCERT Database with Integrated Copy Actions
 const ncertDatabase = {
     science: {
         title: "Science Chapters",
@@ -544,7 +544,7 @@ suggested`, a: `The method to seperate these 2 liquids is <b> Simple distillatio
  `, image: "images/fig distillation.png" },
 {q: `Compare evaporation, crystallization and distillation. In which
 situation, would you prefer each of these over the others?`, a: `<b>Evaporation </b> is great when you only care about saving the solid solute and don't mid the solvent vapourise in the air.
-<br><br> <b> Crystallisation</b> is the best choice when you want a highly pure solid. It's way better than evaporation for sensitive things because you don't risk overheating, burning or ruining the the solid. <b>However, it is time taking.</b>
+<br><br> <b> Crystallisation</b> is the best choice when you want a highly pure solid. It's way better than evaporation for sensitive things because you don't risk overheating, burning or ruining the solid. <b>However, it is time taking.</b>
 <br><br> <b>Distillation</b> is used when we need to save the liquid or seperate two liquids that are mixed together, since it catches the steam and condenses it back to the liquid form.`,},
 {q: `Blood is an example of a colloidal mixture
     <br> <br>(i) What would happen if
@@ -1786,12 +1786,12 @@ given in Table 5.5. Mixtures:
 </div>
 `, },
                 { q: `<div style="font-family: Arial, sans-serif; padding: 12px 15px; background-color: #fbfbfb; border: 1px solid #e0e0e0; border-radius: 6px; margin-bottom: 8px;">
-    <p style="margin: 0; color: #333; font-weight: bold;">The speed of sound in air is about 331 m s<sup>–1</sup> at 0 ºC and nearly 344 m s<sup>–1</sup> at 22 ºC. Roughly how much extra time will the sound of thunder take to travel a distance of 1720 m, if the air temperature changes from 22 ºC to 0 ºC? Assume that all other conditions remain unchanged.</p>
+    <p style="margin: 0; color: #333; font-weight: bold;">The speed of sound in air is about 331 m s<sup>–1</sup> at 0 °C and nearly 344 m s<sup>–1</sup> at 22 °C. Roughly how much extra time will the sound of thunder take to travel a distance of 1720 m, if the air temperature changes from 22 °C to 0 °C? Assume that all other conditions remain unchanged.</p>
 </div>
 `, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
     <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
-        <li style="margin-bottom: 4px;"><strong>Time at 22 ºC:</strong> 1720 m / 344 m s<sup>&minus;1</sup> = 5 s</li>
-        <li style="margin-bottom: 4px;"><strong>Time at 0 ºC:</strong> 1720 m / 331 m s<sup>&minus;1</sup> = 5.196 s</li>
+        <li style="margin-bottom: 4px;"><strong>Time at 22 °C:</strong> 1720 m / 344 m s<sup>&minus;1</sup> = 5 s</li>
+        <li style="margin-bottom: 4px;"><strong>Time at 0 °C:</strong> 1720 m / 331 m s<sup>&minus;1</sup> = 5.196 s</li>
         <li style="margin-bottom: 0;"><strong>Extra time:</strong> 5.196 s &minus; 5 s = 0.196 s</li>
     </ul>
 </div>
@@ -2307,7 +2307,7 @@ given in Table 5.5. Mixtures:
 </div>
 `, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
     <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
-        <li style="margin-bottom: 5px;"><strong>Formation Process:</strong> During the day, mountain slopes heat up quickly under sunlight, causing the air over them to rise and drawing cooler air up from the valley floor as a **valley breeze**. At night, the slopes radiate heat away rapidly, making the air cold and dense so it sinks down into the valley as a **mountain breeze**.</li>
+        <li style="margin-bottom: 5px;"><strong>Formation Process:</strong> During the day, mountain slopes heat up quickly under sunlight, causing the air over them to rise and drawing cooler air up from the valley floor as a <strong>valley breeze</strong>. At night, the slopes radiate heat away rapidly, making the air cold and dense so it sinks down into the valley as a <strong>mountain breeze</strong>.</li>
         <li style="margin-bottom: 5px;"><strong>Breeze Variation:</strong> Yes, the mountain breeze coming off the barren rock mountain will be noticeably different than the one from the grass-covered mountain.</li>
         <li style="margin-bottom: 0;"><strong>Thermal Contrast:</strong> Barren rock has a low albedo and high thermal mass, meaning it absorbs a massive amount of solar energy during the day and re-radiates it intensely at night. Grass surfaces stay significantly cooler due to vegetation shade and moisture loss from plant transpiration. As a result, the nighttime breeze moving down the barren rock mountain will start warmer and transfer more re-radiated heat down into the valley floor.</li>
     </ul>
@@ -2387,7 +2387,7 @@ given in Table 5.5. Mixtures:
 `, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
     <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
         <li style="margin-bottom: 0;"><strong>Hypothetical Changes:</strong> If the Earth were a flat disc facing the Sun directly, solar rays would strike the entire surface at the exact same perpendicular angle.</li>
-        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Scientific Consequences:</em> This uniform angle would distribute solar energy evenly across the planet, erasing the natural temperature drop we see from the warm equator to the freezing poles. Without these heating differences, the planet would lose the pressure systems that drive global winds, planetary planetary wind belts, and ocean currents, flattening out global weather systems entirely.</li>
+        <li style="margin-top: 5px; list-style-type: none; margin-left: -20px;"><em>Scientific Consequences:</em> This uniform angle would distribute solar energy evenly across the planet, erasing the natural temperature drop we see from the warm equator to the freezing poles. Without these heating differences, the planet would lose the pressure systems that drive global winds, planetary wind belts, and ocean currents, flattening out global weather systems entirely.</li>
     </ul>
 </div>
 ` },
@@ -2418,7 +2418,7 @@ given in Table 5.5. Mixtures:
 `, a: `<div style="font-family: Arial, sans-serif; padding: 15px; background-color: #fdfaf2; border-left: 4px solid #cfa670; border-radius: 4px; margin-bottom: 24px;">
     <ul style="margin: 0; padding-left: 20px; line-height: 1.6; color: #444;">
         <li style="margin-bottom: 5px;"><strong>Interconnected System:</strong> The Earth functions as a single unified system where the geosphere, hydrosphere, cryosphere, atmosphere, and biosphere are constantly linked through moving matter and energy loops.</li>
-        <li style="margin-bottom: 0;"><strong>Illustrative Example:</strong> Consider how winter snowfall in the mountains connects these spheres. A drop in winter snow (**cryosphere**) reduces the volume of freshwater feeding mountain lakes and streams during the summer (**hydrosphere**). This water shortage leaves less moisture in the surrounding soil (**geosphere**), which stunts grass growth and reduces food food available for grazing herds (**biosphere**). This shows how a shift in one sphere triggers a domino effect across the entire system.</li>
+        <li style="margin-bottom: 0;"><strong>Illustrative Example:</strong> Consider how winter snowfall in the mountains connects these spheres. A drop in winter snow (<strong>cryosphere</strong>) reduces the volume of freshwater feeding mountain lakes and streams during the summer (<strong>hydrosphere</strong>). This water shortage leaves less moisture in the surrounding soil (<strong>geosphere</strong>), which stunts grass growth and reduces food available for grazing herds (<strong>biosphere</strong>). This shows how a shift in one sphere triggers a domino effect across the entire system.</li>
     </ul>
 </div>
 ` },
@@ -3568,7 +3568,7 @@ given in Table 5.5. Mixtures:
         {
           "qNum": "Q1",
           "hint": "Distance along an axis is the absolute difference between coordinates: $|x_2 - x_1|$ or $|y_2 - y_1|$.",
-          "q": "<div class=\"q-block\">\n  <h3>Exercise Set 1.1</h3>\n  <div style=\"margin: 12px 0; text-align: center;\">\n<svg width=\"400\" height=\"260\" viewBox=\"0 0 400 260\" style=\"background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; max-width:100%;\">\n  <text x=\"200\" y=\"22\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#1e293b\">Fig. 1.3: Cartesian Layout of Reiaan's Room</text>\n  <rect x=\"70\" y=\"40\" width=\"300\" height=\"170\" fill=\"#f1f5f9\" stroke=\"#94a3b8\" stroke-width=\"2\"/>\n  <text x=\"220\" y=\"125\" font-size=\"14\" fill=\"#64748b\" text-anchor=\"middle\" font-weight=\"500\">Reiaan's Bedroom</text>\n  <line x1=\"70\" y1=\"230\" x2=\"70\" y2=\"30\" stroke=\"#1e293b\" stroke-width=\"2.5\"/>\n  <line x1=\"50\" y1=\"210\" x2=\"390\" y2=\"210\" stroke=\"#1e293b\" stroke-width=\"2.5\"/>\n  <text x=\"385\" y=\"230\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e293b\">x (ft)</text>\n  <text x=\"45\" y=\"40\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e293b\">y (ft)</text>\n  <text x=\"54\" y=\"224\" font-size=\"10\" fill=\"#475569\">O(0,0)</text>\n  <line x1=\"70\" y1=\"172.5\" x2=\"70\" y2=\"110\" stroke=\"#0284c7\" stroke-width=\"6\"/>\n  <circle cx=\"70\" cy=\"172.5\" r=\"4\" fill=\"#0284c7\"/>\n  <circle cx=\"70\" cy=\"110\" r=\"4\" fill=\"#0284c7\"/>\n  <text x=\"12\" y=\"176\" font-size=\"10\" font-weight=\"bold\" fill=\"#0284c7\">Bâ‚(0, 1.5)</text>\n  <text x=\"12\" y=\"114\" font-size=\"10\" font-weight=\"bold\" fill=\"#0284c7\">Bâ‚‚(0, 4)</text>\n  <text x=\"110\" y=\"145\" font-size=\"10\" fill=\"#0284c7\" font-weight=\"bold\">Bathroom Door (2.5 ft)</text>\n  <line x1=\"262\" y1=\"210\" x2=\"346\" y2=\"210\" stroke=\"#16a34a\" stroke-width=\"6\"/>\n  <circle cx=\"262\" cy=\"210\" r=\"4\" fill=\"#16a34a\"/>\n  <circle cx=\"346\" cy=\"210\" r=\"4\" fill=\"#16a34a\"/>\n  <text x=\"245\" y=\"235\" font-size=\"10\" font-weight=\"bold\" fill=\"#16a34a\">Dâ‚(8, 0)</text>\n  <text x=\"325\" y=\"235\" font-size=\"10\" font-weight=\"bold\" fill=\"#16a34a\">Râ‚(11.5, 0)</text>\n  <text x=\"304\" y=\"195\" font-size=\"10\" fill=\"#16a34a\" font-weight=\"bold\" text-anchor=\"middle\">Room Door (3.5 ft)</text>\n  <line x1=\"70\" y1=\"245\" x2=\"262\" y2=\"245\" stroke=\"#64748b\" stroke-dasharray=\"3,3\" stroke-width=\"1.5\"/>\n  <text x=\"166\" y=\"243\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Distance = 8 ft</text>\n</svg>\n</div>\n  <p>Referring to Fig. 1.3, answer the following questions:</p>\n  <ol type=\"i\">\n    <li>If D₁R₁ represents the door to Reiaan's room, how far is the door from the left wall (the y-axis) of the room? How far is the door from the x-axis?</li>\n    <li>What are the coordinates of D₁?</li>\n    <li>If R₁ is the point (11.5, 0), how wide is the door? Do you think this is a comfortable width for the room door? If a person in a wheelchair wants to enter the room, will he/she be able to do so easily?</li>\n    <li>If B₁(0, 1.5) and B₂(0, 4) represent the ends of the bathroom door, is the bathroom door narrower or wider than the room door?</li>\n  </ol>\n</div>",
+          "q": "<div class=\"q-block\">\n  <h3>Exercise Set 1.1</h3>\n  <div style=\"margin: 12px 0; text-align: center;\">\n<svg width=\"400\" height=\"260\" viewBox=\"0 0 400 260\" style=\"background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; max-width:100%;\">\n  <text x=\"200\" y=\"22\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#1e293b\">Fig. 1.3: Cartesian Layout of Reiaan's Room</text>\n  <rect x=\"70\" y=\"40\" width=\"300\" height=\"170\" fill=\"#f1f5f9\" stroke=\"#94a3b8\" stroke-width=\"2\"/>\n  <text x=\"220\" y=\"125\" font-size=\"14\" fill=\"#64748b\" text-anchor=\"middle\" font-weight=\"500\">Reiaan's Bedroom</text>\n  <line x1=\"70\" y1=\"230\" x2=\"70\" y2=\"30\" stroke=\"#1e293b\" stroke-width=\"2.5\"/>\n  <line x1=\"50\" y1=\"210\" x2=\"390\" y2=\"210\" stroke=\"#1e293b\" stroke-width=\"2.5\"/>\n  <text x=\"385\" y=\"230\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e293b\">x (ft)</text>\n  <text x=\"45\" y=\"40\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e293b\">y (ft)</text>\n  <text x=\"54\" y=\"224\" font-size=\"10\" fill=\"#475569\">O(0,0)</text>\n  <line x1=\"70\" y1=\"172.5\" x2=\"70\" y2=\"110\" stroke=\"#0284c7\" stroke-width=\"6\"/>\n  <circle cx=\"70\" cy=\"172.5\" r=\"4\" fill=\"#0284c7\"/>\n  <circle cx=\"70\" cy=\"110\" r=\"4\" fill=\"#0284c7\"/>\n  <text x=\"12\" y=\"176\" font-size=\"10\" font-weight=\"bold\" fill=\"#0284c7\">B₁(0, 1.5)</text>\n  <text x=\"12\" y=\"114\" font-size=\"10\" font-weight=\"bold\" fill=\"#0284c7\">B₂(0, 4)</text>\n  <text x=\"110\" y=\"145\" font-size=\"10\" fill=\"#0284c7\" font-weight=\"bold\">Bathroom Door (2.5 ft)</text>\n  <line x1=\"262\" y1=\"210\" x2=\"346\" y2=\"210\" stroke=\"#16a34a\" stroke-width=\"6\"/>\n  <circle cx=\"262\" cy=\"210\" r=\"4\" fill=\"#16a34a\"/>\n  <circle cx=\"346\" cy=\"210\" r=\"4\" fill=\"#16a34a\"/>\n  <text x=\"245\" y=\"235\" font-size=\"10\" font-weight=\"bold\" fill=\"#16a34a\">D₁(8, 0)</text>\n  <text x=\"325\" y=\"235\" font-size=\"10\" font-weight=\"bold\" fill=\"#16a34a\">R₁(11.5, 0)</text>\n  <text x=\"304\" y=\"195\" font-size=\"10\" fill=\"#16a34a\" font-weight=\"bold\" text-anchor=\"middle\">Room Door (3.5 ft)</text>\n  <line x1=\"70\" y1=\"245\" x2=\"262\" y2=\"245\" stroke=\"#64748b\" stroke-dasharray=\"3,3\" stroke-width=\"1.5\"/>\n  <text x=\"166\" y=\"243\" font-size=\"10\" fill=\"#64748b\" text-anchor=\"middle\">Distance = 8 ft</text>\n</svg>\n</div>\n  <p>Referring to Fig. 1.3, answer the following questions:</p>\n  <ol type=\"i\">\n    <li>If D₁R₁ represents the door to Reiaan's room, how far is the door from the left wall (the y-axis) of the room? How far is the door from the x-axis?</li>\n    <li>What are the coordinates of D₁?</li>\n    <li>If R₁ is the point (11.5, 0), how wide is the door? Do you think this is a comfortable width for the room door? If a person in a wheelchair wants to enter the room, will he/she be able to do so easily?</li>\n    <li>If B₁(0, 1.5) and B₂(0, 4) represent the ends of the bathroom door, is the bathroom door narrower or wider than the room door?</li>\n  </ol>\n</div>",
           "a": "<div class=\"a-block\">\n  <ol type=\"i\">\n    <li>The door starts at point D₁, which is 8 units (feet) away from the left wall (y-axis). Since the door lies directly on the x-axis, its distance from the x-axis is 0 units.</li>\n    <li>The coordinates of D₁ are (8, 0).</li>\n    <li>The width of the door is $11.5 - 8 = 3.5$ feet. Yes, 3.5 feet is a comfortable width for a room door. A person using a wheelchair requires about 32 inches (approx 2.7 feet) of clearance, so they will easily be able to enter the room.</li>\n    <li>The width of the bathroom door is the distance between B₁(0, 1.5) and B₂(0, 4), which is $4 - 1.5 = 2.5$ feet. Therefore, the bathroom door (2.5 feet) is narrower than the room door (3.5 feet).</li>\n  </ol>\n</div>"
         },
         {
@@ -11035,12 +11035,12 @@ of Civilisation
   // Q13 & A13 (Requires Map of India)
   {
     q: `<div class="q-block">
-  <p>13. Mark and locate on the map of India the following important centres: Pāțaliputra, Nāśhik, Ujjayinī, Vikramśhila, Kānchipuram, Mathurā, Rājgriha.</p>
+  <p>13. Mark and locate on the map of India the following important centres: Pāṭaliputra, Nāśhik, Ujjayinī, Vikramśhila, Kānchipuram, Mathurā, Rājgriha.</p>
 </div>`,
     a: `<div class="a-block">
   <ul>
     <li><strong>Location Guide for Outline Map of India:</strong>
-      <br/>• <em>Pāțaliputra:</em> Modern Patna, along the south bank of the Ganga in Bihar.
+      <br/>• <em>Pāṭaliputra:</em> Modern Patna, along the south bank of the Ganga in Bihar.
       <br/>• <em>Nāśhik:</em> Western Maharashtra, along the upper Godavari River basin.
       <br/>• <em>Ujjayinī:</em> Malwa plateau in modern Madhya Pradesh.
       <br/>• <em>Vikramśhila:</em> Near modern Bhagalpur in eastern Bihar.
@@ -12643,11 +12643,688 @@ of Civilisation
             },
             {
                 name: "Part 2 - Political Science",
-                chapters: []
+                chapters: [
+                    {
+                        name: "Chapter 4: Governance and Public Policy",
+                        solutions: [
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>1. "Good governance is the responsibility of the government alone." Do you agree with this statement? Give reasons to support your answer.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><strong>No, I disagree with this statement.</strong></p>
+  <p>Good governance is a collaborative partnership between the government and citizens, not the responsibility of the state alone. While the government is responsible for enacting laws, maintaining order, and providing public infrastructure and services, effective governance fundamentally relies on how various sectors of society - including active citizens, the media, civil society organisations (NGOs), and the private sector - carry out their civic responsibilities and collaborate.</p>
+  <p>Active civic participation - such as obeying laws, offering constructive feedback, voting thoughtfully, and raising community concerns - is indispensable for public welfare and democratic accountability to succeed.</p>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>2. Do you think students can contribute to good governance? Write a short note describing any five ways in which students can become more responsible and active citizens.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><strong>Yes, students can actively contribute to good governance.</strong> Five key ways students can become responsible, proactive citizens include:</p>
+  <ol>
+    <li><strong>Following Rules and Laws:</strong> Obeying school regulations, road safety guidelines, and civic norms fosters social order, personal discipline, and respect for the rule of law.</li>
+    <li><strong>Providing Constructive Feedback:</strong> Engaging with school administration or local municipal wards about school facilities, public parks, or cleanliness drives helps authorities identify and fix ground-level problems.</li>
+    <li><strong>Spreading Civic &amp; Environmental Awareness:</strong> Educating families and peer groups on pressing social issues - such as eliminating single-use plastics, conserving water and electricity, and respecting road safety - builds a conscientious community.</li>
+    <li><strong>Participating in Community Initiatives:</strong> Volunteering in community cleanup campaigns, tree-planting drives, or disaster relief support during floods and emergencies builds civic solidarity.</li>
+    <li><strong>Promoting Inclusivity and Empathy:</strong> Treating all classmates equally, standing against bullying, and actively assisting differently-abled or vulnerable peers upholds fundamental constitutional values of equality and social justice.</li>
+  </ol>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>3. Choose any one public policy (for example, Right to Education (RTE), Swachh Bharat Mission, PM POSHAN, Ayushman Bharat, Digital India, or Jal Jeevan Mission) and prepare a chart showing the following aspects: The problem it addresses, The major stakeholders involved, How different actors coordinate, The role of citizens in its success.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><strong>Public Policy Analysis: Swachh Bharat Mission (Clean India Mission)</strong></p>
+  <table class="ncert-table" style="width: 100%; border-collapse: collapse; margin-top: 8px;">
+    <thead>
+      <tr>
+        <th style="padding: 8px; border: 1px solid #cbd5e1; background: #f8fafc; text-align: left;">Aspect</th>
+        <th style="padding: 8px; border: 1px solid #cbd5e1; background: #f8fafc; text-align: left;">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #e2e8f0; font-weight: 600;">The Problem It Addresses</td>
+        <td style="padding: 8px; border: 1px solid #e2e8f0;">Widespread lack of sanitation infrastructure, open defecation, unscientific municipal solid waste management, and the high incidence of preventable waterborne and vector-borne diseases.</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #e2e8f0; font-weight: 600;">Major Stakeholders Involved</td>
+        <td style="padding: 8px; border: 1px solid #e2e8f0;">Union and State Governments (Ministry of Jal Shakti, Ministry of Housing &amp; Urban Affairs), urban local bodies (municipalities), rural Panchayats, NGOs/CSOs, private sector partners (CSR funding &amp; waste-to-energy innovations), and individual citizens.</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #e2e8f0; font-weight: 600;">Coordination Among Actors</td>
+        <td style="padding: 8px; border: 1px solid #e2e8f0;">The central government provides the policy architecture, funding, and national benchmarks. Local municipalities construct household and community toilets, manage doorstep waste collection, and run sanitation logistics. NGOs and media amplify behavioral change through public awareness campaigns and grassroots sanitation audits.</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #e2e8f0; font-weight: 600;">Role of Citizens in Its Success</td>
+        <td style="padding: 8px; border: 1px solid #e2e8f0;">Citizens drive long-term impact by adopting hygienic habits, segregating wet and dry waste at the source, actively using public toilets, refraining from public littering, and reporting uncleaned spots using digital apps (like the Swachhata App).</td>
+      </tr>
+    </tbody>
+  </table>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>4. Answer the following in one or two sentences.</p>
+  <ol type="a">
+    <li>What is governance?</li>
+    <li>How is governance different from government?</li>
+    <li>What is meant by public policy?</li>
+    <li>Name any four principles of good governance.</li>
+  </ol>
+</div>`,
+                                a: `<div class="a-block">
+  <ol type="a">
+    <li><strong>Governance:</strong> Governance is the dynamic, continuous process through which decisions are made, implemented, and evaluated for managing societal resources and safeguarding the welfare of all citizens.</li>
+    <li><strong>Difference:</strong> <em>Government</em> refers to the formal institutional machinery (Legislature, Executive, Judiciary) that holds legitimate authority, whereas <em>governance</em> refers to the collaborative process and manner in which that power is exercised in partnership with society.</li>
+    <li><strong>Public Policy:</strong> A public policy is a purposeful, goal-oriented course of action formally adopted and implemented by the government to resolve public problems and advance overall societal wellbeing using public resources.</li>
+    <li><strong>Four Principles:</strong> Four cornerstones of good governance are <em>transparency</em>, <em>accountability</em>, <em>citizen participation</em>, and the <em>rule of law</em> (along with responsiveness and equity).</li>
+  </ol>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>5. Compare the following and present your answer in a tabular form.<br>
+  a. Government and governance<br>
+  b. Policy and public policy</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><strong>a. Government vs. Governance</strong></p>
+  <table class="ncert-table" style="width: 100%; border-collapse: collapse; margin-top: 8px; margin-bottom: 16px;">
+    <thead>
+      <tr>
+        <th style="padding: 8px; border: 1px solid #cbd5e1; background: #f8fafc; text-align: left; width: 50%;">Government</th>
+        <th style="padding: 8px; border: 1px solid #cbd5e1; background: #f8fafc; text-align: left; width: 50%;">Governance</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #e2e8f0;">Constitutes the formal institutional entities and offices (Parliament, Courts, Bureaucracy) that wield statutory political authority.</td>
+        <td style="padding: 8px; border: 1px solid #e2e8f0;">The ongoing, interactive process of decision-making, policy delivery, monitoring, and problem-solving across society.</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #e2e8f0;">Answers <strong>who</strong> holds formal authority and governs.</td>
+        <td style="padding: 8px; border: 1px solid #e2e8f0;">Answers <strong>how</strong> governing takes place, involving multi-stakeholder collaboration among state bodies, citizens, media, and civil society.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><strong>b. Policy vs. Public Policy</strong></p>
+  <table class="ncert-table" style="width: 100%; border-collapse: collapse; margin-top: 8px;">
+    <thead>
+      <tr>
+        <th style="padding: 8px; border: 1px solid #cbd5e1; background: #f8fafc; text-align: left; width: 50%;">Policy (General / Private)</th>
+        <th style="padding: 8px; border: 1px solid #cbd5e1; background: #f8fafc; text-align: left; width: 50%;">Public Policy</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #e2e8f0;">A set of operational rules, guidelines, or objectives created by any discrete entity (e.g., a school, company, club, or residential society) for internal governance.</td>
+        <td style="padding: 8px; border: 1px solid #e2e8f0;">A planned, binding course of action formulated exclusively by sovereign public authorities to resolve systemic challenges on a regional or national scale.</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #e2e8f0;">Applies solely to members, staff, or clients of that specific organization and is funded through private revenues.</td>
+        <td style="padding: 8px; border: 1px solid #e2e8f0;">Applies universally or to broad targeted citizen cohorts, funded through state tax revenues, and designed solely to optimize public welfare.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>6. Imagine you have been appointed to advise the district administration on improving governance. You have proposed six points (given below), but the administration decides to prioritise only three areas for improvement. Which three would you recommend as priority areas, and which one out of the three do you feel is the most important?</p>
+  <ul style="list-style-type: lower-alpha;">
+    <li>Improve drinking water facilities in schools.</li>
+    <li>Improve sanitation and public toilets in schools and market areas.</li>
+    <li>Provide tricycles for orthopaedically challenged students.</li>
+    <li>Install open-area swings and open-air gym in public parks.</li>
+    <li>Ensure the vaccination of stray dogs to prevent rabies.</li>
+    <li>Ensure distribution of iron and folic acid tablets for female students in schools.</li>
+  </ul>
+</div>`,
+                                a: `<div class="a-block">
+  <p><strong>Recommended Three Priority Areas:</strong></p>
+  <ol>
+    <li><strong>(a) Improve drinking water facilities in schools:</strong> Safe potable water prevents fatal waterborne illnesses (cholera, typhoid, diarrheal diseases) and ensures daily attendance.</li>
+    <li><strong>(b) Improve sanitation and public toilets in schools and market areas:</strong> Essential for public hygiene, dignity, disease prevention, and preventing drop-outs, especially among adolescent girls.</li>
+    <li><strong>(c) Provide tricycles for orthopaedically challenged students:</strong> Directly promotes the core democratic principle of <em>inclusivity and social equity</em>, enabling mobility and dignified access to education for vulnerable children.</li>
+  </ol>
+  <p><strong>Most Critical Area Among the Three:</strong><br/>
+  <strong>Priority (a)  -  Improving drinking water facilities in schools</strong> is the foremost priority. Access to uncontaminated drinking water is an absolute physiological prerequisite for life and health. Without safe water, children fall ill frequently, leading to severe nutritional deficits and school absenteeism. Good governance demands that basic life-safety and survival needs are met first before discretionary or secondary civic amenities are addressed.</p>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>7. Match the policy action point to its corresponding stage in the policy cycle.</p>
+  <table class="ncert-table" style="width: 100%; border-collapse: collapse; margin-top: 8px;">
+    <thead>
+      <tr><th style="padding: 6px; border: 1px solid #cbd5e1; text-align: left;">S. no.</th><th style="padding: 6px; border: 1px solid #cbd5e1; text-align: left;">Policy action point</th><th style="padding: 6px; border: 1px solid #cbd5e1; text-align: left;">Stage of policy cycle</th></tr>
+    </thead>
+    <tbody>
+      <tr><td style="padding: 6px; border: 1px solid #e2e8f0;">1.</td><td style="padding: 6px; border: 1px solid #e2e8f0;">Assessing the impact of the policy</td><td style="padding: 6px; border: 1px solid #e2e8f0;">Policy implementation</td></tr>
+      <tr><td style="padding: 6px; border: 1px solid #e2e8f0;">2.</td><td style="padding: 6px; border: 1px solid #e2e8f0;">Putting the policy into action</td><td style="padding: 6px; border: 1px solid #e2e8f0;">Policy evaluation</td></tr>
+      <tr><td style="padding: 6px; border: 1px solid #e2e8f0;">3.</td><td style="padding: 6px; border: 1px solid #e2e8f0;">Framing the legislation</td><td style="padding: 6px; border: 1px solid #e2e8f0;">Policy adoption</td></tr>
+      <tr><td style="padding: 6px; border: 1px solid #e2e8f0;">4.</td><td style="padding: 6px; border: 1px solid #e2e8f0;">Multi-dimensional consultation with stakeholders</td><td style="padding: 6px; border: 1px solid #e2e8f0;">Policy formulation</td></tr>
+      <tr><td style="padding: 6px; border: 1px solid #e2e8f0;">5.</td><td style="padding: 6px; border: 1px solid #e2e8f0;">Addressing a new need of the people</td><td style="padding: 6px; border: 1px solid #e2e8f0;">Policy desirability (problem identification)</td></tr>
+    </tbody>
+  </table>
+</div>`,
+                                a: `<div class="a-block">
+  <p><strong>Correct Matches:</strong></p>
+  <table class="ncert-table" style="width: 100%; border-collapse: collapse; margin-top: 8px;">
+    <thead>
+      <tr>
+        <th style="padding: 8px; border: 1px solid #cbd5e1; background: #f8fafc; text-align: left;">S. no.</th>
+        <th style="padding: 8px; border: 1px solid #cbd5e1; background: #f8fafc; text-align: left;">Policy Action Point</th>
+        <th style="padding: 8px; border: 1px solid #cbd5e1; background: #f8fafc; text-align: left;">Correct Stage of Policy Cycle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #e2e8f0; font-weight: bold;">1.</td>
+        <td style="padding: 8px; border: 1px solid #e2e8f0;">Assessing the impact of the policy</td>
+        <td style="padding: 8px; border: 1px solid #e2e8f0; color: #16a34a; font-weight: 700;">Policy evaluation (Stage 5)</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #e2e8f0; font-weight: bold;">2.</td>
+        <td style="padding: 8px; border: 1px solid #e2e8f0;">Putting the policy into action</td>
+        <td style="padding: 8px; border: 1px solid #e2e8f0; color: #16a34a; font-weight: 700;">Policy implementation (Stage 4)</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #e2e8f0; font-weight: bold;">3.</td>
+        <td style="padding: 8px; border: 1px solid #e2e8f0;">Framing the legislation</td>
+        <td style="padding: 8px; border: 1px solid #e2e8f0; color: #16a34a; font-weight: 700;">Policy adoption (Stage 3)</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #e2e8f0; font-weight: bold;">4.</td>
+        <td style="padding: 8px; border: 1px solid #e2e8f0;">Multi-dimensional consultation with stakeholders</td>
+        <td style="padding: 8px; border: 1px solid #e2e8f0; color: #16a34a; font-weight: 700;">Policy formulation (Stage 2)</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #e2e8f0; font-weight: bold;">5.</td>
+        <td style="padding: 8px; border: 1px solid #e2e8f0;">Addressing a new need of the people</td>
+        <td style="padding: 8px; border: 1px solid #e2e8f0; color: #16a34a; font-weight: 700;">Policy desirability / Problem identification (Stage 1)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>8. Read the following case and answer the given questions.<br>
+  The government launches a programme to plant one lakh trees in a city. Funds are allocated, but only a few saplings survive because they are not watered or protected.<br>
+  a. Which stage of the policy cycle appears to be weak?<br>
+  b. Which organisations should coordinate to improve the programme?<br>
+  c. Suggest two measures that could improve the outcome.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <ol type="a">
+    <li><strong>Weak Stage in Policy Cycle:</strong> The <strong>Policy Implementation</strong> and <strong>Monitoring &amp; Evaluation</strong> stages failed. Launching a scheme and planting saplings is only the preliminary step; establishing operational accountability, watering routines, tree guards, and maintenance over 2–3 years constitutes the real implementation phase.</li>
+    <li><strong>Organisations That Should Coordinate:</strong> The Municipal Corporation (Horticulture Department) must form a collaborative network with local Resident Welfare Associations (RWAs), community NGOs, local schools/colleges (Eco-Clubs), and the Forest Department to decentralize stewardship of the planted trees.</li>
+    <li><strong>Two Measures to Improve Outcome:</strong>
+      <br/>1. <em>Community Adopt-a-Tree Stewardship:</em> Hand over clusters of 10–20 saplings to neighboring shops, residential blocks, or schools, recognizing students and citizens with green badges for high sapling survival rates.
+      <br/>2. <em>Geo-Tagged Digital Tracking App:</em> Use an e-governance mobile portal (with GPS tagging) where field workers and volunteers upload weekly photos of sapling health to trigger automatic dispatch of municipal water tankers if distress is detected.
+    </li>
+  </ol>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>9. Read each statement carefully. Do you agree or disagree? Give reasons for your answer.<br>
+  a. A good public policy can fail if it is not implemented properly.<br>
+  b. Citizen participation sometimes makes decision-making slower, but it can improve governance.<br>
+  c. Technology alone cannot ensure good governance.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <ol type="a">
+    <li><strong>Agree:</strong> Even the most thoughtfully designed policy remains merely words on paper if the execution machinery breaks down. Flaws in bureaucratic coordination, corruption, insufficient budget disbursement, or lack of last-mile field monitoring cause well-intentioned schemes to fail to deliver expected outcomes.</li>
+    <li><strong>Agree:</strong> Consulting diverse citizen groups, civil society organizations, and local stakeholders certainly extends the drafting timeline. However, this deliberative process surfaces real ground constraints, builds popular legitimacy, prevents costly future policy reversals, and ensures the policy genuinely addresses people's actual daily challenges (as demonstrated during the drafting of NEP 2020).</li>
+    <li><strong>Agree:</strong> Digital tools (e-governance, portals, biometric verification) are powerful enablers of speed and transparency, but they are not an end in themselves. Without digital literacy, reliable internet infrastructure, responsive and ethical public officials, and robust legal grievance mechanisms, technology can inadvertently exclude vulnerable citizens who lack smartphone access. Good governance fundamentally requires human empathy, accountability, and the rule of law.</li>
+  </ol>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>10. Design a public policy.<br>
+  You are a member of your school's student representative body. Identify one issue (for example, plastic waste, water wastage, road safety, energy conservation, or littering in public places). Prepare a simple policy proposal that includes the following aspects of policymaking:<br>
+  - The reason for selecting the issue<br>
+  - Your proposed solution<br>
+  - Who should implement it?<br>
+  - How will students participate?<br>
+  - How will you know whether the policy has succeeded?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><strong>School Policy Proposal: Campus Zero Water-Wastage Initiative (Jal Sanrakshan)</strong></p>
+  <ul>
+    <li><strong>Reason for Selecting the Issue:</strong> Daily observations revealed that leaking taps, unattended washroom faucets, and students emptying leftover drinking water bottles into corridors lead to thousands of liters of clean water being wasted every week amid regional water scarcity.</li>
+    <li><strong>Proposed Solution:</strong>
+      <br/>• Retrofit all washroom faucets with automated push-button aerated taps that shut off after 5 seconds.
+      <br/>• Create dedicated "Plant-Watering Barrels" where students can pour clean leftover bottle water before departing school, which maintenance will use for the school garden.
+    </li>
+    <li><strong>Implementation Roles:</strong> The School Management Committee (SMC) approves the modest plumbing retrofit budget; the School Maintenance Team executes installation and daily leak checks; the Student Council drives student awareness and oversight.</li>
+    <li><strong>Student Participation:</strong> Form a peer-led "Water Cadet Corps" across grades 6–9 on weekly rotation to monitor drinking stations during lunch break and report plumbing defects via a digital QR code feedback box.</li>
+    <li><strong>Measurement of Success (Evaluation):</strong>
+      <br/>• Track the monthly municipal water bill meter readings (targeting an immediate 25% reduction in campus consumption).
+      <br/>• Conduct unannounced weekly student audits with zero reports of unattended running taps.
+    </li>
+  </ul>
+</div>`
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 name: "Part 2 - Economics",
-                chapters: []
+                chapters: [
+                    {
+                        name: "Chapter 5: Managing Your Personal Finances",
+                        solutions: [
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>1. Why is managing money wisely important for all individuals irrespective of their income?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p>Managing money wisely is essential for every individual regardless of income because it enables one to meet essential present needs and wants, prepare for future milestones (such as higher education, healthcare, or purchasing a home), and build long-term financial stability.</p>
+  <p>Disciplined financial management prevents debt traps, ensures financial security and resilience during emergencies, and provides lasting confidence and independence across life stages.</p>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>2. How can budgeting help people balance their present needs with their future financial goals? Give examples.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p>Budgeting is a systematic financial roadmap that tracks expected income and allocates funds deliberately across expenses and savings. It helps balance present and future goals in the following ways:</p>
+  <ul>
+    <li><strong>Curtailing Discretionary Spending:</strong> By distinguishing between essential needs and non-essential wants, budgeting prevents impulsive expenditures.</li>
+    <li><strong>Structured Surplus Creation:</strong> It earmarks a portion of earnings for savings before spending occurs, ensuring funds are systematically set aside for future objectives.</li>
+    <li><strong>Living Within One's Means:</strong> For example, a family earning a fixed monthly income can allocate 60% toward current necessities (rent, groceries, utilities), 20% toward short-term goals (an upcoming school trip or festival expense), and 20% toward long-term investments (higher education fund or retirement), harmonizing present living standards with future financial security.</li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>3. School Reopening Budget Activity: Your parents have given you ₹3,000 to prepare for the new school year. Make a list of the items you need, find out their prices, and prepare a budget. Calculate the total cost and check whether it stays within ₹3,000.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><strong>Sample Budget Plan (Within ₹3,000 Limit):</strong></p>
+  <table class="ncert-table" style="width: 100%; border-collapse: collapse; margin-top: 8px;">
+    <thead>
+      <tr>
+        <th style="padding: 8px; border: 1px solid #cbd5e1; background: #f8fafc; text-align: left;">S. No.</th>
+        <th style="padding: 8px; border: 1px solid #cbd5e1; background: #f8fafc; text-align: left;">Item Description</th>
+        <th style="padding: 8px; border: 1px solid #cbd5e1; background: #f8fafc; text-align: left;">Priority</th>
+        <th style="padding: 8px; border: 1px solid #cbd5e1; background: #f8fafc; text-align: right;">Estimated Cost (₹)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">1.</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">NCERT Textbooks &amp; Reference Workbooks</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">Essential Need</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0; text-align: right;">₹1,000</td>
+      </tr>
+      <tr>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">2.</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">School Uniform &amp; Shoes</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">Essential Need</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0; text-align: right;">₹800</td>
+      </tr>
+      <tr>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">3.</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">Ergonomic School Backpack</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">Essential Need</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0; text-align: right;">₹600</td>
+      </tr>
+      <tr>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">4.</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">Notebooks (Set of 8) &amp; Register Bundles</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">Essential Need</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0; text-align: right;">₹300</td>
+      </tr>
+      <tr>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">5.</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">Geometry Box, Pens, Pencils &amp; Art Supplies</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">Essential Need</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0; text-align: right;">₹100</td>
+      </tr>
+      <tr style="background: #f1f5f9; font-weight: bold;">
+        <td colspan="3" style="padding: 8px; border: 1px solid #cbd5e1; text-align: right;">Total Expenses:</td>
+        <td style="padding: 8px; border: 1px solid #cbd5e1; text-align: right; color: #1e293b;">₹2,800</td>
+      </tr>
+      <tr style="background: #ecfdf5; font-weight: bold; color: #15803d;">
+        <td colspan="3" style="padding: 8px; border: 1px solid #cbd5e1; text-align: right;">Surplus / Savings (Unspent Buffer):</td>
+        <td style="padding: 8px; border: 1px solid #cbd5e1; text-align: right;">₹200</td>
+      </tr>
+    </tbody>
+  </table>
+  <p style="margin-top: 10px;"><strong>Conclusion:</strong> The budget stays strictly within the ₹3,000 threshold, covering all academic requisites while retaining a ₹200 contingency reserve.</p>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>4. Why is saving alone often not enough to build wealth in the long run? How do investments help increase the value of money over time?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><strong>1. Limitations of Saving Alone:</strong></p>
+  <p>Simply storing cash in a locker or low-interest savings account causes money to erode in real value due to <strong>inflation</strong>. If inflation averages 6% annually, goods that cost ₹100 today will cost ₹106 next year; idle savings lose purchasing power over time.</p>
+  <p><strong>2. How Investments Create Wealth:</strong></p>
+  <ul>
+    <li><strong>Returns Outpacing Inflation:</strong> Investing allocates money into productive financial assets (Fixed Deposits, Public Provident Fund, Mutual Funds, Equities, Gold) that generate yields exceeding the inflation rate.</li>
+    <li><strong>The Power of Compounding:</strong> Compounding allows returns to earn additional returns over successive cycles ($A = P(1+r)^n$). Over multi-year horizons, the exponential growth of reinvested gains significantly expands wealth compared to stagnant principal savings.</li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>5. Investment Planning Activity: Suppose you received cash gifts worth ₹3,000 and decided to save ₹1,500. Prepare an investment plan explaining why you think each investment option is suitable or unsuitable.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><strong>Personal Investment Allocation Plan for ₹1,500:</strong></p>
+  <table class="ncert-table" style="width: 100%; border-collapse: collapse; margin-top: 8px;">
+    <thead>
+      <tr>
+        <th style="padding: 8px; border: 1px solid #cbd5e1; background: #f8fafc; text-align: left;">Asset Class</th>
+        <th style="padding: 8px; border: 1px solid #cbd5e1; background: #f8fafc; text-align: right;">Allocation</th>
+        <th style="padding: 8px; border: 1px solid #cbd5e1; background: #f8fafc; text-align: left;">Suitability Evaluation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 7px; border: 1px solid #e2e8f0; font-weight: 600;">Bank Fixed Deposit (FD) / Recurring Deposit</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0; text-align: right;">₹500 (33%)</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;"><strong>Highly Suitable:</strong> Zero risk to principal, guaranteed fixed interest return, and excellent liquidity for medium-term needs.</td>
+      </tr>
+      <tr>
+        <td style="padding: 7px; border: 1px solid #e2e8f0; font-weight: 600;">Diversified Index / Mutual Fund (SIP)</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0; text-align: right;">₹1,000 (67%)</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;"><strong>Highly Suitable:</strong> Offers inflation-beating long-term growth potential and professional diversification across top Indian companies.</td>
+      </tr>
+      <tr>
+        <td style="padding: 7px; border: 1px solid #e2e8f0; font-weight: 600;">Direct Speculative Stock Trading / Crypto</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0; text-align: right;">₹0 (0%)</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;"><strong>Unsuitable:</strong> Extreme short-term volatility and high risk of capital loss make it inappropriate for modest beginner savings.</td>
+      </tr>
+    </tbody>
+  </table>
+  <p style="margin-top: 10px;"><strong>Strategic Rationale:</strong> A 67:33 blend of growth assets (Mutual Funds) and safety assets (Fixed Deposit) balances risk and reward, delivering capital appreciation while safeguarding liquidity.</p>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>6. How does inflation affect the value of money over time? Why should people consider inflation while making financial decisions?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><strong>1. Impact of Inflation on Money:</strong></p>
+  <p>Inflation is the general, sustained rise in the price levels of goods and services over time. As prices increase, every single unit of currency buys a smaller basket of goods. Consequently, the purchasing power of money decreases.</p>
+  <p><strong>2. Why Inflation Must Be Factored into Financial Decisions:</strong></p>
+  <ul>
+    <li><strong>Real Returns vs. Nominal Returns:</strong> If a savings scheme yields 4% annual interest while inflation runs at 6%, the real return is negative (-2%). The investor is effectively losing purchasing power each year.</li>
+    <li><strong>Future Cost Calculations:</strong> Long-term milestones—such as college tuition or retirement living costs—will cost substantially more decades from now. Factoring in inflation ensures individuals target investments with real positive returns to preserve their future standard of living.</li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>7. Different investment options involve different levels of risk and return. Do you think taking higher risks is always the best way to earn higher returns? How should a person decide which investment option is most suitable for them?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><strong>No, taking higher risks is not always the best way.</strong> While higher potential returns often demand greater risk tolerance, excessive risk can lead to severe capital erosion or complete financial loss during market downturns.</p>
+  <p><strong>Key Criteria for Choosing the Right Investment:</strong></p>
+  <ol>
+    <li><strong>Time Horizon:</strong> Short-term requirements (1–2 years) require stable, low-risk instruments (Savings accounts, FDs, Liquid Funds). Long-term goals (5–15 years) can withstand the market volatility of equities and equity mutual funds.</li>
+    <li><strong>Risk Appetite &amp; Capacity:</strong> Investors must assess their psychological comfort with volatility and their actual capacity to absorb potential financial shocks.</li>
+    <li><strong>Liquidity Needs:</strong> Ensuring funds can be accessed swiftly in emergencies without heavy exit penalties.</li>
+    <li><strong>Financial Goal Clarity:</strong> Matching specific instruments to clear milestones (e.g. debt instruments for immediate tuition vs. equity for retirement).</li>
+  </ol>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>8. Why do people buy insurance policies even though they may never face a major loss? How does insurance provide financial security?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p>People purchase insurance policies because life is inherently uncertain; while catastrophes may be rare, a single sudden crisis—such as a critical medical emergency, road accident, or natural disaster—can wipe out years of accumulated family savings.</p>
+  <p><strong>Mechanisms of Financial Security Through Insurance:</strong></p>
+  <ul>
+    <li><strong>Principle of Risk Pooling:</strong> Millions of policyholders contribute modest, predictable fees (premiums) into a common fund. This collective pool compensates the few individuals who experience severe insured losses.</li>
+    <li><strong>Asset and Income Protection:</strong> Health and life insurance safeguard family breadwinners and shield existing investments from being liquidated during health crises.</li>
+    <li><strong>Peace of Mind:</strong> Transferring catastrophic financial liabilities to an insurer allows families to plan and invest with security and confidence.</li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>9. Imagine your family receives ₹1,00,000 from farming, a small business, livestock sales, and savings. Help your family decide how to use the money wisely.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><strong>Comprehensive Family Financial Allocation Plan (₹1,00,000):</strong></p>
+  <ol>
+    <li><strong>Distinguishing Needs vs. Wants:</strong>
+      <br/>• <em>Vital Needs (Prioritized):</em> School &amp; college tuition fees (₹20,000) and certified high-yield seeds / nutritious livestock feed (₹20,000) to secure future harvest income.
+      <br/>• <em>Wants (Regulated):</em> Discretionary spending on consumer gadgets or festival celebrations is limited to ₹10,000.
+    </li>
+    <li><strong>Emergency Buffer &amp; Working Capital:</strong>
+      <br/>• Set aside ₹20,000 in a liquid bank account for agricultural contingencies, health emergencies, or machine repairs.
+    </li>
+    <li><strong>Long-Term Compound Wealth Investment (₹30,000):</strong>
+      <br/>• Invest ₹30,000 in a 5-year Fixed Deposit or National Savings Certificate yielding 8% compound annual growth:
+      <br/>$$A = P \\left(1 + \\frac{r}{100}\\right)^n = 30000 \\times (1.08)^5 = ₹44,079.84$$
+      <br/>• <em>Total Interest Earned:</em> ₹14,079.84 (a 46.9% risk-free capital gain over 5 years).
+    </li>
+  </ol>
+  <p><strong>Reflection:</strong> By prioritizing productive inputs and student education first, capping discretionary desires, and leveraging the power of compounding for long-term reserves, the family secures present livelihood while multiplying future net worth.</p>
+</div>`
+                            }
+                        ]
+                    },
+                    {
+                        name: "Chapter 6: From Ideas to Startups",
+                        solutions: [
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>1. Explain why a business can fail even with a great idea if one functional area [finance, human resources (HR), operations, or marketing] is weak. If you were running a bakery, which functional area would you prioritise first and why?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><strong>1. Why Weakness in One Area Leads to Failure:</strong></p>
+  <p>A business operates like an interconnected machine supported by four core functional pillars: Finance, Human Resources (HR), Operations, and Marketing. Failure in any single pillar can collapse the entire venture:</p>
+  <ul>
+    <li><strong>Finance:</strong> Without disciplined cash flow and cost accounting, even high sales will lead to insolvency and an inability to purchase supplies.</li>
+    <li><strong>Human Resources (HR):</strong> Without skilled, motivated, and well-trained workers, service quality deteriorates and customer trust is lost.</li>
+    <li><strong>Operations:</strong> Without efficient production, quality control, and inventory logistics, customer orders cannot be fulfilled accurately or on time.</li>
+    <li><strong>Marketing:</strong> Without understanding customer demand, competitive positioning, and effective outreach, even groundbreaking products remain unnoticed.</li>
+  </ul>
+  <p><strong>2. Running a Bakery - Prioritizing Operations First:</strong></p>
+  <p>In a food enterprise like a bakery, <strong>Management and Operations</strong> must be prioritized first. Baked goods are highly perishable and quality-sensitive; flawless recipe standards, precise baking schedules, kitchen hygiene, and tight raw material inventory (preventing stale flour or spoiled dairy) are non-negotiable. Only when fresh, exceptional-quality goods are consistently produced can marketing and financial scale be sustained.</p>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>2. Do you think innovation alone is enough to make a business successful? Why or why not?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><strong>No, innovation alone is not enough to make a business successful.</strong></p>
+  <p>While innovation provides a competitive edge or a unique product idea, transforming that concept into a commercially viable, sustainable enterprise requires critical managerial and personal attributes:</p>
+  <ul>
+    <li><strong>Execution &amp; Operations:</strong> Turning an abstract invention into a reliable, mass-producible, and affordable product requires rigorous supply chain management and quality control.</li>
+    <li><strong>Financial Viability:</strong> Startups must master unit economics, manage cash burn, price products profitably, and secure working capital.</li>
+    <li><strong>Market Product-Market Fit:</strong> The innovation must solve an authentic pain point that consumers are genuinely willing to pay for.</li>
+    <li><strong>Resilience &amp; Grit:</strong> As demonstrated by entrepreneurial journeys, overcoming unexpected regulatory hurdles, market downturns, and competitor reactions demands persistent problem-solving and adaptable leadership.</li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>3. "A business plan is a dynamic roadmap for a startup." Explain this statement with suitable examples. When should one change the business plan?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><strong>1. The Business Plan as a Dynamic Roadmap:</strong></p>
+  <p>A business plan serves as a foundational blueprint that outlines an enterprise's value proposition, target customer demographics, operational workflows, staffing requirements, and financial forecasts. It is described as <em>"dynamic"</em> because it is not a rigid historical document; it evolves actively as the startup learns from real-world market feedback.</p>
+  <p><strong>2. When to Pivot or Change the Business Plan:</strong></p>
+  <ul>
+    <li><strong>Shifting Consumer Preferences:</strong> If customer feedback reveals demand for a different product variation (e.g. vegan/gluten-free options in a food venture).</li>
+    <li><strong>Competitive &amp; Market Dynamics:</strong> When new rivals enter the space or input raw material costs surge significantly.</li>
+    <li><strong>Cash Flow &amp; Financing Constraints:</strong> When capital reserves run low and operations must pivot toward leaner, higher-margin offerings.</li>
+    <li><strong>Technological Shifts:</strong> Adapting to new digital sales channels or automated production methods to remain efficient.</li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>4. Do you think every entrepreneur should think about the impact of their goods or services on society and the environment? Explain using relevant examples.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><strong>Yes, every entrepreneur must evaluate their broader social and environmental footprint.</strong> Modern sustainable entrepreneurship recognizes that long-term prosperity is inseparable from societal wellbeing.</p>
+  <p><strong>Examples of Responsible Entrepreneurship:</strong></p>
+  <ul>
+    <li><strong>Social Impact (Shri Mahila Griha Udyog Lijjat Papad):</strong> Started in 1959 by seven women with a modest ₹80 loan, this venture transformed into a cooperative empowering over 45,000 women nationwide with dignified financial independence and educational scholarships for their children.</li>
+    <li><strong>Environmental Responsibility (Eco-Friendly Jute Startups):</strong> Entrepreneurs producing biodegradable jute bags and biodegradable packaging directly replace single-use plastics, curbing non-biodegradable landfill waste and protecting marine ecosystems.</li>
+    <li><strong>Broader Civic Contributions:</strong> Ethical businesses create local jobs, pay taxes that fund public healthcare and schools, and practice fair labor standards, fostering collective community prosperity.</li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>5. In 1931, two brothers, Digambar and Govind Dandekar, started a small business (Camlin / Camel art supplies)...<br/><br/>
+  a. What entrepreneurial qualities did the Dandekar brothers display?<br/>
+  b. What opportunity did they identify in the market?<br/>
+  c. Was travelling to Glasgow a risky decision?<br/>
+  d. Which functional area helped the company improve its products?<br/>
+  e. How did they serve society apart from earning profits?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <ol type="a">
+    <li><strong>Entrepreneurial Qualities Displayed:</strong> Resilience, determination, a commitment to quality craftsmanship, and intellectual curiosity. Despite early technical failures and acute financial shortages, they refused to quit.</li>
+    <li><strong>Market Opportunity Identified:</strong> In pre-independence India, artists, draftsmen, and students lacked access to domestic high-grade art supplies and relied entirely on costly European imports.</li>
+    <li><strong>Evaluation of the Glasgow Journey:</strong> Yes, traveling overseas to study color chemistry was a high-risk gamble given their limited funds. However, it was a <em>calculated, strategic risk</em> necessary to acquire scientific knowledge that could not be learned domestically.</li>
+    <li><strong>Functional Area That Drove Improvement:</strong> <strong>Management and Operations (Research &amp; Development)</strong>. Setting up a dedicated testing laboratory enabled them to master pigment chemistry and synthesize formulations tailored to India's tropical climate.</li>
+    <li><strong>Societal Contribution:</strong> They democratized creative expression by manufacturing affordable, world-class stationery and artist colors for millions of Indian students, reducing national dependency on foreign imports.</li>
+  </ol>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>6. How do you think entrepreneurship is important for India's goal of becoming a developed nation by 2047?</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p>Entrepreneurship is the primary catalyst for realizing the vision of a developed, self-reliant India (<strong>Viksit Bharat 2047</strong>) and <strong>Atmanirbhar Bharat</strong>:</p>
+  <ul>
+    <li><strong>Employment Generation:</strong> Startups and Micro, Small &amp; Medium Enterprises (MSMEs) absorb millions of young graduates into high-value manufacturing, tech, and service roles, transforming India from a nation of job seekers to job creators.</li>
+    <li><strong>Grassroots Problem Solving:</strong> Homegrown innovations in Agri-Tech (precision farming, solar irrigation), Health-Tech (telemedicine), and Clean Energy directly solve structural challenges in rural and semi-urban communities.</li>
+    <li><strong>Global Competitiveness &amp; Exports:</strong> Developing indigenous technologies and high-standard manufacturing enhances foreign direct investment and expands India's global export basket.</li>
+    <li><strong>Wealth Creation &amp; Tax Revenues:</strong> Profitable private enterprises generate public revenues that fund world-class national infrastructure, schools, and healthcare.</li>
+  </ul>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>7. Choose a product or service and develop a simple business plan.</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><strong>Sample Business Plan: Eco-Totes Green Packaging Venture</strong></p>
+  <table class="ncert-table" style="width: 100%; border-collapse: collapse; margin-top: 8px;">
+    <thead>
+      <tr>
+        <th style="padding: 8px; border: 1px solid #cbd5e1; background: #f8fafc; text-align: left; width: 35%;">Business Plan Dimension</th>
+        <th style="padding: 8px; border: 1px solid #cbd5e1; background: #f8fafc; text-align: left;">Strategic Formulation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 7px; border: 1px solid #e2e8f0; font-weight: 600;">Enterprise Name</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">Eco-Totes Packaging LLP</td>
+      </tr>
+      <tr>
+        <td style="padding: 7px; border: 1px solid #e2e8f0; font-weight: 600;">Core Product &amp; Value Proposition</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">Durable, attractive, 100% biodegradable jute and cloth shopping bags designed to replace hazardous single-use plastic bags.</td>
+      </tr>
+      <tr>
+        <td style="padding: 7px; border: 1px solid #e2e8f0; font-weight: 600;">Target Market</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">Eco-conscious urban shoppers, local grocery cooperatives, and retail clothing boutiques.</td>
+      </tr>
+      <tr>
+        <td style="padding: 7px; border: 1px solid #e2e8f0; font-weight: 600;">Unit Economics &amp; Pricing</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;"><strong>Retail Price:</strong> ₹50 per bag.<br/><strong>Raw Material &amp; Stitching Cost:</strong> ₹30 per bag.<br/><strong>Gross Margin:</strong> ₹20 per bag (40% gross profit margin).</td>
+      </tr>
+      <tr>
+        <td style="padding: 7px; border: 1px solid #e2e8f0; font-weight: 600;">Marketing &amp; Sales Strategy</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">Direct B2B outreach to local supermarket managers offering custom logo printing, combined with social media awareness campaigns promoting plastic-free living.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>`
+                            },
+                            {
+                                q: `<div class="q-block">
+  <h3>Questions and Activities</h3>
+  <p>9. Take any popular brand and identify:<br/>
+  • The problem it tackles<br/>
+  • Its initial target customers<br/>
+  • How it differentiated itself<br/>
+  • The resources it may have started with</p>
+</div>`,
+                                a: `<div class="a-block">
+  <p><strong>Case Analysis: Shri Mahila Griha Udyog Lijjat Papad</strong></p>
+  <table class="ncert-table" style="width: 100%; border-collapse: collapse; margin-top: 8px;">
+    <thead>
+      <tr>
+        <th style="padding: 8px; border: 1px solid #cbd5e1; background: #f8fafc; text-align: left; width: 35%;">Strategic Dimension</th>
+        <th style="padding: 8px; border: 1px solid #cbd5e1; background: #f8fafc; text-align: left;">Case Findings</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 7px; border: 1px solid #e2e8f0; font-weight: 600;">Problem Tackled</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">Lack of dignified employment and supplemental income opportunities for semi-literate urban and rural homemakers confined to domestic spaces.</td>
+      </tr>
+      <tr>
+        <td style="padding: 7px; border: 1px solid #e2e8f0; font-weight: 600;">Initial Target Customers</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">Neighborhood residential households and local merchant grocers in Mumbai seeking authentic, crispy, hygienic homemade papads.</td>
+      </tr>
+      <tr>
+        <td style="padding: 7px; border: 1px solid #e2e8f0; font-weight: 600;">Key Differentiator (USP)</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;"><strong>The Cooperative Ownership Model:</strong> Every woman worker is recognized as an equal partner (<em>sahodari</em> / co-owner). Profits are distributed equally, and stringent quality control standards are maintained with zero compromises.</td>
+      </tr>
+      <tr>
+        <td style="padding: 7px; border: 1px solid #e2e8f0; font-weight: 600;">Starting Capital &amp; Resources</td>
+        <td style="padding: 7px; border: 1px solid #e2e8f0;">Started in 1959 on an open building terrace in Girgaum, Mumbai, by seven women with a borrowed initial capital of just <strong>₹80</strong>, basic dough utensils, and drying cots.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>`
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -15476,7 +16153,7 @@ of Civilisation
         {
           "globalIndex": 20,
           "qNum": "Q2",
-          "q": "<div class=\"q-block\">\n  <p>कविता में माँ और पिताजी के बीच कवि के विषय में की जाने वाली बातचीत का वर्णन है। उनकी इस बातचीत को संवाद-लेखन के रूप में प्रस्तुत कीजिए。</p>\n</div>",
+          "q": "<div class=\"q-block\">\n  <p>कविता में माँ और पिताजी के बीच कवि के विषय में की जाने वाली बातचीत का वर्णन है। उनकी इस बातचीत को संवाद-लेखन के रूप में प्रस्तुत कीजिए।</p>\n</div>",
           "a": "<div class=\"a-block\">\n  <p><strong>संवाद-लेखन:</strong></p>\n  <ul>\n    <li><strong>पिताजी (आँखों में आँसू लिए):</strong> आज घर में सब हैं, बस अपना भवानी नहीं है। ना जाने जेल में कैसा होगा, उसे बारिश बहुत पसंद थी!</li>\n    <li><strong>माँ (सांत्वना देते हुए):</strong> आप क्यों रो रहे हैं? उसे देश के लिए जेल जाने का गर्व है। उसने हमारी कोख को कलंकित नहीं किया।</li>\n    <li><strong>पिताजी:</strong> जानता हूँ, पर पिता का दिल है। पाँचवें बेटे के बिना यह घर सूना लगता है।</li>\n    <li><strong>माँ:</strong> अगर आप ऐसे कच्चे पड़ेंगे, तो बाकी बच्चों का क्या होगा? हौसला रखिए, वह जल्दी ही लौट आएगा।</li>\n  </ul>\n</div>"
         },
         {
@@ -15650,7 +16327,7 @@ of Civilisation
     {
       "globalIndex": 20,
       "qNum": "Q21",
-      "q": "<div class=\"q-block\">\n  <p>कविता में माँ और पिताजी के बीच कवि के विषय में की जाने वाली बातचीत का वर्णन है। उनकी इस बातचीत को संवाद-लेखन के रूप में प्रस्तुत कीजिए。</p>\n</div>",
+      "q": "<div class=\"q-block\">\n  <p>कविता में माँ और पिताजी के बीच कवि के विषय में की जाने वाली बातचीत का वर्णन है। उनकी इस बातचीत को संवाद-लेखन के रूप में प्रस्तुत कीजिए।</p>\n</div>",
       "a": "<div class=\"a-block\">\n  <p><strong>संवाद-लेखन:</strong></p>\n  <ul>\n    <li><strong>पिताजी (आँखों में आँसू लिए):</strong> आज घर में सब हैं, बस अपना भवानी नहीं है। ना जाने जेल में कैसा होगा, उसे बारिश बहुत पसंद थी!</li>\n    <li><strong>माँ (सांत्वना देते हुए):</strong> आप क्यों रो रहे हैं? उसे देश के लिए जेल जाने का गर्व है। उसने हमारी कोख को कलंकित नहीं किया।</li>\n    <li><strong>पिताजी:</strong> जानता हूँ, पर पिता का दिल है। पाँचवें बेटे के बिना यह घर सूना लगता है।</li>\n    <li><strong>माँ:</strong> अगर आप ऐसे कच्चे पड़ेंगे, तो बाकी बच्चों का क्या होगा? हौसला रखिए, वह जल्दी ही लौट आएगा।</li>\n  </ul>\n</div>"
     },
     {
@@ -15694,6 +16371,14 @@ of Civilisation
 
 let currentSubjectKey = "";
 
+function fixAssetPaths(str) {
+    if (!str) return '';
+    return String(str)
+        .trim()
+        .replace(/src=(["'])(?:\.\/)?images\//gi, 'src=$1/images/')
+        .replace(/^(?:\.\/)?images\//i, '/images/');
+}
+
 function getLayerElement(rawId) {
     let el = document.getElementById(rawId);
     if (!el) el = document.getElementById(rawId.replace('-', ' '));
@@ -15729,12 +16414,12 @@ function goToHomeUI() {
 }
 
 /* ============================================================ */
-/* MULTI-PAGE CLIENT-SIDE ROUTER                                */
+/* MULTI-PAGE & SSG CLIENT-SIDE ROUTER                          */
 /* ============================================================ */
 
 function getChapterUrlNumber(chapter, fallbackIndex = 0) {
     if (chapter && chapter.name) {
-        const match = chapter.name.match(/(?:Chapter|पाठ)\s*(\d+)/i);
+        const match = chapter.name.match(/(?:Chapter|à¤ªà¤¾à¤ )\s*(\d+)/i);
         if (match) {
             return parseInt(match[1], 10);
         }
@@ -15769,7 +16454,7 @@ function findChapterIndex(chapters, cNum) {
 function updateSeoMeta(title, description, routePath = '') {
     document.title = title;
     const cleanRoute = (routePath || '').replace(/^\/+|\/+$/g, '');
-    const canonicalUrl = cleanRoute ? `https://ncertsolved.in/?route=${cleanRoute}` : 'https://ncertsolved.in/';
+    const canonicalUrl = cleanRoute ? `https://ncertsolved.in/${cleanRoute}` : 'https://ncertsolved.in/';
 
     let canonicalEl = document.querySelector('link[rel="canonical"]');
     if (!canonicalEl) {
@@ -15810,31 +16495,64 @@ function stripHtmlForSeo(htmlStr) {
 }
 
 function handleRoute() {
-    // 0. Support incoming query routes from Google Search & external links (e.g. ?route=subject/english/branch/1/chapter/4)
+    // 0a. Strip index.html from URL path to keep URLs clean
+    try {
+        if (window.location.pathname.endsWith('/index.html') || window.location.pathname === '/index.html') {
+            const cleanPath = window.location.pathname.replace(/index\.html$/, '') || '/';
+            if (window.history && window.history.replaceState) {
+                window.history.replaceState(null, '', cleanPath + window.location.search + window.location.hash);
+            }
+        }
+    } catch (e) {}
+
+    // 0b. Support clean pathnames, query routes (?route=...), or legacy hash (#/...)
     let rawHash = window.location.hash || '';
     try {
         const searchParams = new URLSearchParams(window.location.search);
         const searchRoute = searchParams.get('route');
         if (searchRoute && (!rawHash || rawHash === '#/' || rawHash === '#')) {
             rawHash = '#/' + searchRoute.replace(/^\/+/, '');
-            if (window.history && window.history.replaceState) {
-                window.history.replaceState(null, '', window.location.pathname + rawHash);
-            } else {
-                window.location.hash = rawHash;
-            }
         }
     } catch (e) {}
+
+    // Upgrade legacy hash URLs (#/subject/...) to clean URLs in the address bar on http/https
+    if (rawHash && rawHash.startsWith('#/') && window.location.protocol !== 'file:') {
+        try {
+            const hashBody = rawHash.replace(/^#\/?/, '');
+            const [hPathRaw, hQueryRaw] = hashBody.split('?');
+            const hPathClean = (hPathRaw || '').replace(/^\/+|\/+$/g, '');
+            const cleanTarget = hPathClean
+                ? ('/' + hPathClean + '/' + (hQueryRaw ? '?' + hQueryRaw : ''))
+                : ('/' + (hQueryRaw ? '?' + hQueryRaw : ''));
+            if (window.history && window.history.replaceState) {
+                window.history.replaceState(null, '', cleanTarget);
+            }
+        } catch (e) {}
+    }
+
+    // If no hash was provided, check if pathname has a subroute (e.g. /subject/science/ or /about/)
+    if (!rawHash || rawHash === '#' || rawHash === '') {
+        const rawPathname = (window.location.pathname || '')
+            .replace(/\/index\.html$/, '')
+            .replace(/^\/+|\/+$/g, '');
+        if (rawPathname && rawPathname !== 'index.html' && !/\.(html?|css|js|png|jpg|jpeg|svg|ico|json|xml)$/i.test(rawPathname)) {
+            rawHash = '#/' + rawPathname;
+        }
+    }
+
     if (!rawHash) rawHash = '#/';
+
     // Parse path and query string (e.g. #/subject/sst/branch/2/chapter/4?q=1)
     const hashWithoutPrefix = rawHash.replace(/^#\/?/, '');
     const [pathPart, queryPart] = hashWithoutPrefix.split('?');
     const path = (pathPart || '').replace(/^\/+|\/+$/g, '');
     const segments = path ? path.split('/') : [];
 
-    // Parse query params (e.g. ?q=1 -> Natural numbers start from 1)
+    // Parse query params from either hash query (?q=1) or window.location.search (?q=1)
     let questionTarget = null;
-    if (queryPart) {
-        const params = new URLSearchParams(queryPart);
+    const queryString = queryPart || (window.location.search ? window.location.search.replace(/^\?/, '') : '');
+    if (queryString) {
+        const params = new URLSearchParams(queryString);
         if (params.has('q')) {
             const parsedQ = parseInt(params.get('q'), 10);
             if (!isNaN(parsedQ)) {
@@ -15845,7 +16563,7 @@ function handleRoute() {
 
     clearSearch();
 
-    // 1. Home Route: #/ or empty
+    // 1. Home Route: / or #/
     if (segments.length === 0 || segments[0] === '' || segments[0] === 'home') {
         goToHomeUI();
         updateSeoMeta(
@@ -15903,7 +16621,7 @@ function handleRoute() {
         return;
     }
 
-    // 3. Subject-specific routes: #/subject/:subjectKey/...
+    // 3. Subject-specific routes: /subject/:subjectKey/...
     if (first === 'subject' && segments[1]) {
         const subKey = segments[1].toLowerCase();
         const data = ncertDatabase[subKey];
@@ -15912,7 +16630,7 @@ function handleRoute() {
             return;
         }
 
-        // 3-part. SST Part Book Filter: #/subject/sst/part/:partNum (e.g. #/subject/sst/part/1 or /part/2)
+        // 3-part. SST Part Book Filter: /subject/sst/part/:partNum
         if (subKey === 'sst' && segments[2] === 'part' && segments[3] !== undefined) {
             const partNum = parseInt(segments[3], 10);
             if (!isNaN(partNum)) {
@@ -15921,7 +16639,7 @@ function handleRoute() {
             }
         }
 
-        // 3a-ex. Branch Chapter Specific Exercise Solutions: #/subject/:subKey/branch/:bNum/chapter/:cNum/exercise/:exId
+        // 3a-ex. Branch Chapter Specific Exercise Solutions: /subject/:subKey/branch/:bNum/chapter/:cNum/exercise/:exId
         if (segments[2] === 'branch' && segments[3] !== undefined && segments[4] === 'chapter' && segments[5] !== undefined && segments[6] === 'exercise' && segments[7] !== undefined) {
             const bNum = parseInt(segments[3], 10);
             const cNum = parseInt(segments[5], 10);
@@ -15941,7 +16659,7 @@ function handleRoute() {
             }
         }
 
-        // 3a. Branch Chapter Solutions or Exercise List: #/subject/:subKey/branch/:bNum/chapter/:cNum
+        // 3a. Branch Chapter Solutions or Exercise List: /subject/:subKey/branch/:bNum/chapter/:cNum
         if (segments[2] === 'branch' && segments[3] !== undefined && segments[4] === 'chapter' && segments[5] !== undefined) {
             const bNum = parseInt(segments[3], 10);
             const cNum = parseInt(segments[5], 10);
@@ -15970,7 +16688,7 @@ function handleRoute() {
             }
         }
 
-        // 3b. Branch Chapter List: #/subject/:subKey/branch/:bNum
+        // 3b. Branch Chapter List: /subject/:subKey/branch/:bNum
         if (segments[2] === 'branch' && segments[3] !== undefined) {
             const bNum = parseInt(segments[3], 10);
             if (!isNaN(bNum)) {
@@ -15980,7 +16698,7 @@ function handleRoute() {
             }
         }
 
-        // 3c. Standard Chapter Solutions: #/subject/:subKey/chapter/:cNum
+        // 3c. Standard Chapter Solutions: /subject/:subKey/chapter/:cNum
         if (segments[2] === 'chapter' && segments[3] !== undefined) {
             const cNum = parseInt(segments[3], 10);
             const exId = (segments[4] === 'exercise' && segments[5] !== undefined) ? decodeURIComponent(segments[5]) : null;
@@ -16023,7 +16741,7 @@ function handleRoute() {
             }
         }
 
-        // 3d. Subject Chapter / Branch List: #/subject/:subKey
+        // 3d. Subject Chapter / Branch List: /subject/:subKey
         renderSubjectView(subKey);
         return;
     }
@@ -16131,8 +16849,8 @@ function getBranchIcon(branch, index) {
     if (name.includes('history')) return '\u{1F3DB}\uFE0F';
     if (name.includes('political') || name.includes('civics')) return '\u2696\uFE0F';
     if (name.includes('economics')) return '\u{1F4C8}';
-    if (name.includes('गद्य') || name.includes('gadya')) return '\u{1F4D6}';
-    if (name.includes('पद्य') || name.includes('padya')) return '\u{1FAB6}';
+    if (name.includes('à¤—à¤¦à¥à¤¯') || name.includes('gadya')) return '\u{1F4D6}';
+    if (name.includes('à¤ªà¤¦à¥à¤¯') || name.includes('padya')) return '\u{1FAB6}';
     if (name.includes('prose')) return '\u{1F4D6}';
     if (name.includes('poetry') || name.includes('poem')) return '\u{1FAB6}';
     if (name.includes('part 1')) return '\u{1F4D0}';
@@ -16212,19 +16930,19 @@ function getChapterIcon(chapter, index, subjectKey = '') {
 
     // 5. Hindi Chapters
     if (subjectKey === 'hindi') {
-        if (name.includes('झाँसी की रानी') || name.includes('jhansi')) return '\u2694\uFE0F';
-        if (name.includes('घर की याद') || name.includes('ghar ki yaad')) return '\u{1F3E0}';
-        if (name.includes('दो बैलों की कथा') || name.includes('bailon')) return '\u{1F402}';
-        if (name.includes('ल्हासा की ओर') || name.includes('lhasa')) return '\u{1F3D4}\uFE0F';
-        if (name.includes('साँवले सपनों') || name.includes('sawle')) return '\u{1F9A6}';
-        if (name.includes('प्रेमचंद के फटे जूते')) return '\u{1F45F}';
-        if (name.includes('कबीर') || name.includes('साखियाँ')) return '\u{1F4DC}';
-        if (name.includes('रसखान') || name.includes('सवैये')) return '\u{1F99A}';
-        if (name.includes('कैदी और कोकिला')) return '\u{1F426}';
-        if (name.includes('मेघ आए')) return '\u2601\uFE0F';
-        if (name.includes('रीढ़ की हड्डी')) return '\u{1FA7A}';
-        if (name.includes('गिल्लू')) return '\u{1F43F}\uFE0F';
-        if (name.includes('एवरेस्ट')) return '\u{1F3D4}\uFE0F';
+        if (name.includes('à¤à¤¾à¤à¤¸à¥€ à¤•à¥€ à¤°à¤¾à¤¨à¥€') || name.includes('jhansi')) return '\u2694\uFE0F';
+        if (name.includes('à¤˜à¤° à¤•à¥€ à¤¯à¤¾à¤¦') || name.includes('ghar ki yaad')) return '\u{1F3E0}';
+        if (name.includes('à¤¦à¥‹ à¤¬à¥ˆà¤²à¥‹à¤‚ à¤•à¥€ à¤•à¤¥à¤¾') || name.includes('bailon')) return '\u{1F402}';
+        if (name.includes('à¤²à¥à¤¹à¤¾à¤¸à¤¾ à¤•à¥€ à¤“à¤°') || name.includes('lhasa')) return '\u{1F3D4}\uFE0F';
+        if (name.includes('à¤¸à¤¾à¤à¤µà¤²à¥‡ à¤¸à¤ªà¤¨à¥‹à¤‚') || name.includes('sawle')) return '\u{1F9A6}';
+        if (name.includes('à¤ªà¥à¤°à¥‡à¤®à¤šà¤‚à¤¦ à¤•à¥‡ à¤«à¤Ÿà¥‡ à¤œà¥‚à¤¤à¥‡')) return '\u{1F45F}';
+        if (name.includes('à¤•à¤¬à¥€à¤°') || name.includes('à¤¸à¤¾à¤–à¤¿à¤¯à¤¾à¤')) return '\u{1F4DC}';
+        if (name.includes('à¤°à¤¸à¤–à¤¾à¤¨') || name.includes('à¤¸à¤µà¥ˆà¤¯à¥‡')) return '\u{1F99A}';
+        if (name.includes('à¤•à¥ˆà¤¦à¥€ à¤”à¤° à¤•à¥‹à¤•à¤¿à¤²à¤¾')) return '\u{1F426}';
+        if (name.includes('à¤®à¥‡à¤˜ à¤†à¤')) return '\u2601\uFE0F';
+        if (name.includes('à¤°à¥€à¤¢à¤¼ à¤•à¥€ à¤¹à¤¡à¥à¤¡à¥€')) return '\u{1FA7A}';
+        if (name.includes('à¤—à¤¿à¤²à¥à¤²à¥‚')) return '\u{1F43F}\uFE0F';
+        if (name.includes('à¤à¤µà¤°à¥‡à¤¸à¥à¤Ÿ')) return '\u{1F3D4}\uFE0F';
         return '\u{1FAB6}';
     }
 
@@ -16257,7 +16975,7 @@ function renderSubjectView(subjectKey) {
 
     const backBtn = document.getElementById('chapter-back-link');
     if (backBtn) {
-        backBtn.href = "#/";
+        backBtn.href = "/";
         backBtn.innerText = "\u2190 Back to Subjects";
     }
 
@@ -16273,7 +16991,7 @@ function renderSubjectView(subjectKey) {
                 name: "Social Science (Part 1)",
                 icon: "\u{1F4DA}",
                 desc: "Geography (Earth's Surface & Climate), History (Early Civilisations), Political Science & Economics.",
-                badge: "4 Branches • 8 Solved Chapters",
+                badge: "4 Branches â€¢ 8 Solved Chapters",
                 color: "#f59e0b"
             },
             {
@@ -16281,14 +16999,14 @@ function renderSubjectView(subjectKey) {
                 name: "Social Science (Part 2)",
                 icon: "\u{1F30A}",
                 desc: "Geography (Oceans and Life, Marine Resources, Blue Economy), History, Political Science & Economics.",
-                badge: "4 Branches • New Syllabus",
+                badge: "4 Branches â€¢ New Syllabus",
                 color: "#0284c7"
             }
         ];
 
         sstBooks.forEach(book => {
             grid.innerHTML += `
-                <a class="chapter-select-btn branch-select-btn" style="border-left: 5px solid ${book.color}; padding: 1.25rem 1.15rem;" href="#/subject/sst/part/${book.partNum}">
+                <a class="chapter-select-btn branch-select-btn" style="border-left: 5px solid ${book.color}; padding: 1.25rem 1.15rem;" href="/subject/sst/part/${book.partNum}/">
                     <div class="chap-btn-content">
                         <span class="chap-icon-badge branch-icon-badge" style="font-size: 1.6rem;">${book.icon}</span>
                         <div class="branch-text-wrapper">
@@ -16310,18 +17028,85 @@ function renderSubjectView(subjectKey) {
         return;
     }
 
+    const branchMetaMap = {
+        maths: [
+            {
+                name: "Ganita Prakash (Part 1)",
+                icon: "\uD83D\uDCD0",
+                desc: "Coordinates, Linear Polynomials, Number Systems, Algebraic Identities, Perimeter & Area, Probability & Sequences.",
+                badge: "Part 1 \u2022 8 Solved Chapters",
+                color: "#7c3aed",
+                badgeBg: "#ede9fe"
+            },
+            {
+                name: "Ganita Prakash (Part 2)",
+                icon: "\uD83D\uDCCA",
+                desc: "Propositions, Understanding Data, Algorithms, Quadrilaterals, Linear Equations & Surface Areas and Volumes.",
+                badge: "Part 2 \u2022 6 Solved Chapters",
+                color: "#0284c7",
+                badgeBg: "#e0f2fe"
+            }
+        ],
+        english: [
+            {
+                name: "Prose (Chapters)",
+                icon: "\uD83D\uDCD6",
+                desc: "Grandmother to Read, The Pot Maker, Winds of Change, Vitamin-M, Limitless Possibilities, Twin Melodies & Follow That Dream.",
+                badge: "Prose \u2022 8 Solved Chapters",
+                color: "#0284c7",
+                badgeBg: "#e0f2fe"
+            },
+            {
+                name: "Poetry (Poems)",
+                icon: "\uD83E\uDEB6",
+                desc: "Bharat Our Land, Gifts of Grace, Canvas of Soil, I Cannot Remember My Mother, Nine Gold Medals, Words & Believe in Yourself.",
+                badge: "Poetry \u2022 8 Solved Poems",
+                color: "#f59e0b",
+                badgeBg: "#fef3c7"
+            }
+        ],
+        hindi: [
+            {
+                name: "\u0917\u0926\u094D\u092F \u0916\u0902\u0921 (Gadya Khand)",
+                icon: "\uD83D\uDCDA",
+                desc: "\u0926\u094B \u092C\u0948\u0932\u094B\u0902 \u0915\u0940 \u0915\u0925\u093E, \u0915\u094D\u092F\u093E \u0932\u093F\u0916\u0942\u0901?, \u0938\u0902\u0935\u093E\u0926\u0939\u0940\u0928, \u0910\u0938\u0940 \u092D\u0940 \u092C\u093E\u0924\u0947\u0902 \u0939\u094B\u0924\u0940 \u0939\u0948\u0902, \u0906\u0916\u093F\u0930\u0940 \u091a\u091F\u094D\u091F\u093E\u0928 \u0924\u0915, \u0930\u0940\u0922\u093C \u0915\u0940 \u0939\u0921\u094D\u0921\u0940 \u0935 \u092E\u0948\u0902 \u0914\u0930 \u092E\u0947\u0930\u093E \u0926\u0947\u0936\u0964",
+                badge: "\u0917\u0926\u094D\u092F \u0916\u0902\u0921 \u2022 7 \u0938\u0902\u092A\u0942\u0930\u094D\u0922 \u092A\u093E\u0920",
+                color: "#e11d48",
+                badgeBg: "#ffe4e6"
+            },
+            {
+                name: "\u092A\u0926\u094D\u092F \u0916\u0902\u0921 (Padya Khand)",
+                icon: "\uD83E\uDEB6",
+                desc: "\u0930\u0948\u0926\u093E\u0938 (\u092A\u0926), \u0930\u093E\u092E-\u0932\u0915\u094D\u0937\u094D\u092E\u0923-\u092A\u0930\u0936\u0941\u0930\u093E\u092E \u0938\u0902\u0935\u093E\u0926, \u092D\u093E\u0930\u0924\u093F \u091C\u092F \u0935\u093F\u091C\u092F\u0915\u0930\u0947, \u091D\u093E\u0901\u0938\u0940 \u0915\u0940 \u0930\u093E\u0928\u0940 \u0935 \u0918\u0930 \u0915\u0940 \u092F\u093E\u0926\u0964",
+                badge: "\u092A\u0926\u094D\u092F \u0916\u0902\u0921 \u2022 5 \u0938\u0902\u092A\u0942\u0930\u094D\u0922 \u092A\u093E\u0920",
+                color: "#f59e0b",
+                badgeBg: "#fef3c7"
+            }
+        ]
+    };
+
     if (data.isBranching) {
+        const metaList = branchMetaMap[subjectKey];
         data.branches.forEach((branch, index) => {
-            const branchIcon = getBranchIcon(branch, index);
+            const meta = (metaList && metaList[index]) || {};
+            const branchIcon = meta.icon || getBranchIcon(branch, index);
+            const branchName = meta.name || branch.name;
             const count = branch.chapters ? branch.chapters.length : 0;
             const countText = count > 0 ? `${count} Chapter${count !== 1 ? 's' : ''}` : 'Under Development';
+            const branchDesc = meta.desc || `${countText} in this section.`;
+            const badgeText = meta.badge || `${countText}`;
+            const borderColor = meta.color || (index === 0 ? "#7c3aed" : "#0284c7");
+            const badgeColor = meta.color || "#0284c7";
+            const badgeBg = meta.badgeBg || "#fef3c7";
+
             grid.innerHTML += `
-                <a class="chapter-select-btn branch-select-btn" style="border-left: 5px solid #2563eb;" href="#/subject/${subjectKey}/branch/${index + 1}">
+                <a class="chapter-select-btn branch-select-btn" style="border-left: 5px solid ${borderColor}; padding: 1.25rem 1.15rem;" href="/subject/${subjectKey}/branch/${index + 1}/">
                     <div class="chap-btn-content">
-                        <span class="chap-icon-badge branch-icon-badge">${branchIcon}</span>
+                        <span class="chap-icon-badge branch-icon-badge" style="font-size: 1.6rem;">${branchIcon}</span>
                         <div class="branch-text-wrapper">
-                            <span class="chap-btn-title">${branch.name}</span>
-                            <span class="branch-chap-count">${countText}</span>
+                            <span class="chap-btn-title" style="font-size: 1.12rem; font-weight: 700;">${branchName}</span>
+                            <span class="branch-chap-count" style="margin-top: 4px; color: #475569; font-size: 0.86rem; line-height: 1.45;">${branchDesc}</span>
+                            <span class="branch-badge-pill" style="display: inline-block; margin-top: 6px; font-size: 0.76rem; font-weight: 700; color: ${badgeColor}; background: ${badgeBg}; padding: 2px 8px; border-radius: 9999px;">${badgeText}</span>
                         </div>
                     </div>
                 </a>
@@ -16335,23 +17120,23 @@ function renderSubjectView(subjectKey) {
             const noEx = isChapterWithoutExercises(chapter, index, subjectKey);
             if (noEx) {
                 grid.innerHTML += `
-                    <div class="chapter-select-btn chapter-no-exercises" onclick="showToast('No exercises in this chapter — it is an introductory reading module.', 'info')" title="No exercises in this chapter" tabindex="0">
+                    <div class="chapter-select-btn chapter-no-exercises" onclick="showToast('No exercises in this chapter â€” it is an introductory reading module.', 'info')" title="No exercises in this chapter" tabindex="0">
                         <div class="chap-btn-content">
                             <span class="chap-icon-badge">${chapIcon}</span>
                             <div class="branch-text-wrapper">
                                 <span class="chap-btn-title">${cleanTitle}</span>
-                                <span class="branch-chap-count">Introductory Reading • No textbook questions</span>
+                                <span class="branch-chap-count">Introductory Reading â€¢ No textbook questions</span>
                             </div>
                         </div>
                         <div class="no-ex-hover-badge">
-                            <span class="no-ex-icon">ℹ️</span>
+                            <span class="no-ex-icon">â„¹ï¸</span>
                             <span class="no-ex-label">No exercises in this chapter</span>
                         </div>
                     </div>
                 `;
             } else {
                 grid.innerHTML += `
-                    <a class="chapter-select-btn" href="#/subject/${subjectKey}/chapter/${chapNum}">
+                    <a class="chapter-select-btn" href="/subject/${subjectKey}/chapter/${chapNum}/">
                         <div class="chap-btn-content">
                             <span class="chap-icon-badge">${chapIcon}</span>
                             <span class="chap-btn-title">${cleanTitle}</span>
@@ -16386,7 +17171,7 @@ function renderSstPartView(partNum) {
 
     const backBtn = document.getElementById('chapter-back-link');
     if (backBtn) {
-        backBtn.href = "#/subject/sst";
+        backBtn.href = "/subject/sst/";
         backBtn.innerText = "\u2190 Back to SST Books";
     }
 
@@ -16406,7 +17191,7 @@ function renderSstPartView(partNum) {
         const countText = count > 0 ? `${count} Chapter${count !== 1 ? 's' : ''}` : 'Under Development';
         const cleanDisplayName = branch.name.replace(/^Part\s*[12]\s*-\s*/i, '');
         grid.innerHTML += `
-            <a class="chapter-select-btn branch-select-btn" style="border-left: 5px solid #2563eb;" href="#/subject/sst/branch/${index + 1}">
+            <a class="chapter-select-btn branch-select-btn" style="border-left: 5px solid #2563eb;" href="/subject/sst/branch/${index + 1}/">
                 <div class="chap-btn-content">
                     <span class="chap-icon-badge branch-icon-badge">${branchIcon}</span>
                     <div class="branch-text-wrapper">
@@ -16444,10 +17229,10 @@ function renderBranchView(subjectKey, branchIndex) {
     if (backBtn) {
         if (subjectKey === 'sst') {
             const partNum = branchIndex >= 4 ? 2 : 1;
-            backBtn.href = `#/subject/sst/part/${partNum}`;
+            backBtn.href = `/subject/sst/part/${partNum}/`;
             backBtn.innerText = `\u2190 Back to SST Part ${partNum} Subjects`;
         } else {
-            backBtn.href = `#/subject/${subjectKey}`;
+            backBtn.href = `/subject/${subjectKey}/`;
             backBtn.innerText = `\u2190 Back to ${data.title.replace(/ Sections?/i, "").replace(/ Chapters?/i, "")}`;
         }
     }
@@ -16472,16 +17257,16 @@ function renderBranchView(subjectKey, branchIndex) {
             const noEx = isChapterWithoutExercises(chapter, index, subjectKey, branchIndex);
             if (noEx) {
                 grid.innerHTML += `
-                    <div class="chapter-select-btn chapter-no-exercises" onclick="showToast('No exercises in this chapter — it is an introductory reading module.', 'info')" title="No exercises in this chapter" tabindex="0">
+                    <div class="chapter-select-btn chapter-no-exercises" onclick="showToast('No exercises in this chapter â€” it is an introductory reading module.', 'info')" title="No exercises in this chapter" tabindex="0">
                         <div class="chap-btn-content">
                             <span class="chap-icon-badge">${chapIcon}</span>
                             <div class="branch-text-wrapper">
                                 <span class="chap-btn-title">${cleanTitle}</span>
-                                <span class="branch-chap-count">Introductory Reading • No textbook questions</span>
+                                <span class="branch-chap-count">Introductory Reading â€¢ No textbook questions</span>
                             </div>
                         </div>
                         <div class="no-ex-hover-badge">
-                            <span class="no-ex-icon">ℹ️</span>
+                            <span class="no-ex-icon">â„¹ï¸</span>
                             <span class="no-ex-label">No exercises in this chapter</span>
                         </div>
                     </div>
@@ -16493,7 +17278,7 @@ function renderBranchView(subjectKey, branchIndex) {
                     ? `<span class="branch-chap-count">${exCount} Exercise Set${exCount !== 1 ? 's' : ''} \u2022 ${qCount} Solved Questions</span>`
                     : '';
                 grid.innerHTML += `
-                    <a class="chapter-select-btn" href="#/subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}">
+                    <a class="chapter-select-btn" href="/subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}/">
                         <div class="chap-btn-content">
                             <span class="chap-icon-badge">${chapIcon}</span>
                             <div class="branch-text-wrapper">
@@ -16536,7 +17321,7 @@ function renderBranchExerciseList(subjectKey, branchIndex, chapterIndex) {
 
     const backBtn = document.getElementById('chapter-back-link');
     if (backBtn) {
-        backBtn.href = `#/subject/${subjectKey}/branch/${branchIndex + 1}`;
+        backBtn.href = `/subject/${subjectKey}/branch/${branchIndex + 1}/`;
         backBtn.innerText = `\u2190 Back to ${branchData.name}`;
     }
 
@@ -16557,7 +17342,7 @@ function renderBranchExerciseList(subjectKey, branchIndex, chapterIndex) {
         else if (exNameLow.includes('exercise')) exIcon = '\u{1F4D0}';
         const displayTitle = ex.title || ex.name || `Exercise Set ${ex.id}`;
         grid.innerHTML += `
-            <a class="chapter-select-btn exercise-select-btn" href="#/subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}/exercise/${encodeURIComponent(ex.id)}">
+            <a class="chapter-select-btn exercise-select-btn" href="/subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}/exercise/${encodeURIComponent(ex.id)}/">
                 <div class="chap-btn-content">
                     <span class="chap-icon-badge exercise-icon-badge">${exIcon}</span>
                     <div class="branch-text-wrapper">
@@ -16571,7 +17356,7 @@ function renderBranchExerciseList(subjectKey, branchIndex, chapterIndex) {
 
     if (chapterData.exercises.length > 1) {
         grid.innerHTML += `
-            <a class="chapter-select-btn exercise-all-btn" href="#/subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}/exercise/all">
+            <a class="chapter-select-btn exercise-all-btn" href="/subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}/exercise/all/">
                 <div class="chap-btn-content">
                     <span class="chap-icon-badge exercise-icon-badge">\u{1F4DA}</span>
                     <div class="branch-text-wrapper">
@@ -16624,10 +17409,10 @@ function renderBranchChapter(subjectKey, branchIndex, chapterIndex, questionTarg
     const backBtn = document.getElementById('solution-back-link');
     if (backBtn) {
         if (hasExercises) {
-            backBtn.href = `#/subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}`;
+            backBtn.href = `/subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}/`;
             backBtn.innerText = `\u2190 Back to ${cleanTitle.split(':')[0]} Exercises`;
         } else {
-            backBtn.href = `#/subject/${subjectKey}/branch/${branchIndex + 1}`;
+            backBtn.href = `/subject/${subjectKey}/branch/${branchIndex + 1}/`;
             backBtn.innerText = `\u2190 Back to ${branchData.name}`;
         }
     }
@@ -16641,7 +17426,7 @@ function renderBranchChapter(subjectKey, branchIndex, chapterIndex, questionTarg
         const pillsHtml = chapterData.exercises.map(ex => {
             const isCurrent = activeExObj && ex.id === activeExObj.id;
             const qCount = Array.isArray(ex.questions) ? ex.questions.length : 0;
-            return `<a class="exercise-pill ${isCurrent ? 'active' : ''}" href="#/subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}/exercise/${encodeURIComponent(ex.id)}">
+            return `<a class="exercise-pill ${isCurrent ? 'active' : ''}" href="/subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}/exercise/${encodeURIComponent(ex.id)}/">
                 ${ex.name} <span class="pill-count">${qCount}</span>
             </a>`;
         }).join('');
@@ -16649,7 +17434,7 @@ function renderBranchChapter(subjectKey, branchIndex, chapterIndex, questionTarg
         const isAllActive = !activeExObj;
         const totalCount = Array.isArray(chapterData.solutions) ? chapterData.solutions.length : 0;
         const allPillHtml = chapterData.exercises.length > 1
-            ? `<a class="exercise-pill ${isAllActive ? 'active' : ''}" href="#/subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}/exercise/all">
+            ? `<a class="exercise-pill ${isAllActive ? 'active' : ''}" href="/subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}/exercise/all/">
                 All Exercises <span class="pill-count">${totalCount}</span>
             </a>`
             : '';
@@ -16669,18 +17454,20 @@ function renderBranchChapter(subjectKey, branchIndex, chapterIndex, questionTarg
         const uniqueId = `ans-branch-${globalIdx}`;
         const hintId = `hint-branch-${globalIdx}`;
         const badgeLabel = sol.qNum || `Q${idx + 1}`;
-        const questionHref = `#/subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}?q=${globalIdx + 1}`;
-        const hintHtml = sol.hint || sol.hints || '';
+        const hintHtml = fixAssetPaths(sol.hint || sol.hints || '');
+        const qHtml = fixAssetPaths(sol.q);
+        const aHtml = fixAssetPaths(sol.a);
+        const imgPath = sol.image ? fixAssetPaths(sol.image) : '';
 
         stack.innerHTML += `
             <div class="solution-card" id="card-branch-${globalIdx}">
                 <div class="card-question-header">
                     <span class="q-badge">${badgeLabel}</span>
-                    <div class="question-text">${sol.q}</div>
+                    <div class="question-text">${qHtml}</div>
                 </div>
-                ${sol.image ? `<img src="${sol.image}" class="question-image" alt="Diagram">` : ''}
+                ${imgPath ? `<img src="${imgPath}" class="question-image" alt="Diagram">` : ''}
                 ${hintHtml ? `<div id="${hintId}" class="hint-box hidden">${hintHtml}</div>` : ''}
-                <div id="${uniqueId}" class="answer-text">${sol.a}</div>
+                <div id="${uniqueId}" class="answer-text">${aHtml}</div>
                 <div class="card-actions-bar">
                     ${hintHtml ? `
                     <button class="btn-toggle-hint" onclick="toggleHint('${hintId}', this)" title="Show or hide hint / critical formula">
@@ -16688,7 +17475,6 @@ function renderBranchChapter(subjectKey, branchIndex, chapterIndex, questionTarg
                     </button>` : ''}
                     ${hasExercises ? `
                     <button class="btn-toggle-solution active" onclick="toggleSolution('${uniqueId}', this)" title="Show or hide step-by-step solution"><span>\u{1F441}\uFE0F</span> Hide Solution</button>` : ''}
-                    
                 </div>
             </div>
         `;
@@ -16698,7 +17484,9 @@ function renderBranchChapter(subjectKey, branchIndex, chapterIndex, questionTarg
     const firstQSnippet = listToRender.length > 0 ? stripHtmlForSeo(listToRender[0].q).slice(0, 95) : '';
     const seoRoute = activeExObj
         ? `subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}/exercise/${encodeURIComponent(activeExObj.id)}`
-        : `subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}`;
+        : (hasExercises
+            ? `subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}/exercise/all`
+            : `subject/${subjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}`);
     updateSeoMeta(
         `${cleanTitle}${activeExObj ? ' - ' + activeExObj.name : ''} Solutions | NCERT Solved Hub`,
         `NCERT Class 9 ${branchData.name} ${cleanTitle}${activeExObj ? ' (' + activeExObj.name + ')' : ''} step-by-step solutions (${listToRender.length} Q&As). ${firstQSnippet ? 'Includes: ' + firstQSnippet + '...' : ''}`.trim(),
@@ -16738,7 +17526,7 @@ function renderChapter(subjectKey, chapterIndex, questionTarget = null) {
 
     const backBtn = document.getElementById('solution-back-link');
     if (backBtn) {
-        backBtn.href = `#/subject/${subjectKey}`;
+        backBtn.href = `/subject/${subjectKey}/`;
         backBtn.innerText = "\u2190 Back to Chapters";
     }
 
@@ -16750,23 +17538,24 @@ function renderChapter(subjectKey, chapterIndex, questionTarget = null) {
         const uniqueId = `ans-std-${idx}`;
         const hintId = `hint-std-${idx}`;
         const badgeLabel = sol.qNum || `Q${idx + 1}`;
-        const questionHref = `#/subject/${subjectKey}/chapter/${chapNum}?q=${idx + 1}`;
-        const hintHtml = sol.hint || sol.hints || '';
+        const hintHtml = fixAssetPaths(sol.hint || sol.hints || '');
+        const qHtml = fixAssetPaths(sol.q);
+        const aHtml = fixAssetPaths(sol.a);
+        const imgPath = sol.image ? fixAssetPaths(sol.image) : '';
         stack.innerHTML += `
             <div class="solution-card" id="card-std-${idx}">
                 <div class="card-question-header">
                     <span class="q-badge">${badgeLabel}</span>
-                    <div class="question-text">${sol.q}</div>
+                    <div class="question-text">${qHtml}</div>
                 </div>
-                ${sol.image ? `<img src="${sol.image}" class="question-image" alt="Question diagram">` : ''}
+                ${imgPath ? `<img src="${imgPath}" class="question-image" alt="Question diagram">` : ''}
                 ${hintHtml ? `<div id="${hintId}" class="hint-box hidden">${hintHtml}</div>` : ''}
-                <div id="${uniqueId}" class="answer-text">${sol.a}</div>
+                <div id="${uniqueId}" class="answer-text">${aHtml}</div>
                 <div class="card-actions-bar">
                     ${hintHtml ? `
                     <button class="btn-toggle-hint" onclick="toggleHint('${hintId}', this)" title="Show or hide hint / critical formula">
                         <span>\u{1F4A1}</span> Show Hint / Formula
                     </button>` : ''}
-                    
                 </div>
             </div>
         `;
@@ -16796,38 +17585,49 @@ function renderChapter(subjectKey, chapterIndex, questionTarget = null) {
 }
 
 // Navigation helpers
+function navigateToRoute(routePath) {
+    const clean = (routePath || '').replace(/^#?\/+/, '').replace(/\/+$/, '');
+    const [p, q] = clean.split('?');
+    const targetUrl = p ? ('/' + p + '/' + (q ? '?' + q : '')) : ('/' + (q ? '?' + q : ''));
+    if (window.location.protocol === 'file:' || !navigator.onLine) {
+        window.location.hash = '#/' + clean;
+    } else {
+        window.location.href = targetUrl;
+    }
+}
+
 function selectSubject(subjectKey) {
-    window.location.hash = `#/subject/${subjectKey}`;
+    navigateToRoute(`subject/${subjectKey}`);
 }
 
 function selectBranch(branchIndex) {
-    window.location.hash = `#/subject/${currentSubjectKey}/branch/${branchIndex + 1}`;
+    navigateToRoute(`subject/${currentSubjectKey}/branch/${branchIndex + 1}`);
 }
 
 function selectChapter(chapterIndex) {
     const data = ncertDatabase[currentSubjectKey];
     const chap = data?.chapters?.[chapterIndex];
     const chapNum = getChapterUrlNumber(chap, chapterIndex);
-    window.location.hash = `#/subject/${currentSubjectKey}/chapter/${chapNum}`;
+    navigateToRoute(`subject/${currentSubjectKey}/chapter/${chapNum}`);
 }
 
 function selectBranchChapter(branchIndex, chapterIndex) {
     const data = ncertDatabase[currentSubjectKey];
     const chap = data?.branches?.[branchIndex]?.chapters?.[chapterIndex];
     const chapNum = getChapterUrlNumber(chap, chapterIndex);
-    window.location.hash = `#/subject/${currentSubjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}`;
+    navigateToRoute(`subject/${currentSubjectKey}/branch/${branchIndex + 1}/chapter/${chapNum}`);
 }
 
 function filterByTab(tabKey) {
     if (tabKey === 'all') {
-        window.location.hash = '#/';
+        navigateToRoute('');
     } else {
-        window.location.hash = `#/subject/${tabKey}`;
+        navigateToRoute(`subject/${tabKey}`);
     }
 }
 
 function goToHome() {
-    window.location.hash = '#/';
+    navigateToRoute('');
 }
 
 /* ============================================================ */
@@ -16852,8 +17652,10 @@ function copyTextToClipboard(elementId, buttonElement) {
     });
 }
 
-function copyQuestionLink(relativeHash, buttonElement) {
-    const fullUrl = window.location.origin + window.location.pathname + relativeHash;
+function copyQuestionLink(relativeRoute, buttonElement) {
+    const clean = (relativeRoute || '').replace(/^#?\/+/, '');
+    const [p, q] = clean.split('?');
+    const fullUrl = window.location.origin + '/' + p.replace(/\/+$/, '') + '/' + (q ? '?' + q : '');
     navigator.clipboard.writeText(fullUrl).then(() => {
         const originalContent = buttonElement.innerHTML;
         buttonElement.innerHTML = "<span>\u2705</span> Copied!";
@@ -16944,6 +17746,7 @@ function handleSearch(val) {
                                 chapterName: cleanChapTitle,
                                 chapterIndex: cIdx,
                                 chapterNumber: chapNum,
+                                hasExercises: Array.isArray(chap.exercises) && chap.exercises.length > 0,
                                 isBranching: true,
                                 questionIndex: qIdx,
                                 question: qClean,
@@ -16973,6 +17776,7 @@ function handleSearch(val) {
                             chapterName: cleanChapTitle,
                             chapterIndex: cIdx,
                             chapterNumber: chapNum,
+                            hasExercises: false,
                             isBranching: false,
                             questionIndex: qIdx,
                             question: qClean,
@@ -16996,11 +17800,13 @@ function handleSearch(val) {
         } else {
             countEl.innerText = `Found ${results.length} result${results.length > 1 ? 's' : ''} for "${query}"`;
             list.innerHTML = results.slice(0, 30).map(r => {
-                const targetHash = r.isBranching
-                    ? `#/subject/${r.subjectKey}/branch/${r.branchIndex + 1}/chapter/${r.chapterNumber}?q=${r.questionIndex + 1}`
-                    : `#/subject/${r.subjectKey}/chapter/${r.chapterNumber}?q=${r.questionIndex + 1}`;
+                const targetHref = r.isBranching
+                    ? (r.hasExercises
+                        ? `/subject/${r.subjectKey}/branch/${r.branchIndex + 1}/chapter/${r.chapterNumber}/exercise/all/?q=${r.questionIndex + 1}`
+                        : `/subject/${r.subjectKey}/branch/${r.branchIndex + 1}/chapter/${r.chapterNumber}/?q=${r.questionIndex + 1}`)
+                    : `/subject/${r.subjectKey}/chapter/${r.chapterNumber}/?q=${r.questionIndex + 1}`;
                 return `
-                <a class="search-result-card" href="${targetHash}" onclick="clearSearch()">
+                <a class="search-result-card" href="${targetHref}" onclick="clearSearch()">
                     <div class="search-result-meta">
                         <span class="badge-sub badge-${r.subjectKey}">${r.subjectName}</span>
                         ${r.branchName ? `<span class="badge-branch">${r.branchName}</span>` : ''}
@@ -17029,22 +17835,23 @@ function clearSearch() {
 }
 
 function focusSearch() {
-    window.location.hash = '#/';
+    showLayer('subject-view');
+    updateActiveTab('all');
     setTimeout(() => {
         const input = document.getElementById('global-search-input');
         if (input) {
             input.focus();
             input.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
-    }, 100);
+    }, 60);
 }
 
 function jumpToSearchResult(subKey, isBranching, branchIdx, chapNum, qIdx) {
     clearSearch();
-    const targetHash = isBranching
-        ? `#/subject/${subKey}/branch/${branchIdx + 1}/chapter/${chapNum}?q=${qIdx + 1}`
-        : `#/subject/${subKey}/chapter/${chapNum}?q=${qIdx + 1}`;
-    window.location.hash = targetHash;
+    const targetRoute = isBranching
+        ? `subject/${subKey}/branch/${branchIdx + 1}/chapter/${chapNum}?q=${qIdx + 1}`
+        : `subject/${subKey}/chapter/${chapNum}?q=${qIdx + 1}`;
+    navigateToRoute(targetRoute);
 }
 
 /* ============================================================ */
@@ -17126,7 +17933,7 @@ function updateOfflineStatusUI() {
 
 window.addEventListener('offline', () => {
     updateOfflineStatusUI();
-    showToast("Internet turned off — Offline Mode active! You can keep browsing all chapters.", "success");
+    showToast("Internet turned off â€” Offline Mode active! You can keep browsing all chapters.", "success");
 });
 
 window.addEventListener('online', () => {
@@ -17138,6 +17945,24 @@ window.addEventListener('scroll', () => {
     const btn = document.getElementById('back-to-top-btn');
     if (btn) {
         btn.classList.toggle('hidden', window.scrollY < 300);
+    }
+});
+
+// Intercept internal links when Offline (Zero-Data Mode) or on file:// protocol
+document.addEventListener('click', (e) => {
+    const link = e.target.closest('a[href]');
+    if (!link) return;
+    const href = link.getAttribute('href');
+    if (!href || href.startsWith('http') || href.startsWith('mailto:') || href.startsWith('#')) return;
+    if (!navigator.onLine || window.location.protocol === 'file:') {
+        e.preventDefault();
+        const clean = href.replace(/^\/+|\/+$/g, '');
+        if (window.history && window.history.pushState && window.location.protocol !== 'file:') {
+            window.history.pushState(null, '', href);
+            handleRoute();
+        } else {
+            window.location.hash = '#/' + clean;
+        }
     }
 });
 
@@ -17163,6 +17988,7 @@ window.addEventListener('keydown', (e) => {
 /* ============================================================ */
 normalizeDatabaseExercises();
 window.addEventListener('hashchange', handleRoute);
+window.addEventListener('popstate', handleRoute);
 window.addEventListener('DOMContentLoaded', () => {
     normalizeDatabaseExercises();
     updateOfflineStatusUI();

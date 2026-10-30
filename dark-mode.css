@@ -1,4 +1,4 @@
-﻿/* ============================================================ */
+/* ============================================================ */
 /* NCERTSOLVED - REVAMPED DARK MODE STYLESHEET                  */
 /* Scoped exclusively to [data-theme="dark"]                    */
 /* ============================================================ */
@@ -335,6 +335,15 @@ html[data-theme="dark"] .sst-part-card p {
     color: #94a3b8 !important;
 }
 
+html[data-theme="dark"] .branch-text-wrapper .branch-chap-count {
+    color: #94a3b8 !important;
+}
+
+html[data-theme="dark"] .branch-badge-pill {
+    background: rgba(255, 255, 255, 0.08) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
 /* Exercise Tabs / Pills */
 html[data-theme="dark"] .exercise-nav-pill,
 html[data-theme="dark"] .ex-pill {
@@ -351,22 +360,101 @@ html[data-theme="dark"] .ex-pill.active {
 }
 
 /* ============================================================ */
-/* SOLUTIONS STACK & Q&A CARDS                                  */
+/* SOLUTIONS STACK & Q&A CARDS (FULL DARK MODE REVAMP)          */
 /* ============================================================ */
-html[data-theme="dark"] .solution-card {
+
+/* Headings in Chapter & Solution Screens */
+html[data-theme="dark"] #final-solution-heading,
+html[data-theme="dark"] #chapter-title-heading,
+html[data-theme="dark"] .hero-section h1 {
+    color: #f8fafc !important;
+}
+
+html[data-theme="dark"] .hero-section p {
+    color: #94a3b8 !important;
+}
+
+/* Exercise Switcher Bar (Tabs between Check Your Understanding, etc.) */
+html[data-theme="dark"] .exercise-switcher-bar {
     background: #111827 !important;
     border: 1px solid #1f2937 !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4) !important;
+}
+
+html[data-theme="dark"] .exercise-switcher-label {
+    color: #94a3b8 !important;
+}
+
+html[data-theme="dark"] .exercise-pill {
+    background: #1e293b !important;
+    border: 1px solid #334155 !important;
+    color: #cbd5e1 !important;
+}
+
+html[data-theme="dark"] .exercise-pill:hover {
+    background: #283548 !important;
+    border-color: #60a5fa !important;
+    color: #f8fafc !important;
+}
+
+html[data-theme="dark"] .exercise-pill.active {
+    background: #2563eb !important;
+    border-color: #3b82f6 !important;
+    color: #ffffff !important;
+    box-shadow: 0 2px 10px rgba(37, 99, 235, 0.35) !important;
+}
+
+html[data-theme="dark"] .exercise-pill-count,
+html[data-theme="dark"] .pill-count {
+    background: rgba(255, 255, 255, 0.15) !important;
+    color: inherit !important;
+}
+
+/* 1. Outer Solution Card */
+html[data-theme="dark"] .solution-card {
+    background: #0f172a !important;
+    border: 1px solid #1e293b !important;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4) !important;
     color: #e2e8f0 !important;
 }
 
+html[data-theme="dark"] .solution-card:hover {
+    border-color: #334155 !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* 2. Question Badge (Q1, Q2, etc.) */
+html[data-theme="dark"] .q-badge {
+    background: rgba(37, 99, 235, 0.22) !important;
+    border: 1px solid rgba(59, 130, 246, 0.45) !important;
+    color: #60a5fa !important;
+}
+
+/* 3. Question Text Box (Outer & Inner) */
+html[data-theme="dark"] .question-text {
+    background-color: #111827 !important;
+    border: 1px solid #1f2937 !important;
+    color: #f1f5f9 !important;
+}
+
+html[data-theme="dark"] .question-text p,
+html[data-theme="dark"] .question-text li {
+    color: #f1f5f9 !important;
+}
+
+html[data-theme="dark"] .question-text h2,
+html[data-theme="dark"] .question-text h3,
+html[data-theme="dark"] .question-text h4 {
+    color: #38bdf8 !important;
+}
+
+html[data-theme="dark"] .question-text .q-block,
 html[data-theme="dark"] .q-block {
-    background: rgba(30, 41, 59, 0.55) !important;
-    border: 1px solid #334155 !important;
-    border-left: 4px solid #38bdf8 !important;
-    border-radius: 8px !important;
-    padding: 1.1rem 1.3rem !important;
-    margin-bottom: 1rem !important;
+    background: transparent !important;
+    border: none !important;
+    color: #f1f5f9 !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 html[data-theme="dark"] .q-block h3,
@@ -378,55 +466,144 @@ html[data-theme="dark"] .q-block p {
     color: #f1f5f9 !important;
 }
 
-html[data-theme="dark"] .a-block {
-    background: rgba(15, 23, 42, 0.65) !important;
-    border-left: 4px solid #22c55e !important;
-    border-radius: 6px !important;
-    padding: 1.2rem 1.4rem !important;
-    color: #e2e8f0 !important;
-    line-height: 1.7 !important;
+/* 4. Answer Text Box (THE CRITICAL DARK MODE FIX) */
+html[data-theme="dark"] .answer-text {
+    background-color: #111827 !important;
+    border-left: 4px solid #10b981 !important;
+    color: #cbd5e1 !important;
 }
 
+html[data-theme="dark"] .answer-text .a-block,
+html[data-theme="dark"] .a-block {
+    background: transparent !important;
+    border: none !important;
+    color: #cbd5e1 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+html[data-theme="dark"] .answer-text p,
+html[data-theme="dark"] .answer-text li,
+html[data-theme="dark"] .answer-text span,
+html[data-theme="dark"] .answer-text div,
+html[data-theme="dark"] .a-block p,
+html[data-theme="dark"] .a-block li {
+    color: #cbd5e1 !important;
+}
+
+html[data-theme="dark"] .answer-text strong,
+html[data-theme="dark"] .answer-text b,
 html[data-theme="dark"] .a-block strong,
 html[data-theme="dark"] .a-block b {
-    color: #ffffff !important;
+    color: #f8fafc !important;
+    font-weight: 700 !important;
 }
 
+html[data-theme="dark"] .answer-text em,
+html[data-theme="dark"] .answer-text i,
 html[data-theme="dark"] .a-block em,
 html[data-theme="dark"] .a-block i {
     color: #93c5fd !important;
 }
 
-html[data-theme="dark"] .a-block ul,
-html[data-theme="dark"] .a-block ol {
-    color: #cbd5e1 !important;
+html[data-theme="dark"] .answer-text h2,
+html[data-theme="dark"] .answer-text h3,
+html[data-theme="dark"] .answer-text h4,
+html[data-theme="dark"] .a-block h2,
+html[data-theme="dark"] .a-block h3 {
+    color: #34d399 !important;
 }
 
+html[data-theme="dark"] .answer-text li::marker,
 html[data-theme="dark"] .a-block li::marker {
+    color: #10b981 !important;
+}
+
+html[data-theme="dark"] .answer-text a {
     color: #38bdf8 !important;
 }
 
-/* Tables inside answers */
-html[data-theme="dark"] table {
-    border-collapse: collapse !important;
-    border-color: #374151 !important;
-    background: #0f172a !important;
+/* 5. Hint Box in Dark Mode */
+html[data-theme="dark"] .hint-box {
+    background-color: rgba(120, 53, 15, 0.25) !important;
+    border: 1px solid rgba(245, 158, 11, 0.4) !important;
+    border-left: 4px solid #f59e0b !important;
+    color: #fde68a !important;
 }
 
+html[data-theme="dark"] .hint-box-header {
+    color: #fbbf24 !important;
+}
+
+html[data-theme="dark"] .hint-box p,
+html[data-theme="dark"] .hint-box li,
+html[data-theme="dark"] .hint-box strong {
+    color: #fef3c7 !important;
+}
+
+/* 6. Card Action Buttons */
+html[data-theme="dark"] .card-actions-bar {
+    border-top: 1px solid #1e293b !important;
+    padding-top: 0.75rem !important;
+}
+
+html[data-theme="dark"] .btn-toggle-hint {
+    background-color: rgba(245, 158, 11, 0.15) !important;
+    border-color: rgba(245, 158, 11, 0.4) !important;
+    color: #fbbf24 !important;
+}
+
+html[data-theme="dark"] .btn-toggle-hint:hover,
+html[data-theme="dark"] .btn-toggle-hint.active {
+    background-color: rgba(245, 158, 11, 0.3) !important;
+    border-color: #f59e0b !important;
+    color: #fde047 !important;
+}
+
+html[data-theme="dark"] .btn-toggle-solution {
+    background-color: #1e293b !important;
+    border-color: #334155 !important;
+    color: #cbd5e1 !important;
+}
+
+html[data-theme="dark"] .btn-toggle-solution:hover,
+html[data-theme="dark"] .btn-toggle-solution.active {
+    background-color: #2563eb !important;
+    border-color: #3b82f6 !important;
+    color: #ffffff !important;
+}
+
+/* 7. Tables in Dark Mode */
+html[data-theme="dark"] .question-text table,
+html[data-theme="dark"] .answer-text table,
+html[data-theme="dark"] table.ncert-table,
+html[data-theme="dark"] table {
+    border-collapse: collapse !important;
+    border: 1px solid #334155 !important;
+    background-color: #0b0f19 !important;
+}
+
+html[data-theme="dark"] .question-text th,
+html[data-theme="dark"] .answer-text th,
+html[data-theme="dark"] table.ncert-table th,
 html[data-theme="dark"] th {
-    background: #1e293b !important;
+    background-color: #1e293b !important;
     color: #f8fafc !important;
-    border: 1px solid #374151 !important;
+    border: 1px solid #334155 !important;
     font-weight: 700 !important;
 }
 
+html[data-theme="dark"] .question-text td,
+html[data-theme="dark"] .answer-text td,
+html[data-theme="dark"] table.ncert-table td,
 html[data-theme="dark"] td {
-    border: 1px solid #374151 !important;
-    color: #e2e8f0 !important;
+    border: 1px solid #1e293b !important;
+    background-color: #0f172a !important;
+    color: #cbd5e1 !important;
 }
 
 html[data-theme="dark"] tr:nth-child(even) td {
-    background: rgba(30, 41, 59, 0.35) !important;
+    background-color: rgba(30, 41, 59, 0.35) !important;
 }
 
 /* Math & Formulas */
@@ -560,4 +737,15 @@ html[data-theme="dark"] .search-trigger-btn {
     background: #1e293b !important;
     border-color: #334155 !important;
     color: #f1f5f9 !important;
+}
+/* Override any legacy inline backgrounds or colors inside questions & answers */
+html[data-theme="dark"] .answer-text *[style*="background"],
+html[data-theme="dark"] .question-text *[style*="background"] {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+html[data-theme="dark"] .answer-text *[style*="color"],
+html[data-theme="dark"] .question-text *[style*="color"] {
+    color: inherit !important;
 }

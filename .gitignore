@@ -1,0 +1,16 @@
+# Backup files (large, not needed in production)
+*.bak
+*.bak2
+*.bak_*
+
+# System and OS files
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Local editor settings
+.vscode/
+
+# PowerShell scratch & logs
+*.log
+
